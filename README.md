@@ -16,15 +16,16 @@ XVoard is a privacy and security focused version of Gboard that designed to give
 - features like translator and voice typing stop working beacause of no internet permission to connect to google servers ( there will be a fix soon )
 - stickers and GIFs and emoji kitchen don't and wouldn't work
 # 💻 installation guide 📱
-1. Download the source code from above
-2. Download <a href="https://github.com/iBotPeaches/Apktool">Apktool</a> ( or if you are in mobile , download <a href="https://maximoff.su/apktool/?lang=en">Apktool M by maximoff</a> )
-3. compile the source code by:
+1. Download the source code zip from above
+2. extract the .zip file
+4. Download <a href="https://github.com/iBotPeaches/Apktool">Apktool</a> ( or if you are in mobile , download <a href="https://maximoff.su/apktool/?lang=en">Apktool M by maximoff</a> )
+5. compile the source code by:
 computer
 go to your terminal and type:
 `apktool b [PATH/TO/SOURCE/CODE]`
 mobile:
 simply go to the source code folder and tap at "compile" at the very top
-5. when it compiled it will give you the XVoard apk , install XVoard at your phone ( extra step for computer: you had to sign the apk before installing it , to do that , Download <a href="https://github.com/patrickfav/uber-apk-signer/releases/tag/v1.3.0">uber apk signer</a> and run ```java -jar [PATH/TO/UBERAPKSIGNER] -apks [PATH/TO/XVOARD/APK]```
+6. when it compiled it will give you the XVoard apk , install XVoard at your phone ( extra step for computer: you had to sign the apk before installing it , to do that , Download <a href="https://github.com/patrickfav/uber-apk-signer/releases/tag/v1.3.0">uber apk signer</a> and run ```java -jar [PATH/TO/UBERAPKSIGNER] -apks [PATH/TO/XVOARD/APK]```
 and you are done :) .
 # credit's ❤️‍🔥
 - <a href="https://github.com/ANTI-XV">DEXV</a> The creator of XVoard
