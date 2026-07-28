@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.BasicPopupView style="@style/style_0x7f150564"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout style="@style/style_0x7f15063c">
+        <com.google.android.libraries.inputmethod.widgets.AutoCenteredLabelView android:id="@id/id_0x7f0b05ea" android:visibility="gone" style="@style/style_0x7f150563" />
+        <ImageView android:id="@id/id_0x7f0b05e9" android:visibility="gone" style="@style/style_0x7f15063d" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.popup.BasicPopupView>

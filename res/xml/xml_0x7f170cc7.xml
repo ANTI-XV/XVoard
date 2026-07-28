@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/id_0x7f0b0df4" popup_timing="ON_TOUCH">
+            <action data="\n" keycode="PLAIN_TEXT" popup_icon="@attr/attr_0x7f04011d" popup_layout="@attr/attr_0x7f0401f9" type="LONG_PRESS" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0df7" popup_timing="ON_TOUCH">
+            <action data="send" keycode="IME_ACTION" popup_icon="@drawable/drawable_0x7f0803d1" popup_layout="@attr/attr_0x7f0401f9" type="LONG_PRESS" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0df6" popup_timing="ON_TOUCH">
+            <action data="previous" keycode="IME_ACTION" popup_icon="@drawable/drawable_0x7f0803d0" popup_layout="@attr/attr_0x7f0401f9" type="LONG_PRESS" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0df5" popup_timing="ON_TOUCH">
+            <action data="next" keycode="IME_ACTION" popup_icon="@attr/attr_0x7f040128" popup_layout="@attr/attr_0x7f0401f9" type="LONG_PRESS" />
+        </softkey>
+    </softkeys>
+</framework>

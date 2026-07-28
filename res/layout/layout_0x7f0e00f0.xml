@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_0x7f0b026f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0270" android:layout_marginTop="14.0dp" android:layout_marginBottom="30.0dp" android:text="@string/string_0x7f1402e7" android:paddingStart="@dimen/dimen_0x7f07078a" android:paddingEnd="@dimen/dimen_0x7f07078a" style="@style/style_0x7f15054d" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/id_0x7f0b0275" android:layout_width="wrap_content" android:layout_height="50.0dp" android:text="@string/string_0x7f14039e" android:layout_marginEnd="20.0dp" style="?attr_0x7f04067d" />
+        <Button android:id="@id/id_0x7f0b0276" android:layout_width="wrap_content" android:layout_height="50.0dp" android:text="@string/string_0x7f1402f7" />
+    </LinearLayout>
+</LinearLayout>

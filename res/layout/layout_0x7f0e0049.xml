@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b00fb" android:visibility="gone" style="@style/style_0x7f1501e8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:tag=".icon.clipboard-item-check-inner" android:padding="1.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/drawable_0x7f080521" android:tint="@android:color/white" />
+    <ImageView android:tag=".icon.clipboard-item-check-filled" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/drawable_0x7f08051c" android:tint="@color/color_0x7f060545" />
+</FrameLayout>

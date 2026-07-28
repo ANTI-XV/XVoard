@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f14019e" disable_lift_to_tap="true" id="@id/id_0x7f0b18c8" layout="@layout/layout_0x7f0e0788">
+            <action data="digit" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f040124" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b18cb" layout="@layout/layout_0x7f0e0788">
+            <action data="symbol" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08040e" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f1401da" disable_lift_to_tap="true" id="@id/id_0x7f0b18c9" layout="@layout/layout_0x7f0e0788">
+            <action data="smiley" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080474" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140211" disable_lift_to_tap="true" id="@id/id_0x7f0b18ca" layout="@layout/layout_0x7f0e0788">
+            <action data="emoticon" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08040a" />
+        </softkey>
+        <include href="@xml/xml_0x7f170fdc" />
+    </softkeys>
+</framework>

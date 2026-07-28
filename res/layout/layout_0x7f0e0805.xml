@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b2032" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/dimen_0x7f070886">
+        <com.google.android.libraries.inputmethod.emoji.widget.FixedSizeEmojiListHolder android:id="@id/id_0x7f0b2031" android:layout_width="match_parent" android:layout_height="match_parent" app:attr_0x7f040441="?attr_0x7f040299" app:attr_0x7f0404d6="@id/id_0x7f0b01ba" app:attr_0x7f0404d7="@layout/layout_0x7f0e0802" app:attr_0x7f04058b="true" app:attr_0x7f040793="1" app:attr_0x7f040913="@id/id_0x7f0b203e" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b008a" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.apps.inputmethod.libs.search.widget.FixedColumnAnimatedImageSidebarHolderView android:id="@id/id_0x7f0b0089" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr_0x7f040441="?attr_0x7f04029a" image_view_layout="@layout/layout_0x7f0e0801" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@id/id_0x7f0b008b" android:tag=".progress-bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    </FrameLayout>
+</LinearLayout>

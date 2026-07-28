@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f1705a0" />
+    <keyboard>
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e044f" type="body" />
+        </if>
+        <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e02e4" type="body" />
+        </else_if>
+        <else_if keyboard_mode="split">
+            <if split_with_duplicate_keys="true">
+                <view layout="@layout/layout_0x7f0e0216" type="body" />
+            </if>
+            <else>
+                <view layout="@layout/layout_0x7f0e0217" type="body" />
+            </else>
+        </else_if>
+        <else>
+            <view layout="@layout/layout_0x7f0e0215" type="body" />
+        </else>
+        <view override="motion_event_handler" type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" preference_key="@string/string_0x7f14073e" reverse_preference="true" />
+            <motion_event_handler class=".motioneventhandler.SpatialModelMotionEventHandler" preference_key="@string/string_0x7f14073e" reverse_preference="false" />
+            <motion_event_handler class="com.google.android.apps.inputmethod.libs.zhuyin.ZhuyinGestureHandler" preference_key="@string/string_0x7f140721" reverse_preference="false" />
+            <motion_event_handler class="com.google.android.apps.inputmethod.libs.zhuyin.ZhuyinKeyboardLayoutHandler" preference_key="@string/string_0x7f140721" reverse_preference="false" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler class="com.google.android.libraries.inputmethod.motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <include href="@xml/xml_0x7f170c7f" />
+            <include href="@xml/xml_0x7f170a94" />
+            <include href="@xml/xml_0x7f170b16" />
+            <include href="@xml/xml_0x7f170b2f" />
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <include href="@xml/xml_0x7f170a8b" />
+            </if>
+            <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+                <include href="@xml/xml_0x7f170a8e" />
+            </else_if>
+            <else>
+                <include href="@xml/xml_0x7f170a8f" />
+                <include href="@xml/xml_0x7f170ae8" />
+                <include href="@xml/xml_0x7f170ae6" />
+            </else>
+        </view>
+    </keyboard>
+</framework>

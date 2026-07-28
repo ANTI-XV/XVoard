@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointsBar app:attr_0x7f04066e="true" app:attr_0x7f04082f="@id/softkey_holder_fixed_candidates" style="@style/style_0x7f150000"
+  xmlns:app="http://schemas.android.com/apk/res-auto" />

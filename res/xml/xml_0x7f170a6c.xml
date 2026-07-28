@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <include href="@xml/xml_0x7f170c45" />
+    </if>
+    <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+        <include href="@xml/xml_0x7f170c44" />
+    </else_if>
+    <else>
+        <include href="@xml/xml_0x7f170c3f" />
+    </else>
+    <include href="@xml/xml_0x7f170ab8" />
+    <include href="@xml/xml_0x7f170ab9" />
+</framework>

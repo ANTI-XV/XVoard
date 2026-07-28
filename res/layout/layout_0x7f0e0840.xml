@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.companionwidget.tooltip.WidgetTooltipView style="@style/style_0x7f150c7c">
+    <LinearLayout style="@style/style_0x7f150c7d">
+        <include layout="@layout/layout_0x7f0e0841" />
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.companionwidget.tooltip.WidgetTooltipView>

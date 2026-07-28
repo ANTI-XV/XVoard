@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d4a" layout="@layout/layout_0x7f0e0771" multi_touch="false" slide_sensitivity="NORMAL">
+            <action data="$press_data$" intention="COMMIT" keycode="$keycode$" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$press_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1d4a">
+            <softkey desc="@string/string_0x7f14059c" id="@id/id_0x7f0b1785" keycode="MINUS" press_data="-" />
+            <softkey desc="@string/string_0x7f14068e" id="@id/id_0x7f0b06c9" keycode="PLUS" press_data="+" />
+            <softkey id="@id/id_0x7f0b1650" keycode="PLAIN_TEXT" press_data="(" />
+            <softkey id="@id/id_0x7f0b1a81" keycode="PLAIN_TEXT" press_data=")" />
+            <softkey desc="@string/string_0x7f140262" id="@id/id_0x7f0b0d91" keycode="PLAIN_TEXT" press_data="=" />
+            <softkey id="@id/id_0x7f0b07f0" keycode="STAR" press_data="*" />
+            <softkey id="@id/id_0x7f0b1a4f" keycode="POUND" press_data="#" />
+        </softkey_list>
+    </softkeys>
+</framework>

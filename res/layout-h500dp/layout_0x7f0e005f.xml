@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="?attr_0x7f04049a" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?attr_0x7f04049a" android:paddingEnd="?attr_0x7f04049a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/id_0x7f0b013f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dp" android:text="@string/string_0x7f14016a" finsky:attr_0x7f040591="@drawable/drawable_0x7f080544" finsky:attr_0x7f040593="id_0x7f0b1fbc" finsky:attr_0x7f040594="8.0dp" style="?attr_0x7f040699" />
+    <Button android:id="@id/id_0x7f0b013e" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/string_0x7f140169" style="?attr_0x7f040699" />
+</LinearLayout>

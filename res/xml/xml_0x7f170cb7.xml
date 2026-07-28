@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cc3" />
+    <softkeys>
+        <softkey_list template_id="@id/id_0x7f0b1cf7">
+            <softkey desc="@string/string_0x7f1400ca" id="@id/id_0x7f0b0a9d" keycode="SWITCH_KEYBOARD" param_data="prime" param_icon="@drawable/drawable_0x7f080395" tooltip_text="@string/string_0x7f1400ca" />
+            <softkey desc="@string/string_0x7f1400b7" id="@id/id_0x7f0b06c9" keycode="CLIPBOARD_ADD" param_icon="@drawable/drawable_0x7f08050e" tooltip_text="@string/string_0x7f1400ba" />
+            <softkey desc="@string/string_0x7f1400c4" id="@id/id_0x7f0b0d4e" keycode="CLIPBOARD_EDIT" param_icon="@drawable/drawable_0x7f08030c" tooltip_text="@string/string_0x7f1400c5" />
+            <softkey desc="@string/string_0x7f1400c2" id="@id/id_0x7f0b0a9e" keycode="CLIPBOARD_CLOSE_EDIT" param_icon="@drawable/drawable_0x7f080523" tooltip_text="@string/string_0x7f1400c3" />
+            <softkey desc="@string/string_0x7f1400bb" id="@id/id_0x7f0b08be" keycode="CLIPBOARD_BATCH_DELETE" param_icon="@drawable/drawable_0x7f080527" tooltip_text="@string/string_0x7f1400bb" />
+            <softkey desc="@string/string_0x7f1400bc" id="@id/id_0x7f0b08c0" keycode="CLIPBOARD_BATCH_PIN" param_icon="@drawable/drawable_0x7f08053a" tooltip_text="@string/string_0x7f1400bc" />
+            <softkey desc="@string/string_0x7f1400d3" id="@id/id_0x7f0b1946" keycode="CLIPBOARD_OPT_IN_REVERSE" param_icon="@drawable/drawable_0x7f080391" tooltip_text="@string/string_0x7f1400d3" />
+            <softkey desc="@string/string_0x7f1400d2" id="@id/id_0x7f0b1945" keycode="CLIPBOARD_OPT_IN_REVERSE" param_icon="@drawable/drawable_0x7f080390" tooltip_text="@string/string_0x7f1400d2" />
+            <softkey desc="@string/string_0x7f1400bd" id="@id/id_0x7f0b08c2" keycode="CLIPBOARD_BATCH_UNPIN" param_icon="@drawable/drawable_0x7f08053b" tooltip_text="@string/string_0x7f1400bd" />
+        </softkey_list>
+        <softkey_template additional_content_description="$empty_reason$" alpha="@attr/attr_0x7f040113" content_description="$desc$" disable_lift_to_tap="true" id="@id/id_0x7f0b1d00" layout="@layout/layout_0x7f0e0722" multi_touch="false">
+            <icon location="@id/id_0x7f0b02ac" value="$icon$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1d00">
+            <include href="@xml/xml_0x7f170cb8" />
+        </softkey_list>
+    </softkeys>
+</framework>

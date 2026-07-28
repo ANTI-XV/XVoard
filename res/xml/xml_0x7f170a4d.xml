@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1a2a" view_id="@id/key_pos_digit_right_symbol_1" />
+        <mapping key_id="@id/id_0x7f0b1b2b" view_id="@id/key_pos_digit_right_symbol_2" />
+        <mapping key_id="@id/id_0x7f0b0bba" view_id="@id/key_pos_digit_right_symbol_3" />
+    </key_mapping>
+</framework>

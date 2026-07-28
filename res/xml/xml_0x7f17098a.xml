@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinPasswordKeyboard" popup="@attr/attr_0x7f040201">
+        <view type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubDeleteMotionEventHandler" preference_key="@string/string_0x7f140736" reverse_preference="false" />
+            <motion_event_handler class=".motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170cc9" />
+            <softkeys href="@xml/xml_0x7f170fe6" />
+            <softkeys href="@xml/xml_0x7f170fe7" />
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <softkeys href="@xml/xml_0x7f170cbb" />
+            </if>
+            <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+                <softkeys href="@xml/xml_0x7f170cbb" />
+            </else_if>
+            <else>
+                <softkeys href="@xml/xml_0x7f170cba" />
+            </else>
+            <include href="@xml/xml_0x7f170b28" />
+            <include href="@xml/xml_0x7f170b30" />
+            <include href="@xml/xml_0x7f170b19" />
+            <include href="@xml/xml_0x7f170b27" />
+            <include href="@xml/xml_0x7f170bf3" />
+        </view>
+    </keyboard>
+</framework>

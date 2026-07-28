@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinJapanesePrimeKeyboard" popup="@attr/attr_0x7f040201">
+        <if>
+            <include href="@xml/xml_0x7f170043" />
+            <attrs class=".latin.keyboard.LatinJapanesePrimeKeyboardV2" />
+            <view direction="locale" layout="@layout/layout_0x7f0e01ee" scalable="false" type="header">
+                <softkeys href="@xml/xml_0x7f170cd6" />
+                <include href="@xml/xml_0x7f170b47" />
+            </view>
+        </if>
+        <else>
+            <view direction="locale" layout="@layout/layout_0x7f0e05a4" scalable="false" type="header" />
+        </else>
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e01e9" type="body">
+                <if>
+                    <include href="@xml/xml_0x7f170043" />
+                    <attrs layout="@layout/layout_0x7f0e01ea" />
+                </if>
+            </view>
+        </if>
+        <else>
+            <view layout="@layout/layout_0x7f0e01e8" type="body">
+                <if>
+                    <include href="@xml/xml_0x7f170043" />
+                    <attrs layout="@layout/layout_0x7f0e01eb" />
+                </if>
+            </view>
+        </else>
+        <view type="body">
+            <include href="@xml/xml_0x7f170c82" />
+            <softkeys href="@xml/xml_0x7f170e05" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170e04" />
+            <softkeys href="@xml/xml_0x7f170cb3" />
+            <softkeys href="@xml/xml_0x7f170fc2" />
+            <include href="@xml/xml_0x7f170ab2" />
+            <include href="@xml/xml_0x7f170a61" />
+            <include href="@xml/xml_0x7f170a47" />
+            <include href="@xml/xml_0x7f170b1b" />
+            <include href="@xml/xml_0x7f170ae9" />
+            <include href="@xml/xml_0x7f170aea" />
+        </view>
+    </keyboard>
+</framework>

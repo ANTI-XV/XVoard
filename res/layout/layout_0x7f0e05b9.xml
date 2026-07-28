@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_0x7f0b0663" android:paddingTop="10.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:layout_marginStart="?attr_0x7f040221" android:layout_marginEnd="?attr_0x7f040221"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/id_0x7f0b0126" android:layout_marginStart="0.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f15021d">
+        <android.support.v7.widget.AppCompatImageView style="@style/style_0x7f15021c" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton android:textSize="14.0dp" android:id="@id/id_0x7f0b065a" android:tag=".expression-search-btn" android:paddingTop="0.0dp" android:paddingBottom="0.0dp" android:visibility="?attr_0x7f0400e0" android:layout_width="wrap_content" android:layout_height="?attr_0x7f04008e" android:text="@string/string_0x7f1403ad" android:insetTop="0.0dp" android:insetBottom="0.0dp" android:fontFamily="?attr_0x7f040105" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" android:breakStrategy="balanced" app:attr_0x7f040466="10.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" app:attr_0x7f04078d="?android:colorControlHighlight" style="@style/style_0x7f150bf2" />
+    <FrameLayout android:gravity="center_vertical" android:layout_width="0.0dp" android:layout_height="0.0dp" app:attr_0x7f0405fd="@id/id_0x7f0b0126" app:attr_0x7f040604="@id/id_0x7f0b065a" app:attr_0x7f040616="@id/id_0x7f0b0126" app:attr_0x7f04061b="@id/id_0x7f0b0126">
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:layout_gravity="start" android:id="@id/id_0x7f0b0661" android:text="@string/string_0x7f1403ad" android:paddingStart="10.0dp" style="@style/style_0x7f15037d" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

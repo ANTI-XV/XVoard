@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_0x7f140992" android:key="@string/string_0x7f140891"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f1409f1" android:key="@string/string_0x7f1409f0">
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140978" android:key="@string/string_0x7f14071e" android:summary="@string/string_0x7f140977">
+            <extra android:name="hide_if_flag_is_false" android:value="enable_fast_access_bar=true" />
+        </SwitchPreferenceCompat>
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a49" android:key="@string/string_0x7f1408a7" android:summary="@string/string_0x7f140a47" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140988" android:key="@string/string_0x7f140715" android:summary="@string/string_0x7f140987" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f140a5c" android:key="@string/string_0x7f140a5b">
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140970" android:key="@string/string_0x7f140718" android:summary="@string/string_0x7f14096f" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140969" android:key="@string/string_0x7f140712" android:summary="@string/string_0x7f14096b" />
+        <Preference android:persistent="false" android:title="@string/string_0x7f140a4d" android:key="indexable_pref_show_suggestions" android:summary="@string/string_0x7f140a4c" app:attr_0x7f0407a6="false" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140957" android:key="@string/string_0x7f140716" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140958" android:key="@string/string_0x7f14073f" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14096e" android:key="@string/string_0x7f140717" android:summary="@string/string_0x7f14096d" />
+</PreferenceScreen>

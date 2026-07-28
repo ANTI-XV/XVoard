@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.caverock.androidsvg.SVGImageView android:layout_width="match_parent" android:layout_height="170.0dp" android:scaleType="fitCenter" android:adjustViewBounds="true" finsky:attr_0x7f040830="@raw/raw_0x7f130048"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res-auto" />

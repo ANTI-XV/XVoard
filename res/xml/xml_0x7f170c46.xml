@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170c3f" />
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1716" view_id="@id/key_pos_2_8" />
+        <mapping key_id="@id/id_0x7f0b1026" view_id="@id/key_pos_2_9" />
+        <mapping key_id="@id/id_0x7f0b1b1c" view_id="@id/key_pos_2_10" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_1">
+        <mapping key_id="@id/id_0x7f0b169b" view_id="@id/key_pos_2_8" />
+        <mapping key_id="@id/id_0x7f0b17a5" view_id="@id/key_pos_2_9" />
+        <mapping key_id="@id/id_0x7f0b1a7c" view_id="@id/key_pos_2_10" />
+    </key_mapping>
+    <include href="@xml/xml_0x7f170be0" />
+    <include href="@xml/xml_0x7f170c40" />
+</framework>

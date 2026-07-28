@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:focusable="false" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b205b" android:tag=".label.voice-highlight" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b2072" android:tag=".label.voice-promo-highlight" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+    <android.support.v7.widget.AppCompatTextView android:textColor="?android:colorPrimary" android:id="@id/id_0x7f0b2068" android:tag=".voice-text-color-secondary" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b204c" android:tag=".voice-text-color-generic-accent" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b2071" android:tag=".voice-text-color-primary" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b2080" android:tag=".floating-tooltip-foreground" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+</LinearLayout>

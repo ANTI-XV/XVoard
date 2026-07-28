@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime always_show_suggestions="true" announce_auto_selected_candidate="true" class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme" display_app_completions="true" indicator_label="倉" inline_composing="false" keyevent_interpreter="com.google.android.apps.inputmethod.libs.chinese.PositionBasedKeyEventInterpreter" language="zh-XE" language_specific_settings="@xml/xml_0x7f170ffe" language_tag="zh-Hant-HK-t-i0-cangjie" secondary_ime_def="@xml/xml_0x7f170555" string_id="ime_zh_hk_cangjie" use_ascii_password_keyboard="true">
+        <if enable_chinese_inline_composing_shape_based="true">
+            <if pref_enable_chinese_inline_composing_hk="true">
+                <attrs inline_composing="true" />
+            </if>
+        </if>
+        <keyboard_group pk_language_tag="en" pk_layout_type="qwerty" supports_split_mode="true" variant="cangjie" variant_label="@string/string_0x7f141155" variant_name_mandatory="true">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <layout_specific_settings resource_id="@xml/xml_0x7f170ffd" />
+            <keyboard def="@xml/xml_0x7f1707af" type="prime">
+                <merge def="@xml/xml_0x7f1705d6" />
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f17085d" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/id_0x7f0b020a" value="true" />
+            <item id="@id/id_0x7f0b021e" value="@string/string_0x7f1404c6" />
+            <item id="@id/id_0x7f0b0219" value="。" />
+            <item id="@id/id_0x7f0b0201" value="@string/string_0x7f140713" />
+            <item id="@id/id_0x7f0b01fc" value="cangjie_standard_standard" />
+            <item id="@id/id_0x7f0b0218" value="hmm" />
+            <if enable_transliteration_tablet_floating_ui_v2="true">
+                <item id="@id/id_0x7f0b01f7" res="@xml/xml_0x7f1705d8" />
+            </if>
+            <else>
+                <item id="@id/id_0x7f0b01f7" res="@xml/xml_0x7f1705d7" />
+                <item id="@id/id_0x7f0b021f" value="false" />
+            </else>
+        </extra_values>
+        <include href="@xml/xml_0x7f170c8f" />
+    </ime>
+</framework>

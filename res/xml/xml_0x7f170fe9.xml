@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/id_0x7f0b1d03" layout="@layout/layout_0x7f0e0739" popup_timing="ON_TOUCH">
+            <action data="$param_data$" intention="COMMIT" keycode="PLAIN_TEXT" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$param_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1d03">
+            <softkey id="@id/id_0x7f0b1a49" param_data="+" />
+            <softkey id="@id/id_0x7f0b1785" param_data="-" />
+            <softkey id="@id/id_0x7f0b1b30" param_data="*" />
+            <softkey id="@id/id_0x7f0b1b1c" param_data="/" />
+            <softkey id="@id/id_0x7f0b165b" param_data="(" />
+            <softkey id="@id/id_0x7f0b1a8c" param_data=")" />
+            <softkey id="@id/id_0x7f0b1652" param_data="{" />
+            <softkey id="@id/id_0x7f0b1a83" param_data="}" />
+            <softkey id="@id/id_0x7f0b1b2e" param_data="√" />
+            <softkey id="@id/id_0x7f0b1b1e" param_data="π" />
+            <softkey id="@id/id_0x7f0b0d39" param_data="÷" />
+            <softkey id="@id/id_0x7f0b17af" param_data="×" />
+        </softkey_list>
+    </softkeys>
+</framework>

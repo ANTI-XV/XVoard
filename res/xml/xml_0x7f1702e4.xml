@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime class="com.google.android.apps.inputmethod.libs.mozc.ime.SimpleJapaneseIme" display_app_completions="false" inline_composing="true" language="@string/string_0x7f1403d6" language_specific_settings="@xml/setting_japanese_language_specific" secondary_ime_def="@xml/xml_0x7f1702e3" string_id="@string/string_0x7f140afd" unacceptable_meta_keys="" use_ascii_password_keyboard="true">
+        <if physical_keyboard="qwerty|12key">
+            <attrs language_specific_settings="@xml/setting_japanese_language_specific_with_pk" />
+        </if>
+        <if japanese_pk_kana_input="true">
+            <attrs keyevent_interpreter="com.google.android.apps.inputmethod.libs.mozc.ime.JapaneseKanaKeyEventInterpreter" />
+        </if>
+        <keyboard_group pk_language_tag="ja-Latn-JP" pk_layout_type="extended" supports_split_mode="true" variant="japanese_qwerty" variant_label="@string/string_0x7f1411e7" variant_name_mandatory="true">
+            <include href="@xml/xml_0x7f1702e6" />
+        </keyboard_group>
+        <extra_values>
+            <include href="@xml/xml_0x7f1702e5" />
+            <item id="@id/id_0x7f0b01f7" res="@xml/xml_0x7f1707eb" />
+        </extra_values>
+    </ime>
+</framework>

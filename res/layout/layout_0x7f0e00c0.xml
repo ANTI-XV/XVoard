@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_0x7f060971" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/id_0x7f0b01df" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/id_0x7f0b01dd" android:background="@drawable/drawable_0x7f0801e6" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/id_0x7f0b01de" android:background="@drawable/drawable_0x7f0801f9" android:padding="4.0dp" android:layout_width="32.0dp" android:layout_height="32.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:src="@drawable/drawable_0x7f080523" android:tint="?attr_0x7f040407" android:contentDescription="@string/string_0x7f140291" android:layout_marginStart="8.0dp" />
+        <android.support.v7.widget.AppCompatTextView android:textSize="16.0dp" android:textColor="?attr_0x7f040407" android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/string_0x7f140293" android:layout_weight="1.0" android:fontFamily="?attr_0x7f040105" android:layout_marginEnd="40.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="?attr_0x7f040432" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="22.0dp" android:paddingEnd="22.0dp">
+        <android.support.v7.widget.AppCompatTextView android:textSize="14.0dp" android:textColor="?attr_0x7f040403" android:layout_gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="16.0dp" android:text="@string/string_0x7f140292" android:fontFamily="?attr_0x7f040105" />
+        <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:orientation="vertical" android:id="@id/id_0x7f0b01e7" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <com.google.android.material.button.MaterialButton android:textSize="14.0dp" android:gravity="center" android:layout_gravity="start" android:id="@id/id_0x7f0b01e0" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="6.0dp" android:layout_marginBottom="16.0dp" android:text="@string/string_0x7f140294" android:fontFamily="?attr_0x7f040105" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d कुञ्जी तोकियो</item>
+        <item quantity="other">%d कुञ्जीहरू तोकिए</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s भाषा अब इन्स्टल भएको छ।</item>
+        <item quantity="other">%s भाषाहरू अब इन्स्टल भएका छन्।</item>
+    </plurals>
+</resources>

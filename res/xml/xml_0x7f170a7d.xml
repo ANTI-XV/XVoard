@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b190e" view_id="@id/key_pos_non_prime_category_0" />
+        <mapping key_id="@id/id_0x7f0b18c0" view_id="@id/key_pos_non_prime_category_1" />
+        <mapping key_id="@id/id_0x7f0b18bf" view_id="@id/key_pos_non_prime_category_2" />
+        <mapping key_id="@id/id_0x7f0b18c5" view_id="@id/key_pos_non_prime_category_5" />
+        <mapping key_id="@id/id_0x7f0b18c4" view_id="@id/key_pos_non_prime_category_6" />
+        <mapping key_id="@id/id_0x7f0b18e9" view_id="@id/key_pos_non_prime_category_7" />
+    </key_mapping>
+    <include href="@xml/xml_0x7f170b12" />
+    <key_mapping state="EMOJI_AVAILABLE">
+        <mapping key_id="@id/id_0x7f0b18c2" view_id="@id/key_pos_non_prime_category_1" />
+    </key_mapping>
+</framework>

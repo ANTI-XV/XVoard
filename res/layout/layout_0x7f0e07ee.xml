@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView style="@style/style_0x7f150855"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.card.MaterialCardView style="@style/style_0x7f150856">
+        <FrameLayout android:id="@id/id_0x7f0b1fe6" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <include layout="@layout/layout_0x7f0e07ec" />
+        <include layout="@layout/layout_0x7f0e07ed" />
+    </com.google.android.material.card.MaterialCardView>
+</com.google.android.material.card.MaterialCardView>

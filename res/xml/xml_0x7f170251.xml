@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" class="com.google.android.libraries.inputmethod.ime.password.PasswordIme" label="@string/string_0x7f14065f" language="und-Latn-x-password" string_id="password">
+        <if variant="akoose                 |armenian_armenia_phonetic                 |azerbaijani_iran                 |bagri_arabic                 |balinese                 |balochi                 |balti                 |brahui                 |burmese                 |cree_latin                 |dakhini                 |dhatki                 |dhivehi                 |dzongkha                 |fon                 |gilaki                 |gujari                 |hazaragi                 |hindko                 |indus_kohistani                 |ipa_chart                 |kachi_koli                 |kalam_kohistani                 |kazakh_pc                 |khmer_cambodia                 |khmer_cambodia_native                 |khmer_surin                 |khmu                 |khowar                 |klingon                 |lao                 |limbu                 |marwari_arabic                 |mon                 |navajo                 |pahari_pothwari                 |pao_karen                 |parkari_koli                 |pashayi                 |pashto                 |punjabi_pakistan                 |saraiki                 |sasak                 |sgaw_karen                 |shina                 |tamil                 |thai                 |tibetan                 |torwali                 |urdu_in                 |urdu_pakistan                 |wanetsi">
+            <keyboard_group>
+                <keyboard def="@xml/xml_0x7f170725" type="prime" />
+                <override_keyboard_xml_conditions>
+                    <bool name="@string/string_0x7f140ad4" value="false" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+        </if>
+        <else_if variant="arabic_qwerty|pcqwerty">
+            <keyboard_group>
+                <keyboard def="@xml/xml_0x7f170726" type="prime" />
+                <override_keyboard_xml_conditions>
+                    <bool name="@string/string_0x7f140ad4" value="false" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+        </else_if>
+        <else_if variant="morse_2">
+            <keyboard_group>
+                <keyboard def="@xml/xml_0x7f17094a" type="prime" />
+                <override_keyboard_xml_conditions>
+                    <bool name="@string/string_0x7f140ad4" value="false" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+        </else_if>
+        <else_if variant="clariti">
+            <if device="tablet" keyboard_mode="normal|split">
+                <keyboard_group>
+                    <keyboard def="@xml/xml_0x7f170726" type="prime" />
+                </keyboard_group>
+            </if>
+            <else_if device="foldable" keyboard_mode="normal|split">
+                <keyboard_group>
+                    <keyboard def="@xml/xml_0x7f170726" type="prime" />
+                </keyboard_group>
+            </else_if>
+            <else>
+                <keyboard_group>
+                    <keyboard def="@xml/xml_0x7f170725" type="prime" />
+                </keyboard_group>
+            </else>
+        </else_if>
+        <else_if enable_number_row="true">
+            <keyboard_group>
+                <keyboard def="@xml/xml_0x7f170726" type="prime" />
+                <override_keyboard_xml_conditions>
+                    <bool name="@string/string_0x7f140714" value="false" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+        </else_if>
+        <else>
+            <keyboard_group>
+                <keyboard def="@xml/xml_0x7f170725" type="prime" />
+                <override_keyboard_xml_conditions>
+                    <bool name="@string/string_0x7f140714" value="false" />
+                    <bool name="@string/string_0x7f140ad4" value="false" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+        </else>
+    </ime>
+</framework>

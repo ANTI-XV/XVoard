@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingStart="@dimen/dimen_0x7f0707cb" android:paddingEnd="@dimen/dimen_0x7f0707cb" style="@style/style_0x7f15062d"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/id_0x7f0b1f5b" style="@style/style_0x7f150633" />
+</FrameLayout>

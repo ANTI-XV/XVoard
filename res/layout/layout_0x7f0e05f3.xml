@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="@dimen/dimen_0x7f07036b" style="@style/style_0x7f1501c5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.keyboard.widget.PageableCandidatesHolderView android:id="@id/id_0x7f0b1217" android:layout_width="match_parent" android:layout_toStartOf="@id/id_0x7f0b053e" app:attr_0x7f040379="@layout/layout_0x7f0e05e5" candidate_background="@drawable/drawable_0x7f080236" deletable_label="…" max_candidates_per_row="@integer/integer_0x7f0c00b8" row_background="@drawable/drawable_0x7f080255" row_count="@integer/integer_0x7f0c002d" style="@style/style_0x7f15044a" />
+    <include layout="@layout/layout_0x7f0e05f2" />
+</RelativeLayout>

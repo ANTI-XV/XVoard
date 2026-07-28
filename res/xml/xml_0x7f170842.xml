@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f17077a" />
+    <keyboard>
+        <if device="tablet" device_size="large">
+            <view layout="@layout/layout_0x7f0e025b" type="body" />
+        </if>
+        <else>
+            <view layout="@layout/layout_0x7f0e02bb" type="body" />
+        </else>
+        <view type="body">
+            <softkeys href="@xml/xml_0x7f170d73" />
+            <include href="@xml/xml_0x7f170ace" />
+            <if device="tablet" device_size="large">
+                <include href="@xml/xml_0x7f170af2" />
+                <include href="@xml/xml_0x7f170a8b" />
+            </if>
+            <else>
+                <include href="@xml/xml_0x7f170af1" />
+            </else>
+        </view>
+    </keyboard>
+</framework>

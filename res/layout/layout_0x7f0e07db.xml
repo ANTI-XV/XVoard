@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b1fdc" android:background="@color/color_0x7f060b7d" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/string_0x7f140e79"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <android.support.v7.widget.AppCompatTextView android:layout_marginBottom="64.0dp" android:text="@string/string_0x7f140e79" style="@style/style_0x7f150846" />
+        <LinearLayout android:layout_gravity="center|bottom" android:orientation="horizontal" android:id="@id/id_0x7f0b1fd1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="0.0dp" android:layout_height="48.0dp" android:layout_weight="1.0">
+                <SeekBar android:theme="@android:style/ThemeOverlay.Material.Dark" android:layout_gravity="start|center" android:id="@id/id_0x7f0b1fd0" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@string/string_0x7f140e79" />
+            </FrameLayout>
+            <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:textSize="15.0sp" android:textColor="@android:color/white" android:gravity="end" android:layout_gravity="end|center" android:id="@id/id_0x7f0b1fd2" android:layout_width="38.0dp" android:layout_height="wrap_content" android:fontFamily="?attr_0x7f040106" android:layout_marginEnd="12.0dp" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f04037c="@android:color/transparent" app:attr_0x7f04081c="0.0dp">
+        <ImageView android:id="@id/id_0x7f0b1fd3" android:layout_width="0.0dp" android:layout_height="0.0dp" android:scaleType="matrix" android:importantForAccessibility="no" />
+        <View android:layout_gravity="top" android:id="@id/id_0x7f0b1fd6" android:background="@android:color/black" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+        <View android:layout_gravity="bottom" android:id="@id/id_0x7f0b1fd4" android:background="@android:color/black" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+        <ImageView android:id="@id/id_0x7f0b1fd5" android:layout_width="0.0dp" android:layout_height="0.0dp" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+    </com.google.android.material.card.MaterialCardView>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <Button android:id="@id/id_0x7f0b1fd7" android:text="@string/string_0x7f1403a2" style="@style/style_0x7f150844" />
+    </FrameLayout>
+</LinearLayout>

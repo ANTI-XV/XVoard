@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b18dc" layout="@layout/layout_0x7f0e0735">
+            <action data="symbol" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="!?#" />
+        </softkey>
+    </softkeys>
+</framework>

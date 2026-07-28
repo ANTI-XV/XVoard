@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if enable_secondary_symbols="true">
+        <merge_key_mapping>
+            <merge key_id="@id/id_0x7f0b0f0d" view_id="@id/key_pos_1_0" />
+            <merge key_id="@id/id_0x7f0b0fde" view_id="@id/key_pos_1_1" />
+            <merge key_id="@id/id_0x7f0b1009" view_id="@id/key_pos_1_2" />
+            <merge key_id="@id/id_0x7f0b0fb9" view_id="@id/key_pos_1_3" />
+            <merge key_id="@id/id_0x7f0b0f90" view_id="@id/key_pos_1_4" />
+            <merge key_id="@id/id_0x7f0b0feb" view_id="@id/key_pos_1_5" />
+            <merge key_id="@id/id_0x7f0b0ee4" view_id="@id/key_pos_2_0" />
+            <merge key_id="@id/id_0x7f0b0f7f" view_id="@id/key_pos_2_1" />
+            <if enable_number_row="false">
+                <merge key_id="@id/id_0x7f0b0f6e" view_id="@id/key_pos_2_2" />
+                <merge key_id="@id/id_0x7f0b0fec" view_id="@id/key_pos_2_3" />
+                <merge key_id="@id/id_0x7f0b0fec" view_id="@id/key_pos_2_3_dup" />
+                <merge key_id="@id/id_0x7f0b0fab" view_id="@id/key_pos_2_4" />
+                <merge key_id="@id/id_0x7f0b0ff4" view_id="@id/key_pos_2_5" />
+            </if>
+            <else>
+                <merge key_id="@id/id_0x7f0b0fab" view_id="@id/key_pos_1_6" />
+                <merge key_id="@id/id_0x7f0b0ff4" view_id="@id/key_pos_1_7" />
+                <merge key_id="@id/id_0x7f0b0f0c" view_id="@id/key_pos_2_2" />
+                <merge key_id="@id/id_0x7f0b0ff7" view_id="@id/key_pos_2_3" />
+                <merge key_id="@id/id_0x7f0b0ff7" view_id="@id/key_pos_2_3_dup" />
+                <merge key_id="@id/id_0x7f0b0f6e" view_id="@id/key_pos_2_4" />
+                <merge key_id="@id/id_0x7f0b0fec" view_id="@id/key_pos_2_5" />
+            </else>
+        </merge_key_mapping>
+    </if>
+</framework>

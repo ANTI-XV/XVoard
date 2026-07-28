@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime always_show_suggestions="true" announce_auto_selected_candidate="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="kru-XT" secondary_ime_def="@xml/xml_0x7f170337" string_id="ime_kru_deva_transliteration">
+        <keyboard_group pk_language_tag="en" supports_split_mode="true" variant="qwerty" variant_label="@string/string_0x7f141221" variant_name_mandatory="true">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <keyboard def="@xml/xml_0x7f17066b" transliterate="true" type="prime">
+                <merge def="@xml/xml_0x7f1708f2" />
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f17085b" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/id_0x7f0b01fe" value="। " />
+        </extra_values>
+        <include href="@xml/xml_0x7f170127" />
+    </ime>
+</framework>

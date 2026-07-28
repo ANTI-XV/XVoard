@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" style="@style/style_0x7f1502f7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.TransformationTextView android:id="@id/id_0x7f0b030d" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b031a" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1502f8" />
+    <com.google.android.apps.inputmethod.libs.jarvis.CheckableImageView android:id="@id/id_0x7f0b031b" android:paddingTop="14.0dp" android:paddingBottom="6.0dp" android:src="@drawable/drawable_0x7f080493" android:scaleType="centerInside" android:contentDescription="@string/string_0x7f1403f2" app:attr_0x7f0405fe="@id/id_0x7f0b031a" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040616="@id/id_0x7f0b030d" style="@style/style_0x7f1502f9" />
+    <com.google.android.apps.inputmethod.libs.jarvis.CheckableImageView android:id="@id/id_0x7f0b031a" android:paddingTop="6.0dp" android:paddingBottom="14.0dp" android:scaleType="centerInside" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040616="@id/id_0x7f0b030d" style="@style/style_0x7f1502f9" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b030e" android:tag=".jarvis-item-diff-color" android:layout_width="0.0dp" android:layout_height="0.0dp" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b2089" android:tag=".widget-jarvis-item-diff-color" android:layout_width="0.0dp" android:layout_height="0.0dp" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

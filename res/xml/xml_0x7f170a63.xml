@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170a57" />
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b12d2" view_id="@id/key_pos_switch_hiragana_alphabet" />
+    </key_mapping>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b12ce" view_id="@id/key_pos_switch_to_symbol" />
+        <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_switch_to_smiley" />
+    </key_mapping>
+    <key_mapping state="EMOJI_AVAILABLE">
+        <mapping key_id="@id/id_0x7f0b12cc" view_id="@id/key_pos_switch_to_symbol" />
+        <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_switch_to_smiley" />
+    </key_mapping>
+</framework>

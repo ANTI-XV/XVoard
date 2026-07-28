@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0712" long_press_data="$ £ € ¢ ¥ ₱ ₹" press_data="؋" />
+            <softkey id="@id/id_0x7f0b07bb" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="֏" />
+            <softkey id="@id/id_0x7f0b07f8" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="฿" />
+            <softkey id="@id/id_0x7f0b0906" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="৳" />
+            <softkey id="@id/id_0x7f0b09c8" long_press_data="$ £ € ¢ ¥ ₱ ₹" press_data="₵" />
+            <softkey id="@id/id_0x7f0b09c9" press_data="¢" />
+            <softkey id="@id/id_0x7f0b0aa7" long_press_data="$ £ € ¢ ¥ ₱ ₹" press_data="₡" />
+            <softkey id="@id/id_0x7f0b0b10" long_press_data="¢ $ € ¥ ₱ ₹" press_data="£" />
+            <softkey id="@id/id_0x7f0b0d3c" long_press_data="₵ ₦ ¢ £ € ¥" press_data="$" />
+            <softkey id="@id/id_0x7f0b0d3d" long_press_data="₹ ¢ £ € ¥ ₱ ₹" press_data="$" />
+            <softkey id="@id/id_0x7f0b0d3e" long_press_data="₽ ¢ € £ ¥ ₱ ₹" press_data="$" />
+            <softkey id="@id/id_0x7f0b0d3f" long_press_data="₽ ₾ ¢ € £ ¥ ₱ ₹" press_data="$" />
+            <softkey id="@id/id_0x7f0b0d40" long_press_data="¢ £ € ¥ ₱ ₹" press_data="$" />
+            <softkey id="@id/id_0x7f0b0d41" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="₫" />
+            <softkey id="@id/id_0x7f0b0dd8" long_press_data="¢ £ $ ¥ ₱ ₹" press_data="€" />
+            <softkey id="@id/id_0x7f0b0dd9" press_data="€" />
+            <softkey id="@id/id_0x7f0b0df2" press_data="ƒ" />
+            <softkey id="@id/id_0x7f0b1024" long_press_data="€ ¢ £ $ ¥ ₱ ₹" press_data="₣" />
+            <softkey id="@id/id_0x7f0b10cf" long_press_data="$ £ € ¢ ¥ ₱ ₹" press_data="₲" />
+            <softkey id="@id/id_0x7f0b1164" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="૱" />
+            <softkey id="@id/id_0x7f0b121c" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="₴" />
+            <softkey id="@id/id_0x7f0b1221" long_press_data="$ ¢ € £ ¥ ₱" press_data="₹" />
+            <softkey id="@id/id_0x7f0b1222" long_press_data="$ ¢ € £ ¥ ₱ ௹" press_data="₹" />
+            <softkey id="@id/id_0x7f0b13f6" long_press_data="$ ¢ £ € ¥ ₱ ₹" press_data="៛" />
+            <softkey id="@id/id_0x7f0b145c" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="₭" />
+            <softkey id="@id/id_0x7f0b14aa" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="₾" />
+            <softkey id="@id/id_0x7f0b16e2" long_press_data="$ £ € ¢ ¥ ₱ ₹" press_data="₤" />
+            <softkey id="@id/id_0x7f0b174f" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="₼" />
+            <softkey id="@id/id_0x7f0b1848" long_press_data="$ £ € ¢ ¥ ₱ ₹" press_data="₦" />
+            <softkey id="@id/id_0x7f0b1849" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="रु." />
+            <softkey id="@id/id_0x7f0b184a" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="₪" />
+            <softkey id="@id/id_0x7f0b1a2e" long_press_data="$ £ € ¢ ¥ ₹" press_data="₱" />
+            <softkey id="@id/id_0x7f0b1a50" press_data="£" />
+            <softkey id="@id/id_0x7f0b1a7e" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="﷼" />
+            <softkey id="@id/id_0x7f0b1a94" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="₽" />
+            <softkey id="@id/id_0x7f0b1b2f" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="රු" />
+            <softkey id="@id/id_0x7f0b1d60" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="₸" />
+            <softkey id="@id/id_0x7f0b1ea5" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="₮" />
+            <softkey id="@id/id_0x7f0b1ea6" long_press_data="$ ¢ € £ ¥ ₱ ₹" press_data="₺" />
+            <softkey id="@id/id_0x7f0b1ea7" long_press_data="„ “ ” » «" press_data="&quot;" />
+            <softkey id="@id/id_0x7f0b1ee7" long_press_data="$ € ¥ £ ¢ ₱ ₹" press_data="₩" />
+            <softkey id="@id/id_0x7f0b1ee8" press_data="¥" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b06ee" long_press_data="1,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="U+1E951" />
+            <softkey id="@id/id_0x7f0b06f2" long_press_data="2,⅔,⅖" press_data="U+1E952" />
+            <softkey id="@id/id_0x7f0b06f1" long_press_data="3,¾,⅗,⅜" press_data="U+1E953" />
+            <softkey id="@id/id_0x7f0b06ec" long_press_data="4,⅘" press_data="U+1E954" />
+            <softkey id="@id/id_0x7f0b06eb" long_press_data="5,⅚,⅝" press_data="U+1E955" />
+            <softkey id="@id/id_0x7f0b06f0" long_press_data="6" press_data="U+1E956" />
+            <softkey id="@id/id_0x7f0b06ef" long_press_data="7,⅞" press_data="U+1E957" />
+            <softkey id="@id/id_0x7f0b06ea" long_press_data="8" press_data="U+1E958" />
+            <softkey id="@id/id_0x7f0b06ed" long_press_data="9" press_data="U+1E959" />
+            <softkey id="@id/id_0x7f0b06f3" long_press_data="0" press_data="U+1E950" />
+            <softkey id="@id/id_0x7f0b06f4" long_press_data="U+1E95E" press_data="!" />
+            <softkey id="@id/id_0x7f0b06f5" long_press_data="U+1E95F,?" press_data="؟" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0725" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="١" />
+            <softkey id="@id/id_0x7f0b0729" long_press_data="2,²,⅔,⅖" press_data="٢" />
+            <softkey id="@id/id_0x7f0b0728" long_press_data="3,³,¾,⅗,⅜" press_data="٣" />
+            <softkey id="@id/id_0x7f0b0723" long_press_data="4,⁴,⅘" press_data="٤" />
+            <softkey id="@id/id_0x7f0b0722" long_press_data="5,⁵,⅚,⅝" press_data="٥" />
+            <softkey id="@id/id_0x7f0b0727" long_press_data="6,⁶" press_data="٦" />
+            <softkey id="@id/id_0x7f0b0726" long_press_data="7,⁷,⅞" press_data="٧" />
+            <softkey id="@id/id_0x7f0b0721" long_press_data="8,⁸" press_data="٨" />
+            <softkey id="@id/id_0x7f0b0724" long_press_data="9,⁹" press_data="٩" />
+            <softkey id="@id/id_0x7f0b072a" long_press_data="0,٫,٬,⁰,ⁿ,∅" press_data="٠" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0800" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="᭑" />
+            <softkey id="@id/id_0x7f0b0804" long_press_data="2,²,⅔,⅖" press_data="᭒" />
+            <softkey id="@id/id_0x7f0b0803" long_press_data="3,³,¾,⅗,⅜" press_data="᭓" />
+            <softkey id="@id/id_0x7f0b07fe" long_press_data="4,⁴,⅘" press_data="᭔" />
+            <softkey id="@id/id_0x7f0b07fd" long_press_data="5,⁵,⅚,⅝" press_data="᭕" />
+            <softkey id="@id/id_0x7f0b0802" long_press_data="6,⁶" press_data="᭖" />
+            <softkey id="@id/id_0x7f0b0801" long_press_data="7,⁷,⅞" press_data="᭗" />
+            <softkey id="@id/id_0x7f0b07fc" long_press_data="8,⁸" press_data="᭘" />
+            <softkey id="@id/id_0x7f0b07ff" long_press_data="9,⁹" press_data="᭙" />
+            <softkey id="@id/id_0x7f0b0805" long_press_data="0,⁰,ⁿ,∅" press_data="᭐" />
+            <softkey id="@id/id_0x7f0b07fa" long_press_data=":" press_data="᭝" />
+            <softkey id="@id/id_0x7f0b0833" press_data="᭟᭜᭟" />
+            <softkey id="@id/id_0x7f0b0832" press_data="᭚" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0860" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="ꛦ" />
+            <softkey id="@id/id_0x7f0b085c" long_press_data="2,²,⅔,⅖" press_data="ꛧ" />
+            <softkey id="@id/id_0x7f0b0889" long_press_data="3,³,¾,⅗,⅜" press_data="ꛨ" />
+            <softkey id="@id/id_0x7f0b0852" long_press_data="4,⁴,⅘" press_data="ꛩ" />
+            <softkey id="@id/id_0x7f0b0888" long_press_data="5,⁵,⅚,⅝" press_data="ꛪ" />
+            <softkey id="@id/id_0x7f0b086c" long_press_data="6,⁶" press_data="ꛫ" />
+            <softkey id="@id/id_0x7f0b087e" long_press_data="7,⁷,⅞" press_data="ꛬ" />
+            <softkey id="@id/id_0x7f0b0846" long_press_data="8,⁸" press_data="ꛭ" />
+            <softkey id="@id/id_0x7f0b0851" long_press_data="9,⁹" press_data="ꛮ" />
+            <softkey id="@id/id_0x7f0b0850" long_press_data="0,⁰,ⁿ,∅" press_data="ꛯ" />
+            <softkey id="@id/id_0x7f0b0840" long_press_data=":" press_data="꛴" />
+            <softkey id="@id/id_0x7f0b0893" long_press_data=";" press_data="꛶" />
+            <softkey id="@id/id_0x7f0b0890" long_press_data="!" press_data="꛲" />
+            <softkey id="@id/id_0x7f0b0892" press_data="꛷" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b08c7" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="১" />
+            <softkey id="@id/id_0x7f0b08cb" long_press_data="2,²,⅔,⅖" press_data="২" />
+            <softkey id="@id/id_0x7f0b08ca" long_press_data="3,³,¾,⅗,⅜" press_data="৩" />
+            <softkey id="@id/id_0x7f0b08c5" long_press_data="4,⁴,⅘,৷" press_data="৪" />
+            <softkey id="@id/id_0x7f0b08c4" long_press_data="5,⁵,⅚,⅝" press_data="৫" />
+            <softkey id="@id/id_0x7f0b08c9" long_press_data="6,⁶" press_data="৬" />
+            <softkey id="@id/id_0x7f0b08c8" long_press_data="7,⁷,⅞" press_data="৭" />
+            <softkey id="@id/id_0x7f0b08c3" long_press_data="8,⁸" press_data="৮" />
+            <softkey id="@id/id_0x7f0b08c6" long_press_data="9,⁹" press_data="৯" />
+            <softkey id="@id/id_0x7f0b08cc" long_press_data="0,⁰,ⁿ,∅" press_data="০" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b09d0" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="𑄷" />
+            <softkey id="@id/id_0x7f0b09d4" long_press_data="2,²,⅔,⅖" press_data="𑄸" />
+            <softkey id="@id/id_0x7f0b09d3" long_press_data="3,³,¾,⅗,⅜" press_data="𑄹" />
+            <softkey id="@id/id_0x7f0b09ce" long_press_data="4,⁴,⅘" press_data="𑄺" />
+            <softkey id="@id/id_0x7f0b09cd" long_press_data="5,⁵,⅚,⅝" press_data="𑄻" />
+            <softkey id="@id/id_0x7f0b09d2" long_press_data="6,⁶" press_data="𑄼" />
+            <softkey id="@id/id_0x7f0b09d1" long_press_data="7,⁷,⅞" press_data="𑄽" />
+            <softkey id="@id/id_0x7f0b09cc" long_press_data="8,⁸" press_data="𑄾" />
+            <softkey id="@id/id_0x7f0b09cf" long_press_data="9,⁹" press_data="𑄿" />
+            <softkey id="@id/id_0x7f0b09d5" long_press_data="0,⁰,ⁿ,∅" press_data="𑄶" />
+            <softkey id="@id/id_0x7f0b0a08" long_press_data="?" press_data="𑅃" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0a23" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="꩑" />
+            <softkey id="@id/id_0x7f0b0a27" long_press_data="2,²,⅔,⅖" press_data="꩒" />
+            <softkey id="@id/id_0x7f0b0a26" long_press_data="3,³,¾,⅗,⅜" press_data="꩓" />
+            <softkey id="@id/id_0x7f0b0a21" long_press_data="4,⁴,⅘" press_data="꩔" />
+            <softkey id="@id/id_0x7f0b0a20" long_press_data="5,⁵,⅚,⅝" press_data="꩕" />
+            <softkey id="@id/id_0x7f0b0a25" long_press_data="6,⁶" press_data="꩖" />
+            <softkey id="@id/id_0x7f0b0a24" long_press_data="7,⁷,⅞" press_data="꩗" />
+            <softkey id="@id/id_0x7f0b0a1f" long_press_data="8,⁸" press_data="꩘" />
+            <softkey id="@id/id_0x7f0b0a22" long_press_data="9,⁹" press_data="꩙" />
+            <softkey id="@id/id_0x7f0b0a28" long_press_data="0,⁰,ⁿ,∅" press_data="꩐" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0bc5" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="१" />
+            <softkey id="@id/id_0x7f0b0bc9" long_press_data="2,²,⅔,⅖" press_data="२" />
+            <softkey id="@id/id_0x7f0b0bc8" long_press_data="3,³,¾,⅗,⅜" press_data="३" />
+            <softkey id="@id/id_0x7f0b0bc3" long_press_data="4,⁴,⅘" press_data="४" />
+            <softkey id="@id/id_0x7f0b0bc2" long_press_data="5,⁵,⅚,⅝" press_data="५" />
+            <softkey id="@id/id_0x7f0b0bc7" long_press_data="6,⁶" press_data="६" />
+            <softkey id="@id/id_0x7f0b0bc6" long_press_data="7,⁷,⅞" press_data="७" />
+            <softkey id="@id/id_0x7f0b0bc1" long_press_data="8,⁸" press_data="८" />
+            <softkey id="@id/id_0x7f0b0bc4" long_press_data="9,⁹" press_data="९" />
+            <softkey id="@id/id_0x7f0b0bca" long_press_data="0,⁰,ⁿ,∅" press_data="०" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0d99" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="፩" />
+            <softkey id="@id/id_0x7f0b0d9d" long_press_data="2,፳,²,⅔,⅖" press_data="፪" />
+            <softkey id="@id/id_0x7f0b0d9c" long_press_data="3,፴,³,¾,⅗,⅜" press_data="፫" />
+            <softkey id="@id/id_0x7f0b0d97" long_press_data="4,፵,⁴,⅘" press_data="፬" />
+            <softkey id="@id/id_0x7f0b0d96" long_press_data="5,፶,⁵,⅚,⅝" press_data="፭" />
+            <softkey id="@id/id_0x7f0b0d9b" long_press_data="6,፷,⁶" press_data="፮" />
+            <softkey id="@id/id_0x7f0b0d9a" long_press_data="7,፸,⁷,⅞" press_data="፯" />
+            <softkey id="@id/id_0x7f0b0d95" long_press_data="8,፹,⁸" press_data="፰" />
+            <softkey id="@id/id_0x7f0b0d98" long_press_data="9,፺,⁹" press_data="፱" />
+            <softkey id="@id/id_0x7f0b0d9e" long_press_data="0,፻,፼,⁰,ⁿ,∅" press_data="፲" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0de3" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="۱" />
+            <softkey id="@id/id_0x7f0b0de7" long_press_data="2,²,⅔,⅖" press_data="۲" />
+            <softkey id="@id/id_0x7f0b0de6" long_press_data="3,³,¾,⅗,⅜" press_data="۳" />
+            <softkey id="@id/id_0x7f0b0de1" long_press_data="4,⁴,⅘" press_data="۴" />
+            <softkey id="@id/id_0x7f0b0de0" long_press_data="5,⁵,⅚,⅝" press_data="۵" />
+            <softkey id="@id/id_0x7f0b0de5" long_press_data="6,⁶" press_data="۶" />
+            <softkey id="@id/id_0x7f0b0de4" long_press_data="7,⁷,⅞" press_data="۷" />
+            <softkey id="@id/id_0x7f0b0ddf" long_press_data="8,⁸" press_data="۸" />
+            <softkey id="@id/id_0x7f0b0de2" long_press_data="9,⁹" press_data="۹" />
+            <softkey id="@id/id_0x7f0b0de8" long_press_data="0,٫,٬,⁰,ⁿ,∅" press_data="۰" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b10d4" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="૧" />
+            <softkey id="@id/id_0x7f0b10d8" long_press_data="2,²,⅔,⅖" press_data="૨" />
+            <softkey id="@id/id_0x7f0b10d7" long_press_data="3,³,¾,⅗,⅜" press_data="૩" />
+            <softkey id="@id/id_0x7f0b10d2" long_press_data="4,⁴,⅘" press_data="૪" />
+            <softkey id="@id/id_0x7f0b10d1" long_press_data="5,⁵,⅚,⅝" press_data="૫" />
+            <softkey id="@id/id_0x7f0b10d6" long_press_data="6,⁶" press_data="૬" />
+            <softkey id="@id/id_0x7f0b10d5" long_press_data="7,⁷,⅞" press_data="૭" />
+            <softkey id="@id/id_0x7f0b10d0" long_press_data="8,⁸" press_data="૮" />
+            <softkey id="@id/id_0x7f0b10d3" long_press_data="9,⁹" press_data="૯" />
+            <softkey id="@id/id_0x7f0b10d9" long_press_data="0,⁰,ⁿ,∅" press_data="૦" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1172" long_press_data="0,⁰,ⁿ,∅" press_data="੦" />
+            <softkey id="@id/id_0x7f0b116d" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="੧" />
+            <softkey id="@id/id_0x7f0b1171" long_press_data="2,²,⅔,⅖" press_data="੨" />
+            <softkey id="@id/id_0x7f0b1170" long_press_data="3,³,¾,⅗,⅜" press_data="੩" />
+            <softkey id="@id/id_0x7f0b116b" long_press_data="4,⁴,⅘" press_data="੪" />
+            <softkey id="@id/id_0x7f0b116a" long_press_data="5,⁵,⅚,⅝" press_data="੫" />
+            <softkey id="@id/id_0x7f0b116f" long_press_data="6,⁶" press_data="੬" />
+            <softkey id="@id/id_0x7f0b116e" long_press_data="7,⁷,⅞" press_data="੭" />
+            <softkey id="@id/id_0x7f0b1169" long_press_data="8,⁸" press_data="੮" />
+            <softkey id="@id/id_0x7f0b116c" long_press_data="9,⁹" press_data="੯" />
+            <softkey id="@id/id_0x7f0b1173" long_press_data="☬" press_data="ੴ" />
+            <softkey id="@id/id_0x7f0b11a2" press_data="ਃ" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3b">
+            <softkey id="@id/id_0x7f0b12e7" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" long_press_label="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="꧑" press_label="꧑" />
+            <softkey id="@id/id_0x7f0b12eb" long_press_data="2,²,⅔,⅖" long_press_label="2,²,⅔,⅖" press_data="꧒" press_label="꧒" />
+            <softkey id="@id/id_0x7f0b12ea" long_press_data="3,³,¾,⅗,⅜" long_press_label="3,³,¾,⅗,⅜" press_data="꧓" press_label="꧓" />
+            <softkey id="@id/id_0x7f0b12e5" long_press_data="4,⁴,⅘" long_press_label="4,⁴,⅘" press_data="꧔" press_label="꧔" />
+            <softkey id="@id/id_0x7f0b12e4" long_press_data="5,⁵,⅚,⅝" long_press_label="5,⁵,⅚,⅝" press_data="꧕" press_label="꧕" />
+            <softkey id="@id/id_0x7f0b12e9" long_press_data="6,⁶" long_press_label="6,⁶" press_data="꧖" press_label="꧖" />
+            <softkey id="@id/id_0x7f0b12e8" long_press_data="7,⁷,⅞" long_press_label="7,⁷,⅞" press_data="꧗" press_label="꧗" />
+            <softkey id="@id/id_0x7f0b12e3" long_press_data="8,⁸" long_press_label="8,⁸" press_data="꧘" press_label="꧘" />
+            <softkey id="@id/id_0x7f0b12e6" long_press_data="9,⁹" long_press_label="9,⁹" press_data="꧙" press_label="꧙" />
+            <softkey id="@id/id_0x7f0b12ec" long_press_data="0,⁰,ⁿ,∅" long_press_label="0,⁰,ⁿ,∅" press_data="꧐" press_label="꧐" />
+            <softkey id="@id/id_0x7f0b1315" long_press_data="&quot;" long_press_label="&quot;" press_data="꧊" press_label="꧊" />
+            <softkey id="@id/id_0x7f0b1316" long_press_data="'" long_press_label="'" press_data="꧋" press_label="꧋" />
+            <softkey id="@id/id_0x7f0b131a" long_press_data=":" long_press_label=":" press_data="꧇" press_label="꧇" />
+            <softkey id="@id/id_0x7f0b131d" long_press_data="/" long_press_label="/" press_data="꧆" press_label="꧆" />
+            <softkey id="@id/id_0x7f0b131f" long_press_data="+,-" long_press_label="+,-" press_data="ꧏ" press_label="ꧏ" />
+            <softkey id="@id/id_0x7f0b12ed" long_press_data="_" long_press_label="_" press_data="꧁" press_label="꧁" />
+            <softkey id="@id/id_0x7f0b1317" long_press_data="꧄,꧅" long_press_label="꧄,꧅" press_data="꧃" press_label="꧃" />
+            <softkey id="@id/id_0x7f0b131b" long_press_data="(" long_press_label="(" press_data="꧌" press_label="꧌" />
+            <softkey id="@id/id_0x7f0b1320" long_press_data="&amp;" long_press_label="&amp;" press_data="꧂" press_label="꧂" />
+            <softkey id="@id/id_0x7f0b1326" long_press_data=")" long_press_label=")" press_data="꧍" press_label="꧍" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b132b" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="೧" />
+            <softkey id="@id/id_0x7f0b132f" long_press_data="2,²,⅔,⅖" press_data="೨" />
+            <softkey id="@id/id_0x7f0b132e" long_press_data="3,³,¾,⅗,⅜" press_data="೩" />
+            <softkey id="@id/id_0x7f0b1329" long_press_data="4,⁴,⅘" press_data="೪" />
+            <softkey id="@id/id_0x7f0b1328" long_press_data="5,⁵,⅚,⅝" press_data="೫" />
+            <softkey id="@id/id_0x7f0b132d" long_press_data="6,⁶" press_data="೬" />
+            <softkey id="@id/id_0x7f0b132c" long_press_data="7,⁷,⅞" press_data="೭" />
+            <softkey id="@id/id_0x7f0b1327" long_press_data="8,⁸" press_data="೮" />
+            <softkey id="@id/id_0x7f0b132a" long_press_data="9,⁹" press_data="೯" />
+            <softkey id="@id/id_0x7f0b1330" long_press_data="0,⁰,ⁿ,∅" press_data="೦" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b13c6" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="꤁" />
+            <softkey id="@id/id_0x7f0b13ca" long_press_data="2,²,⅔,⅖" press_data="꤂" />
+            <softkey id="@id/id_0x7f0b13c9" long_press_data="3,³,¾,⅗,⅜" press_data="꤃" />
+            <softkey id="@id/id_0x7f0b13c4" long_press_data="4,⁴,⅘" press_data="꤄" />
+            <softkey id="@id/id_0x7f0b13c3" long_press_data="5,⁵,⅚,⅝" press_data="꤅" />
+            <softkey id="@id/id_0x7f0b13c8" long_press_data="6,⁶" press_data="꤆" />
+            <softkey id="@id/id_0x7f0b13c7" long_press_data="7,⁷,⅞" press_data="꤇" />
+            <softkey id="@id/id_0x7f0b13c2" long_press_data="8,⁸" press_data="꤈" />
+            <softkey id="@id/id_0x7f0b13c5" long_press_data="9,⁹" press_data="꤉" />
+            <softkey id="@id/id_0x7f0b13cb" long_press_data="0,⁰,ⁿ,∅" press_data="꤀" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b166a" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="᱁" />
+            <softkey id="@id/id_0x7f0b166e" long_press_data="2,²,⅔,⅖" press_data="᱂" />
+            <softkey id="@id/id_0x7f0b166d" long_press_data="3,³,¾,⅗,⅜" press_data="᱃" />
+            <softkey id="@id/id_0x7f0b1668" long_press_data="4,⁴,⅘" press_data="᱄" />
+            <softkey id="@id/id_0x7f0b1667" long_press_data="5,⁵,⅚,⅝" press_data="᱅" />
+            <softkey id="@id/id_0x7f0b166c" long_press_data="6,⁶" press_data="᱆" />
+            <softkey id="@id/id_0x7f0b166b" long_press_data="7,⁷,⅞" press_data="᱇" />
+            <softkey id="@id/id_0x7f0b1666" long_press_data="8,⁸" press_data="᱈" />
+            <softkey id="@id/id_0x7f0b1669" long_press_data="9,⁹" press_data="᱉" />
+            <softkey id="@id/id_0x7f0b166f" long_press_data="0,⁰,ⁿ,∅" press_data="᱀" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b16ab" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="᥇" />
+            <softkey id="@id/id_0x7f0b16af" long_press_data="2,²,⅔,⅖" press_data="᥈" />
+            <softkey id="@id/id_0x7f0b16ae" long_press_data="3,³,¾,⅗,⅜" press_data="᥉" />
+            <softkey id="@id/id_0x7f0b16a9" long_press_data="4,⁴,⅘" press_data="᥊" />
+            <softkey id="@id/id_0x7f0b16a8" long_press_data="5,⁵,⅚,⅝" press_data="᥋" />
+            <softkey id="@id/id_0x7f0b16ad" long_press_data="6,⁶" press_data="᥌" />
+            <softkey id="@id/id_0x7f0b16ac" long_press_data="7,⁷,⅞" press_data="᥍" />
+            <softkey id="@id/id_0x7f0b16a7" long_press_data="8,⁸" press_data="᥎" />
+            <softkey id="@id/id_0x7f0b16aa" long_press_data="9,⁹" press_data="᥏" />
+            <softkey id="@id/id_0x7f0b16b0" long_press_data="0,⁰,ⁿ,∅" press_data="᥆" />
+            <softkey id="@id/id_0x7f0b16ca" long_press_data="!" press_data="᥄" />
+            <softkey id="@id/id_0x7f0b16cb" long_press_data="?" press_data="᥅" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1756" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="꯱" />
+            <softkey id="@id/id_0x7f0b175a" long_press_data="2,²,⅔,⅖" press_data="꯲" />
+            <softkey id="@id/id_0x7f0b1759" long_press_data="3,³,¾,⅗,⅜" press_data="꯳" />
+            <softkey id="@id/id_0x7f0b1754" long_press_data="4,⁴,⅘" press_data="꯴" />
+            <softkey id="@id/id_0x7f0b1753" long_press_data="5,⁵,⅚,⅝" press_data="꯵" />
+            <softkey id="@id/id_0x7f0b1758" long_press_data="6,⁶" press_data="꯶" />
+            <softkey id="@id/id_0x7f0b1757" long_press_data="7,⁷,⅞" press_data="꯷" />
+            <softkey id="@id/id_0x7f0b1752" long_press_data="8,⁸" press_data="꯸" />
+            <softkey id="@id/id_0x7f0b1755" long_press_data="9,⁹" press_data="꯹" />
+            <softkey id="@id/id_0x7f0b175b" long_press_data="0,⁰,ⁿ,∅" press_data="꯰" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b17bf" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="၁" />
+            <softkey id="@id/id_0x7f0b17c3" long_press_data="2,²,⅔,⅖" press_data="၂" />
+            <softkey id="@id/id_0x7f0b17c2" long_press_data="3,³,¾,⅗,⅜" press_data="၃" />
+            <softkey id="@id/id_0x7f0b17bd" long_press_data="4,⁴,⅘" press_data="၄" />
+            <softkey id="@id/id_0x7f0b17bc" long_press_data="5,⁵,⅚,⅝" press_data="၅" />
+            <softkey id="@id/id_0x7f0b17c1" long_press_data="6,⁶" press_data="၆" />
+            <softkey id="@id/id_0x7f0b17c0" long_press_data="7,⁷,⅞" press_data="၇" />
+            <softkey id="@id/id_0x7f0b17bb" long_press_data="8,⁸" press_data="၈" />
+            <softkey id="@id/id_0x7f0b17be" long_press_data="9,⁹" press_data="၉" />
+            <softkey id="@id/id_0x7f0b17c4" long_press_data="0,⁰,ⁿ,∅" press_data="၀" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b181b" long_press_data="၁,1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="႑" />
+            <softkey id="@id/id_0x7f0b181f" long_press_data="၂,2,²,⅔,⅖" press_data="႒" />
+            <softkey id="@id/id_0x7f0b181e" long_press_data="၃,3,³,¾,⅗,⅜" press_data="႓" />
+            <softkey id="@id/id_0x7f0b1819" long_press_data="၄,4,⁴,⅘" press_data="႔" />
+            <softkey id="@id/id_0x7f0b1818" long_press_data="၅,5,⁵,⅚,⅝" press_data="႕" />
+            <softkey id="@id/id_0x7f0b181d" long_press_data="၆,6,⁶" press_data="႖" />
+            <softkey id="@id/id_0x7f0b181c" long_press_data="၇,7,⁷,⅞" press_data="႗" />
+            <softkey id="@id/id_0x7f0b1817" long_press_data="၈,8,⁸" press_data="႘" />
+            <softkey id="@id/id_0x7f0b181a" long_press_data="၉,9,⁹" press_data="႙" />
+            <softkey id="@id/id_0x7f0b1820" long_press_data="၀,0,⁰,ⁿ,∅" press_data="႐" />
+            <softkey id="@id/id_0x7f0b1830" long_press_data="!" press_data="႟" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b184f" long_press_data="᧚,1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="᧑" />
+            <softkey id="@id/id_0x7f0b1853" long_press_data="2,²,⅔,⅖" press_data="᧒" />
+            <softkey id="@id/id_0x7f0b1852" long_press_data="3,³,¾,⅗,⅜" press_data="᧓" />
+            <softkey id="@id/id_0x7f0b184d" long_press_data="4,⁴,⅘" press_data="᧔" />
+            <softkey id="@id/id_0x7f0b184c" long_press_data="5,⁵,⅚,⅝" press_data="᧕" />
+            <softkey id="@id/id_0x7f0b1851" long_press_data="6,⁶" press_data="᧖" />
+            <softkey id="@id/id_0x7f0b1850" long_press_data="7,⁷,⅞" press_data="᧗" />
+            <softkey id="@id/id_0x7f0b184b" long_press_data="8,⁸" press_data="᧘" />
+            <softkey id="@id/id_0x7f0b184e" long_press_data="9,⁹" press_data="᧙" />
+            <softkey id="@id/id_0x7f0b1854" long_press_data="0,⁰,ⁿ,∅" press_data="᧐" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1891" long_press_data="1,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="߁" />
+            <softkey id="@id/id_0x7f0b1895" long_press_data="2,⅔,⅖" press_data="߂" />
+            <softkey id="@id/id_0x7f0b1894" long_press_data="3,¾,⅗,⅜" press_data="߃" />
+            <softkey id="@id/id_0x7f0b188f" long_press_data="4,⅘" press_data="߄" />
+            <softkey id="@id/id_0x7f0b188e" long_press_data="5,⅚,⅝" press_data="߅" />
+            <softkey id="@id/id_0x7f0b1893" long_press_data="6" press_data="߆" />
+            <softkey id="@id/id_0x7f0b1892" long_press_data="7,⅞" press_data="߇" />
+            <softkey id="@id/id_0x7f0b188d" long_press_data="8" press_data="߈" />
+            <softkey id="@id/id_0x7f0b1890" long_press_data="9" press_data="߉" />
+            <softkey id="@id/id_0x7f0b1896" long_press_data="0" press_data="߀" />
+            <softkey id="@id/id_0x7f0b188c" long_press_data=":" press_data="߸" />
+            <softkey id="@id/id_0x7f0b1897" long_press_data="!" press_data="߹" />
+            <softkey id="@id/id_0x7f0b189d" long_press_data=";" press_data="ߑ" />
+            <softkey id="@id/id_0x7f0b18b7" long_press_data="&quot;" press_data="߷" />
+            <softkey id="@id/id_0x7f0b18b8" long_press_data="'" press_data="ߺ" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b191a" long_press_data="1,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="᱑" />
+            <softkey id="@id/id_0x7f0b191e" long_press_data="2,⅔,⅖" press_data="᱒" />
+            <softkey id="@id/id_0x7f0b191d" long_press_data="3,¾,⅗,⅜" press_data="᱓" />
+            <softkey id="@id/id_0x7f0b1918" long_press_data="4,⅘" press_data="᱔" />
+            <softkey id="@id/id_0x7f0b1917" long_press_data="5,⅚,⅝" press_data="᱕" />
+            <softkey id="@id/id_0x7f0b191c" long_press_data="6" press_data="᱖" />
+            <softkey id="@id/id_0x7f0b191b" long_press_data="7,⅞" press_data="᱗" />
+            <softkey id="@id/id_0x7f0b1916" long_press_data="8" press_data="᱘" />
+            <softkey id="@id/id_0x7f0b1919" long_press_data="9" press_data="᱙" />
+            <softkey id="@id/id_0x7f0b191f" long_press_data="0" press_data="᱐" />
+            <softkey id="@id/id_0x7f0b1915" long_press_data="*" press_data="ᱽ" />
+            <softkey id="@id/id_0x7f0b1920" long_press_data="!" press_data="ᱹ" />
+            <softkey id="@id/id_0x7f0b193f" long_press_data=":" press_data="ᱺ" />
+            <softkey id="@id/id_0x7f0b1940" long_press_data=";" press_data="ᱸ" />
+            <softkey id="@id/id_0x7f0b1941" long_press_data="-" press_data="ᱼ" />
+            <softkey id="@id/id_0x7f0b1942" long_press_data="&quot;" press_data="᱿" />
+            <softkey id="@id/id_0x7f0b1943" long_press_data="'" press_data="᱾" />
+            <softkey id="@id/id_0x7f0b1944" long_press_data="?" press_data="ᱻ" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b194b" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="୧" />
+            <softkey id="@id/id_0x7f0b194f" long_press_data="2,²,⅔,⅖" press_data="୨" />
+            <softkey id="@id/id_0x7f0b194e" long_press_data="3,³,¾,⅗,⅜" press_data="୩" />
+            <softkey id="@id/id_0x7f0b1949" long_press_data="4,⁴,⅘" press_data="୪" />
+            <softkey id="@id/id_0x7f0b1948" long_press_data="5,⁵,⅚,⅝" press_data="୫" />
+            <softkey id="@id/id_0x7f0b194d" long_press_data="6,⁶" press_data="୬" />
+            <softkey id="@id/id_0x7f0b194c" long_press_data="7,⁷,⅞" press_data="୭" />
+            <softkey id="@id/id_0x7f0b1947" long_press_data="8,⁸" press_data="୮" />
+            <softkey id="@id/id_0x7f0b194a" long_press_data="9,⁹" press_data="୯" />
+            <softkey id="@id/id_0x7f0b1950" long_press_data="0,⁰,ⁿ,∅" press_data="୦" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0cfb" long_press_data="¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="1" />
+            <softkey id="@id/id_0x7f0b0d23" long_press_data="²,⅔,⅖" press_data="2" />
+            <softkey id="@id/id_0x7f0b0d19" long_press_data="³,¾,⅗,⅜" press_data="3" />
+            <softkey id="@id/id_0x7f0b0ce7" long_press_data="⁴,⅘" press_data="4" />
+            <softkey id="@id/id_0x7f0b0cdd" long_press_data="⁵,⅚,⅝" press_data="5" />
+            <softkey id="@id/id_0x7f0b0d0f" long_press_data="⁶" press_data="6" />
+            <softkey id="@id/id_0x7f0b0d05" long_press_data="⁷,⅞" press_data="7" />
+            <softkey id="@id/id_0x7f0b0cd3" long_press_data="⁸" press_data="8" />
+            <softkey id="@id/id_0x7f0b0cf1" long_press_data="⁹" press_data="9" />
+            <softkey id="@id/id_0x7f0b0d2d" long_press_data="⁰,ⁿ,∅" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0cfc" long_press_data="١,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="1" />
+            <softkey id="@id/id_0x7f0b0d24" long_press_data="٢,²,⅔,⅖" press_data="2" />
+            <softkey id="@id/id_0x7f0b0d1a" long_press_data="٣,³,¾,⅗,⅜" press_data="3" />
+            <softkey id="@id/id_0x7f0b0ce8" long_press_data="٤,⁴,⅘" press_data="4" />
+            <softkey id="@id/id_0x7f0b0cde" long_press_data="٥,⁵,⅚,⅝" press_data="5" />
+            <softkey id="@id/id_0x7f0b0d10" long_press_data="٦,⁶" press_data="6" />
+            <softkey id="@id/id_0x7f0b0d06" long_press_data="٧,⁷,⅞" press_data="7" />
+            <softkey id="@id/id_0x7f0b0cd4" long_press_data="٨,⁸" press_data="8" />
+            <softkey id="@id/id_0x7f0b0cf2" long_press_data="٩,⁹" press_data="9" />
+            <softkey id="@id/id_0x7f0b0d2e" long_press_data="٠,⁰,ⁿ,∅" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0d2f" long_press_data="҂,҈,҉,꙰,꙱,꙲" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d38">
+            <softkey id="@id/id_0x7f0b0cfd" long_press_data="ⲁ̅,ⲓ̅,ⲣ̅" long_press_label="ⲁ̅,ⲓ̅,ⲣ̅" press_data="1" press_label="1" />
+            <softkey id="@id/id_0x7f0b0d25" long_press_data="ⲃ̅,ⲕ̅,ⲥ̅" long_press_label="ⲃ̅,ⲕ̅,ⲥ̅" press_data="2" press_label="2" />
+            <softkey id="@id/id_0x7f0b0d1b" long_press_data="ⲅ̅,ⲗ̅,ⲧ̅" long_press_label="ⲅ̅,ⲗ̅,ⲧ̅" press_data="3" press_label="3" />
+            <softkey id="@id/id_0x7f0b0ce9" long_press_data="ⲇ̅,ⲙ̅,ⲩ̅" long_press_label="ⲇ̅,ⲙ̅,ⲩ̅" press_data="4" press_label="4" />
+            <softkey id="@id/id_0x7f0b0cdf" long_press_data="ⲉ̅,ⲛ̅,ⲫ̅" long_press_label="ⲉ̅,ⲛ̅,ⲫ̅" press_data="5" press_label="5" />
+            <softkey id="@id/id_0x7f0b0d11" long_press_data="ⲋ̅,ⲝ̅,ⲭ̅" long_press_label="ⲋ̅,ⲝ̅,ⲭ̅" press_data="6" press_label="6" />
+            <softkey id="@id/id_0x7f0b0d07" long_press_data="ⲍ̅,ⲟ̅,ⲯ̅" long_press_label="ⲍ̅,ⲟ̅,ⲯ̅" press_data="7" press_label="7" />
+            <softkey id="@id/id_0x7f0b0cd5" long_press_data="ⲏ̅,ⲡ̅,ⲱ̅" long_press_label="ⲏ̅,ⲡ̅,ⲱ̅" press_data="8" press_label="8" />
+            <softkey id="@id/id_0x7f0b0cf3" long_press_data="ⲑ̅,ϥ̅,⳨" long_press_label="ⲑ̅,ϥ̅,⳨" press_data="9" press_label="9" />
+            <softkey id="@id/id_0x7f0b0d30" long_press_data="̅" long_press_label="◌̅" press_data="0" press_label="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0cfe" long_press_data="१,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="1" />
+            <softkey id="@id/id_0x7f0b0d26" long_press_data="२,²,⅔,⅖" press_data="2" />
+            <softkey id="@id/id_0x7f0b0d1c" long_press_data="३,³,¾,⅗,⅜" press_data="3" />
+            <softkey id="@id/id_0x7f0b0cea" long_press_data="४,⁴,⅘" press_data="4" />
+            <softkey id="@id/id_0x7f0b0ce0" long_press_data="५,⁵,⅚,⅝" press_data="5" />
+            <softkey id="@id/id_0x7f0b0d12" long_press_data="६,⁶" press_data="6" />
+            <softkey id="@id/id_0x7f0b0d08" long_press_data="७,⁷,⅞" press_data="7" />
+            <softkey id="@id/id_0x7f0b0cd6" long_press_data="८,⁸" press_data="8" />
+            <softkey id="@id/id_0x7f0b0cf4" long_press_data="९,⁹" press_data="9" />
+            <softkey id="@id/id_0x7f0b0d31" long_press_data="०,⁰,ⁿ,∅" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0cff" long_press_data="۱,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="1" />
+            <softkey id="@id/id_0x7f0b0d27" long_press_data="۲,²,⅔,⅖" press_data="2" />
+            <softkey id="@id/id_0x7f0b0d1d" long_press_data="۳,³,¾,⅗,⅜" press_data="3" />
+            <softkey id="@id/id_0x7f0b0ceb" long_press_data="۴,⁴,⅘" press_data="4" />
+            <softkey id="@id/id_0x7f0b0ce1" long_press_data="۵,⁵,⅚,⅝" press_data="5" />
+            <softkey id="@id/id_0x7f0b0d13" long_press_data="۶,⁶" press_data="6" />
+            <softkey id="@id/id_0x7f0b0d09" long_press_data="۷,⁷,⅞" press_data="7" />
+            <softkey id="@id/id_0x7f0b0cd7" long_press_data="۸,⁸" press_data="8" />
+            <softkey id="@id/id_0x7f0b0cf5" long_press_data="۹,⁹" press_data="9" />
+            <softkey id="@id/id_0x7f0b0d32" long_press_data="۰,⁰,ⁿ,∅" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0d00" long_press_data="໑,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="1" />
+            <softkey id="@id/id_0x7f0b0d28" long_press_data="໒,²,⅔,⅖" press_data="2" />
+            <softkey id="@id/id_0x7f0b0d1e" long_press_data="໓,³,¾,⅗,⅜" press_data="3" />
+            <softkey id="@id/id_0x7f0b0cec" long_press_data="໔,⁴,⅘" press_data="4" />
+            <softkey id="@id/id_0x7f0b0ce2" long_press_data="໕,⁵,⅚,⅝" press_data="5" />
+            <softkey id="@id/id_0x7f0b0d14" long_press_data="໖,⁶" press_data="6" />
+            <softkey id="@id/id_0x7f0b0d0a" long_press_data="໗,⁷,⅞" press_data="7" />
+            <softkey id="@id/id_0x7f0b0cd8" long_press_data="໘,⁸" press_data="8" />
+            <softkey id="@id/id_0x7f0b0cf6" long_press_data="໙,⁹" press_data="9" />
+            <softkey id="@id/id_0x7f0b0d33" long_press_data="໐,⁰,ⁿ,∅" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0d01" long_press_data="൧,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒,൰,൱,൲,൳,൴" press_data="1" />
+            <softkey id="@id/id_0x7f0b0d29" long_press_data="൨,²,⅔,⅖" press_data="2" />
+            <softkey id="@id/id_0x7f0b0d1f" long_press_data="൩,³,¾,⅗,⅜,൵" press_data="3" />
+            <softkey id="@id/id_0x7f0b0ced" long_press_data="൪,⁴,⅘" press_data="4" />
+            <softkey id="@id/id_0x7f0b0ce3" long_press_data="൫,⁵,⅚,⅝" press_data="5" />
+            <softkey id="@id/id_0x7f0b0d15" long_press_data="൬,⁶" press_data="6" />
+            <softkey id="@id/id_0x7f0b0d0b" long_press_data="൭,⁷,⅞" press_data="7" />
+            <softkey id="@id/id_0x7f0b0cd9" long_press_data="൮,⁸" press_data="8" />
+            <softkey id="@id/id_0x7f0b0cf7" long_press_data="൯,⁹" press_data="9" />
+            <softkey id="@id/id_0x7f0b0d34" long_press_data="൦,⁰,ⁿ,∅" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0d02" long_press_data="၁,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="1" />
+            <softkey id="@id/id_0x7f0b0d2a" long_press_data="၂,²,⅔,⅖" press_data="2" />
+            <softkey id="@id/id_0x7f0b0d20" long_press_data="၃,³,¾,⅗,⅜" press_data="3" />
+            <softkey id="@id/id_0x7f0b0cee" long_press_data="၄,⁴,⅘" press_data="4" />
+            <softkey id="@id/id_0x7f0b0ce4" long_press_data="၅,⁵,⅚,⅝" press_data="5" />
+            <softkey id="@id/id_0x7f0b0d16" long_press_data="၆,⁶" press_data="6" />
+            <softkey id="@id/id_0x7f0b0d0c" long_press_data="၇,⁷,⅞" press_data="7" />
+            <softkey id="@id/id_0x7f0b0cda" long_press_data="၈,⁸" press_data="8" />
+            <softkey id="@id/id_0x7f0b0cf8" long_press_data="၉,⁹" press_data="9" />
+            <softkey id="@id/id_0x7f0b0d35" long_press_data="၀,⁰,ⁿ,∅" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0d03" long_press_data="๑,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="1" />
+            <softkey id="@id/id_0x7f0b0d2b" long_press_data="๒,²,⅔,⅖" press_data="2" />
+            <softkey id="@id/id_0x7f0b0d21" long_press_data="๓,³,¾,⅗,⅜" press_data="3" />
+            <softkey id="@id/id_0x7f0b0cef" long_press_data="๔,⁴,⅘" press_data="4" />
+            <softkey id="@id/id_0x7f0b0ce5" long_press_data="๕,⁵,⅚,⅝" press_data="5" />
+            <softkey id="@id/id_0x7f0b0d17" long_press_data="๖,⁶" press_data="6" />
+            <softkey id="@id/id_0x7f0b0d0d" long_press_data="๗,⁷,⅞" press_data="7" />
+            <softkey id="@id/id_0x7f0b0cdb" long_press_data="๘,⁸" press_data="8" />
+            <softkey id="@id/id_0x7f0b0cf9" long_press_data="๙,⁹" press_data="9" />
+            <softkey id="@id/id_0x7f0b0d36" long_press_data="๐,⁰,ⁿ,∅" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0d04" long_press_data="꘡,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="1" />
+            <softkey id="@id/id_0x7f0b0d2c" long_press_data="꘢,²,⅔,⅖" press_data="2" />
+            <softkey id="@id/id_0x7f0b0d22" long_press_data="꘣,³,¾,⅗,⅜" press_data="3" />
+            <softkey id="@id/id_0x7f0b0cf0" long_press_data="꘤,⁴,⅘" press_data="4" />
+            <softkey id="@id/id_0x7f0b0ce6" long_press_data="꘥,⁵,⅚,⅝" press_data="5" />
+            <softkey id="@id/id_0x7f0b0d18" long_press_data="꘦,⁶" press_data="6" />
+            <softkey id="@id/id_0x7f0b0d0e" long_press_data="꘧,⁷,⅞" press_data="7" />
+            <softkey id="@id/id_0x7f0b0cdc" long_press_data="꘨,⁸" press_data="8" />
+            <softkey id="@id/id_0x7f0b0cfa" long_press_data="꘩,⁹" press_data="9" />
+            <softkey id="@id/id_0x7f0b0d37" long_press_data="꘠,⁰,ⁿ,∅" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1a9b" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="꣑" />
+            <softkey id="@id/id_0x7f0b1a9f" long_press_data="2,²,⅔,⅖" press_data="꣒" />
+            <softkey id="@id/id_0x7f0b1a9e" long_press_data="3,³,¾,⅗,⅜" press_data="꣓" />
+            <softkey id="@id/id_0x7f0b1a99" long_press_data="4,⁴,⅘" press_data="꣔" />
+            <softkey id="@id/id_0x7f0b1a98" long_press_data="5,⁵,⅚,⅝" press_data="꣕" />
+            <softkey id="@id/id_0x7f0b1a9d" long_press_data="6,⁶" press_data="꣖" />
+            <softkey id="@id/id_0x7f0b1a9c" long_press_data="7,⁷,⅞" press_data="꣗" />
+            <softkey id="@id/id_0x7f0b1a97" long_press_data="8,⁸" press_data="꣘" />
+            <softkey id="@id/id_0x7f0b1a9a" long_press_data="9,⁹" press_data="꣙" />
+            <softkey id="@id/id_0x7f0b1aa0" long_press_data="0,⁰,ⁿ,∅" press_data="꣐" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1b43" long_press_data="1,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="᮱" />
+            <softkey id="@id/id_0x7f0b1b47" long_press_data="2,²,⅔,⅖" press_data="᮲" />
+            <softkey id="@id/id_0x7f0b1b46" long_press_data="3,³,¾,⅗,⅜" press_data="᮳" />
+            <softkey id="@id/id_0x7f0b1b41" long_press_data="4,⁴,⅘" press_data="᮴" />
+            <softkey id="@id/id_0x7f0b1b40" long_press_data="5,⁵,⅚,⅝" press_data="᮵" />
+            <softkey id="@id/id_0x7f0b1b45" long_press_data="6,⁶" press_data="᮶" />
+            <softkey id="@id/id_0x7f0b1b44" long_press_data="7,⁷,⅞" press_data="᮷" />
+            <softkey id="@id/id_0x7f0b1b3f" long_press_data="8,⁸" press_data="᮸" />
+            <softkey id="@id/id_0x7f0b1b42" long_press_data="9,⁹" press_data="᮹" />
+            <softkey id="@id/id_0x7f0b1b48" long_press_data="0,⁰,ⁿ,∅" press_data="᮰" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1c7c" long_press_data="௧,௰,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="1" />
+            <softkey id="@id/id_0x7f0b1c80" long_press_data="௨,௱,²,⅔,⅖" press_data="2" />
+            <softkey id="@id/id_0x7f0b1c7f" long_press_data="௩,௲,³,¾,⅗,⅜" press_data="3" />
+            <softkey id="@id/id_0x7f0b1c7a" long_press_data="௪,௳,⁴,⅘" press_data="4" />
+            <softkey id="@id/id_0x7f0b1c79" long_press_data="௫,௴,⁵,⅚,⅝" press_data="5" />
+            <softkey id="@id/id_0x7f0b1c7e" long_press_data="௬,௵,⁶" press_data="6" />
+            <softkey id="@id/id_0x7f0b1c7d" long_press_data="௭,௶,⁷,⅞" press_data="7" />
+            <softkey id="@id/id_0x7f0b1c78" long_press_data="௮,௷,⁸" press_data="8" />
+            <softkey id="@id/id_0x7f0b1c7b" long_press_data="௯,௸,⁹" press_data="9" />
+            <softkey id="@id/id_0x7f0b1c81" long_press_data="௦,௺,⁰,ⁿ,∅" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1cab" long_press_data="౧,౹,౼,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="1" />
+            <softkey id="@id/id_0x7f0b1caf" long_press_data="౨,౺,౽,²,⅔,⅖" press_data="2" />
+            <softkey id="@id/id_0x7f0b1cae" long_press_data="౩,౻,౾,³,¾,⅗,⅜" press_data="3" />
+            <softkey id="@id/id_0x7f0b1ca9" long_press_data="౪,⁴,⅘" press_data="4" />
+            <softkey id="@id/id_0x7f0b1ca8" long_press_data="౫,⁵,⅚,⅝" press_data="5" />
+            <softkey id="@id/id_0x7f0b1cad" long_press_data="౬,⁶" press_data="6" />
+            <softkey id="@id/id_0x7f0b1cac" long_press_data="౭,⁷,⅞" press_data="7" />
+            <softkey id="@id/id_0x7f0b1ca7" long_press_data="౮,⁸" press_data="8" />
+            <softkey id="@id/id_0x7f0b1caa" long_press_data="౯,⁹" press_data="9" />
+            <softkey id="@id/id_0x7f0b1cb0" long_press_data="౦,౸,౿,⁰,ⁿ,∅" press_data="0" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1de6" long_press_data="0,༳" press_data="༠" />
+            <softkey id="@id/id_0x7f0b1de1" long_press_data="1,༪" press_data="༡" />
+            <softkey id="@id/id_0x7f0b1de5" long_press_data="2,༫" press_data="༢" />
+            <softkey id="@id/id_0x7f0b1de4" long_press_data="3,༬" press_data="༣" />
+            <softkey id="@id/id_0x7f0b1ddf" long_press_data="4,༭" press_data="༤" />
+            <softkey id="@id/id_0x7f0b1dde" long_press_data="5,༮" press_data="༥" />
+            <softkey id="@id/id_0x7f0b1de3" long_press_data="6,༯" press_data="༦" />
+            <softkey id="@id/id_0x7f0b1de2" long_press_data="7,༰" press_data="༧" />
+            <softkey id="@id/id_0x7f0b1ddd" long_press_data="8,༱" press_data="༨" />
+            <softkey id="@id/id_0x7f0b1de0" long_press_data="9,༲" press_data="༩" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1e1f" long_press_data="༂,༃" press_data="༁" />
+            <softkey id="@id/id_0x7f0b1e17" long_press_data="༆,༇,࿓" press_data="༄" />
+            <softkey id="@id/id_0x7f0b1e11" long_press_data="࿔" press_data="༅" />
+            <softkey id="@id/id_0x7f0b1e0e" long_press_data="༊,࿐,࿑" press_data="༉" />
+            <softkey id="@id/id_0x7f0b1e27" press_data="ཿ" />
+            <softkey id="@id/id_0x7f0b1e1b" press_data="྅" />
+            <softkey id="@id/id_0x7f0b1e26" press_data="ཾ" />
+            <softkey id="@id/id_0x7f0b1e28" long_press_data="ྂ,྆,྇" press_data="ྃ" />
+            <softkey id="@id/id_0x7f0b1e24" long_press_data="ྍ" press_data="ྈ" />
+            <softkey id="@id/id_0x7f0b1e25" long_press_data="ྎ" press_data="ྉ" />
+            <softkey id="@id/id_0x7f0b1e23" long_press_data="ྏ" press_data="ྌ" />
+            <softkey id="@id/id_0x7f0b1e04" long_press_data="ྚ" press_data="ཊ" />
+            <softkey id="@id/id_0x7f0b1e05" long_press_data="ྛ" press_data="ཋ" />
+            <softkey id="@id/id_0x7f0b1ded" long_press_data="ྜ" press_data="ཌ" />
+            <softkey id="@id/id_0x7f0b1df8" long_press_data="ྞ" press_data="ཎ" />
+            <softkey id="@id/id_0x7f0b1dff" long_press_data="ྵ" press_data="ཥ" />
+            <softkey id="@id/id_0x7f0b1e10" press_data="༸" />
+            <softkey id="@id/id_0x7f0b1e52" long_press_data="༁,༂,༃" press_data="ༀ" />
+            <softkey id="@id/id_0x7f0b1e53" press_data="ༀ" />
+            <softkey id="@id/id_0x7f0b1e0f" long_press_data="༶,྿,྾" press_data="༓" />
+            <softkey id="@id/id_0x7f0b1ddc" long_press_data="࿁,࿂,࿃" press_data="࿀" />
+            <softkey id="@id/id_0x7f0b1e19" press_data="༵" />
+            <softkey id="@id/id_0x7f0b1e1a" press_data="༷" />
+            <softkey id="@id/id_0x7f0b1e0d" press_data="༴" />
+            <softkey id="@id/id_0x7f0b1e32" press_data="ྺ" />
+            <softkey id="@id/id_0x7f0b1e2e" press_data="ྰ" />
+            <softkey id="@id/id_0x7f0b1e33" press_data="ྻ" />
+            <softkey id="@id/id_0x7f0b1e31" press_data="ྼ" />
+            <softkey id="@id/id_0x7f0b1e1e" press_data="༹" />
+            <softkey id="@id/id_0x7f0b1e21" press_data="ྊ" />
+            <softkey id="@id/id_0x7f0b1e22" press_data="ྋ" />
+            <softkey id="@id/id_0x7f0b1e50" press_data="ྍ" />
+            <softkey id="@id/id_0x7f0b1e51" press_data="ྎ" />
+            <softkey id="@id/id_0x7f0b1e4f" press_data="ྏ" />
+            <softkey id="@id/id_0x7f0b1e49" press_data="ྚ" />
+            <softkey id="@id/id_0x7f0b1e4a" press_data="ྛ" />
+            <softkey id="@id/id_0x7f0b1e2f" press_data="ྜ" />
+            <softkey id="@id/id_0x7f0b1e3d" press_data="ྞ" />
+            <softkey id="@id/id_0x7f0b1e44" press_data="ྵ" />
+            <softkey id="@id/id_0x7f0b1e0c" press_data="༼" />
+            <softkey id="@id/id_0x7f0b1e0b" press_data="༽" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3a">
+            <softkey id="@id/id_0x7f0b1e14" press_data="༺" />
+            <softkey id="@id/id_0x7f0b1e13" press_data="༻" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d09">
+            <softkey id="@id/id_0x7f0b1e1c" long_press_data="༒,།,༎,༑,༐,༏" press_data="༈" />
+            <softkey id="@id/id_0x7f0b1e0a" long_press_data="༞,༝,༚,༛,༜,࿏,࿎,༟,༾,༿,༖,༗,༘,༙" press_data="༕" />
+            <softkey id="@id/id_0x7f0b1e54" long_press_data="࿅,࿇,࿈,࿉,࿊,࿋,࿌,☸,࿕,࿖,࿗,࿘" press_data="࿄" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d08">
+            <softkey id="@id/id_0x7f0b071a" long_press_data="‚,‘,’,›,‹" long_press_label="‚,‘,’,‹,›" press_data="'" press_label="'" />
+            <softkey id="@id/id_0x7f0b0786" long_press_data="ﷲ,ؐ,ؑ,ؒ,ؓ,ؔ" long_press_label="ﷲ,ؐ,ؑ,ؒ,ؓ,ؔ" press_data="ﷺ" press_label="ﷺ" />
+            <softkey id="@id/id_0x7f0b0788" long_press_data="؁,؂,؃,؍,٭,؞" long_press_label="؁,؂,؃,؍,٭,؞" press_data="؀" press_label="؀" />
+            <softkey id="@id/id_0x7f0b078b" long_press_data="„,“,”,»,«" long_press_label="„,“,”,«,»" press_data="&quot;" press_label="&quot;" />
+            <softkey id="@id/id_0x7f0b11dc" long_press_data="‘,’,‚,›,‹" long_press_label="‘,’,‚,‹,›" press_data="'" press_label="'" />
+            <softkey id="@id/id_0x7f0b1209" long_press_data="“,”,„,»,«" long_press_label="“,”,„,«,»" press_data="&quot;" press_label="&quot;" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b071b" long_press_data="★,٭" press_data="*" />
+            <softkey id="@id/id_0x7f0b071e" long_press_data="٬,',&quot;,*" press_data="٫" />
+            <softkey id="@id/id_0x7f0b0789" long_press_data="%,‰,℅" press_data="٪" />
+            <softkey id="@id/id_0x7f0b078a" long_press_data="\\?,¿" press_data="؟" />
+            <softkey id="@id/id_0x7f0b0790" long_press_data=";" press_data="؛" />
+            <softkey id="@id/id_0x7f0b11dd" long_press_data="★" press_data="*" />
+            <softkey id="@id/id_0x7f0b1203" long_press_data="±,﬩" press_data="+" />
+            <softkey id="@id/id_0x7f0b1a2c" long_press_data="‰,℅,٪" press_data="%" />
+            <softkey id="@id/id_0x7f0b0793" long_press_data="_" press_data="ـ" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d38">
+            <softkey id="@id/id_0x7f0b072c" press_data="}" press_label="{" />
+            <softkey id="@id/id_0x7f0b072d" long_press_data="﴾,>,},]" long_press_label="﴾,&lt;,{,[" press_data=")" press_label="(" />
+            <softkey id="@id/id_0x7f0b072e" long_press_data="›,≥,>,⟩" long_press_label="‹,≤,&lt;,⟨" press_data="»" press_label="«" />
+            <softkey id="@id/id_0x7f0b11e0" long_press_data="≥,›,»,⟩" long_press_label="≤,‹,«,⟨" press_data=">" press_label="&lt;" />
+            <softkey id="@id/id_0x7f0b072f" press_data="]" press_label="[" />
+            <softkey id="@id/id_0x7f0b078c" press_data="{" press_label="}" />
+            <softkey id="@id/id_0x7f0b078d" long_press_data="﴿,&lt;,{,[" long_press_label="﴿,>,},]" press_data="(" press_label=")" />
+            <softkey id="@id/id_0x7f0b078e" long_press_data="‹,≤,&lt;,⟨" long_press_label="›,≥,>,⟩" press_data="«" press_label="»" />
+            <softkey id="@id/id_0x7f0b1201" long_press_data="≤,‹,«,⟨" long_press_label="≥,›,»,⟩" press_data="&lt;" press_label=">" />
+            <softkey id="@id/id_0x7f0b078f" press_data="[" press_label="]" />
+            <softkey id="@id/id_0x7f0b11df" long_press_data=">,},]" long_press_label="&lt;,{,[" press_data=")" press_label="(" />
+            <softkey id="@id/id_0x7f0b120a" long_press_data="&lt;,{,[" long_press_label=">,},]" press_data="(" press_label=")" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d38">
+            <softkey id="@id/id_0x7f0b1788" long_press_data="̋" long_press_label="◌̋" press_data="˥" press_label="˥" />
+            <softkey id="@id/id_0x7f0b178e" long_press_data="́" long_press_label="◌́" press_data="˦" press_label="˦" />
+            <softkey id="@id/id_0x7f0b1793" long_press_data="̄" long_press_label="◌̄" press_data="˧" press_label="˧" />
+            <softkey id="@id/id_0x7f0b1791" long_press_data="̀" long_press_label="◌̀" press_data="˨" press_label="˨" />
+            <softkey id="@id/id_0x7f0b178a" long_press_data="̏" long_press_label="◌̏" press_data="˩" press_label="˩" />
+            <softkey id="@id/id_0x7f0b178b" long_press_data="̌,ꜛ,↗︎" long_press_label="◌̌,◌ꜛ,↗︎" press_data="˩˥" press_label="˩˥" />
+            <softkey id="@id/id_0x7f0b1789" long_press_data="̂,ꜜ,↘︎" long_press_label="◌̂,◌ꜜ,↘︎" press_data="˥˩" press_label="˥˩" />
+            <softkey id="@id/id_0x7f0b178f" long_press_data="᷄" long_press_label="◌᷄" press_data="˦˥" press_label="˦˥" />
+            <softkey id="@id/id_0x7f0b178c" long_press_data="᷅" long_press_label="◌᷅" press_data="˩˨" press_label="˩˨" />
+            <softkey id="@id/id_0x7f0b1794" long_press_data="᷈,→" long_press_label="◌᷈,→" press_data="˧˦˧" press_label="˧˦˧" />
+            <softkey id="@id/id_0x7f0b1655" long_press_data="⟨,‹" long_press_label="⟨,‹" press_data="⸨" press_label="⸨" />
+            <softkey id="@id/id_0x7f0b1a86" long_press_data="⟩,›" long_press_label="⟩,›" press_data="⸩" press_label="⸩" />
+            <softkey id="@id/id_0x7f0b1eac" press_data="‿" press_label="‿" />
+            <softkey id="@id/id_0x7f0b17a1" press_data="ˈ" press_label="ˈ" />
+            <softkey id="@id/id_0x7f0b1792" press_data="ˌ" press_label="ˌ" />
+            <softkey id="@id/id_0x7f0b179f" press_data="ː" press_label="ː" />
+            <softkey id="@id/id_0x7f0b178d" press_data="ˑ" press_label="ˑ" />
+            <softkey id="@id/id_0x7f0b0aab" press_data="̆" press_label="◌̆" />
+            <softkey id="@id/id_0x7f0b0d48" press_data="‖" press_label="‖" />
+            <softkey id="@id/id_0x7f0b0ac4" long_press_data="˔,̞,˕" long_press_label="◌˔,◌̞,◌˕" press_data="̝" press_label="◌̝" />
+            <softkey id="@id/id_0x7f0b0ac0" long_press_data="͗,˒,̜,͑,˓" long_press_label="◌͗,◌˒,◌̜,◌͑,◌˓" press_data="̹" press_label="◌̹" />
+            <softkey id="@id/id_0x7f0b0abf" long_press_data="˖,̠,˗" long_press_label="◌˖,◌̠,◌˗" press_data="̟" press_label="◌̟" />
+            <softkey id="@id/id_0x7f0b1b6d" press_data="ⁿ" press_label="◌ⁿ" />
+            <softkey id="@id/id_0x7f0b179a" press_data="ˡ" press_label="◌ˡ" />
+            <softkey id="@id/id_0x7f0b0aba" press_data="̚" press_label="◌̚" />
+            <softkey id="@id/id_0x7f0b179b" press_data="ᵊ" press_label="◌ᵊ" />
+            <softkey id="@id/id_0x7f0b179c" press_data="ᶿ" press_label="◌ᶿ" />
+            <softkey id="@id/id_0x7f0b179e" press_data="ˣ" press_label="◌ˣ" />
+            <softkey id="@id/id_0x7f0b1786" press_data="ʼ" press_label="◌ʼ" />
+            <softkey id="@id/id_0x7f0b0ac5" long_press_data="̍" long_press_label="◌̍" press_data="̩" press_label="◌̩" />
+            <softkey id="@id/id_0x7f0b0ab9" long_press_data="̑" long_press_label="◌̑" press_data="̯" press_label="◌̯" />
+            <softkey id="@id/id_0x7f0b0abb" long_press_data="̙" long_press_label="◌̙" press_data="̘" press_label="◌̘" />
+            <softkey id="@id/id_0x7f0b0ab1" long_press_data="̽" long_press_label="◌̽" press_data="̈" press_label="◌̈" />
+            <softkey id="@id/id_0x7f0b0aad" long_press_data="͆,̺,̻" long_press_label="◌͆,◌̺,◌̻" press_data="̪" press_label="◌̪" />
+            <softkey id="@id/id_0x7f0b179d" long_press_data="̼" long_press_label="◌̼" press_data="ʷ" press_label="◌ʷ" />
+            <softkey id="@id/id_0x7f0b1799" press_data="ʲ" press_label="◌ʲ" />
+            <softkey id="@id/id_0x7f0b1797" long_press_data="̴" long_press_label="◌̴" press_data="ˠ" press_label="◌ˠ" />
+            <softkey id="@id/id_0x7f0b1795" long_press_data="̴" long_press_label="◌̴" press_data="ˁ" press_label="◌ˁ" />
+            <softkey id="@id/id_0x7f0b0ac1" long_press_data="̊" long_press_label="◌̊" press_data="̥" press_label="◌̥" />
+            <softkey id="@id/id_0x7f0b0aaf" press_data="̬" press_label="◌̬" />
+            <softkey id="@id/id_0x7f0b1798" press_data="ʰ" press_label="◌ʰ" />
+            <softkey id="@id/id_0x7f0b0ab2" press_data="̤" press_label="◌̤" />
+            <softkey id="@id/id_0x7f0b0ac3" press_data="̰" press_label="◌̰" />
+            <softkey id="@id/id_0x7f0b0ac2" press_data="̃" press_label="◌̃" />
+            <softkey id="@id/id_0x7f0b1796" press_data="˞" press_label="◌˞" />
+            <softkey id="@id/id_0x7f0b0ab7" press_data="͡" press_label="◌͡◌" />
+            <softkey id="@id/id_0x7f0b0ab6" press_data="͜" press_label="◌͜◌" />
+            <softkey id="@id/id_0x7f0b1a8f" press_data="→" press_label="→" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d09">
+            <softkey id="@id/id_0x7f0b0b0e" long_press_data="‘,‚,’,›,‹" press_data="'" />
+            <softkey id="@id/id_0x7f0b0b0f" long_press_data="“,„,”,»,«" press_data="&quot;" />
+            <softkey id="@id/id_0x7f0b0bb0" long_press_data="’,‚,‘,›,‹" press_data="'" />
+            <softkey id="@id/id_0x7f0b0bb1" long_press_data="”,„,“,»,«" press_data="&quot;" />
+            <softkey id="@id/id_0x7f0b0d4c" long_press_data="’,‚,‘,‹,›" press_data="'" />
+            <softkey id="@id/id_0x7f0b0d4d" long_press_data="”,„,“,«,»" press_data="&quot;" />
+            <softkey id="@id/id_0x7f0b1a91" long_press_data="‘,‚,’,‹,›" press_data="'" />
+            <softkey id="@id/id_0x7f0b1a92" long_press_data="“,„,”,«,»" press_data="&quot;" />
+            <softkey id="@id/id_0x7f0b1a95" long_press_data="‚,‘,’,‹,›,ʹ,´,ʼ,ˈ" press_data="'" />
+            <softkey id="@id/id_0x7f0b1b71" long_press_data="„,“,”,»,«" press_data="&quot;" />
+            <softkey id="@id/id_0x7f0b1b70" long_press_data="‚,‘,’,›,‹" press_data="'" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b07bd" long_press_data="՜,¡" press_data="!" />
+            <softkey id="@id/id_0x7f0b07bf" long_press_data="՞,¿" press_data="?" />
+            <softkey id="@id/id_0x7f0b1227" long_press_data="⁊" press_data="&amp;" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d09">
+            <softkey id="@id/id_0x7f0b1a56" long_press_data="„,“,”,«,»" press_data="&quot;" />
+            <softkey id="@id/id_0x7f0b1658" long_press_data="&quot;,《" press_data="“" />
+            <softkey id="@id/id_0x7f0b1a89" long_press_data="„,》" press_data="”" />
+            <softkey id="@id/id_0x7f0b0717" long_press_data="‚,‘,’,‹,›" press_data="'" />
+            <softkey id="@id/id_0x7f0b165c" long_press_data="',〈" press_data="‘" />
+            <softkey id="@id/id_0x7f0b1a8d" long_press_data="‚,〉" press_data="’" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0714" press_data="&amp;" />
+            <softkey id="@id/id_0x7f0b07f0" long_press_data="†,‡,★" press_data="*" />
+            <softkey id="@id/id_0x7f0b097a" long_press_data="♪,♥,♠,♦,♣" press_data="•" />
+            <softkey id="@id/id_0x7f0b0a5d" press_data="✓" />
+            <softkey id="@id/id_0x7f0b0a9a" long_press_data="↑,↓,←,→" press_data="^" />
+            <softkey id="@id/id_0x7f0b0b0d" press_data="©" />
+            <softkey id="@id/id_0x7f0b0aa5" press_data=":" />
+            <softkey id="@id/id_0x7f0b0aca" press_data="@" />
+            <softkey id="@id/id_0x7f0b0bb9" long_press_data="′,″" press_data="°" />
+            <softkey id="@id/id_0x7f0b0d3a" press_data="÷" />
+            <softkey id="@id/id_0x7f0b0d92" long_press_data="≠,≈,∞" press_data="=" />
+            <softkey id="@id/id_0x7f0b0ddb" long_press_data="¡" press_data="!" />
+            <softkey id="@id/id_0x7f0b1223" long_press_data="!" press_data="¡" />
+            <softkey id="@id/id_0x7f0b1026" long_press_data="…" press_data="." />
+            <softkey id="@id/id_0x7f0b1029" long_press_data=":" press_data="：" />
+            <softkey id="@id/id_0x7f0b102b" long_press_data="!,¡" press_data="！" />
+            <softkey id="@id/id_0x7f0b102c" long_press_data="(,&lt;,{,［,【" press_data="（" />
+            <softkey id="@id/id_0x7f0b102d" long_press_data="[" press_data="［" />
+            <softkey id="@id/id_0x7f0b102e" long_press_data="\\?,¿" press_data="？" />
+            <softkey id="@id/id_0x7f0b102f" long_press_data="),>,},］,】" press_data="）" />
+            <softkey id="@id/id_0x7f0b1030" long_press_data="]" press_data="］" />
+            <softkey id="@id/id_0x7f0b1031" long_press_data=";" press_data="；" />
+            <softkey id="@id/id_0x7f0b1099" press_data="`" />
+            <softkey id="@id/id_0x7f0b10a9" long_press_data="Π" press_data="Π" />
+            <softkey id="@id/id_0x7f0b10c4" long_press_data="Π,μ,Ω" press_data="π" />
+            <softkey id="@id/id_0x7f0b121d" long_press_data="_,–,—,·" press_data="-" />
+            <softkey id="@id/id_0x7f0b121e" press_data="、" />
+            <softkey id="@id/id_0x7f0b1220" press_data="∆" />
+            <softkey id="@id/id_0x7f0b1651" long_press_data="『" press_data="「" />
+            <softkey id="@id/id_0x7f0b1653" long_press_data="(" press_data="{" />
+            <softkey id="@id/id_0x7f0b165b" long_press_data="&lt;,{,[" press_data="(" />
+            <softkey id="@id/id_0x7f0b165d" press_data="[" />
+            <softkey id="@id/id_0x7f0b169c" press_data="≤" />
+            <softkey id="@id/id_0x7f0b1715" press_data="_" />
+            <softkey id="@id/id_0x7f0b1784" press_data="·" />
+            <softkey id="@id/id_0x7f0b17a6" press_data="≥" />
+            <softkey id="@id/id_0x7f0b17b0" press_data="×" />
+            <softkey id="@id/id_0x7f0b1911" press_data="≠" />
+            <softkey id="@id/id_0x7f0b1913" long_press_data="№" press_data="#" />
+            <softkey id="@id/id_0x7f0b1a2b" long_press_data="‰,℅" press_data="%" />
+            <softkey id="@id/id_0x7f0b1a48" long_press_data="§" press_data="¶" />
+            <softkey id="@id/id_0x7f0b1a4a" press_data="±" />
+            <softkey id="@id/id_0x7f0b1a4b" long_press_data="±" press_data="+" />
+            <softkey id="@id/id_0x7f0b1a53" long_press_data="¿,‽" press_data="?" />
+            <softkey id="@id/id_0x7f0b1225" long_press_data="\\?,‽" press_data="¿" />
+            <softkey id="@id/id_0x7f0b1a58" press_data="®" />
+            <softkey id="@id/id_0x7f0b1a7d" long_press_data=";" press_data="⁏" />
+            <softkey id="@id/id_0x7f0b1a7c" press_data="@string/string_0x7f1410e2" />
+            <softkey id="@id/id_0x7f0b1a82" long_press_data="』" press_data="」" />
+            <softkey id="@id/id_0x7f0b1a84" long_press_data=")" press_data="}" />
+            <softkey id="@id/id_0x7f0b1a8c" long_press_data=">,},]" press_data=")" />
+            <softkey id="@id/id_0x7f0b1a8e" press_data="]" />
+            <softkey id="@id/id_0x7f0b1ad2" long_press_data="¶" press_data="§" />
+            <softkey id="@id/id_0x7f0b1ad8" press_data=";" />
+            <softkey id="@id/id_0x7f0b1b1c" press_data="/" />
+            <softkey id="@id/id_0x7f0b1b2e" press_data="√" />
+            <softkey id="@id/id_0x7f0b1e9d" press_data="~" />
+            <softkey id="@id/id_0x7f0b1e9e" press_data="™" />
+            <softkey id="@id/id_0x7f0b1ee4" press_data="|" />
+            <softkey id="@id/id_0x7f0b1b6f" press_data="⁰" />
+            <softkey id="@id/id_0x7f0b1b6e" press_data="¹" />
+            <softkey id="@id/id_0x7f0b121b" press_data="…" />
+        </softkey_list>
+    </softkeys>
+</framework>

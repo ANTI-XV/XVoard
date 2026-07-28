@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">ကီး %d ခုကို သတ္မွတ္ၿပီးပါၿပီ</item>
+        <item quantity="other">ကီး %d ခုကို သတ္မွတ္ၿပီးပါၿပီ</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s ကို ယခု ထၫ့္သြင္းလိုက္ပါၿပီ။</item>
+        <item quantity="other">%s တို႔ကို ယခု ထၫ့္သြင္းလိုက္ပါၿပီ။</item>
+    </plurals>
+</resources>

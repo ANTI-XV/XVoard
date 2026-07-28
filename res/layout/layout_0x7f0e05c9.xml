@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView android:paddingTop="@dimen/dimen_0x7f07016a" app:attr_0x7f0402e6="false" style="@style/style_0x7f1501bf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout app:attr_0x7f0405f3="@string/string_0x7f1408e9" style="@style/style_0x7f15026f">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/id_0x7f0b2033" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b028c" app:attr_0x7f04060e="id_0x7f0b1f66" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150664">
+                    <include layout="@layout/layout_0x7f0e0652" />
+                    <include android:paddingStart="2.0dp" android:paddingEnd="2.0dp" layout="@layout/layout_0x7f0e0043" />
+                    <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:id="@id/id_0x7f0b00db" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:nestedScrollingEnabled="false" />
+                </LinearLayout>
+                <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/id_0x7f0b028c" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f040607="@dimen/dimen_0x7f070826" />
+                <LinearLayout android:scrollbarThumbVertical="@drawable/drawable_0x7f080583" android:scrollbarTrackVertical="@null" android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/id_0x7f0b027b" android:visibility="visible" android:scrollbars="vertical" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04060e="id_0x7f0b1f66" app:attr_0x7f04060f="1.0" app:attr_0x7f040616="@id/id_0x7f0b028c" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150662">
+                    <include android:id="@id/id_0x7f0b062a" android:visibility="gone" layout="@layout/layout_0x7f0e06e4" />
+                    <FrameLayout android:id="@id/animated_image_holder_view_container" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <com.google.android.apps.inputmethod.libs.search.widget.VerticalScrollAnimatedImageSidebarHolderView android:id="@id/id_0x7f0b0082" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" app:attr_0x7f0405bd="true" app:attr_0x7f0407fc="@integer/integer_0x7f0c0001" image_view_layout="@layout/layout_0x7f0e080a" />
+                    </FrameLayout>
+                    <ProgressBar android:layout_gravity="center" android:id="@id/id_0x7f0b0084" android:tag=".progress-bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/id_0x7f0b066b" android:focusable="true" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_marginStart="?attr_0x7f040110" android:layout_marginEnd="?attr_0x7f040110" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04060e="id_0x7f0b1f66" app:attr_0x7f04060f="1.0" app:attr_0x7f040616="@id/id_0x7f0b2033" app:attr_0x7f04061b="id_0x7f0b05c6" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <include layout="@layout/layout_0x7f0e0186" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

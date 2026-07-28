@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping state="COMPOSING">
+        <mapping key_id="@id/id_0x7f0b0bbb" view_id="@id/key_pos_del" />
+    </key_mapping>
+</framework>

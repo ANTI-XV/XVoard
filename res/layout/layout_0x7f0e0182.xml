@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.expression.header.ConstraintHeaderViewImpl android:id="@id/keyboard_expression_header_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/id_0x7f0b066c" android:tag=".expression-search-result-box" android:background="@color/color_0x7f060673" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="?attr_0x7f04008e" android:layout_marginStart="@dimen/dimen_0x7f0707df" android:layout_marginEnd="@dimen/dimen_0x7f070161" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b0628" app:attr_0x7f04061b="id_0x7f0b05c6" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/id_0x7f0b04be" android:layout_width="0.0dp" android:layout_height="match_parent" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b04b8" app:attr_0x7f040616="@id/id_0x7f0b04bd" app:attr_0x7f04061b="id_0x7f0b05c6">
+        <com.google.android.apps.inputmethod.libs.expression.header.StartElementRecyclerView android:orientation="horizontal" android:id="@id/id_0x7f0b04c0" android:layout_width="wrap_content" android:layout_height="match_parent" android:overScrollMode="never" android:keyboardNavigationCluster="true" app:attr_0x7f0405f3="com.google.android.apps.inputmethod.libs.expression.header.StartElementScrollBehavior" />
+        <android.support.v7.widget.RecyclerView android:layout_width="match_parent" android:layout_height="?attr_0x7f04008e" android:paddingStart="10.0dp" android:keyboardNavigationCluster="true" app:attr_0x7f0405f3="com.google.android.apps.inputmethod.libs.expression.header.MiddleElementScrollBehavior" style="@style/style_0x7f150271" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/id_0x7f0b04bd" android:layout_width="wrap_content" android:layout_height="match_parent" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6">
+        <include layout="@layout/layout_0x7f0e0059" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/id_0x7f0b04b8" android:paddingTop="0.0dp" android:paddingBottom="0.0dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="0.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b0628" app:attr_0x7f04061b="id_0x7f0b05c6">
+        <LinearLayout android:orientation="horizontal" android:id="@id/id_0x7f0b04b9" android:paddingTop="?attr_0x7f04016d" android:paddingBottom="?attr_0x7f04016d" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="0.0dp" android:layout_marginBottom="0.0dp" android:layout_marginEnd="@dimen/dimen_0x7f070161" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/id_0x7f0b0628" android:layout_width="?attr_0x7f04008e" android:layout_height="match_parent" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f15026e">
+        <android.support.v7.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:id="@id/id_0x7f0b012f" android:tag=".icon.for-category-key.with-circle" android:layout_width="@dimen/dimen_0x7f070134" android:layout_height="@dimen/dimen_0x7f070131" android:src="@drawable/drawable_0x7f08033e" />
+    </FrameLayout>
+</com.google.android.apps.inputmethod.libs.expression.header.ConstraintHeaderViewImpl>

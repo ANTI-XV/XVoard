@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:paddingStart="0.0dp" android:paddingEnd="0.0dp" app:attr_0x7f0402e6="false" app:attr_0x7f04059d="true" style="@style/style_0x7f1502a2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/layout_0x7f0e0059" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.google.android.apps.inputmethod.libs.expression.header.StartElementRecyclerView android:id="@id/id_0x7f0b01ac" android:layout_width="wrap_content" android:layout_height="match_parent" android:overScrollMode="never" app:attr_0x7f0405f3="com.google.android.apps.inputmethod.libs.expression.header.StartElementScrollBehavior" />
+            <android.support.v7.widget.RecyclerView android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_0x7f0b01af" android:layout_width="match_parent" android:layout_height="?attr_0x7f04008e" android:layout_marginStart="@dimen/dimen_0x7f070137" android:layout_marginEnd="2.0dp" app:attr_0x7f0405f3="com.google.android.apps.inputmethod.libs.expression.header.MiddleElementScrollBehavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

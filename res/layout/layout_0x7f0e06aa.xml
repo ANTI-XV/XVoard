@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" style="@style/style_0x7f150218">
+        <com.google.android.libraries.inputmethod.widgets.CopyImageSourceView android:id="@id/id_0x7f0b0137" android:layout_width="2.0dp" android:layout_height="@dimen/dimen_0x7f0708c7" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" />
+        <com.google.android.libraries.inputmethod.companionwidget.WidgetAccessPointsPanel android:id="@id/id_0x7f0b2087" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040616="@id/id_0x7f0b0137" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150c5c" />
+        <com.google.android.libraries.inputmethod.companionwidget.WidgetAccessPointsPanel android:id="@id/id_0x7f0b2085" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b2098" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150c5c" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/id_0x7f0b2098" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150c5a" />
+        <include layout="@layout/layout_0x7f0e0834" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

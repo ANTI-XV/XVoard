@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d pridružený kláves</item>
+        <item quantity="few">%d pridružené klávesy</item>
+        <item quantity="many">%d keys assigned</item>
+        <item quantity="other">%d pridružených klávesov</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Jazyk %s je nainštalovaný.</item>
+        <item quantity="few">Jazyky %s sú nainštalované.</item>
+        <item quantity="many">%s are now installed.</item>
+        <item quantity="other">Jazyky %s sú nainštalované.</item>
+    </plurals>
+</resources>

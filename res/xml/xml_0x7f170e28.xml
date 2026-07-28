@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d43">
+            <softkey id="@id/id_0x7f0b148a" press_data="ຢ" />
+            <softkey id="@id/id_0x7f0b1470" press_data="ຟ" />
+            <softkey id="@id/id_0x7f0b14a3" press_data="ໂ" />
+            <softkey id="@id/id_0x7f0b1486" press_data="ຖ" />
+            <softkey id="@id/id_0x7f0b14a4" press_data="ຸ" />
+            <softkey id="@id/id_0x7f0b14a5" press_data="ູ" />
+            <softkey id="@id/id_0x7f0b1478" press_data="ຄ" />
+            <softkey id="@id/id_0x7f0b1488" press_data="ຕ" />
+            <softkey id="@id/id_0x7f0b146e" press_data="ຈ" />
+            <softkey id="@id/id_0x7f0b1477" press_data="ຂ" />
+            <softkey id="@id/id_0x7f0b1485" press_data="ຊ" />
+            <softkey id="@id/id_0x7f0b14a1" press_data="ົ" />
+            <softkey id="@id/id_0x7f0b1495" press_data="ໄ" />
+            <softkey id="@id/id_0x7f0b1496" press_data="ຳ" />
+            <softkey id="@id/id_0x7f0b1482" press_data="ພ" />
+            <softkey id="@id/id_0x7f0b1493" press_data="ະ" />
+            <softkey id="@id/id_0x7f0b149b" press_data="ິ" />
+            <softkey id="@id/id_0x7f0b149d" press_data="ີ" />
+            <softkey id="@id/id_0x7f0b1474" press_data="ຮ" />
+            <softkey id="@id/id_0x7f0b147e" press_data="ນ" />
+            <softkey id="@id/id_0x7f0b147f" press_data="ຍ" />
+            <softkey id="@id/id_0x7f0b146d" press_data="ບ" />
+            <softkey id="@id/id_0x7f0b149f" press_data="ັ" />
+            <softkey id="@id/id_0x7f0b1472" press_data="ຫ" />
+            <softkey id="@id/id_0x7f0b1479" press_data="ກ" />
+            <softkey id="@id/id_0x7f0b146f" press_data="ດ" />
+            <softkey id="@id/id_0x7f0b1499" press_data="ເ" />
+            <softkey id="@id/id_0x7f0b1491" press_data="້" />
+            <softkey id="@id/id_0x7f0b1490" press_data="່" />
+            <softkey id="@id/id_0x7f0b1494" press_data="າ" />
+            <softkey id="@id/id_0x7f0b1484" press_data="ສ" />
+            <softkey id="@id/id_0x7f0b1489" press_data="ວ" />
+            <softkey id="@id/id_0x7f0b147d" press_data="ງ" />
+            <softkey id="@id/id_0x7f0b148b" press_data="ໍ" />
+            <softkey id="@id/id_0x7f0b1481" press_data="ຜ" />
+            <softkey id="@id/id_0x7f0b1483" press_data="ປ" />
+            <softkey id="@id/id_0x7f0b149a" press_data="ແ" />
+            <softkey id="@id/id_0x7f0b1480" press_data="ອ" />
+            <softkey id="@id/id_0x7f0b14a6" press_data="ຶ" />
+            <softkey id="@id/id_0x7f0b14a8" press_data="ື" />
+            <softkey id="@id/id_0x7f0b1487" press_data="ທ" />
+            <softkey id="@id/id_0x7f0b147c" press_data="ມ" />
+            <softkey id="@id/id_0x7f0b1498" press_data="ໃ" />
+            <softkey id="@id/id_0x7f0b1471" press_data="ຝ" />
+            <softkey id="@id/id_0x7f0b1469" press_data="ຯ" />
+            <softkey id="@id/id_0x7f0b146c" press_data="ໆ" />
+            <softkey id="@id/id_0x7f0b146b" press_data="ໜ" />
+            <softkey id="@id/id_0x7f0b146a" press_data="ໝ" />
+            <softkey id="@id/id_0x7f0b148e" press_data="ຽ" />
+            <softkey id="@id/id_0x7f0b147a" press_data="ຣ" />
+            <softkey id="@id/id_0x7f0b147b" press_data="ລ" />
+            <softkey id="@id/id_0x7f0b1475" press_data="ໞ" />
+            <softkey id="@id/id_0x7f0b1476" press_data="ໟ" />
+            <softkey id="@id/id_0x7f0b145e" press_data="໌" />
+            <softkey id="@id/id_0x7f0b148d" press_data="ຼ" />
+            <softkey id="@id/id_0x7f0b14a2" press_data="ົ້" />
+            <softkey id="@id/id_0x7f0b1497" press_data="ຳ້" />
+            <softkey id="@id/id_0x7f0b149c" press_data="ິ້" />
+            <softkey id="@id/id_0x7f0b149e" press_data="ີ້" />
+            <softkey id="@id/id_0x7f0b14a0" press_data="ັ້" />
+            <softkey id="@id/id_0x7f0b1492" press_data="໊" />
+            <softkey id="@id/id_0x7f0b148f" press_data="໋" />
+            <softkey id="@id/id_0x7f0b148c" press_data="ໍ່" />
+            <softkey id="@id/id_0x7f0b14a7" press_data="ຶ້" />
+            <softkey id="@id/id_0x7f0b14a9" press_data="ື້" />
+        </softkey_list>
+    </softkeys>
+</framework>

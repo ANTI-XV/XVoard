@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170a5c" />
+    <include href="@xml/xml_0x7f170a58" />
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1253" view_id="@id/key_pos_0_0" />
+        <mapping key_id="@id/id_0x7f0b1254" view_id="@id/key_pos_0_1" />
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping key_id="@id/id_0x7f0b12cb" view_id="@id/key_pos_ja_12keys_sub_10" />
+        <mapping key_id="@id/id_0x7f0b1255" view_id="@id/key_pos_0_0" />
+    </key_mapping>
+    <key_mapping state="COMPOSING">
+        <mapping key_id="@id/id_0x7f0b1b29" view_id="@id/key_pos_space" />
+    </key_mapping>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b12cd" view_id="@id/key_pos_switch_to_symbol" />
+    </key_mapping>
+    <key_mapping state="EMOJI_AVAILABLE">
+        <mapping key_id="@id/id_0x7f0b12cc" view_id="@id/key_pos_switch_to_symbol" />
+    </key_mapping>
+    <if expressions="policy_transparency">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b1b77" view_id="@id/key_pos_switch_to_smiley" />
+            <mapping key_id="@id/id_0x7f0b12ca" view_id="@id/key_pos_switch_to_emoticon" />
+        </key_mapping>
+    </if>
+    <else_if expressions="hidden">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_switch_to_smiley" />
+            <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_switch_to_emoticon" />
+            <mapping key_id="@id/id_0x7f0b12ce" view_id="@id/key_pos_switch_to_symbol" />
+        </key_mapping>
+    </else_if>
+    <else>
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b1b76" view_id="@id/key_pos_switch_to_smiley" />
+            <mapping key_id="@id/id_0x7f0b12c9" view_id="@id/key_pos_switch_to_emoticon" />
+        </key_mapping>
+        <key_mapping state="EMOJI_AVAILABLE">
+            <mapping key_id="@id/id_0x7f0b1b73" view_id="@id/key_pos_switch_to_smiley" />
+            <mapping key_id="@id/id_0x7f0b12c8" view_id="@id/key_pos_switch_to_emoticon" />
+        </key_mapping>
+    </else>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1b72" view_id="@id/key_pos_switch_hiragana_alphabet" />
+    </key_mapping>
+</framework>

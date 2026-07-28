@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d കീ നിയോഗിച്ചു</item>
+        <item quantity="other">%d കീകൾ നിയോഗിച്ചു</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s ഇപ്പോൾ ഇൻസ്‌റ്റാൾ ചെയ്‌തു.</item>
+        <item quantity="other">%s എന്നിവ ഇപ്പോൾ ഇൻസ്റ്റാൾ ചെയ്തു.</item>
+    </plurals>
+</resources>

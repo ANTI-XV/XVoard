@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_switch_to_next_language" />
+    </key_mapping>
+    <key_mapping state="SHOW_EMOJI_SWITCH_KEY">
+        <if expressions="policy_transparency">
+            <mapping key_id="@id/id_0x7f0b1b77" view_id="@id/key_pos_switch_to_next_language" />
+        </if>
+        <else>
+            <mapping key_id="@id/id_0x7f0b1b73" view_id="@id/key_pos_switch_to_next_language" />
+        </else>
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping key_id="@id/id_0x7f0b1b80" view_id="@id/key_pos_switch_to_next_language" />
+    </key_mapping>
+</framework>

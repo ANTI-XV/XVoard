@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.expression.navbar.ScrollableNavigationRow android:orientation="horizontal" android:id="@id/id_0x7f0b01ee" android:paddingTop="2.0dp" android:paddingBottom="2.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_back_to_prime2" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="5.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b064f" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1505bb" />
+    <FrameLayout android:id="@id/id_0x7f0b064f" android:layout_width="0.0dp" android:layout_height="match_parent" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040616="@id/key_pos_back_to_prime2" app:attr_0x7f04061b="id_0x7f0b05c6">
+        <android.support.v7.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/id_0x7f0b01d4" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/dimen_0x7f0700ea" />
+        <ImageView android:layout_gravity="start" android:id="@id/id_0x7f0b01d5" android:tag=".divider.for-expression-navigation" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/drawable_0x7f0802fb" android:importantForAccessibility="no" android:paddingVertical="10.0dp" />
+    </FrameLayout>
+</com.google.android.apps.inputmethod.libs.expression.navbar.ScrollableNavigationRow>

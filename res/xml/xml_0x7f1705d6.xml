@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f1705a0" />
+    <include href="@xml/xml_0x7f1708ec" />
+    <include href="@xml/xml_0x7f17088d" />
+    <keyboard>
+        <view override="motion_event_handler" type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" preference_key="@string/string_0x7f14073e" reverse_preference="true" />
+            <motion_event_handler class=".motioneventhandler.SpatialModelMotionEventHandler" preference_key="@string/string_0x7f14073e" reverse_preference="false" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler class="com.google.android.libraries.inputmethod.motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <include href="@xml/xml_0x7f170b16" />
+            <include href="@xml/xml_0x7f170b2a" />
+        </view>
+    </keyboard>
+</framework>

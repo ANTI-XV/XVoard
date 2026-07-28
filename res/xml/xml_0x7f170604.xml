@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f17059e" />
+    <keyboard>
+        <if keyboard_mode="split">
+            <view layout="@layout/layout_0x7f0e055c" type="body" />
+        </if>
+        <else_if device="foldable|tablet" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e055d" type="body" />
+        </else_if>
+        <else>
+            <view layout="@layout/layout_0x7f0e055b" type="body" />
+        </else>
+        <view type="body">
+            <softkeys href="@xml/xml_0x7f170fe8" />
+            <softkeys href="@xml/xml_0x7f170fd7" />
+            <softkeys href="@xml/xml_0x7f170fd8" />
+            <if device="foldable|tablet" keyboard_mode="normal|split">
+                <include href="@xml/xml_0x7f170aae" />
+            </if>
+            <else>
+                <include href="@xml/xml_0x7f170aad" />
+            </else>
+            <include href="@xml/xml_0x7f170b24" />
+            <include href="@xml/xml_0x7f170b29" />
+        </view>
+    </keyboard>
+</framework>

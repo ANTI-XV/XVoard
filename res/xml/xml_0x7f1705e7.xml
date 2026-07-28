@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".keyboard.impl.Keyboard">
+        <view direction="locale" id="@id/id_0x7f0b05e2" layout="@layout/layout_0x7f0e06ae" type="widget">
+            <motion_event_handler class=".companionwidget.HorizontalWidgetDragToMoveMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+        </view>
+        <view direction="locale" id="@id/id_0x7f0b05dd" layout="@layout/layout_0x7f0e06a9" type="widget">
+            <motion_event_handler class=".companionwidget.HorizontalWidgetDragToMoveMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+        </view>
+        <view direction="locale" id="@id/id_0x7f0b05de" layout="@layout/layout_0x7f0e06ab" type="widget">
+            <motion_event_handler class=".companionwidget.HorizontalWidgetDragToMoveMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+        </view>
+        <view direction="locale" id="@id/id_0x7f0b05e0" layout="@layout/layout_0x7f0e06ac" type="widget">
+            <motion_event_handler class=".companionwidget.HorizontalWidgetDragToMoveMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+        </view>
+        <view id="@id/id_0x7f0b05df" layout="@layout/layout_0x7f0e06ad" type="widget">
+            <motion_event_handler class=".companionwidget.VerticalWidgetDragToMoveMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+        </view>
+        <view id="@id/id_0x7f0b05e1" layout="@layout/layout_0x7f0e06ad" type="widget">
+            <motion_event_handler class=".companionwidget.VerticalWidgetDragToMoveMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+        </view>
+        <view id="@id/id_0x7f0b05e3" layout="@layout/layout_0x7f0e06ad" type="widget">
+            <motion_event_handler class=".companionwidget.VerticalWidgetDragToMoveMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+        </view>
+    </keyboard>
+</framework>

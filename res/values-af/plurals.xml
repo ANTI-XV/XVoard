@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d sleutel is toegewys</item>
+        <item quantity="other">%d sleutels is toegewys</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s is nou geïnstalleer.</item>
+        <item quantity="other">%s is nou geïnstalleer.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left|bottom" android:rotation="270.0" android:importantForAccessibility="no" style="@style/style_0x7f150331" />
+    <FrameLayout android:layout_gravity="center|bottom" android:id="@id/id_0x7f0b04a4" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/string_0x7f14027c">
+        <ImageView android:layout_gravity="center|bottom" android:importantForAccessibility="no" style="@style/style_0x7f150335" />
+        <ImageView android:layout_gravity="center|bottom" android:importantForAccessibility="no" style="@style/style_0x7f15033b" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="right|bottom" android:rotation="180.0" android:importantForAccessibility="no" style="@style/style_0x7f150331" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.accesspoint.impl.AccessPointDragPopupView android:layout_width="wrap_content" android:layout_height="wrap_content" drag_view="@id/id_0x7f0b0013"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="left|top" android:id="@id/id_0x7f0b0013" android:visibility="gone" android:layout_width="?attr_0x7f04000e" android:layout_height="wrap_content" android:paddingHorizontal="?attr_0x7f04000c">
+        <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView android:layout_gravity="center" android:id="@id/id_0x7f0b02ac" android:tag=".icon.for-access-point-icon.access-point-item-background.drag-handler.non-linear-scale" android:background="@drawable/drawable_0x7f0801c8" android:layout_width="match_parent" android:layout_height="?attr_0x7f04000d" android:scaleType="centerInside" android:importantForAccessibility="no" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.accesspoint.impl.AccessPointDragPopupView>

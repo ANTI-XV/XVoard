@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dimen_0x7f07037b"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e06fd" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/dimen_0x7f070374" android:layout_marginTop="@dimen/dimen_0x7f070378" android:layout_below="@id/id_0x7f0b04f8" android:layout_alignLeft="@id/id_0x7f0b04f8" android:layout_alignRight="@id/id_0x7f0b04f8" android:importantForAccessibility="noHideDescendants">
+        <ImageView android:gravity="center" android:id="@id/id_0x7f0b04fc" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@drawable/drawable_0x7f08049f" android:src="@drawable/drawable_0x7f0804a0" />
+        <ImageView android:id="@id/id_0x7f0b04f9" android:layout_width="@dimen/dimen_0x7f070377" android:layout_height="@dimen/dimen_0x7f070377" android:layout_marginTop="@dimen/dimen_0x7f070376" android:src="@drawable/drawable_0x7f0804a1" android:tint="@color/color_0x7f0606c8" android:layout_marginStart="@dimen/dimen_0x7f070375" />
+        <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/dimen_0x7f070379" android:textColor="@color/color_0x7f0606c8" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/id_0x7f0b04fa" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16.0dp" android:layout_marginRight="12.0dp" android:singleLine="true" android:layout_toEndOf="@id/id_0x7f0b04f9" />
+    </RelativeLayout>
+</LinearLayout>

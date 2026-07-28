@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center_vertical" android:id="@id/id_0x7f0b0088" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style_0x7f15029b">
+        <com.google.android.libraries.inputmethod.animatedview.AnimatedImageView android:id="@id/id_0x7f0b0087" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="@string/string_0x7f1402e0" app:attr_0x7f0406b7="id_0x7f0b203c" app:attr_0x7f040908="true" />
+        <include layout="@layout/layout_0x7f0e0035" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

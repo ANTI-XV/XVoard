@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:attr_0x7f04066e="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.keyboard.widget.ScrollableCandidatesHolderView android:layout_gravity="center" android:id="@id/id_0x7f0b0650" android:layout_width="wrap_content" android:layout_height="match_parent" app:attr_0x7f040379="@layout/layout_0x7f0e05e2" candidate_background="@android:color/transparent" />
+</FrameLayout>

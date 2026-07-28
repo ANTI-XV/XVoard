@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f14034b" id="@id/id_0x7f0b120f" layout="@layout/layout_0x7f0e072f" multi_touch="false">
+            <action keycode="HIDE_KEYBOARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080540" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140e24" id="@id/id_0x7f0b1be7" layout="@layout/layout_0x7f0e072f" multi_touch="false">
+            <action data="\t" intention="COMMIT" keycode="TAB" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080541" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a8a" id="@id/id_0x7f0b1ae7" layout="@layout/layout_0x7f0e0732" multi_touch="false">
+            <action data="\t" intention="COMMIT" keycode="TAB" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080541" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140e24" id="@id/id_0x7f0b1be8" layout="@layout/layout_0x7f0e072f" multi_touch="false">
+            <action data="\t" intention="COMMIT" keycode="PLAIN_TEXT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080541" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140095" id="@id/id_0x7f0b09c3" layout="@layout/layout_0x7f0e0740" multi_touch="false">
+            <action keycode="CAPS_LOCK" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08053f" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140095" id="@id/id_0x7f0b09c4" layout="@layout/layout_0x7f0e0741" multi_touch="false">
+            <action keycode="CAPS_LOCK" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08053f" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a87" id="@id/id_0x7f0b09c6" layout="@layout/layout_0x7f0e0740" multi_touch="true">
+            <action action_on_down="true" data="SUB_CATEGORY_1" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08053f" />
+            <label location="@id/id_0x7f0b04d0" value="" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a89" id="@id/id_0x7f0b09c5" layout="@layout/layout_0x7f0e0740" multi_touch="true">
+            <action action_on_down="true" data="NORMAL" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08053f" />
+            <label location="@id/id_0x7f0b04d0" value="" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140541" id="@id/id_0x7f0b164e" layout="@layout/layout_0x7f0e073e" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+            <action keycode="DPAD_LEFT" repeatable="true" type="PRESS" />
+            <action keycode="DPAD_LEFT" popup_icon="@attr/attr_0x7f040126" repeatable="true" type="SLIDE_LEFT" />
+            <action keycode="DPAD_UP" popup_icon="@drawable/drawable_0x7f080417" repeatable="true" type="SLIDE_UP" />
+            <action keycode="DPAD_RIGHT" popup_icon="@attr/attr_0x7f040127" repeatable="true" type="SLIDE_RIGHT" />
+            <action keycode="DPAD_DOWN" popup_icon="@drawable/drawable_0x7f080413" repeatable="true" type="SLIDE_DOWN" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080513" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f1408f0" id="@id/id_0x7f0b1a7f" layout="@layout/layout_0x7f0e073e" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+            <action keycode="DPAD_RIGHT" repeatable="true" type="PRESS" />
+            <action keycode="DPAD_LEFT" popup_icon="@attr/attr_0x7f040126" repeatable="true" type="SLIDE_LEFT" />
+            <action keycode="DPAD_UP" popup_icon="@drawable/drawable_0x7f080417" repeatable="true" type="SLIDE_UP" />
+            <action keycode="DPAD_RIGHT" popup_icon="@attr/attr_0x7f040127" repeatable="true" type="SLIDE_RIGHT" />
+            <action keycode="DPAD_DOWN" popup_icon="@drawable/drawable_0x7f080413" repeatable="true" type="SLIDE_DOWN" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080515" />
+        </softkey>
+    </softkeys>
+</framework>

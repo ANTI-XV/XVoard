@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if burmese_zawgyi="false">
+        <ime always_show_suggestions="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.handwriting.ime.NlHandwritingIme" display_app_completions="true" language="my-MM" string_id="ime_my_handwriting" use_ascii_password_keyboard="true">
+            <keyboard_group variant="handwriting" variant_label="@string/string_0x7f1411c1">
+                <layout_specific_settings resource_id="@xml/xml_0x7f17012b" />
+                <keyboard def="@xml/xml_0x7f1707cd" type="prime" />
+                <include href="@xml/xml_0x7f170a0c" />
+            </keyboard_group>
+            <extra_values>
+                <item id="@id/id_0x7f0b0208" value="true" />
+                <item id="@id/id_0x7f0b0220" value="false" />
+            </extra_values>
+        </ime>
+    </if>
+</framework>

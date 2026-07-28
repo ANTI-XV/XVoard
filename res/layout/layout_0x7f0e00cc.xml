@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:tag=".keyboard-body-area" android:background="@color/color_0x7f060673" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="0.0dp" android:paddingEnd="0.0dp" app:attr_0x7f0402e6="false" app:attr_0x7f04059d="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:tag=".divider.horizontal.for-fast-access-bar" android:background="@drawable/drawable_0x7f0802fd" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/id_0x7f0b0227" android:layout="@layout/layout_0x7f0e00c7" android:layout_width="match_parent" android:layout_height="@dimen/dimen_0x7f07017b" />
+        <RelativeLayout android:id="@id/id_0x7f0b0229" android:layout_width="match_parent" android:layout_height="@dimen/dimen_0x7f070175">
+            <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/id_0x7f0b0225" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="-3.0dp" android:layout_marginEnd="-7.0dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

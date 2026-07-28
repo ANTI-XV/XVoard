@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey content_description="@string/string_0x7f140ed6" disable_lift_to_tap="true" id="@id/id_0x7f0b1eab" layout="@layout/layout_0x7f0e071f" multi_touch="false">
+            <action data="SINGLE_CHARACTER_CANDIDATE" keycode="KEYBOARD_STATE_ON" type="PRESS" />
+            <if language="zh-TW|zh-HK">
+                <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f140ab1" />
+            </if>
+            <else>
+                <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f140ab0" />
+            </else>
+            <icon location="@id/id_0x7f0b02ae" value="@attr/attr_0x7f040114" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140ed5" disable_lift_to_tap="true" id="@id/id_0x7f0b1ea9" layout="@layout/layout_0x7f0e0720" multi_touch="false">
+            <action data="SINGLE_CHARACTER_CANDIDATE" keycode="KEYBOARD_STATE_OFF" type="PRESS" />
+            <if language="zh-TW|zh-HK">
+                <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f140ab1" />
+            </if>
+            <else>
+                <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f140ab0" />
+            </else>
+            <icon location="@id/id_0x7f0b02ae" value="@drawable/drawable_0x7f080373" />
+        </softkey>
+    </softkeys>
+</framework>

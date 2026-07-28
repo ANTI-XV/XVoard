@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d клавіша прызначана</item>
+        <item quantity="few">%d клавішы прызначана</item>
+        <item quantity="many">%d клавіш прызначана</item>
+        <item quantity="other">%d клавішы прызначана</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s мова ўсталявана.</item>
+        <item quantity="few">%s мовы ўсталяваны.</item>
+        <item quantity="many">%s моў усталяваны.</item>
+        <item quantity="other">%s мовы ўсталяваны.</item>
+    </plurals>
+</resources>

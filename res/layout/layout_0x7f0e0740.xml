@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:tag=".keytop.for-capslock-key" style="@style/style_0x7f150302">
+        <ImageView android:tag=".background-icon.for-capslock-key" style="@style/style_0x7f1502c3" />
+        <ImageView android:id="@id/id_0x7f0b02ac" android:tag=".icon.for-function-key.for-capslock-key" style="@style/style_0x7f1502b8" />
+    </FrameLayout>
+</merge>

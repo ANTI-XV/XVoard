@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/id_0x7f0b027e" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="?attr_0x7f04005c" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b027f" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6">
+        <ImageView android:id="@id/id_0x7f0b027d" android:tag=".clipboard-suggestion-paste-icon" android:importantForAccessibility="no" style="@style/style_0x7f1501de" />
+        <ProgressBar android:id="@id/id_0x7f0b02cd" android:visibility="gone" android:importantForAccessibility="no" style="@style/style_0x7f1501de" />
+    </FrameLayout>
+    <com.google.android.libraries.inputmethod.widgets.TransformationTextView android:id="@id/id_0x7f0b027f" android:layout_marginEnd="?attr_0x7f040060" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040616="@id/id_0x7f0b027e" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1501e0" />
+</merge>

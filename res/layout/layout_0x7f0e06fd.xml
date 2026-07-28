@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/id_0x7f0b04f8" android:importantForAccessibility="noHideDescendants" style="@style/style_0x7f150345"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_0x7f0b04fb" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" android:src="@color/color_0x7f060127" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@null" />
+    <include layout="@layout/layout_0x7f0e06fe" />
+</androidx.cardview.widget.CardView>

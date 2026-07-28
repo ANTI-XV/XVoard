@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:paddingRight="?android:listPreferredItemPaddingRight" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e0703" />
+    <include layout="@layout/layout_0x7f0e0708" />
+    <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:paddingLeft="16.0dp" android:paddingRight="0.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="16.0dp" android:paddingEnd="0.0dp" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.companionwidget.widget.WidgetSoftKeyboardView app:attr_0x7f0403c0="@dimen/dimen_0x7f0708c8" style="@style/style_0x7f150216"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" style="@style/style_0x7f150219">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/id_0x7f0b2098" style="@style/style_0x7f150c5b" />
+        <com.google.android.libraries.inputmethod.companionwidget.WidgetAccessPointsPanel android:id="@id/id_0x7f0b2085" style="@style/style_0x7f150c5d" />
+        <com.google.android.libraries.inputmethod.companionwidget.WidgetAccessPointsPanel android:id="@id/id_0x7f0b2087" style="@style/style_0x7f150c5d" />
+        <com.google.android.libraries.inputmethod.widgets.CopyImageSourceView android:id="@id/id_0x7f0b0137" android:layout_width="@dimen/dimen_0x7f0708c7" android:layout_height="2.0dp" />
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.companionwidget.widget.WidgetSoftKeyboardView>

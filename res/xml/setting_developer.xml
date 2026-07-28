@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_0x7f14095c" android:key="@string/string_0x7f14088f"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/string_0x7f140929">
+        <extra android:name="hide_if_flag_is_false" android:value="show_feature_split_debug_activity=false" />
+        <intent android:targetPackage="" android:action="android.intent.action.MAIN" android:targetClass="com.google.android.libraries.inputmethod.featuresplit.debugactivity.FeatureSplitDebugActivity" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/string_0x7f140998" android:key="@string/string_0x7f140997" android:fragment="com.google.android.libraries.inputmethod.flag.preference.FlagEditorFragment" />
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f140a79" android:key="@string/string_0x7f140a78">
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140243" android:key="@string/string_0x7f1408a2" android:summary="@string/string_0x7f140242">
+            <extra android:name="hide_if_flag_is_false" android:value="@string/string_0x7f140250" />
+        </SwitchPreferenceCompat>
+        <SwitchPreferenceCompat android:persistent="true" android:title="Suggestions while editing a recently autocorrected word shown at the cursor" android:key="@string/string_0x7f1408a3" android:summary="Toggle on = Suggestions while editing a recently autocorrected word are shown on the toolbar and at the cursor\nToggle off = Suggestions while editing a recently autocorrected word are shown on the toolbar">
+            <extra android:name="hide_if_flag_is_false" android:value="@string/string_0x7f140250" />
+        </SwitchPreferenceCompat>
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="Japanese">
+        <com.google.android.libraries.inputmethod.preferencewidgets.seekbar.EntryListSeekBarPreference android:persistent="true" android:entries="@array/array_0x7f030028" android:title="Mozc decoder verbose log level" android:key="@string/string_0x7f140855" android:entryValues="@array/array_0x7f030037" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="Don't show number keys on 12keys tablet keyboard" android:key="@string/string_0x7f140781">
+            <extra android:name="hide_if_flag_is_false" android:value="@string/string_0x7f1403cd" />
+        </SwitchPreferenceCompat>
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="Stylus">
+        <SwitchPreferenceCompat android:persistent="true" android:title="Use low latency library to render strokes" android:key="@string/string_0x7f14072b">
+            <extra android:name="hide_if_flag_is_false" android:value="@string/string_0x7f140255" />
+        </SwitchPreferenceCompat>
+        <com.google.android.libraries.inputmethod.preferencewidgets.seekbar.EntryListSeekBarPreference android:persistent="true" android:entries="@array/array_0x7f030025" android:title="Insert mode timeout" android:key="@string/string_0x7f14077f" android:entryValues="@array/array_0x7f03002d">
+            <extra android:name="hide_if_flag_is_false" android:value="@string/string_0x7f140255" />
+        </com.google.android.libraries.inputmethod.preferencewidgets.seekbar.EntryListSeekBarPreference>
+        <com.google.android.libraries.inputmethod.preferencewidgets.seekbar.EntryListSeekBarPreference android:persistent="true" android:entries="@array/array_0x7f03002b" android:title="Scribe partial commit word number" android:key="@string/string_0x7f140889" android:entryValues="@array/array_0x7f03002e">
+            <extra android:name="hide_if_flag_is_false" android:value="@string/string_0x7f140255" />
+        </com.google.android.libraries.inputmethod.preferencewidgets.seekbar.EntryListSeekBarPreference>
+        <com.google.android.libraries.inputmethod.preferencewidgets.seekbar.EntryListSeekBarPreference android:persistent="true" android:entries="@array/array_0x7f03002f" android:title="Use word level delete when the gesture is longer than X times of line height" android:key="@string/string_0x7f1408c9" android:entryValues="@array/array_0x7f03003c">
+            <extra android:name="hide_if_flag_is_false" android:value="@string/string_0x7f140255" />
+        </com.google.android.libraries.inputmethod.preferencewidgets.seekbar.EntryListSeekBarPreference>
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <SwitchPreferenceCompat android:persistent="true" android:title="Always show PK toolbar orientation change tooltip" android:key="@string/string_0x7f1406de">
+        <extra android:name="hide_if_flag_is_false" android:value="@string/string_0x7f140250" />
+    </SwitchPreferenceCompat>
+    <SwitchPreferenceCompat android:persistent="true" android:title="Always toolbar dragging tooltip" android:key="@string/string_0x7f1406df" />
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="Gen AI text input">
+        <SwitchPreferenceCompat android:persistent="true" android:title="Post correction powered by on-device LLM" android:key="@string/string_0x7f14072a">
+            <extra android:name="hide_if_flag_is_false" android:value="enable_llm_pc=false" />
+        </SwitchPreferenceCompat>
+        <SwitchPreferenceCompat android:persistent="true" android:title="Grammar checker powered by on-device LLM" android:key="@string/string_0x7f140762" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="Word-by-word revert" android:key="@string/string_0x7f140789">
+            <extra android:name="hide_if_flag_is_false" android:value="writing_helper_enable_by_word_revert=false" />
+        </SwitchPreferenceCompat>
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

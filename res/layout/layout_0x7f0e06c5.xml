@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:id="@id/id_0x7f0b1f5c" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_0x7f070719" android:layout_marginStart="@dimen/dimen_0x7f070719" />
+    <include layout="@layout/layout_0x7f0e06ca" />
+</FrameLayout>

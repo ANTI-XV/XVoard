@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <motion_event_handler class="com.google.android.apps.inputmethod.libs.mozc.motioneventhandler.JapaneseMotionEventHandler" preference_key="@string/string_0x7f140826" reverse_preference="true" />
+    <motion_event_handler class="com.google.android.apps.inputmethod.libs.mozc.motioneventhandler.JapaneseSpatialModelMotionEventHandler" preference_key="@string/string_0x7f140826" reverse_preference="false" />
+    <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+    <motion_event_handler class="com.google.android.apps.inputmethod.libs.mozc.motioneventhandler.JapaneseKeyboardLayoutHandler" />
+</framework>

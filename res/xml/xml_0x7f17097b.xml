@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinSymbolsKeyboard" popup="@attr/attr_0x7f040201" recent_key_layout="@layout/layout_0x7f0e076e" recent_key_popup_layout="@layout/layout_0x7f0e0694">
+        <view direction="locale" layout="@layout/layout_0x7f0e0590" scalable="false" type="header">
+            <softkeys href="@xml/xml_0x7f170cd8" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <include href="@xml/xml_0x7f170b48" />
+        </view>
+        <if keyboard_mode="split">
+            <view layout="@layout/layout_0x7f0e055c" type="body" />
+        </if>
+        <else_if device="foldable|tablet" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e055d" type="body" />
+        </else_if>
+        <else>
+            <view layout="@layout/layout_0x7f0e055b" type="body" />
+        </else>
+        <view type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubDeleteMotionEventHandler" preference_key="@string/string_0x7f140736" reverse_preference="false" />
+            <motion_event_handler class=".motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <softkeys href="@xml/xml_0x7f170d8e" />
+            <softkeys href="@xml/xml_0x7f170fe8" />
+            <if language="zh">
+                <softkeys href="@xml/xml_0x7f170fd9" />
+            </if>
+            <else>
+                <softkeys href="@xml/xml_0x7f170fd7" />
+            </else>
+            <softkeys href="@xml/xml_0x7f170fd8" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170cc9" />
+            <softkeys href="@xml/xml_0x7f170cc6" />
+            <softkeys href="@xml/xml_0x7f170fdb" />
+            <softkeys href="@xml/xml_0x7f170cb2" />
+            <if device="foldable|tablet" keyboard_mode="normal|split">
+                <include href="@xml/xml_0x7f170a73" />
+            </if>
+            <else>
+                <include href="@xml/xml_0x7f170a72" />
+            </else>
+            <include href="@xml/xml_0x7f170b24" />
+            <include href="@xml/xml_0x7f170b1c" />
+        </view>
+    </keyboard>
+</framework>

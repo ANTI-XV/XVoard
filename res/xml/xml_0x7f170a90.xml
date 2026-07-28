@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170a91" />
+    <merge_key_mapping exclude_state="INPUT_TYPE_EMAIL_ADDRESS,INPUT_TYPE_URI,SHOW_EMOJI_SWITCH_KEY" state="EMOJI_AVAILABLE">
+        <merge key_id="@id/id_0x7f0b0e0e" view_id="@id/key_pos_bottom_symbol_1" />
+    </merge_key_mapping>
+</framework>

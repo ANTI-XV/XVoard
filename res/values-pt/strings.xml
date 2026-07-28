@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="string_0x7f140009">Navegar para cima</string>
+    <string name="string_0x7f14000b">Concluído</string>
+    <string name="string_0x7f14000e">DESATIVADO</string>
+    <string name="string_0x7f14000f">ATIVADO</string>
+    <string name="string_0x7f140011">Alt+</string>
+    <string name="string_0x7f140012">Ctrl+</string>
+    <string name="string_0x7f140013">delete</string>
+    <string name="string_0x7f140014">enter</string>
+    <string name="string_0x7f140015">Function+</string>
+    <string name="string_0x7f140016">Meta+</string>
+    <string name="string_0x7f140017">Shift+</string>
+    <string name="string_0x7f140018">espaço</string>
+    <string name="string_0x7f140019">Sym+</string>
+    <string name="string_0x7f14001a">Menu+</string>
+    <string name="string_0x7f14001b">Pesquisar…</string>
+    <string name="string_0x7f14001c">Limpar consulta</string>
+    <string name="string_0x7f14001e">Pesquisar</string>
+    <string name="string_0x7f14001f">Enviar consulta</string>
+    <string name="string_0x7f140020">Pesquisa por voz</string>
+    <string name="string_0x7f140024">Recolher</string>
+    <string name="string_0x7f140162">Copiar</string>
+    <string name="string_0x7f14027b">Avançado</string>
+    <string name="string_0x7f14061d">Não definido</string>
+    <string name="string_0x7f1408ca">\"%1$s\" copiado para a área de transferência.</string>
+    <string name="preferences_license_title">Avisos de terceiros</string>
+    <string name="string_0x7f140dfb">%1$s, %2$s</string>
+    <string name="string_0x7f1410f8">DESATIVADO</string>
+    <string name="string_0x7f1410f9">ATIVADO</string>
+</resources>

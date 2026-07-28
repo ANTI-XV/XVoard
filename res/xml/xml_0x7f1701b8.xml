@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="bpy-XT" prime_keyboard_type="HARD_QWERTY" string_id="ime_bishnupriya_manipuri_transliteration_hard_qwerty">
+        <keyboard_group supports_split_mode="true" variant="qwerty" variant_label="@string/string_0x7f141146">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <if device="tablet">
+                <keyboard def="@xml/xml_0x7f1707de" type="prime" />
+            </if>
+            <else>
+                <keyboard def="@xml/xml_0x7f1707e0" type="prime" />
+            </else>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/id_0x7f0b0213" value="true" />
+            <item id="@id/id_0x7f0b0215" value="20" />
+            <item id="@id/id_0x7f0b020a" value="true" />
+            <item id="@id/id_0x7f0b0200" value="false" />
+        </extra_values>
+    </ime>
+</framework>

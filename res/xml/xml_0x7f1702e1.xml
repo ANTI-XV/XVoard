@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime class="com.google.android.apps.inputmethod.libs.mozc.ime.SimpleJapaneseIme" display_app_completions="false" inline_composing="true" language="@string/string_0x7f1403d6" language_specific_settings="@xml/setting_japanese_language_specific" secondary_ime_def="@xml/xml_0x7f1702e3" string_id="@string/string_0x7f140afc" unacceptable_meta_keys="" use_ascii_password_keyboard="true">
+        <if physical_keyboard="qwerty|12key">
+            <attrs language_specific_settings="@xml/setting_japanese_language_specific_with_pk" />
+        </if>
+        <if japanese_pk_kana_input="true">
+            <attrs keyevent_interpreter="com.google.android.apps.inputmethod.libs.mozc.ime.JapaneseKanaKeyEventInterpreter" />
+        </if>
+        <keyboard_group pk_language_tag="ja-Latn-JP" pk_layout_type="extended" variant="godan">
+            <layout_specific_settings resource_id="@xml/setting_japanese_softwarekeyboard" />
+            <if japanese_landscape_qwerty="true" orientation="landscape">
+                <attrs variant_label="@string/string_0x7f1408d4" />
+                <include href="@xml/xml_0x7f1702e6" />
+            </if>
+            <else>
+                <if enable_number_row="true">
+                    <attrs layout_theme="@style/style_0x7f15034b" />
+                </if>
+                <keyboard def="@xml/xml_0x7f1707ec" type="prime" />
+                <if device="tablet" device_size="large" keyboard_mode="normal">
+                    <keyboard def="@xml/xml_0x7f1708bf" type="digit" />
+                </if>
+                <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+                    <keyboard def="@xml/xml_0x7f1708bf" type="digit" />
+                </else_if>
+                <else>
+                    <keyboard def="@xml/xml_0x7f1708be" type="digit" />
+                </else>
+                <keyboard def="@xml/xml_0x7f170974" type="symbol" />
+                <keyboard def="@xml/xml_0x7f1707ed" type="alphabet_qwerty">
+                    <if enable_number_row="true">
+                        <merge def="@xml/xml_0x7f17085a" />
+                    </if>
+                </keyboard>
+                <keyboard def="@xml/xml_0x7f1707ef" type="tri_state_digit" />
+            </else>
+        </keyboard_group>
+        <extra_values>
+            <if japanese_landscape_qwerty="true" orientation="landscape">
+                <include href="@xml/xml_0x7f1702e5" />
+            </if>
+            <else>
+                <item id="@id/id_0x7f0b021a" value="GODAN_KANA" />
+                <item id="@id/id_0x7f0b0209" value="HARDWARE_QWERTY_KANA" />
+                <item id="@id/id_0x7f0b01f7" res="@xml/xml_0x7f1707eb" />
+                <item id="@id/id_0x7f0b0222" value="true" />
+                <item id="@id/id_0x7f0b020f" res="@array/array_0x7f030094" />
+            </else>
+        </extra_values>
+    </ime>
+</framework>

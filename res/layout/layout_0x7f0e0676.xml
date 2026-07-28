@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:elevation="6.0dp" style="@style/style_0x7f1502d3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/drawable_0x7f080279" android:elevation="2.0dp" android:backgroundTint="?attr_0x7f04042d" style="@style/style_0x7f1502d0">
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:contentDescription="@null" android:paddingHorizontal="24.0dp" android:paddingVertical="12.0dp" style="@style/style_0x7f15046a" />
+        <ImageView android:contentDescription="@null" style="@style/style_0x7f1502d1" />
+    </FrameLayout>
+</FrameLayout>

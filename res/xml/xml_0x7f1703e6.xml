@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if burmese_zawgyi="true">
+        <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.ZawgyiWrappedLatinIme" display_app_completions="true" is_unicode="false" language="my" localization_language="my-ZG" string_id="ime_burmese">
+            <keyboard_group layout_theme="@style/style_0x7f150347" supports_split_mode="true" variant="burmese" variant_label="@string/string_0x7f141151">
+                <keyboard def="@xml/xml_0x7f170955" type="prime" />
+                <include href="@xml/xml_0x7f170a0d" />
+                <override_keyboard_xml_conditions>
+                    <bool name="@string/string_0x7f140ad4" value="true" />
+                </override_keyboard_xml_conditions>
+                <include href="@xml/xml_0x7f170c8a" />
+            </keyboard_group>
+            <extra_values>
+                <item id="@id/id_0x7f0b01fe" value="။ " />
+            </extra_values>
+        </ime>
+    </if>
+    <else>
+        <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="my" string_id="ime_burmese">
+            <keyboard_group layout_theme="@style/style_0x7f150347" supports_split_mode="true" variant="burmese" variant_label="@string/string_0x7f141151">
+                <keyboard def="@xml/xml_0x7f170954" type="prime" />
+                <include href="@xml/xml_0x7f170a0d" />
+                <override_keyboard_xml_conditions>
+                    <bool name="@string/string_0x7f140ad4" value="true" />
+                </override_keyboard_xml_conditions>
+                <include href="@xml/xml_0x7f170c8a" />
+            </keyboard_group>
+            <extra_values>
+                <item id="@id/id_0x7f0b01fe" value="။ " />
+            </extra_values>
+        </ime>
+    </else>
+</framework>

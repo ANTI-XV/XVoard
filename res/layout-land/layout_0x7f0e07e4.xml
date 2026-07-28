@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="0.0dp" android:paddingRight="0.0dp" android:paddingBottom="0.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/style_0x7f150851"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/id_0x7f0b1fe4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:paddingLeft="24.0dp" android:paddingTop="6.0dp" android:paddingRight="24.0dp" android:paddingBottom="6.0dp" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Space android:layout_width="12.0dp" android:layout_height="0.0dp" />
+            <com.google.android.material.card.MaterialCardView style="@style/style_0x7f150850">
+                <ImageView android:id="@id/id_0x7f0b1fe2" style="@style/style_0x7f15084f" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView style="@style/style_0x7f150850">
+                <ImageView android:id="@id/id_0x7f0b1fe3" style="@style/style_0x7f15084f" />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <android.support.v7.widget.AppCompatTextView style="@style/style_0x7f15084c" />
+</LinearLayout>

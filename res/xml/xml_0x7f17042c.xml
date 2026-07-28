@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" ascii_capable="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="pam-PH" string_id="ime_kapampangan">
+        <keyboard_group supports_split_mode="true" variant="kapampangan" variant_label="@string/string_0x7f1412b6">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <keyboard def="@xml/xml_0x7f170723" type="prime">
+                <merge def="@xml/xml_0x7f1708ff" />
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f170855" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <keyboard_group supports_split_mode="true" variant="qwerty">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <keyboard def="@xml/xml_0x7f170723" type="prime">
+                <merge def="@xml/xml_0x7f1708e5" />
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f170859" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <keyboard_group supports_split_mode="true" variant="qwertz">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <keyboard def="@xml/xml_0x7f170723" type="prime">
+                <merge def="@xml/xml_0x7f170903" />
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f170859" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <keyboard_group supports_split_mode="true" variant="azerty">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <keyboard def="@xml/xml_0x7f170723" type="prime">
+                <merge def="@xml/xml_0x7f170829" />
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f170855" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <keyboard_group supports_split_mode="true" variant="dvorak">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <keyboard def="@xml/xml_0x7f170723" type="prime">
+                <merge def="@xml/xml_0x7f170840" />
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f17087b" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <keyboard_group supports_split_mode="true" variant="colemak">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <keyboard def="@xml/xml_0x7f170723" type="prime">
+                <merge def="@xml/xml_0x7f170836" />
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f170855" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <keyboard_group layout_theme="@style/style_0x7f15034b" variant="pcqwerty">
+            <keyboard def="@xml/xml_0x7f170723" type="prime">
+                <merge def="@xml/xml_0x7f1708da" />
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0d" />
+        </keyboard_group>
+    </ime>
+</framework>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_0x7f0b02ac" android:alpha="0.4" android:importantForAccessibility="no" style="@style/style_0x7f1502b9" />
+    <android.support.v7.widget.AppCompatTextView android:textSize="20.0dp" android:visibility="visible" android:text="記" android:alpha="0.4" android:importantForAccessibility="no" android:fallbackLineSpacing="false" app:attr_0x7f0408a1="ja-JP" style="@style/style_0x7f1502b9" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1951" press_data="ଅ" />
+            <softkey id="@id/id_0x7f0b1952" long_press_data="ା" press_data="ଆ" />
+            <softkey id="@id/id_0x7f0b19e6" press_data="ା" />
+            <softkey id="@id/id_0x7f0b1973" long_press_data="ି" press_data="ଇ" />
+            <softkey id="@id/id_0x7f0b19e8" press_data="ି" />
+            <softkey id="@id/id_0x7f0b1974" long_press_data="ୀ" press_data="ଈ" />
+            <softkey id="@id/id_0x7f0b19e9" press_data="ୀ" />
+            <softkey id="@id/id_0x7f0b19d9" long_press_data="ୁ" press_data="ଉ" />
+            <softkey id="@id/id_0x7f0b19ea" press_data="ୁ" />
+            <softkey id="@id/id_0x7f0b19da" long_press_data="ୂ" press_data="ଊ" />
+            <softkey id="@id/id_0x7f0b19eb" press_data="ୂ" />
+            <softkey id="@id/id_0x7f0b196b" long_press_data="େ" press_data="ଏ" />
+            <softkey id="@id/id_0x7f0b19e7" press_data="େ" />
+            <softkey id="@id/id_0x7f0b19e4" press_data="୍" />
+            <softkey id="@id/id_0x7f0b19e5" press_data="ଃ" />
+            <softkey id="@id/id_0x7f0b19e2" press_data="ଁ" />
+            <softkey id="@id/id_0x7f0b19e1" press_data="ଂ" />
+            <softkey id="@id/id_0x7f0b1979" press_data="କ" />
+            <softkey id="@id/id_0x7f0b196c" press_data="ଗ" />
+            <softkey id="@id/id_0x7f0b1996" press_data="ଙ" />
+            <softkey id="@id/id_0x7f0b195b" press_data="ଚ" />
+            <softkey id="@id/id_0x7f0b1975" press_data="ଜ" />
+            <softkey id="@id/id_0x7f0b199c" press_data="ଞ" />
+            <softkey id="@id/id_0x7f0b19d5" press_data="ଟ" />
+            <softkey id="@id/id_0x7f0b1966" long_press_data="ଡ଼" press_data="ଡ" />
+            <softkey id="@id/id_0x7f0b1999" press_data="ଣ" />
+            <softkey id="@id/id_0x7f0b19cc" press_data="ତ" />
+            <softkey id="@id/id_0x7f0b195f" press_data="ଦ" />
+            <softkey id="@id/id_0x7f0b198c" press_data="ନ" />
+            <softkey id="@id/id_0x7f0b19a0" press_data="ପ" />
+            <softkey id="@id/id_0x7f0b1955" press_data="ବ" />
+            <softkey id="@id/id_0x7f0b1985" press_data="ମ" />
+            <softkey id="@id/id_0x7f0b19e0" press_data="ୟ" />
+            <softkey id="@id/id_0x7f0b19a4" press_data="ର" />
+            <softkey id="@id/id_0x7f0b1967" long_press_data="ଡ଼" press_data="ଡ଼" />
+            <softkey id="@id/id_0x7f0b1980" press_data="ଲ" />
+            <softkey id="@id/id_0x7f0b1983" press_data="ଳ" />
+            <softkey id="@id/id_0x7f0b19dd" press_data="ୱ" />
+            <softkey id="@id/id_0x7f0b19b7" press_data="ସ" />
+            <softkey id="@id/id_0x7f0b1970" press_data="ହ" />
+        </softkey_list>
+    </softkeys>
+</framework>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1f39" view_id="@id/key_pos_space" />
+    </key_mapping>
+    <key_mapping state="COMPOSING+FIRST_TONE_ON">
+        <mapping key_id="@id/id_0x7f0b1f3b" view_id="@id/key_pos_space" />
+    </key_mapping>
+</framework>

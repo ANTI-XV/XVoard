@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="?attr_0x7f04005d" android:bottom="?attr_0x7f04005d">
+        <inset android:inset="2.0dp">
+            <shape android:shape="rectangle">
+                <solid android:color="@android:color/white" />
+                <corners android:radius="8.0dp" />
+            </shape>
+        </inset>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:weightSum="20.0" style="@style/style_0x7f150629"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/id_0x7f0b04dd" android:paddingTop="10.0dp" android:layout_height="0.0dp" android:layout_weight="10.0" style="@style/style_0x7f1503a3" />
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/id_0x7f0b04d1" android:paddingBottom="10.0dp" android:layout_height="0.0dp" android:layout_weight="10.0" style="@style/style_0x7f1503a3" />
+</LinearLayout>

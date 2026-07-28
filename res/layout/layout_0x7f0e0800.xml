@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b04d0" android:tag=".access-point-item-v2-background.item-ripple.on-surface.label" android:visibility="visible" android:text="@string/string_0x7f1403af" android:layout_marginHorizontal="10.0dp" app:attr_0x7f040591="@drawable/drawable_0x7f080570" style="@style/style_0x7f1502b9"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

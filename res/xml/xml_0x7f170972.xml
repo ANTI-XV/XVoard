@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.search.emoji.standard.EmojiPickerTabletKeyboard" initial_states="LOCK_KEYBOARD+SUB_CATEGORY_2" persistent_states="@string/string_0x7f140ac1" persistent_states_pref_key="@string/string_0x7f140ac2" recent_key_layout="@layout/layout_0x7f0e076d" recent_key_popup_layout="@layout/layout_0x7f0e0694" recent_key_type="smiley" remember_recent_key="ALL_ACTIONS">
+        <view direction="locale" layout="@layout/layout_0x7f0e059a" type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubDeleteMotionEventHandler" preference_key="@string/string_0x7f140736" reverse_preference="false" />
+            <motion_event_handler class=".motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <softkeys href="@xml/xml_0x7f170fdf" />
+            <include href="@xml/xml_0x7f170b49" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170fdb" />
+            <softkeys href="@xml/xml_0x7f170ec8" />
+            <softkeys href="@xml/xml_0x7f170cb2" />
+            <softkeys href="@xml/xml_0x7f170cb6" />
+            <softkeys href="@xml/xml_0x7f170cd3" />
+            <include href="@xml/xml_0x7f170a89" />
+            <include href="@xml/xml_0x7f170a9f" />
+            <include href="@xml/xml_0x7f170ae4" />
+        </view>
+    </keyboard>
+</framework>

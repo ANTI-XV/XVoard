@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.contentsuggestion.browse.resource.DraggableEmojiPanelView android:tag=".emojikitchen-browse-footer" android:background="@color/color_0x7f060619" android:layout_width="match_parent" android:layout_height="@dimen/dimen_0x7f070129" app:attr_0x7f04033c="@dimen/dimen_0x7f07012a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.bottomsheet.BottomSheetDragHandleView android:id="@id/id_0x7f0b017e" android:tag=".icon.for-floating-handle" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <com.google.android.libraries.inputmethod.emoji.picker.EmojiPickerBodyRecyclerView android:id="@id/id_0x7f0b01a7" android:layout_width="match_parent" android:layout_height="match_parent" android:keyboardNavigationCluster="true" background_emoji_filter="false" emoji_filter="true" offscreen_page_limit="2" page_layout="@layout/layout_0x7f0e0094" page_margin_ratio="15" />
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.contentsuggestion.browse.resource.DraggableEmojiPanelView>

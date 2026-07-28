@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="VanillaIceCream" coreApp="true" package="com.google.android.inputmethod.latin.iBGT" platformBuildVersionCode="35" platformBuildVersionName="VanillaIceCream">
+    <original-package android:name="com.android.inputmethod.latin"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
+    <uses-feature android:name="android.hardware.faketouch" android:required="true"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.any" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <queries>
+        <package android:name="com.bitstrips.imoji"/>
+        <package android:name="com.google.android.googlequicksearchbox"/>
+        <package android:name="com.google.android.apps.inputmethod.datahound.app"/>
+        <package android:name="com.google.android.inputmethod.keyboarddevutils"/>
+        <package android:name="com.google.android.apps.village.boond"/>
+        <package android:name="com.google.android.marvin.talkback"/>
+        <intent>
+            <action android:name="android.view.InputMethod"/>
+        </intent>
+        <package android:name="com.google.android.apps.internal.betterbug"/>
+    </queries>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:backupAgent="com.google.android.libraries.inputmethod.backup.BackupAgent" android:crossProfile="true" android:enableOnBackInvokedCallback="true" android:extractNativeLibs="false" android:gwpAsanMode="always" android:icon="@mipmap/ic_app" android:killAfterRestore="false" android:label="XVoard" android:name="com.google.android.apps.inputmethod.latin.ImeLatinApp" android:restoreAnyVersion="true" android:roundIcon="@mipmap/ic_app_round" android:supportsRtl="true" android:theme="@style/style_0x7f15001e" android:usesCleartextTraffic="false">
+        <property android:name="android.window.PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED" android:value="true"/>
+        <profileable android:shell="true"/>
+        <uses-native-library android:name="libedgetpu_util.so" android:required="false"/>
+        <uses-native-library android:name="libedgetpu_client.google.so" android:required="false"/>
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIl3fO6Spo7vqdonbORA0gOqfXPTnKWTdG6eHJNA"/>
+        <meta-data android:name="com.google.android.partnersetup.RLZ_BOUNTY_ACCESS_POINT" android:value="y0,yg"/>
+        <service android:directBootAware="true" android:exported="true" android:name="com.android.inputmethod.latin.LatinIME" android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:enabled="@bool/show_launcher_icon" android:exported="true" android:name="com.google.android.libraries.inputmethod.launcher.LauncherActivity" android:theme="@style/SettingsTheme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|screenSize" android:exported="false" android:finishOnTaskLaunch="true" android:launchMode="singleTask" android:name="com.google.android.apps.inputmethod.latin.firstrun.LatinFirstRunActivity" android:theme="@style/DayNightTheme.NoActionBar" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.google.android.libraries.inputmethod.launcher.FIRST_RUN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="false" android:name="com.google.android.apps.inputmethod.libs.japanese.keyboard.InputDeviceReceiver">
+            <intent-filter>
+                <action android:name="android.hardware.input.action.QUERY_KEYBOARD_LAYOUTS"/>
+            </intent-filter>
+            <meta-data android:name="android.hardware.input.metadata.KEYBOARD_LAYOUTS" android:resource="@xml/keyboard_layouts_ja"/>
+        </receiver>
+        <provider android:authorities="com.google.android.inputmethod.latin.iBGT.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.libraries.inputmethod.fileprovider.CrashResistantFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <meta-data android:name="android.content.APP_RESTRICTIONS" android:resource="@xml/xml_0x7f170000"/>
+        <activity android:configChanges="keyboard|keyboardHidden" android:exported="true" android:label="@string/string_0x7f140a64" android:name="com.google.android.apps.inputmethod.latin.preference.SettingsActivity" android:taskAffinity="com.google.android.apps.inputmethod.latin.preference.SettingsActivity" android:theme="@style/style_0x7f1503ea"/>
+        <provider android:authorities="com.google.android.inputmethod.latin.iBGT" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.google.android.apps.inputmethod.latin.preference.SettingsSearchIndexablesProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER"/>
+            </intent-filter>
+        </provider>
+        <service android:exported="true" android:label="@string/string_0x7f140ad6" android:name="com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService" android:permission="android.permission.BIND_TEXT_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.textservice.SpellCheckerService"/>
+            </intent-filter>
+            <meta-data android:name="android.view.textservice.scs" android:resource="@xml/spell_checker"/>
+        </service>
+        <activity android:exported="true" android:label="@string/string_0x7f140add" android:name="com.google.android.apps.inputmethod.latin.spelling.LatinSpellCheckerSettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:label="@string/string_0x7f141397" android:name="com.google.android.apps.inputmethod.latin.stylus.StylusSettingsActivity" android:theme="@style/DayNightTheme.NoActionBar"/>
+        <provider android:authorities="com.google.android.inputmethod.latin.iBGT.clipboard_content" android:exported="false" android:name="com.google.android.apps.inputmethod.libs.clipboard.ClipboardContentProvider"/>
+        <service android:exported="false" android:foregroundServiceType="shortService" android:name="com.google.android.apps.inputmethod.libs.dataservice.superpacks.SuperpacksForegroundTaskService"/>
+        <service android:exported="false" android:name="com.google.android.apps.inputmethod.libs.dataservice.superpacks.SuperpacksBackgroundJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:exported="false" android:name="com.google.android.apps.inputmethod.libs.expression.startactivityforresult.StartActivityForResult" android:theme="@style/Theme.AppCompat.Light.NoActionBar.Translucent"/>
+        <receiver android:exported="true" android:name="com.google.android.apps.inputmethod.libs.kcm.InputDeviceReceiver">
+            <intent-filter>
+                <action android:name="android.hardware.input.action.QUERY_KEYBOARD_LAYOUTS"/>
+            </intent-filter>
+            <meta-data android:name="android.hardware.input.metadata.KEYBOARD_LAYOUTS" android:resource="@xml/xml_0x7f170925"/>
+        </receiver>
+        <provider android:authorities="com.google.android.inputmethod.latin.iBGT.inputactionprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.apps.inputmethod.libs.keyhound.InputActionFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/input_action_path"/>
+        </provider>
+        <service android:enabled="true" android:exported="true" android:name="com.google.android.apps.inputmethod.libs.nga.impl.KeyboardDictationService"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.google.android.apps.inputmethod.libs.swissarmyknife.DecoderStateReportActivity"/>
+        <provider android:authorities="com.google.android.inputmethod.latin.iBGT.swissarmyknifefileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.apps.inputmethod.libs.swissarmyknife.CrashResistantSwissArmyKnifeFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/sak_file_provider_paths"/>
+        </provider>
+        <activity android:configChanges="orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="false" android:label="@string/theme_builder_title" android:name="com.google.android.apps.inputmethod.libs.theme.builder.ThemeBuilderActivity" android:theme="@style/DayNightTheme.NoActionBar"/>
+        <activity android:configChanges="orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="false" android:label="@string/theme_editor_title" android:name="com.google.android.apps.inputmethod.libs.theme.builder.ThemeEditorActivity" android:theme="@style/DayNightTheme.NoActionBar"/>
+        <activity android:exported="false" android:name="com.google.android.apps.inputmethod.libs.universaldictation.utils.StartActivityForResult" android:theme="@style/Theme.AppCompat.Light.NoActionBar.Translucent"/>
+        <receiver android:exported="false" android:name="com.google.android.apps.inputmethod.libs.voiceime.backend.ondevice.OnDeviceDownloadNowReceiver"/>
+        <provider android:authorities="com.google.android.inputmethod.latin.iBGT.appcontext.provider" android:directBootAware="true" android:exported="false" android:initOrder="0x7fffffff" android:name="com.google.android.libraries.inputmethod.appcontext.ApplicationContextContentProvider"/>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|fontScale" android:exported="false" android:label="BlankActivity" android:name="com.google.android.libraries.inputmethod.blankactivity.BlankActivity" android:theme="@android:style/Theme.Material.Light"/>
+        <activity android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.google.android.libraries.inputmethod.companionwidget.accesspoint.PhysicalKeyboardShortcutsActivity" android:taskAffinity="" android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar"/>
+        <activity android:exported="false" android:label="Feature Split Debug" android:name="com.google.android.libraries.inputmethod.featuresplit.debugactivity.FeatureSplitDebugActivity"/>
+        <service android:exported="false" android:name="com.google.android.libraries.inputmethod.featuresplit.metrics.FeatureSplitMultiprocessMetricsService"/>
+        <receiver android:exported="true" android:name="com.google.android.libraries.inputmethod.launcher.LauncherIconVisibilityInitializer">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:foregroundServiceType="shortService" android:name="com.google.android.libraries.inputmethod.mdd.ForegroundDownloadService"/>
+        <service android:directBootAware="false" android:enabled="@bool/bool_0x7f05000c" android:exported="false" android:foregroundServiceType="shortService" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <activity android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.google.android.libraries.inputmethod.permissions.PermissionsActivity" android:taskAffinity="" android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar"/>
+        <service android:exported="true" android:name="com.google.android.libraries.inputmethod.taskscheduler.JobSchedulerImpl$TaskRunnerJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="com.google.android.inputmethod.latin.iBGT.wdb" android:exported="true" android:name="com.google.android.libraries.inputmethod.webdebugbridge.WebDebugBridgeContentProvider"/>
+        <activity android:exported="false" android:name="com.google.android.libraries.inputmethod.workprofile.EmptyActivity" android:theme="@style/TransparentActivity"/>
+        <activity android:exported="false" android:name="com.google.android.libraries.inputmethod.workprofile.TrampolineActivity" android:theme="@style/TransparentActivity"/>
+        <receiver android:exported="false" android:name="com.google.android.libraries.inputmethod.workprofile.CanInteractAcrossProfilesBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.content.pm.action.CAN_INTERACT_ACROSS_PROFILES_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.google.android.libraries.performance.primes.transmitter.LifeboatReceiver" android:process=":primes_lifeboat"/>
+        <receiver android:exported="true" android:name="com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver" android:process="">
+            <intent-filter>
+                <action android:name="android.accounts.action.ACCOUNT_REMOVED"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <service android:directBootAware="false" android:enabled="@bool/bool_0x7f05000d" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

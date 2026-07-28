@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime always_show_suggestions="true" announce_auto_selected_candidate="true" class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme" display_app_completions="true" indicator_label="画" inline_composing="false" language="zh-XB" language_specific_settings="@xml/xml_0x7f170ffb" language_tag="zh-Hans-CN-t-i0-stroke" string_id="ime_zh_cn_stroke" use_ascii_password_keyboard="true">
+        <if enable_chinese_inline_composing_shape_based="true">
+            <if pref_enable_chinese_inline_composing_cn="true">
+                <attrs inline_composing="true" />
+            </if>
+        </if>
+        <if enable_chinese_9key_foldable_split="true">
+            <keyboard_group pk_language_tag="en" pk_layout_type="qwerty" supports_split_mode="true" variant="stroke" variant_label="@string/string_0x7f1412f0" variant_name_mandatory="true">
+                <keyboard def="@xml/xml_0x7f1707b2" type="prime">
+                    <merge def="@xml/xml_0x7f1705db" />
+                </keyboard>
+                <include href="@xml/xml_0x7f170a04" />
+                <include href="@xml/xml_0x7f170c88" />
+            </keyboard_group>
+        </if>
+        <else>
+            <keyboard_group pk_language_tag="en" pk_layout_type="qwerty" variant="stroke" variant_label="@string/string_0x7f1412f0" variant_name_mandatory="true">
+                <keyboard def="@xml/xml_0x7f1707b2" type="prime">
+                    <merge def="@xml/xml_0x7f1705db" />
+                </keyboard>
+                <include href="@xml/xml_0x7f170a0c" />
+                <include href="@xml/xml_0x7f170c88" />
+            </keyboard_group>
+        </else>
+        <extra_values>
+            <item id="@id/id_0x7f0b020a" value="true" />
+            <item id="@id/id_0x7f0b021b" value="false" />
+            <item id="@id/id_0x7f0b021e" value="@string/string_0x7f1404d3" />
+            <item id="@id/id_0x7f0b0219" value="。" />
+            <item id="@id/id_0x7f0b0201" value="@string/string_0x7f140713" />
+            <item id="@id/id_0x7f0b0218" value="hmm" />
+            <if enable_transliteration_tablet_floating_ui_v2="true">
+                <item id="@id/id_0x7f0b01f7" res="@xml/xml_0x7f1705d8" />
+            </if>
+            <else>
+                <item id="@id/id_0x7f0b01f7" res="@xml/xml_0x7f1705d7" />
+                <item id="@id/id_0x7f0b021f" value="false" />
+            </else>
+        </extra_values>
+        <processors>
+            <if enable_voice_in_chinese="true">
+                <processor class="com.google.android.apps.inputmethod.libs.hmmvoice.ChineseHmmVoiceInputProcessor" />
+            </if>
+            <processor class="com.google.android.apps.inputmethod.libs.pinyin.HmmStrokeDecodeProcessor" />
+            <processor class="com.google.android.apps.inputmethod.libs.chinese.ime.hmm.ChineseDoubleSpaceProcessor" />
+            <processor class="com.google.android.libraries.inputmethod.ime.processor.ScrubMoveProcessor" />
+            <processor class="com.google.android.libraries.inputmethod.ime.processor.OutputProcessor" />
+        </processors>
+    </ime>
+</framework>

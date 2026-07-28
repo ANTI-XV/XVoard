@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="?attr_0x7f04049a" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textview.MaterialTextView android:textAppearance="?attr_0x7f040868" android:textColor="?attr_0x7f040407" android:gravity="center" android:id="@id/id_0x7f0b052c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f14095d" />
+        <com.google.android.material.textview.MaterialTextView android:textAppearance="?attr_0x7f040868" android:textColor="?attr_0x7f040407" android:gravity="center" android:id="@id/id_0x7f0b00ce" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp" />
+        <com.google.android.material.textfield.TextInputEditText android:gravity="center_horizontal" android:id="@id/id_0x7f0b02dd" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/string_0x7f140157" android:inputType="number" android:importantForAutofill="no" />
+    </LinearLayout>
+</ScrollView>

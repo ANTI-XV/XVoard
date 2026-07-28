@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:id="@id/id_0x7f0b00c8" android:duplicateParentState="true" android:layout_centerInParent="true" android:layout_marginStart="0.0dp" android:layout_marginEnd="0.0dp" style="@style/style_0x7f1501e2">
+        <com.google.android.libraries.inputmethod.widgets.AutoScaleXTextView android:textSize="14.0sp" android:textColor="@color/color_0x7f06061d" android:layout_gravity="center" android:id="@id/id_0x7f0b04d0" android:tag=".chip-item-suggestion-text" android:minWidth="52.0dp" android:fontFamily="?attr_0x7f040105" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp" app:attr_0x7f0404db="true" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" app:attr_0x7f0406ca="0.7" style="@style/style_0x7f15036f" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b04d4" android:layout_toRightOf="@id/id_0x7f0b00c8" style="@style/style_0x7f150c5e" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b2007" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/id_0x7f0b1fff" style="?attr_0x7f04067b">
+        <ImageView android:id="@android:id/icon" style="?attr_0x7f04067a" />
+        <android.support.v7.widget.DialogTitle android:id="@id/id_0x7f0b0078" style="?attr_0x7f04067c" />
+    </LinearLayout>
+    <android.widget.Space android:id="@id/id_0x7f0b1ffe" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen_0x7f0703d2" />
+</LinearLayout>

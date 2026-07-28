@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_0x7f140956" android:key="@string/string_0x7f14088d"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140966" android:key="@string/string_0x7f140707" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140975" android:key="@string/string_0x7f14071d">
+        <extra android:name="hide_if_flag_is_false" android:value="enable_clipboard_entity_extraction=false" />
+    </SwitchPreferenceCompat>
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140981" android:key="@string/string_0x7f140733" />
+</PreferenceScreen>

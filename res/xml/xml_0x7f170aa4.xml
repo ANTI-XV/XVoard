@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if expressions="policy_transparency">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b1b77" view_id="@id/key_pos_number_panel_0_0" />
+            <mapping key_id="@id/id_0x7f0b1b7c" view_id="@id/key_pos_number_panel_1_0" />
+        </key_mapping>
+    </if>
+    <else_if expressions="hidden">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_number_panel_0_0" />
+            <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_number_panel_1_0" />
+        </key_mapping>
+    </else_if>
+    <else>
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b1b76" view_id="@id/key_pos_number_panel_0_0" />
+            <mapping key_id="@id/id_0x7f0b1b7b" view_id="@id/key_pos_number_panel_1_0" />
+        </key_mapping>
+        <key_mapping state="EMOJI_AVAILABLE">
+            <mapping key_id="@id/id_0x7f0b1b73" view_id="@id/key_pos_number_panel_0_0" />
+        </key_mapping>
+        <key_mapping state="EMOTICON_AVAILABLE">
+            <mapping key_id="@id/id_0x7f0b1b78" view_id="@id/key_pos_number_panel_1_0" />
+        </key_mapping>
+    </else>
+</framework>

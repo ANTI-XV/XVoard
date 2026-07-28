@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/color_0x7f060b7b" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/string_0x7f140e7a"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_0x7f0b1fd8" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="matrix" android:importantForAccessibility="no" />
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b1fdb" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" style="@style/style_0x7f150845">
+            <android.support.v7.widget.AppCompatTextView android:layout_marginBottom="48.0dp" android:text="@string/string_0x7f140e7a" style="@style/style_0x7f150846" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:layout_height="match_parent" style="@style/style_0x7f150845" />
+            <View android:id="@id/id_0x7f0b1fda" android:background="@drawable/drawable_0x7f08029b" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+            <View android:layout_height="match_parent" style="@style/style_0x7f150845" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" style="@style/style_0x7f150845">
+            <Button android:id="@id/id_0x7f0b1fd9" android:text="@string/string_0x7f1403a3" style="@style/style_0x7f150844" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

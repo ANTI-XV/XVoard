@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard candidate_text_size_ratio="1.0" class="com.google.android.apps.inputmethod.latin.keyboard.LatinHandwritingPrimeKeyboard" popup="@attr/attr_0x7f040201" session_states="CAPS_LOCK">
+        <view direction="locale" layout="@layout/layout_0x7f0e05a4" scalable="false" type="header">
+            <softkeys href="@xml/xml_0x7f170cd6" />
+            <include href="@xml/xml_0x7f170b47" />
+        </view>
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e01a2" type="body" />
+        </if>
+        <else>
+            <view layout="@layout/layout_0x7f0e01a1" type="body" />
+        </else>
+        <view type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler class=".libs.handwriting.keyboard.HandwritingMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubDeleteMotionEventHandler" preference_key="@string/string_0x7f140736" reverse_preference="false" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170cd5" />
+            <softkeys href="@xml/xml_0x7f170cd4" />
+            <include href="@xml/xml_0x7f170b24" />
+            <include href="@xml/xml_0x7f170b17" />
+            <include href="@xml/xml_0x7f170b45" />
+            <include href="@xml/xml_0x7f170b1a" />
+        </view>
+    </keyboard>
+</framework>

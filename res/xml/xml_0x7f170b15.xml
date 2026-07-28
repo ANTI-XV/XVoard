@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1b7e" view_id="@id/key_pos_toggle_fullscreen" />
+        <mapping key_id="@id/id_0x7f0b1aea" view_id="@id/key_pos_punctuation_1" />
+        <mapping key_id="@id/id_0x7f0b1a52" view_id="@id/key_pos_punctuation_2" />
+        <mapping key_id="@id/id_0x7f0b0dda" view_id="@id/key_pos_punctuation_3" />
+        <mapping key_id="@id/id_0x7f0b0ac6" view_id="@id/key_pos_punctuation_4" />
+        <mapping key_id="@id/id_0x7f0b1adb" view_id="@id/key_pos_punctuation_5" />
+        <mapping key_id="@id/id_0x7f0b07f3" view_id="@id/key_pos_punctuation_6" />
+        <mapping key_id="@id/id_0x7f0b0aa5" view_id="@id/key_pos_punctuation_7" />
+        <mapping key_id="@id/id_0x7f0b1ad8" view_id="@id/key_pos_punctuation_8" />
+        <if language="zh">
+            <mapping key_id="@id/id_0x7f0b102e" view_id="@id/key_pos_punctuation_2" />
+            <mapping key_id="@id/id_0x7f0b102b" view_id="@id/key_pos_punctuation_3" />
+            <mapping key_id="@id/id_0x7f0b102a" view_id="@id/key_pos_punctuation_4" />
+            <mapping key_id="@id/id_0x7f0b121f" view_id="@id/key_pos_punctuation_5" />
+            <mapping key_id="@id/id_0x7f0b1029" view_id="@id/key_pos_punctuation_7" />
+            <mapping key_id="@id/id_0x7f0b1031" view_id="@id/key_pos_punctuation_8" />
+        </if>
+    </key_mapping>
+</framework>

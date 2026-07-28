@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.inputview.InputView android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/id_0x7f0b0493" android:tag=".keyboard-base-area" android:background="@drawable/drawable_0x7f080253" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="8.0dp">
+        <com.google.android.libraries.inputmethod.widgets.ShrinkableFrameView style="@style/style_0x7f150306" />
+        <ViewStub android:layout_gravity="left|bottom" android:id="@id/id_0x7f0b04c5" android:layout="@layout/layout_0x7f0e0588" style="@style/style_0x7f150364" />
+        <ViewStub android:layout_gravity="right|bottom" android:id="@id/id_0x7f0b04c7" android:layout="@layout/layout_0x7f0e05b4" style="@style/style_0x7f150364" />
+        <com.google.android.libraries.inputmethod.widgets.KeyboardHolder android:orientation="vertical" android:id="@id/keyboard_holder" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@id/id_0x7f0b04cd" android:importantForAccessibility="no" style="@style/style_0x7f150366" />
+            <com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder style="@style/style_0x7f150274" />
+            <com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder style="@style/style_0x7f15033d" />
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder style="@style/style_0x7f150308" />
+                <FrameLayout android:id="@id/id_0x7f0b0498" style="@style/style_0x7f150309" />
+            </FrameLayout>
+        </com.google.android.libraries.inputmethod.widgets.KeyboardHolder>
+        <com.google.android.libraries.inputmethod.widgets.ShrinkableFrameView android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView style="@style/style_0x7f150367" />
+        </com.google.android.libraries.inputmethod.widgets.ShrinkableFrameView>
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.inputview.InputView>

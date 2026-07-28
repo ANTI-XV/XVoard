@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView style="@style/style_0x7f150646"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05ba" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150641" />
+        <ImageView android:id="@id/id_0x7f0b1f7f" android:importantForAccessibility="no" app:attr_0x7f0405fe="@id/id_0x7f0b1f79" app:attr_0x7f040617="@id/id_0x7f0b1f79" app:attr_0x7f04061a="@id/id_0x7f0b05ba" style="@style/style_0x7f15064d" />
+        <ImageView android:id="@id/id_0x7f0b1f80" android:importantForAccessibility="no" android:layout_marginStart="@dimen/dimen_0x7f0707ec" app:attr_0x7f0405fd="@id/id_0x7f0b1f7f" app:attr_0x7f040616="@id/id_0x7f0b1f7f" style="@style/style_0x7f15064d" />
+        <ImageView android:id="@id/id_0x7f0b1f81" android:importantForAccessibility="no" android:layout_marginStart="@dimen/dimen_0x7f0707ec" app:attr_0x7f0405fd="@id/id_0x7f0b1f7f" app:attr_0x7f040616="@id/id_0x7f0b1f80" style="@style/style_0x7f15064d" />
+        <com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b1f79" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" style="@style/style_0x7f150640" />
+        <ImageView android:id="@id/id_0x7f0b1f7d" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_marginTop="@dimen/dimen_0x7f0707eb" android:layout_marginBottom="@dimen/dimen_0x7f0707eb" android:importantForAccessibility="no" android:layout_marginStart="@dimen/dimen_0x7f0707e5" android:layout_marginEnd="@dimen/dimen_0x7f0707e3" app:attr_0x7f0405fd="@id/id_0x7f0b1f79" app:attr_0x7f040604="@id/id_0x7f0b1f79" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061a="@id/id_0x7f0b05ba" />
+        <ImageView android:id="@id/id_0x7f0b0231" android:tag=".sticker-featured-badge" android:background="@drawable/drawable_0x7f0802fe" android:paddingTop="18.0dp" android:paddingBottom="5.0dp" android:visibility="gone" android:layout_width="@dimen/dimen_0x7f070186" android:layout_height="@dimen/dimen_0x7f070186" android:scaleType="fitStart" android:importantForAccessibility="no" android:paddingStart="5.0dp" android:paddingEnd="18.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

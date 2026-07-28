@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingStart="@dimen/dimen_0x7f0707cb" android:paddingEnd="@dimen/dimen_0x7f0707cb" style="@style/style_0x7f15062d"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e00f3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

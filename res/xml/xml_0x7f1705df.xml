@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f1705a0" />
+    <include href="@xml/xml_0x7f1708ec" />
+    <include href="@xml/xml_0x7f17088e" />
+</framework>

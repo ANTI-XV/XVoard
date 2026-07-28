@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3d">
+            <softkey id="@id/id_0x7f0b06c8" long_press_data="U+1E944,U+1E945,U+1E946,U+1E947,U+1E948,U+1E949,U+1E94A" long_press_label="U+1E944,U+1E945,U+1E946,U+1E947,U+1E948,U+1E949,U+1E94A" press_data="´" press_label=" " />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0707" long_press_data="U+1E93BU+1E946" press_data="U+1E93B" />
+            <softkey id="@id/id_0x7f0b06de" long_press_data="U+1E919U+1E946" press_data="U+1E919" />
+            <softkey id="@id/id_0x7f0b070f" long_press_data="U+1E931U+1E946,U+1E93E,U+1E93EU+1E946" press_data="U+1E931" />
+            <softkey id="@id/id_0x7f0b06e6" long_press_data="U+1E90FU+1E946,U+1E91C,U+1E91CU+1E946" press_data="U+1E90F" />
+            <softkey id="@id/id_0x7f0b06fc" long_press_data="U+1E92BU+1E945" press_data="U+1E92B" />
+            <softkey id="@id/id_0x7f0b06d3" long_press_data="U+1E909U+1E945" press_data="U+1E909" />
+            <softkey id="@id/id_0x7f0b070b" long_press_data="U+1E92AU+1E946" press_data="U+1E92A" />
+            <softkey id="@id/id_0x7f0b06e2" long_press_data="U+1E908U+1E946" press_data="U+1E908" />
+            <softkey id="@id/id_0x7f0b070d" long_press_data="U+1E93CU+1E946" press_data="U+1E93C" />
+            <softkey id="@id/id_0x7f0b06e4" long_press_data="U+1E91AU+1E946" press_data="U+1E91A" />
+            <softkey id="@id/id_0x7f0b0710" long_press_data="U+1E934U+1E946" press_data="U+1E934" />
+            <softkey id="@id/id_0x7f0b06e7" long_press_data="U+1E912U+1E946" press_data="U+1E912" />
+            <softkey id="@id/id_0x7f0b070e" long_press_data="U+1E935U+1E945" press_data="U+1E935" />
+            <softkey id="@id/id_0x7f0b06e5" long_press_data="U+1E913U+1E945" press_data="U+1E913" />
+            <softkey id="@id/id_0x7f0b0700" long_press_data="U+1E92DU+1E945" press_data="U+1E92D" />
+            <softkey id="@id/id_0x7f0b06d7" long_press_data="U+1E90BU+1E945" press_data="U+1E90B" />
+            <softkey id="@id/id_0x7f0b0708" long_press_data="U+1E92EU+1E945" press_data="U+1E92E" />
+            <softkey id="@id/id_0x7f0b06df" long_press_data="U+1E90CU+1E945" press_data="U+1E90C" />
+            <softkey id="@id/id_0x7f0b0709" long_press_data="U+1E928U+1E946,U+1E942,U+1E942U+1E946" press_data="U+1E928" />
+            <softkey id="@id/id_0x7f0b06e0" long_press_data="U+1E906U+1E946,U+1E920,U+1E920U+1E946" press_data="U+1E906" />
+            <softkey id="@id/id_0x7f0b0705" long_press_data="U+1E93DU+1E946" press_data="U+1E93D" />
+            <softkey id="@id/id_0x7f0b06dc" long_press_data="U+1E91BU+1E946" press_data="U+1E91B" />
+            <softkey id="@id/id_0x7f0b06f6" long_press_data="U+1E922U+1E944" press_data="U+1E922" />
+            <softkey id="@id/id_0x7f0b06cd" long_press_data="U+1E900U+1E944" press_data="U+1E900" />
+            <softkey id="@id/id_0x7f0b070c" long_press_data="U+1E927U+1E946,U+1E943,U+1E941,U+1E943U+1E946,U+1E941U+1E946" press_data="U+1E927" />
+            <softkey id="@id/id_0x7f0b06e3" long_press_data="U+1E905U+1E946,U+1E921,U+1E91F,U+1E921U+1E946,U+1E91FU+1E946" press_data="U+1E905" />
+            <softkey id="@id/id_0x7f0b06fa" long_press_data="U+1E923U+1E946" press_data="U+1E923" />
+            <softkey id="@id/id_0x7f0b06d1" long_press_data="U+1E901U+1E946" press_data="U+1E901" />
+            <softkey id="@id/id_0x7f0b06fd" long_press_data="U+1E92CU+1E946" press_data="U+1E92C" />
+            <softkey id="@id/id_0x7f0b06d4" long_press_data="U+1E90AU+1E946" press_data="U+1E90A" />
+            <softkey id="@id/id_0x7f0b06fe" long_press_data="U+1E93AU+1E946,U+1E940,U+1E940U+1E946" press_data="U+1E93A" />
+            <softkey id="@id/id_0x7f0b06d5" long_press_data="U+1E918U+1E946,U+1E91E,U+1E91EU+1E946" press_data="U+1E918" />
+            <softkey id="@id/id_0x7f0b06ff" long_press_data="U+1E938U+1E946" press_data="U+1E938" />
+            <softkey id="@id/id_0x7f0b06d6" long_press_data="U+1E916U+1E946" press_data="U+1E916" />
+            <softkey id="@id/id_0x7f0b0701" long_press_data="U+1E936U+1E946" press_data="U+1E936" />
+            <softkey id="@id/id_0x7f0b06d8" long_press_data="U+1E914U+1E946" press_data="U+1E914" />
+            <softkey id="@id/id_0x7f0b0702" long_press_data="U+1E933U+1E946,U+1E93F,U+1E942,U+1E93FU+1E946,U+1E942U+1E946" press_data="U+1E933" />
+            <softkey id="@id/id_0x7f0b06d9" long_press_data="U+1E911U+1E946,U+1E91D,U+1E920,U+1E91DU+1E946,U+1E920U+1E946" press_data="U+1E911" />
+            <softkey id="@id/id_0x7f0b0703" long_press_data="U+1E924U+1E946" press_data="U+1E924" />
+            <softkey id="@id/id_0x7f0b06da" long_press_data="U+1E902U+1E946" press_data="U+1E902" />
+            <softkey id="@id/id_0x7f0b070a" long_press_data="U+1E939U+1E946" press_data="U+1E939" />
+            <softkey id="@id/id_0x7f0b06e1" long_press_data="U+1E917U+1E946" press_data="U+1E917" />
+            <softkey id="@id/id_0x7f0b06fb" long_press_data="U+1E92FU+1E946,U+1E941,U+1E941U+1E946" press_data="U+1E92F" />
+            <softkey id="@id/id_0x7f0b06d2" long_press_data="U+1E90DU+1E946,U+1E91F,U+1E91FU+1E946" press_data="U+1E90D" />
+            <softkey id="@id/id_0x7f0b0711" long_press_data="U+1E930U+1E946" press_data="U+1E930" />
+            <softkey id="@id/id_0x7f0b06e8" long_press_data="U+1E90EU+1E946" press_data="U+1E90E" />
+            <softkey id="@id/id_0x7f0b06f9" long_press_data="U+1E937U+1E946" press_data="U+1E937" />
+            <softkey id="@id/id_0x7f0b06d0" long_press_data="U+1E915U+1E946" press_data="U+1E915" />
+            <softkey id="@id/id_0x7f0b06f8" long_press_data="U+1E929U+1E946,U+1E940,U+1E93E,U+1E940U+1E946,U+1E93EU+1E946" press_data="U+1E929" />
+            <softkey id="@id/id_0x7f0b06cf" long_press_data="U+1E907U+1E946,U+1E91E,U+1E91C,U+1E91EU+1E946,U+1E91CU+1E946" press_data="U+1E907" />
+            <softkey id="@id/id_0x7f0b06f7" long_press_data="U+1E926U+1E946,U+1E940,U+1E940U+1E946" press_data="U+1E926" />
+            <softkey id="@id/id_0x7f0b06ce" long_press_data="U+1E904U+1E946,U+1E91E,U+1E91EU+1E946" press_data="U+1E904" />
+            <softkey id="@id/id_0x7f0b0706" long_press_data="U+1E932U+1E946" press_data="U+1E932" />
+            <softkey id="@id/id_0x7f0b06dd" long_press_data="U+1E910U+1E946" press_data="U+1E910" />
+            <softkey id="@id/id_0x7f0b0704" long_press_data="U+1E925U+1E946" press_data="U+1E925" />
+            <softkey id="@id/id_0x7f0b06db" long_press_data="U+1E903U+1E946" press_data="U+1E903" />
+        </softkey_list>
+    </softkeys>
+</framework>

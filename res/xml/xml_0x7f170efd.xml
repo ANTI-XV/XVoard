@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170f57" />
+    <softkeys>
+        <softkey content_description="@string/string_0x7f14061c" id="@id/id_0x7f0b1b3b">
+            <action data="RECENTS" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e0a" id="@id/id_0x7f0b1b3a">
+            <action data="GENERAL" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170f53" />
+        <softkey content_description="@string/string_0x7f140e09" id="@id/id_0x7f0b1b3a">
+            <action data="BRACKETS" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170f50" />
+        <softkey content_description="@string/string_0x7f140e04" id="@id/id_0x7f0b1b3a">
+            <action data="ARROWS" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170f4f" />
+        <softkey content_description="@string/string_0x7f140e0b" id="@id/id_0x7f0b1b3a">
+            <action data="MATHEMATICS" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170f54" />
+        <softkey content_description="@string/string_0x7f140e0c" id="@id/id_0x7f0b1b3a">
+            <action data="NUMBERS" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170f55" />
+        <softkey content_description="@string/string_0x7f140e0d" id="@id/id_0x7f0b1b3a">
+            <action data="SHAPES" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170f56" />
+        <softkey content_description="@string/string_0x7f140e05" id="@id/id_0x7f0b1b3a">
+            <action data="FULL_WIDTH" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170f52" />
+    </softkeys>
+</framework>

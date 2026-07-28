@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <if keyboard_mode="split">
+            <if split_with_duplicate_keys="true">
+                <view layout="@layout/layout_0x7f0e0276" type="body" />
+            </if>
+            <else>
+                <view layout="@layout/layout_0x7f0e0277" type="body" />
+            </else>
+        </if>
+        <else>
+            <view layout="@layout/layout_0x7f0e0275" type="body" />
+        </else>
+        <view type="body">
+            <softkeys href="@xml/xml_0x7f170d73" />
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <include href="@xml/xml_0x7f170ace" />
+            </if>
+            <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+                <include href="@xml/xml_0x7f170ace" />
+            </else_if>
+            <else>
+                <include href="@xml/xml_0x7f170acb" />
+            </else>
+            <include href="@xml/xml_0x7f170af0" />
+            <include href="@xml/xml_0x7f170a91" />
+            <include href="@xml/xml_0x7f170a8e" />
+            <include href="@xml/xml_0x7f170a8d" />
+        </view>
+    </keyboard>
+</framework>

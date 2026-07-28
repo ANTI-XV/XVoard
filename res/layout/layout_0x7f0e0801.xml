@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="3.0dp" android:paddingEnd="3.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_height="wrap_content" style="@style/style_0x7f150642">
+        <com.google.android.libraries.inputmethod.animatedview.AnimatedImageView android:id="@id/id_0x7f0b0087" android:background="@color/color_0x7f060673" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:contentDescription="@string/string_0x7f140302" app:attr_0x7f0406b7="id_0x7f0b203c" app:attr_0x7f0408ec="?android:selectableItemBackground" app:attr_0x7f040908="true" />
+        <include layout="@layout/layout_0x7f0e0035" />
+        <FrameLayout android:id="@id/id_0x7f0b0086" android:background="#000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.4">
+            <ImageView android:layout_gravity="center" android:id="@id/id_0x7f0b062c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawable_0x7f080348" android:tint="@android:color/white" android:importantForAccessibility="no" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

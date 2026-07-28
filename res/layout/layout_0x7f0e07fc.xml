@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView android:textSize="14.0dp" android:textColor="@color/color_0x7f060144" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/id_0x7f0b04d0" android:tag=".label.translate.language" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="1" android:fontFamily="?attr_0x7f040105"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

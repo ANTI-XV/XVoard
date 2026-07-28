@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/style_0x7f1502ee"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e0126" />
+    <LinearLayout style="@style/style_0x7f1502f2">
+        <LinearLayout style="@style/style_0x7f1502f1">
+            <com.google.android.apps.inputmethod.libs.onboardingflow.KeyboardPreviewItemView android:id="@id/id_0x7f0b023a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" keyboard_type="prime" language_tag="ja-JP" layout_name="@string/string_0x7f1411e5" variant="japanese_12keys_toggleflick" />
+            <com.google.android.apps.inputmethod.libs.onboardingflow.KeyboardPreviewItemView android:id="@id/id_0x7f0b0673" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" keyboard_type="prime" language_tag="ja-JP" layout_name="@string/string_0x7f1411e7" variant="japanese_qwerty" />
+            <com.google.android.apps.inputmethod.libs.onboardingflow.KeyboardPreviewItemView android:id="@id/id_0x7f0b1ff6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" keyboard_type="prime" language_tag="ja-JP" layout_name="@string/string_0x7f1411e6" variant="50keys" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

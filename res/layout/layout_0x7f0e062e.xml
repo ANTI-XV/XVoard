@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/id_0x7f0b0519" android:layout_width="56.0dp" android:layout_height="56.0dp" android:indeterminate="true" />
+</FrameLayout>

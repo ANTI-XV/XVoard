@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/style_0x7f1501c5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.FloatingMonolithicCandidatesRecyclerView android:id="@id/id_0x7f0b1217" android:paddingLeft="@dimen/dimen_0x7f07032c" android:paddingRight="@dimen/dimen_0x7f07032c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dimen_0x7f07032d" app:attr_0x7f040379="@layout/layout_0x7f0e0764" app:attr_0x7f0406a9="?attr_0x7f0400e2" />
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b05c2" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:paddingLeft="@dimen/dimen_0x7f070328" android:paddingRight="@dimen/dimen_0x7f070328" android:layout_width="match_parent" android:layout_height="1.0dp" android:src="@color/color_0x7f06018d" android:contentDescription="@null" />
+        <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/dimen_0x7f070327" android:textColor="@color/color_0x7f06018e" android:layout_gravity="center_horizontal" android:id="@id/id_0x7f0b05c3" android:paddingTop="@dimen/dimen_0x7f070326" android:paddingBottom="@dimen/dimen_0x7f070326" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime class="com.google.android.libraries.inputmethod.ime.DummyIme" label="@string/string_0x7f14016e" language="und-Latn-x-date-time" string_id="date_time">
+        <keyboard_group>
+            <keyboard def="@xml/xml_0x7f17083c" type="prime" />
+        </keyboard_group>
+    </ime>
+</framework>

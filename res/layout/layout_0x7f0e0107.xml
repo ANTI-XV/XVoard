@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0.0dp" android:layout_height="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.emoji.view.CustomImageView android:id="@id/id_0x7f0b02c9" android:tag=".emoji-picker-item" android:background="@drawable/drawable_0x7f080581" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@null" android:importantForAccessibility="yes" android:paddingHorizontal="5.0dp" android:paddingVertical="5.0dp" />
+</FrameLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if enable_number_row="true">
+        <attrs layout_theme="@style/style_0x7f15034b" />
+    </if>
+    <layout_specific_settings resource_id="@xml/setting_japanese_softwarekeyboard" />
+    <keyboard def="@xml/xml_0x7f1707ee" type="prime">
+        <if enable_number_row="true">
+            <merge def="@xml/xml_0x7f170857" />
+        </if>
+    </keyboard>
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <keyboard def="@xml/xml_0x7f1708bf" type="digit">
+            <merge def="@xml/xml_0x7f170778" />
+        </keyboard>
+    </if>
+    <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+        <keyboard def="@xml/xml_0x7f1708bf" type="digit">
+            <merge def="@xml/xml_0x7f170778" />
+        </keyboard>
+    </else_if>
+    <else>
+        <keyboard def="@xml/xml_0x7f1708be" type="digit">
+            <merge def="@xml/xml_0x7f170778" />
+        </keyboard>
+    </else>
+    <keyboard def="@xml/xml_0x7f170974" type="symbol">
+        <merge def="@xml/xml_0x7f170778" />
+    </keyboard>
+    <keyboard def="@xml/xml_0x7f1707ed" type="alphabet_qwerty">
+        <if enable_number_row="true">
+            <merge def="@xml/xml_0x7f17085a" />
+        </if>
+    </keyboard>
+    <keyboard def="@xml/xml_0x7f1707ef" type="tri_state_digit" />
+</framework>

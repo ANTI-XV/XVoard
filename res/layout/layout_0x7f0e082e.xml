@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dimen_0x7f0708af" android:paddingVertical="@dimen/dimen_0x7f0708b1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b2081" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dimen_0x7f0708b0" style="@style/style_0x7f150962" />
+</LinearLayout>

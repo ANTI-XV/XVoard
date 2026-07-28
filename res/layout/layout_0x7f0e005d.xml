@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b0131" android:layout_width="match_parent" android:layout_height="?attr_0x7f04008f"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/id_0x7f0b061c" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/id_0x7f0b05b4" android:layout_width="@dimen/dimen_0x7f070089" android:layout_height="@dimen/dimen_0x7f070089" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+            <ImageView android:layout_gravity="end|top" android:id="@id/id_0x7f0b05b3" android:tag=".content-suggestion-primary-color.item-ripple.no-background" android:background="@drawable/drawable_0x7f0801f8" android:padding="8.0dp" android:duplicateParentState="true" android:layout_width="@dimen/dimen_0x7f0700e5" android:layout_height="@dimen/dimen_0x7f0700e5" android:scaleType="centerInside" android:tint="@drawable/drawable_0x7f0802ea" android:importantForAccessibility="no" />
+        </FrameLayout>
+        <ImageView android:id="@id/id_0x7f0b061b" android:tag=".content-suggestion-primary-color" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside" android:layout_centerInParent="true" android:alpha="0.4" android:importantForAccessibility="no" />
+        <LinearLayout android:gravity="center" android:id="@id/id_0x7f0b061d" android:layout_width="300.0dp" android:layout_height="match_parent" android:layout_centerInParent="true">
+            <ImageView android:id="@id/id_0x7f0b061e" android:tag=".content-suggestion-primary-color" android:layout_width="35.0dp" android:layout_height="35.0dp" android:scaleType="centerInside" android:importantForAccessibility="no" android:layout_marginEnd="16.0dp" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.google.android.libraries.inputmethod.widgets.WrapWidthTextView android:gravity="center" android:layout_gravity="center" android:id="@id/id_0x7f0b061f" android:maxLines="3" android:breakStrategy="balanced" style="?attr_0x7f0400c2" />
+                <android.support.v7.widget.AppCompatTextView android:gravity="center" android:layout_gravity="center" android:id="@id/id_0x7f0b0620" android:padding="8.0dp" android:visibility="gone" android:text="@string/string_0x7f1408eb" android:maxLines="1" style="?attr_0x7f0400c1" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:id="@id/id_0x7f0b00b0" android:visibility="invisible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+</FrameLayout>

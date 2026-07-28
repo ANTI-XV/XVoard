@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d விசை ஒதுக்கப்பட்டது</item>
+        <item quantity="other">%d விசைகள் ஒதுக்கப்பட்டன</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">இப்போது %s நிறுவப்பட்டுள்ளது.</item>
+        <item quantity="other">இப்போது %s ஆகியவை நிறுவப்பட்டுள்ளன.</item>
+    </plurals>
+</resources>

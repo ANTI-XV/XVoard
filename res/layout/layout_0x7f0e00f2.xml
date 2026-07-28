@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/id_0x7f0b0272" android:background="@drawable/drawable_0x7f0801dd" android:paddingTop="@dimen/dimen_0x7f0701d9" style="@style/style_0x7f15054f"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/id_0x7f0b068b" style="@style/style_0x7f150552">
+        <ImageView android:layout_gravity="center|bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawable_0x7f080317" android:scaleType="centerInside" android:tint="?attr_0x7f040412" />
+    </FrameLayout>
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0279" android:text="@string/string_0x7f1402f9" style="@style/style_0x7f150551" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0273" android:text="@string/string_0x7f1402f5" style="@style/style_0x7f15054e" />
+    <ImageView android:id="@id/id_0x7f0b0278" android:layout_marginTop="14.0dp" style="@style/style_0x7f150553" />
+    <android.support.v7.widget.RecyclerView android:id="@id/id_0x7f0b0274" style="@style/style_0x7f150550" />
+    <ImageView android:id="@id/id_0x7f0b0277" style="@style/style_0x7f150553" />
+    <LinearLayout android:gravity="bottom" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="50.0dp">
+        <Button android:id="@id/id_0x7f0b0275" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f14039e" style="?attr_0x7f040351" />
+        <Button android:id="@id/id_0x7f0b0276" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f1402f7" style="?attr_0x7f040351" />
+    </LinearLayout>
+</LinearLayout>

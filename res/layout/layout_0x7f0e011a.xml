@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="5.0dp" android:focusable="true" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_0x7f0b2004" android:background="@drawable/drawable_0x7f0805b1" android:padding="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="5.0dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.airbnb.lottie.LottieAnimationView android:gravity="center" android:id="@id/id_0x7f0b02d4" android:layout_width="wrap_content" android:layout_height="156.0dp" android:layout_centerHorizontal="true" app:attr_0x7f04065a="true" app:attr_0x7f040664="true" app:attr_0x7f040666="@raw/raw_0x7f130056" />
+            <ImageView android:id="@id/id_0x7f0b02d9" android:paddingLeft="10.0dp" android:paddingBottom="10.0dp" android:layout_width="34.0dp" android:layout_height="34.0dp" android:src="@drawable/drawable_0x7f080523" android:tint="@android:color/black" android:layout_alignParentRight="true" android:alpha="0.54" />
+        </RelativeLayout>
+        <android.support.v7.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/color_0x7f06061e" android:gravity="center" android:id="@id/id_0x7f0b02db" android:paddingTop="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f1403c0" android:fontFamily="?attr_0x7f040105" />
+        <com.google.android.libraries.inputmethod.widgets.LinkableTextView android:textSize="14.0sp" android:textColor="@color/color_0x7f06061d" android:textColorLink="@color/color_0x7f060545" android:gravity="center" android:id="@id/id_0x7f0b02da" android:paddingTop="16.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="230.0dp" android:text="@string/string_0x7f1403bf" android:lineSpacingMultiplier="1.2" android:fontFamily="?attr_0x7f040101" />
+    </LinearLayout>
+    <ImageView android:id="@id/id_0x7f0b2003" android:layout_width="48.0dp" android:layout_height="22.0dp" android:src="@drawable/drawable_0x7f0805af" android:scaleType="fitXY" android:elevation="5.0dp" />
+</LinearLayout>

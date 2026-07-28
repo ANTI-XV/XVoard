@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b0a9f" view_id="@id/key_pos_search_header_search" />
+        <mapping key_id="@id/id_0x7f0b0a9c" view_id="@id/key_pos_search_header_cancel" />
+    </key_mapping>
+</framework>

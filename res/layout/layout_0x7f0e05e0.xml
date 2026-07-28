@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f150300"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_0x7f0b00cc" android:visibility="gone" style="@style/style_0x7f150623" />
+    <FrameLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/style_0x7f1501d5">
+        <com.google.android.libraries.inputmethod.emoji.view.EmojiView android:textSize="?attr_0x7f04026f" android:id="@id/id_0x7f0b04d0" android:layout_width="match_parent" android:layout_height="match_parent" app:attr_0x7f0406c6="?attr_0x7f0401cd" />
+    </FrameLayout>
+</FrameLayout>

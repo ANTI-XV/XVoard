@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/id_0x7f0b0096" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_gravity="center" android:tag=".background-icon.for-assistant-voice-input-key" android:background="@drawable/drawable_0x7f0801f5" android:layout_width="?attr_0x7f04008e" android:layout_height="?attr_0x7f04008e" />
+        <FrameLayout android:id="@id/id_0x7f0b057a" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <View android:layout_gravity="center" android:tag=".item-ripple.on-surface" android:duplicateParentState="true" android:layout_width="?attr_0x7f04008e" android:layout_height="?attr_0x7f04008e" android:foreground="@drawable/drawable_0x7f0801f8" />
+        <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView android:id="@id/id_0x7f0b02ac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" style="@style/style_0x7f1502bb" />
+    </FrameLayout>
+</merge>

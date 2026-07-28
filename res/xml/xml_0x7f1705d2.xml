@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f1705a0" />
+    <keyboard class="com.google.android.apps.inputmethod.latin.keyboard.LatinKeyboardWithNumberMode">
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e0146" type="body" />
+        </if>
+        <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e0145" type="body" />
+        </else_if>
+        <else_if enable_chinese_9key_foldable_split="true" keyboard_mode="split">
+            <if split_keyboard_handedness_zh="right">
+                <view layout="@layout/layout_0x7f0e0143" type="body" />
+            </if>
+            <else>
+                <view layout="@layout/layout_0x7f0e0141" type="body" />
+            </else>
+        </else_if>
+        <else>
+            <view layout="@layout/layout_0x7f0e0140" type="body" />
+        </else>
+        <view override="motion_event_handler" type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler class="com.google.android.apps.inputmethod.libs.pinyin.Pinyin9KeyGestureHandler" preference_key="@string/string_0x7f140721" reverse_preference="false" />
+            <motion_event_handler class="com.google.android.apps.inputmethod.libs.pinyin.Pinyin9KeyKeyboardLayoutHandler" preference_key="@string/string_0x7f140721" reverse_preference="false" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler class="com.google.android.libraries.inputmethod.motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <include href="@xml/xml_0x7f170a46" />
+            <if keyboard_mode="split">
+                <softkeys href="@xml/xml_0x7f170cc5" />
+                <softkeys href="@xml/xml_0x7f170fda" />
+                <include href="@xml/xml_0x7f170b8d" />
+                <include href="@xml/xml_0x7f170aa5" />
+                <include href="@xml/xml_0x7f170a14" />
+            </if>
+            <include href="@xml/xml_0x7f170b16" />
+            <include href="@xml/xml_0x7f170b2c" />
+            <include href="@xml/xml_0x7f170aed" />
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <include href="@xml/xml_0x7f170a12" />
+            </if>
+        </view>
+    </keyboard>
+</framework>

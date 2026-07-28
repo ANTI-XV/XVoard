@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag=".sticker-header-item" android:background="@drawable/drawable_0x7f0801fb" style="@style/style_0x7f150649"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/id_0x7f0b022c" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2.0dp">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/id_0x7f0b1f7b" style="@style/style_0x7f15064a" />
+    </FrameLayout>
+    <ImageView android:id="@id/id_0x7f0b022b" android:tag=".sticker-featured-badge" android:background="@drawable/drawable_0x7f08059c" android:layout_width="@dimen/dimen_0x7f0707ea" android:layout_height="@dimen/dimen_0x7f0707ea" android:src="@drawable/drawable_0x7f08046b" android:scaleType="fitCenter" android:layout_alignParentBottom="true" android:importantForAccessibility="no" android:layout_alignParentStart="true" android:paddingHorizontal="3.5dp" android:paddingVertical="3.5dp" />
+</RelativeLayout>

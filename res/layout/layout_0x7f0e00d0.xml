@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.sharing.GboardSharingSetupDonePage style="@style/style_0x7f15027d"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/layout_0x7f0e00d3" />
+            <android.support.v7.widget.AppCompatTextView android:text="@string/string_0x7f140a7c" style="@style/style_0x7f150287" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_0x7f0b0243" android:paddingLeft="@dimen/dimen_0x7f07078a" android:paddingRight="@dimen/dimen_0x7f07078a" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0244" android:layout_marginBottom="14.0dp" android:text="@string/string_0x7f1402b6" style="@style/style_0x7f150281" />
+                <ImageView android:importantForAccessibility="no" style="@style/style_0x7f150553" />
+                <android.support.v7.widget.RecyclerView android:id="@id/id_0x7f0b0245" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+                <ImageView android:importantForAccessibility="no" style="@style/style_0x7f150553" />
+            </LinearLayout>
+            <com.google.android.libraries.inputmethod.widgets.LinkableTextView android:id="@id/id_0x7f0b0240" android:text="@string/string_0x7f1402b0" style="@style/style_0x7f150281" />
+            <Button android:id="@id/id_0x7f0b023f" android:text="@string/string_0x7f1403a2" android:textAllCaps="true" style="@style/style_0x7f15027e" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.google.android.apps.inputmethod.libs.sharing.GboardSharingSetupDonePage>

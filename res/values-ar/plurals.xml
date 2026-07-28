@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="zero">تم تحديد %d مفاتيح</item>
+        <item quantity="one">تم تحديد %d مفتاح</item>
+        <item quantity="two">تم تحديد %d مفتاحَين</item>
+        <item quantity="few">تم تحديد %d مفاتيح</item>
+        <item quantity="many">تم تحديد %d مفتاحًا</item>
+        <item quantity="other">تم تحديد %d مفتاح</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="zero">اكتملت عملية تثبيت اللغات %s.</item>
+        <item quantity="one">اكتملت عملية تثبيت اللغة %s.</item>
+        <item quantity="two">اكتملت عملية تثبيت اللغتين %s.</item>
+        <item quantity="few">اكتملت عملية تثبيت اللغات %s.</item>
+        <item quantity="many">اكتملت عملية تثبيت اللغات %s.</item>
+        <item quantity="other">اكتملت عملية تثبيت اللغات %s.</item>
+    </plurals>
+</resources>

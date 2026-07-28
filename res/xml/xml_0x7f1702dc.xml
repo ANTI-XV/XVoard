@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="iw" string_id="ime_hebrew">
+        <keyboard_group supports_split_mode="true" variant="hebrew" variant_label="@string/string_0x7f1411ca">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <if device="tablet" />
+            <else>
+                <layout_specific_settings resource_id="@xml/xml_0x7f17056d" />
+            </else>
+            <keyboard def="@xml/xml_0x7f1707e5" type="prime">
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f17087f" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+    </ime>
+</framework>

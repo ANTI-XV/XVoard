@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f150300"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_0x7f0b00cc" style="@style/style_0x7f150623" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.inputmethod.widgets.AutoScaleXTextView android:textSize="?attr_0x7f04026b" android:id="@id/id_0x7f0b04d0" android:layout_height="wrap_content" android:fontFamily="?attr_0x7f040105" app:attr_0x7f0404db="false" app:attr_0x7f0406ca="0.7" style="@style/style_0x7f15036f" />
+        <com.google.android.libraries.inputmethod.widgets.AutoScaleXTextView android:textSize="@dimen/dimen_0x7f0700e9" android:id="@id/id_0x7f0b04d2" android:layout_height="wrap_content" app:attr_0x7f0404db="false" app:attr_0x7f0406ca="0.7" style="@style/style_0x7f15036f" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/id_0x7f0b0537" android:background="@drawable/drawable_0x7f0801dd" style="@style/style_0x7f150447"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|top" android:id="@id/id_0x7f0b0539" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/drawable_0x7f080461" android:adjustViewBounds="true" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" />
+    <android.support.v7.widget.AppCompatTextView android:layout_gravity="start" android:id="@id/id_0x7f0b0538" android:layout_marginTop="@dimen/dimen_0x7f0705ad" android:text="@string/string_0x7f14059b" style="@style/style_0x7f150445" />
+    <ImageView android:layout_marginTop="16.0dp" style="@style/style_0x7f150449" />
+    <android.support.v7.widget.RecyclerView android:id="@id/id_0x7f0b0535" style="@style/style_0x7f150448" />
+    <ImageView style="@style/style_0x7f150449" />
+    <com.google.android.libraries.inputmethod.widgets.LinkableTextView android:layout_gravity="start" android:id="@id/id_0x7f0b0536" android:layout_marginTop="14.0dp" android:text="@string/string_0x7f1401bb" style="@style/style_0x7f150445" />
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b0534" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_marginTop="14.0dp" style="@style/style_0x7f150449" />
+        <com.google.android.libraries.inputmethod.widgets.LinkableTextView android:layout_gravity="start" android:layout_marginTop="14.0dp" android:text="@string/string_0x7f1403d5" style="@style/style_0x7f150445" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="70.0dp">
+        <Button android:id="@id/id_0x7f0b053a" android:text="@string/string_0x7f1403a2" style="@style/style_0x7f150444" />
+    </LinearLayout>
+</LinearLayout>

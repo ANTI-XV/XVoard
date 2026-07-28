@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if enable_secondary_symbols="true">
+        <merge_key_mapping>
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <merge key_id="@id/id_0x7f0b0fe9" view_id="@id/key_pos_0_0" />
+                <merge key_id="@id/id_0x7f0b0fef" view_id="@id/key_pos_0_1" />
+            </if>
+            <else>
+                <merge key_id="@id/id_0x7f0b0f0b" view_id="@id/key_pos_0_0" />
+                <merge key_id="@id/id_0x7f0b0f83" view_id="@id/key_pos_0_1" />
+            </else>
+            <merge key_id="@id/id_0x7f0b1008" view_id="@id/key_pos_0_2" />
+            <merge key_id="@id/id_0x7f0b0f6c" view_id="@id/key_pos_0_3" />
+            <merge key_id="@id/id_0x7f0b0fac" view_id="@id/key_pos_0_4" />
+            <merge key_id="@id/id_0x7f0b0ff5" view_id="@id/key_pos_0_5" />
+            <merge key_id="@id/id_0x7f0b0fb7" view_id="@id/key_pos_0_6" />
+            <merge key_id="@id/id_0x7f0b0fbb" view_id="@id/key_pos_0_7" />
+            <merge key_id="@id/id_0x7f0b0fa9" view_id="@id/key_pos_0_8" />
+            <merge key_id="@id/id_0x7f0b0ff2" view_id="@id/key_pos_0_9" />
+            <merge key_id="@id/id_0x7f0b0f0f" view_id="@id/key_pos_0_10" />
+        </merge_key_mapping>
+    </if>
+</framework>

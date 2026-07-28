@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@id/id_0x7f0b0557" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_marginBottom="17.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/id_0x7f0b0558" android:tag=".nav_back_key.tablet" android:background="@drawable/drawable_0x7f08059c" android:focusable="true" android:clickable="true" android:layout_width="36.0dp" android:layout_height="36.0dp" android:foreground="@drawable/drawable_0x7f0801f8">
+        <android.support.v7.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:tag=".label" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@drawable/drawable_0x7f08050f" android:scaleType="centerInside" />
+    </FrameLayout>
+    <android.support.v7.widget.AppCompatTextView android:textSize="20.0dp" android:textColor="@color/color_0x7f060a20" android:ellipsize="end" android:layout_gravity="center" android:id="@id/id_0x7f0b0559" android:tag=".label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="?attr_0x7f0400fa" android:layout_marginStart="14.0dp" />
+</LinearLayout>

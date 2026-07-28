@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/dimen_0x7f07036c" style="@style/style_0x7f1502a7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.FixedSizeCandidatesHolderViewFloatingCandidates android:id="@id/softkey_holder_fixed_candidates" android:visibility="visible" android:layout_width="@dimen/dimen_0x7f07036d" app:attr_0x7f040376="@layout/layout_0x7f0e05e4" app:attr_0x7f040379="@layout/layout_0x7f0e05e5" candidate_background="@drawable/drawable_0x7f080236" deletalbe_label="…" max_candidates_count="@integer/integer_0x7f0c00b6" max_width="@dimen/dimen_0x7f07036d" min_width="@dimen/dimen_0x7f07036e" style="@style/style_0x7f1501d4" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_show_more_candidates" style="@style/style_0x7f15028a" />
+</FrameLayout>

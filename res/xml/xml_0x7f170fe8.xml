@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d51" layout="@layout/layout_0x7f0e0739" multi_touch="false" slide_sensitivity="NORMAL">
+            <action data="$param_data$" keycode="$param_keycode$" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$param_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1d51">
+            <softkey id="@id/id_0x7f0b0aa5" param_data=":" param_keycode="PLAIN_TEXT" />
+            <softkey id="@id/id_0x7f0b1b1c" param_data="/" param_keycode="SLASH" />
+            <softkey desc="@string/string_0x7f14068e" id="@id/id_0x7f0b1a49" param_data="+" param_keycode="PLUS" />
+            <softkey id="@id/id_0x7f0b0ac6" param_data="," param_keycode="COMMA" />
+            <softkey desc="@string/string_0x7f14059c" id="@id/id_0x7f0b1785" param_data="-" param_keycode="MINUS" />
+            <softkey id="@id/id_0x7f0b0d3b" param_data="$" param_keycode="PLAIN_TEXT" />
+            <softkey id="@id/id_0x7f0b0d91" param_data="=" param_keycode="PLAIN_TEXT" />
+            <softkey id="@id/id_0x7f0b1a2a" param_data="%" param_keycode="PLAIN_TEXT" />
+            <softkey id="@id/id_0x7f0b1a2d" param_data="." param_keycode="PLAIN_TEXT" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b1b30" layout="@layout/layout_0x7f0e0739" multi_touch="false" slide_sensitivity="NORMAL">
+            <action data="*" keycode="STAR" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="*" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b1a4f" layout="@layout/layout_0x7f0e0739" multi_touch="false" slide_sensitivity="NORMAL">
+            <action data="#" keycode="POUND" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="#" />
+        </softkey>
+    </softkeys>
+</framework>

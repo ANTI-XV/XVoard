@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d23">
+            <softkey hint_label="-t" id="@id/id_0x7f0b1611" press_data="" press_label=" " />
+            <softkey hint_label="-x" id="@id/id_0x7f0b1640" press_data="" press_label=" " />
+            <softkey hint_label="-∅" id="@id/id_0x7f0b0d54" press_data="" press_label=" " />
+            <softkey hint_label="-p" id="@id/id_0x7f0b15de" press_data="" press_label=" " />
+            <softkey hint_label="i" id="@id/id_0x7f0b15a9" press_data="" press_label=" " />
+            <softkey hint_label="ie" id="@id/id_0x7f0b158b" press_data="" press_label=" " />
+            <softkey hint_label="a" id="@id/id_0x7f0b155b" press_data="" press_label=" " />
+            <softkey hint_label="uo" id="@id/id_0x7f0b1638" press_data="" press_label=" " />
+            <softkey hint_label="o" id="@id/id_0x7f0b15cd" press_data="" press_label=" " />
+            <softkey hint_label="e" id="@id/id_0x7f0b1586" press_data="" press_label=" " />
+            <softkey hint_label="u" id="@id/id_0x7f0b162e" press_data="" press_label=" " />
+            <softkey hint_label="ur" id="@id/id_0x7f0b1632" press_data="" press_label=" " />
+            <softkey hint_label="y" id="@id/id_0x7f0b1642" press_data="" press_label=" " />
+            <softkey hint_label="yr" id="@id/id_0x7f0b1644" press_data="" press_label=" " />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d24">
+            <softkey hint_label="p" id="@id/id_0x7f0b1f07" long_press_data="꒞,꒬" press_data="ꀸ" />
+            <softkey hint_label="nb" id="@id/id_0x7f0b1eff" long_press_data="꓅" press_data="ꁶ" />
+            <softkey hint_label="t" id="@id/id_0x7f0b1f0e" long_press_data="꒠,꒨" press_data="ꄚ" />
+            <softkey hint_label="nd" id="@id/id_0x7f0b1f00" press_data="ꅑ" />
+            <softkey hint_label="k" id="@id/id_0x7f0b1efb" long_press_data="꒒,꓆" press_data="ꇸ" />
+            <softkey hint_label="mg" id="@id/id_0x7f0b1efd" press_data="ꈰ" />
+            <softkey hint_label="c" id="@id/id_0x7f0b1eec" long_press_data="꒔,꒣,꒼,꒽,꒾" press_data="ꊮ" />
+            <softkey hint_label="nz" id="@id/id_0x7f0b1f06" long_press_data="꒴" press_data="ꋭ" />
+            <softkey hint_label="ch" id="@id/id_0x7f0b1eeb" long_press_data="꓃" press_data="ꍡ" />
+            <softkey hint_label="nr" id="@id/id_0x7f0b1f04" press_data="ꎔ" />
+            <softkey hint_label="q" id="@id/id_0x7f0b1f08" long_press_data="꒐" press_data="ꏼ" />
+            <softkey hint_label="nj" id="@id/id_0x7f0b1f03" press_data="ꐱ" />
+            <softkey hint_label="b" id="@id/id_0x7f0b1eea" long_press_data="꒥" press_data="ꀖ" />
+            <softkey hint_label="bb" id="@id/id_0x7f0b1ee9" long_press_data="꒛" press_data="ꁖ" />
+            <softkey hint_label="d" id="@id/id_0x7f0b1eee" long_press_data="꒹" press_data="ꄀ" />
+            <softkey hint_label="dd" id="@id/id_0x7f0b1eed" long_press_data="꒤" press_data="ꄶ" />
+            <softkey hint_label="g" id="@id/id_0x7f0b1ef1" long_press_data="꒗,꒡,꒶" press_data="ꇚ" />
+            <softkey hint_label="gg" id="@id/id_0x7f0b1ef0" long_press_data="꒖,꒦" press_data="ꈔ" />
+            <softkey hint_label="z" id="@id/id_0x7f0b1f14" long_press_data="꒢,꒫,꒲,꓁" press_data="ꊍ" />
+            <softkey hint_label="zz" id="@id/id_0x7f0b1f15" long_press_data="꓄" press_data="ꋐ" />
+            <softkey hint_label="zh" id="@id/id_0x7f0b1f13" press_data="ꍆ" />
+            <softkey hint_label="rr" id="@id/id_0x7f0b1f0a" press_data="ꍼ" />
+            <softkey hint_label="j" id="@id/id_0x7f0b1ef9" long_press_data="꒳" press_data="ꏠ" />
+            <softkey hint_label="jj" id="@id/id_0x7f0b1efa" long_press_data="꒪,꒵,꒷" press_data="ꐘ" />
+            <softkey hint_label="f" id="@id/id_0x7f0b1eef" press_data="ꃍ" />
+            <softkey hint_label="v" id="@id/id_0x7f0b1f0f" long_press_data="꒯,,꒱" press_data="ꃢ" />
+            <softkey hint_label="hl" id="@id/id_0x7f0b1ef3" press_data="ꆗ" />
+            <softkey hint_label="l" id="@id/id_0x7f0b1efc" long_press_data="꒑,꒚,꒻" press_data="ꆷ" />
+            <softkey hint_label="h" id="@id/id_0x7f0b1ef2" press_data="ꉮ" />
+            <softkey hint_label="w" id="@id/id_0x7f0b1f10" long_press_data="꒸" press_data="ꊀ" />
+            <softkey hint_label="s" id="@id/id_0x7f0b1f0c" press_data="ꌉ" />
+            <softkey hint_label="ss" id="@id/id_0x7f0b1f0d" long_press_data="꒕" press_data="ꌪ" />
+            <softkey hint_label="sh" id="@id/id_0x7f0b1f0b" long_press_data="꒰,꒺,꓀,꓂" press_data="ꎫ" />
+            <softkey hint_label="r" id="@id/id_0x7f0b1f09" press_data="ꏆ" />
+            <softkey hint_label="x" id="@id/id_0x7f0b1f11" press_data="ꑝ" />
+            <softkey hint_label="y" id="@id/id_0x7f0b1f12" long_press_data="꒝,꒮" press_data="ꑱ" />
+            <softkey hint_label="hm" id="@id/id_0x7f0b1ef4" long_press_data="꒭" press_data="ꂑ" />
+            <softkey hint_label="m" id="@id/id_0x7f0b1efe" long_press_data="꒘,꒜" press_data="ꂮ" />
+            <softkey hint_label="hn" id="@id/id_0x7f0b1ef5" press_data="ꅨ" />
+            <softkey hint_label="n" id="@id/id_0x7f0b1f02" press_data="ꅽ" />
+            <softkey hint_label="hx" id="@id/id_0x7f0b1ef6" long_press_data="꒙,꒟,꒿" press_data="ꉆ" />
+            <softkey hint_label="ng" id="@id/id_0x7f0b1f01" press_data="ꉝ" />
+            <softkey hint_label="∅" id="@id/id_0x7f0b1ef7" long_press_data="꒩" press_data="ꀀ" />
+            <softkey hint_label="ny" id="@id/id_0x7f0b1f05" long_press_data="꒓,꒧" press_data="ꑊ" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b121e" press_data="、" />
+        </softkey_list>
+    </softkeys>
+</framework>

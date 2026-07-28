@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cc3" />
+    <softkeys>
+        <softkey_list template_id="@id/id_0x7f0b1cf7">
+            <softkey desc="@string/string_0x7f1403e2" id="@id/id_0x7f0b0aa0" keycode="SWITCH_KEYBOARD" param_data="prime" param_icon="@attr/attr_0x7f040119" />
+        </softkey_list>
+    </softkeys>
+</framework>

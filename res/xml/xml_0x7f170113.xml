@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard_group>
+        <keyboard def="@xml/xml_0x7f17096f" type="@string/string_0x7f140421" />
+        <keyboard def="@xml/xml_0x7f17096e" type="@string/string_0x7f140423" />
+    </keyboard_group>
+</framework>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <if language="cs|da|de-CH|de-DE|kl|sk|sl|sr-Latn-RS|srp-Latn-ME">
+            <mapping key_id="@id/id_0x7f0b0bb0" view_id="@id/key_pos_2_7" />
+        </if>
+        <else_if language="et-EE|is|lt|lv">
+            <mapping key_id="@id/id_0x7f0b0d4c" view_id="@id/key_pos_2_7" />
+        </else_if>
+        <else_if language="hu|hr">
+            <mapping key_id="@id/id_0x7f0b0b0e" view_id="@id/key_pos_2_7" />
+        </else_if>
+        <else_if language="nb|nl-BE|nl-NL|nn-NO|pl|ro-RO">
+            <mapping key_id="@id/id_0x7f0b1a91" view_id="@id/key_pos_2_7" />
+        </else_if>
+        <else_if language="se-NO">
+            <mapping key_id="@id/id_0x7f0b1a95" view_id="@id/key_pos_2_7" />
+        </else_if>
+        <else_if language="sv-SE">
+            <mapping key_id="@id/id_0x7f0b1b70" view_id="@id/key_pos_2_7" />
+        </else_if>
+    </key_mapping>
+</framework>

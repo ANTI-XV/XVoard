@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170c3f" />
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1716" view_id="@id/key_pos_2_8" />
+        <mapping key_id="@id/id_0x7f0b1026" view_id="@id/key_pos_2_9" />
+        <mapping key_id="@id/id_0x7f0b1b1c" view_id="@id/key_pos_2_10" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_1">
+        <if language="zh">
+            <mapping key_id="@id/id_0x7f0b0a91" view_id="@id/key_pos_2_8" />
+            <mapping key_id="@id/id_0x7f0b0a90" view_id="@id/key_pos_2_9" />
+        </if>
+        <else_if language="iw">
+            <mapping key_id="@id/id_0x7f0b11e0" view_id="@id/key_pos_2_8" />
+            <mapping key_id="@id/id_0x7f0b1201" view_id="@id/key_pos_2_9" />
+        </else_if>
+        <else>
+            <mapping key_id="@id/id_0x7f0b169b" view_id="@id/key_pos_2_8" />
+            <mapping key_id="@id/id_0x7f0b17a5" view_id="@id/key_pos_2_9" />
+        </else>
+        <mapping key_id="@id/id_0x7f0b1a7c" view_id="@id/key_pos_2_10" />
+    </key_mapping>
+    <if four_or_more_letter_rows="true">
+        <include href="@xml/xml_0x7f170be0" />
+        <include href="@xml/xml_0x7f170c40" />
+    </if>
+    <else_if enable_number_row="true">
+        <include href="@xml/xml_0x7f170bdf" />
+        <include href="@xml/xml_0x7f170c40" />
+    </else_if>
+</framework>

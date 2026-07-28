@@ -1,0 +1,84 @@
+version: 3.0.2-dirty
+apkFileName: XVoard-v3-FAC_mod.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 26
+  targetSdkVersion: 34
+versionInfo:
+  versionCode: 147678846
+  versionName: 14.4.07.646482735-release-arm64-v8a
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- jpg
+- png
+- so
+- wav
+- webp
+- assets/_kotlin
+- assets/dexopt/baseline.profm
+- assets/empty_asset_generated_by_bazel~
+- assets/phenotype/com_google_android_gms_icing_mdd_package_metadata.binarypb
+- assets/phenotype/com_google_android_libraries_consentverifier_package_metadata.binarypb
+- assets/phenotype/com_google_android_libraries_performance_primes_package_metadata.binarypb
+- assets/theme/style_sheet_color_black_border.binarypb
+- assets/theme/style_sheet_color_blue_border.binarypb
+- assets/theme/style_sheet_color_blue_grey_border.binarypb
+- assets/theme/style_sheet_color_brown_border.binarypb
+- assets/theme/style_sheet_color_cyan_border.binarypb
+- assets/theme/style_sheet_color_darkred_border.binarypb
+- assets/theme/style_sheet_color_deep_purple_border.binarypb
+- assets/theme/style_sheet_color_green_border.binarypb
+- assets/theme/style_sheet_color_light_pink_border.binarypb
+- assets/theme/style_sheet_color_pink_border.binarypb
+- assets/theme/style_sheet_color_red_border.binarypb
+- assets/theme/style_sheet_color_sand_border.binarypb
+- assets/theme/style_sheet_color_teal_border.binarypb
+- assets/theme/style_sheet_holo_blue_border.binarypb
+- assets/theme/style_sheet_holo_white_border.binarypb
+- assets/theme/style_sheet_landscape_user_image_border_override.binarypb
+- assets/theme/theme_package_metadata_no_background.binarypb
+- okhttp3/internal/publicsuffix/publicsuffixes.gz
+- res/raw-ar/raw_0x7f130078
+- res/raw-ar/raw_0x7f130079
+- res/raw-ar/raw_0x7f13007a
+- res/raw-de/raw_0x7f130078
+- res/raw-de/raw_0x7f130079
+- res/raw-de/raw_0x7f13007a
+- res/raw-es/raw_0x7f130078
+- res/raw-es/raw_0x7f130079
+- res/raw-es/raw_0x7f13007a
+- res/raw-fr/raw_0x7f130078
+- res/raw-fr/raw_0x7f130079
+- res/raw-fr/raw_0x7f13007a
+- res/raw-ja/raw_0x7f130078
+- res/raw-ja/raw_0x7f130079
+- res/raw-ja/raw_0x7f13007a
+- res/raw-ru/raw_0x7f130078
+- res/raw-ru/raw_0x7f130079
+- res/raw-ru/raw_0x7f13007a
+- res/raw-zh-rCN/raw_0x7f130078
+- res/raw-zh-rCN/raw_0x7f130079
+- res/raw-zh-rCN/raw_0x7f13007a
+- res/raw-zh-rTW/raw_0x7f130078
+- res/raw-zh-rTW/raw_0x7f130079
+- res/raw-zh-rTW/raw_0x7f13007a
+- res/raw/com_google_android_gms_icing_mdd_registration_info.binarypb
+- res/raw/com_google_android_gms_learning_registration_info.binarypb
+- res/raw/com_google_android_libraries_consentverifier_heterodyne_info
+- res/raw/com_google_android_libraries_consentverifier_registration_info.binarypb
+- res/raw/com_google_android_libraries_performance_primes_registration_info.binarypb
+- res/raw/main_en_us_d3.dict
+- res/raw/raw_0x7f130000.pb
+- res/raw/raw_0x7f130004
+- res/raw/raw_0x7f130005
+- res/raw/raw_0x7f130007
+- res/raw/raw_0x7f130009
+- res/raw/raw_0x7f130045
+- res/raw/raw_0x7f130047
+- res/raw/raw_0x7f130078
+- res/raw/raw_0x7f130079
+- res/raw/raw_0x7f13007a

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%dਕੁੰਜੀ ਜ਼ਿੰਮੇ ਲਗਾਈ ਗਈ</item>
+        <item quantity="other">%d ਕੁੰਜੀਆਂ ਜ਼ਿੰਮੇ ਲਗਾਈਆਂ ਗਈਆਂ</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s ਭਾਸ਼ਾ ਹੁਣ ਸਥਾਪਤ ਹੋ ਗਈ ਹੈ।</item>
+        <item quantity="other">%s ਭਾਸ਼ਾਵਾਂ ਹੁਣ ਸਥਾਪਤ ਹੋ ਗਈਆਂ ਹਨ।</item>
+    </plurals>
+</resources>

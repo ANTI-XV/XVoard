@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_0x7f140a24" android:key="@string/string_0x7f140897"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f1409f3" android:key="@string/string_0x7f1409bb">
+        <extra android:name="NON_INDEXABLE" android:value="true" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140989" android:key="@string/string_0x7f140740" android:summary="@string/string_0x7f14097d" />
+        <com.google.android.libraries.inputmethod.preferencewidgets.LinkableSwitchPreference android:persistent="true" android:title="@string/string_0x7f140a16" android:key="@string/string_0x7f14087d" android:summary="@string/string_0x7f140a14" />
+        <com.google.android.libraries.inputmethod.preferencewidgets.LinkableSwitchPreference android:persistent="true" android:title="@string/string_0x7f140996" android:key="@string/string_0x7f1408c2" android:summary="@string/string_0x7f140994" />
+        <Preference android:persistent="false" android:title="@string/string_0x7f140952" android:key="@string/string_0x7f140a5f" android:summary="@string/string_0x7f140951" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f140a28" android:key="@string/string_0x7f140a27">
+        <com.google.android.libraries.inputmethod.preferencewidgets.AutoSyncedSwitchPreference android:persistent="true" android:title="@string/string_0x7f14098a" android:key="@string/string_0x7f140742" android:summary="@string/string_0x7f140a6f">
+            <extra android:name="hide_if_flag_is_false" android:value="enable_voice_donation_flow=false" />
+        </com.google.android.libraries.inputmethod.preferencewidgets.AutoSyncedSwitchPreference>
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

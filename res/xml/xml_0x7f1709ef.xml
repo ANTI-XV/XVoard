@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f17059e" />
+    <keyboard>
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e02dc" type="body" />
+        </if>
+        <else_if keyboard_mode="split">
+            <view layout="@layout/layout_0x7f0e020c" type="body" />
+        </else_if>
+        <else>
+            <view layout="@layout/layout_0x7f0e020b" type="body" />
+        </else>
+        <view type="body">
+            <softkeys href="@xml/xml_0x7f170f94" />
+            <include href="@xml/xml_0x7f170c70" />
+            <include href="@xml/xml_0x7f170aec" />
+        </view>
+    </keyboard>
+</framework>

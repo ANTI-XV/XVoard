@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b164e" view_id="@id/id_0x7f0b0500" />
+        <mapping key_id="@id/id_0x7f0b1a7f" view_id="@id/id_0x7f0b0638" />
+        <mapping key_id="@id/id_0x7f0b1eb0" view_id="@id/id_0x7f0b2037" />
+        <mapping key_id="@id/id_0x7f0b0d49" view_id="@id/id_0x7f0b0175" />
+        <mapping key_id="@id/id_0x7f0b1ad3" view_id="@id/id_0x7f0b067c" />
+        <mapping key_id="@id/id_0x7f0b1659" view_id="@id/id_0x7f0b0501" />
+        <mapping key_id="@id/id_0x7f0b1a8a" view_id="@id/id_0x7f0b063a" />
+        <mapping key_id="@id/id_0x7f0b1ad4" view_id="@id/id_0x7f0b067d" />
+        <mapping key_id="@id/id_0x7f0b0b0c" view_id="@id/id_0x7f0b0136" />
+        <mapping key_id="@id/id_0x7f0b1a29" view_id="@id/id_0x7f0b05cc" />
+        <mapping key_id="@id/id_0x7f0b0bbc" view_id="@id/id_0x7f0b0152" />
+    </key_mapping>
+    <key_mapping state="EMOTICON_AVAILABLE">
+        <mapping key_id="@id/id_0x7f0b1a28" view_id="@id/id_0x7f0b05cc" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_1">
+        <mapping key_id="@id/id_0x7f0b1ad7" view_id="@id/id_0x7f0b067c" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_2">
+        <mapping key_id="@id/id_0x7f0b1ad7" view_id="@id/id_0x7f0b067c" />
+        <mapping key_id="@id/id_0x7f0b0b11" view_id="@id/id_0x7f0b067d" />
+        <mapping key_id="@id/id_0x7f0b0b0b" view_id="@id/id_0x7f0b0136" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_3">
+        <mapping key_id="@id/id_0x7f0b164f" view_id="@id/id_0x7f0b0500" />
+        <mapping key_id="@id/id_0x7f0b1a80" view_id="@id/id_0x7f0b0638" />
+        <mapping key_id="@id/id_0x7f0b1eb1" view_id="@id/id_0x7f0b2037" />
+        <mapping key_id="@id/id_0x7f0b0d4a" view_id="@id/id_0x7f0b0175" />
+        <mapping key_id="@id/id_0x7f0b1ad6" view_id="@id/id_0x7f0b067c" />
+        <mapping key_id="@id/id_0x7f0b165a" view_id="@id/id_0x7f0b0501" />
+        <mapping key_id="@id/id_0x7f0b1a8b" view_id="@id/id_0x7f0b063a" />
+        <mapping key_id="@id/id_0x7f0b1ad5" view_id="@id/id_0x7f0b067d" />
+        <mapping key_id="@id/id_0x7f0b0b0c" view_id="@id/id_0x7f0b0136" />
+        <mapping key_id="@id/id_0x7f0b0bbd" view_id="@id/id_0x7f0b0152" />
+    </key_mapping>
+</framework>

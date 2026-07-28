@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/id_0x7f0b0ebe" popup_timing="ON_TOUCH">
+            <action data="@string/string_0x7f1406cb" keycode="SWITCH_TO_ONE_HANDED_MODE" popup_icon="@drawable/drawable_0x7f08043b" popup_layout="@attr/attr_0x7f0401f9" type="LONG_PRESS" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0ec0" popup_timing="ON_TOUCH">
+            <action data="@string/string_0x7f1406cb" keycode="SWITCH_TO_ONE_HANDED_MODE" popup_icon="@drawable/drawable_0x7f08043c" popup_layout="@attr/attr_0x7f040207" type="LONG_PRESS" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0ebf" popup_timing="ON_TOUCH">
+            <action data="@string/string_0x7f1406cb" keycode="SWITCH_TO_ONE_HANDED_MODE" popup_icon="@drawable/drawable_0x7f08043c" popup_layout="@attr/attr_0x7f04020a" type="LONG_PRESS" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0ec1" popup_timing="ON_TOUCH">
+            <action data="@string/string_0x7f1406ce" keycode="SWITCH_TO_ONE_HANDED_MODE" popup_icon="@drawable/drawable_0x7f08043d" popup_layout="@attr/attr_0x7f0401f9" type="LONG_PRESS" />
+        </softkey>
+    </softkeys>
+</framework>

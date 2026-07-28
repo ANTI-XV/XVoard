@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:id="@id/id_0x7f0b02d2" android:layout_width="@dimen/dimen_0x7f0702fb" android:layout_height="@dimen/dimen_0x7f0702fa">
+        <android.support.v7.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#969696" android:gravity="center" android:layout_gravity="bottom" android:id="@id/id_0x7f0b02d3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="?attr_0x7f040103" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

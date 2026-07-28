@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.textediting.TextEditingKeyboard">
+        <view direction="locale" layout="@layout/layout_0x7f0e05c5" scalable="false" type="header">
+            <softkeys href="@xml/xml_0x7f170ff7" />
+            <include href="@xml/xml_0x7f170c53" />
+        </view>
+        <view layout="@layout/layout_0x7f0e05c3" type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <softkeys href="@xml/xml_0x7f170ff6" />
+            <include href="@xml/xml_0x7f170c52" />
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:tag=".item-ripple.on-surface.bg-jarvis-widget-chip" android:background="@drawable/drawable_0x7f0801d1" android:layout_width="@dimen/dimen_0x7f070348" android:layout_height="@dimen/dimen_0x7f070348" style="@style/style_0x7f1501e2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/id_0x7f0b0319" android:background="@drawable/drawable_0x7f0802a2" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/id_0x7f0b027d" android:tag=".chip-item-suggestion-text" android:layout_width="@dimen/dimen_0x7f070809" android:layout_height="@dimen/dimen_0x7f070809" android:src="@drawable/drawable_0x7f080568" android:contentDescription="@string/string_0x7f1403e0" />
+</FrameLayout>

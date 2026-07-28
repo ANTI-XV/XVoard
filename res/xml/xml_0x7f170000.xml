@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restrictions
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <restriction android:title="@string/string_0x7f140a64" android:key="preferences" android:restrictionType="bundle">
+        <restriction android:entries="@array/array_0x7f030010" android:title="@string/string_0x7f140a63" android:key="config_theme" android:defaultValue="@string/string_0x7f140119" android:entryValues="@array/array_0x7f030011" android:restrictionType="choice" />
+        <restriction android:description="@string/string_0x7f140125" android:title="@string/string_0x7f140e83" android:key="enable_key_border" android:defaultValue="true" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f14097f" android:title="@string/string_0x7f14097e" android:key="enable_number_row" android:defaultValue="@bool/bool_0x7f050055" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140a3d" android:title="@string/string_0x7f140a3e" android:key="show_emoji_switch_key" android:defaultValue="true" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140153" android:title="@string/string_0x7f140a69" android:key="use_system_font" android:defaultValue="@bool/bool_0x7f05009d" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140942" android:title="@string/string_0x7f140943" android:key="enable_battery_saver_theme" android:defaultValue="@bool/bool_0x7f050038" android:restrictionType="bool" />
+        <restriction android:title="@string/string_0x7f140a53" android:key="enable_sound_on_keypress" android:defaultValue="@bool/bool_0x7f050060" android:restrictionType="bool" />
+        <restriction android:title="@string/string_0x7f140a6c" android:key="enable_vibrate_on_keypress" android:defaultValue="@bool/bool_0x7f050064" android:restrictionType="bool" />
+        <restriction android:title="@string/string_0x7f140a22" android:key="enable_popup_on_keypress" android:defaultValue="@bool/bool_0x7f050057" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f1409f6" android:title="@string/string_0x7f1409f7" android:key="enable_secondary_digits" android:defaultValue="@bool/bool_0x7f05005c" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f1409f8" android:title="@string/string_0x7f1409f9" android:key="enable_secondary_symbols" android:defaultValue="@bool/bool_0x7f05005d" android:restrictionType="bool" />
+        <restriction android:title="@string/string_0x7f1409d0" android:key="key_long_press_delay" android:defaultValue="@string/string_0x7f1406a2" android:restrictionType="string" />
+        <restriction android:title="@string/string_0x7f1409d1" android:key="key_long_press_delay_for_a11y" android:defaultValue="@string/string_0x7f1406a3" android:restrictionType="string" />
+        <restriction android:description="@string/string_0x7f140a4a" android:title="@string/string_0x7f140a4b" android:key="show_suggestions" android:defaultValue="@bool/bool_0x7f05008a" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140a0d" android:title="@string/string_0x7f140a0e" android:key="next_word_prediction" android:defaultValue="@bool/bool_0x7f05008f" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140944" android:title="@string/string_0x7f140945" android:key="block_offensive_words" android:defaultValue="@bool/bool_0x7f05002a" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f14093c" android:title="@string/string_0x7f14093d" android:key="pref_key_auto_correction" android:defaultValue="@bool/bool_0x7f050085" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f14093a" android:title="@string/string_0x7f14093b" android:key="enable_auto_capitalization" android:defaultValue="@bool/bool_0x7f050028" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140961" android:title="@string/string_0x7f140962" android:key="enable_double_space_period" android:defaultValue="@bool/bool_0x7f05003e" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f1409fa" android:title="@string/string_0x7f1409fb" android:key="enable_mark_misspelled_words" android:defaultValue="@bool/bool_0x7f050054" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140ad7" android:title="@string/string_0x7f140ad8" android:key="pref_key_enable_grammar_checker" android:defaultValue="@bool/bool_0x7f05004d" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140638" android:title="@string/string_0x7f140980" android:key="enable_ondevice_voice" android:defaultValue="@bool/bool_0x7f050056" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140979" android:title="@string/string_0x7f14097a" android:key="enable_global_direct_to_dictation" android:defaultValue="@bool/bool_0x7f05004c" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140987" android:title="@string/string_0x7f140988" android:key="enable_emoji_alt_physical_key" android:defaultValue="@bool/bool_0x7f050040" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f14096b" android:title="@string/string_0x7f140969" android:key="pref_key_enable_conv2query" android:defaultValue="@bool/bool_0x7f05003d" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140a42" android:title="@string/string_0x7f140a43" android:key="show_launcher_icon" android:defaultValue="@bool/show_launcher_icon" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f14097d" android:title="@string/string_0x7f140989" android:key="enable_user_metrics" android:defaultValue="@bool/bool_0x7f050063" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140a13" android:title="@string/string_0x7f140a15" android:key="pref_key_use_personalized_dicts" android:defaultValue="@bool/bool_0x7f050090" android:restrictionType="bool" />
+        <restriction android:title="@string/string_0x7f140967" android:key="enable_auto_show_translate" android:defaultValue="@bool/bool_0x7f050033" android:restrictionType="bool" />
+        <restriction android:description="@string/string_0x7f140140" android:title="@string/string_0x7f140141" android:key="keyboard_mode" android:defaultValue="0" android:restrictionType="integer" />
+    </restriction>
+    <restriction android:description="@string/string_0x7f140115" android:title="@string/string_0x7f140116" android:key="config_default_layouts" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f1408cd" android:key="config_system_lm_dir" android:defaultValue="/system/usr/share/ime/google/d3_lms" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f14011a" android:key="config_default_themes_dir" android:restrictionType="string" />
+    <restriction android:description="@string/string_0x7f140117" android:title="@string/string_0x7f140118" android:key="config_default_theme_file" android:restrictionType="string" />
+    <restriction android:description="@string/string_0x7f140111" android:title="@string/string_0x7f140112" android:key="config_default_dark_theme_file" android:restrictionType="string" />
+    <restriction android:description="@string/string_0x7f140151" android:title="@string/string_0x7f140152" android:key="config_theme_access_point" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f14010d" android:title="@string/string_0x7f14010e" android:key="config_corner_key_radius" android:restrictionType="string" />
+    <restriction android:description="@string/string_0x7f140134" android:title="@string/string_0x7f140135" android:key="config_keyboard_height_ratio_portrait" android:defaultValue="1.0" android:restrictionType="string" />
+    <restriction android:description="@string/string_0x7f14012e" android:title="@string/string_0x7f14012f" android:key="config_keyboard_height_ratio_landscape" android:defaultValue="1.0" android:restrictionType="string" />
+    <restriction android:description="@string/string_0x7f140132" android:title="@string/string_0x7f140133" android:key="config_keyboard_height_ratio_normal_portrait" android:defaultValue="1.0" android:restrictionType="string" />
+    <restriction android:description="@string/string_0x7f140130" android:title="@string/string_0x7f140131" android:key="config_keyboard_height_ratio_normal_landscape" android:defaultValue="1.0" android:restrictionType="string" />
+    <restriction android:description="@string/string_0x7f14012c" android:title="@string/string_0x7f14012d" android:key="config_keyboard_height_ratio_foldable_portrait" android:defaultValue="1.0" android:restrictionType="string" />
+    <restriction android:description="@string/string_0x7f14012a" android:title="@string/string_0x7f14012b" android:key="config_keyboard_height_ratio_foldable_landscape" android:defaultValue="1.0" android:restrictionType="string" />
+    <restriction android:description="@string/string_0x7f14013a" android:title="@string/string_0x7f14013b" android:key="config_keyboard_max_height" android:restrictionType="integer" />
+    <restriction android:title="@string/string_0x7f140139" android:key="config_keyboard_left_padding_portrait" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f140145" android:key="config_keyboard_right_padding_portrait" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f140129" android:key="config_keyboard_bottom_padding_portrait" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f140138" android:key="config_keyboard_left_padding_landscape" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f140144" android:key="config_keyboard_right_padding_landscape" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f140128" android:key="config_keyboard_bottom_padding_landscape" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f140137" android:key="config_keyboard_left_padding_foldable_portrait" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f140143" android:key="config_keyboard_right_padding_foldable_portrait" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f140127" android:key="config_keyboard_bottom_padding_foldable_portrait" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f140136" android:key="config_keyboard_left_padding_foldable_landscape" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f140142" android:key="config_keyboard_right_padding_foldable_landscape" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f140126" android:key="config_keyboard_bottom_padding_foldable_landscape" android:restrictionType="string" />
+    <restriction android:description="@string/string_0x7f14011f" android:title="@string/string_0x7f140120" android:key="config_haptic_cutoff" android:defaultValue="200" android:restrictionType="integer" />
+    <restriction android:description="@string/string_0x7f14023c" android:title="@string/string_0x7f14023d" android:key="enable_display_cutout_customization" android:defaultValue="false" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f140121" android:title="@string/string_0x7f140122" android:key="config_ignore_display_cutout_area" android:defaultValue="false" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f140554" android:title="@string/string_0x7f140555" android:key="listen_orientation_event_for_updating_oem_config" android:defaultValue="false" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f140231" android:title="@string/string_0x7f140232" android:key="enable_auto_float_keyboard_in_landscape" android:defaultValue="false" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f14010b" android:title="@string/string_0x7f14010c" android:key="config_composing_view_x_offset" android:restrictionType="integer" />
+    <restriction android:description="@string/string_0x7f141391" android:title="@string/string_0x7f141392" android:key="widget_y_offset" android:defaultValue="12" android:restrictionType="integer" />
+    <restriction android:description="@string/string_0x7f140123" android:title="@string/string_0x7f140124" android:key="config_japanese_onboard" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f140147" android:title="@string/string_0x7f140148" android:key="config_max_access_points" android:defaultValue="-1" android:restrictionType="integer" />
+    <restriction android:description="@string/string_0x7f14010f" android:title="@string/string_0x7f140110" android:key="config_default_access_points_num_on_bar" android:defaultValue="-1" android:restrictionType="integer" />
+    <restriction android:description="@string/string_0x7f140109" android:title="@string/string_0x7f14010a" android:key="config_access_points_order" android:restrictionType="string" />
+    <restriction android:title="@string/string_0x7f1404de" android:key="config_text_editing" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:title="@string/string_0x7f1409a8" android:key="config_gesture_typing" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:title="@string/string_0x7f140a71" android:key="config_voice_typing" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f14014e" android:title="@string/string_0x7f14014f" android:key="config_global_direct_to_dictation" android:defaultValue="false" android:restrictionType="bool" />
+    <restriction android:title="@string/string_0x7f1400c7" android:key="config_clipboard" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:title="@string/string_0x7f140992" android:key="config_expression" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f140697" android:entries="@array/array_0x7f03001a" android:title="@string/string_0x7f140698" android:key="predefined_device_form_factor" android:entryValues="@array/array_0x7f03001b" android:restrictionType="choice" />
+    <restriction android:entries="@array/array_0x7f03000e" android:title="@string/string_0x7f140114" android:key="config_default_keyboard_mode" android:entryValues="@array/array_0x7f03000f" android:restrictionType="choice" />
+    <restriction android:entries="@array/array_0x7f03000c" android:title="@string/string_0x7f140113" android:key="config_default_keyboard_mode_foldable" android:entryValues="@array/array_0x7f03000d" android:restrictionType="choice" />
+    <restriction android:description="@string/string_0x7f14011d" android:title="@string/string_0x7f14011e" android:key="config_force_full_screen_mode" android:defaultValue="false" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f14011b" android:title="@string/string_0x7f14011c" android:key="config_enable_extra_small_theme_without_height" android:defaultValue="false" android:restrictionType="bool" />
+    <restriction android:title="@string/string_0x7f1404c2" android:key="config_sharing" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:title="@string/string_0x7f14014a" android:key="config_ocr" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:title="@string/string_0x7f1404e2" android:key="config_translate" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f14014c" android:title="@string/string_0x7f14014d" android:key="config_settings_access_point" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:title="@string/string_0x7f140ada" android:key="config_proofread" android:defaultValue="true" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f1408ce" android:title="@string/string_0x7f1408cf" android:key="prevent_external_intents" android:defaultValue="false" android:restrictionType="bool" />
+    <restriction android:description="@string/string_0x7f1402c6" android:title="@string/string_0x7f1402c7" android:key="config_force_horizontal_toolbar" android:defaultValue="false" android:restrictionType="bool" />
+</restrictions>

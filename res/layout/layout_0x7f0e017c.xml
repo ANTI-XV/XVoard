@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView app:attr_0x7f0402e6="false" style="@style/style_0x7f15026d"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewSwitcher android:id="@id/id_0x7f0b02a0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/layout_0x7f0e017b" />
+        <include layout="@layout/layout_0x7f0e0182" />
+    </ViewSwitcher>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

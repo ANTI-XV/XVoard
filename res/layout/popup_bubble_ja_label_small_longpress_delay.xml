@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.MaterialPopupView android:id="@id/id_0x7f0b05dc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" app:attr_0x7f040092="false" app:attr_0x7f040210="?attr_0x7f0401c2" hide_animation="@animator/animator_0x7f020024" show_animation="@animator/animator_0x7f02004a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/id_0x7f0b05f0" style="@style/style_0x7f15043e">
+        <FrameLayout android:id="@id/id_0x7f0b05e4" style="@style/style_0x7f15043f">
+            <com.google.android.libraries.inputmethod.widgets.AutoCenteredLabelView android:textSize="?attr_0x7f040275" android:id="@id/id_0x7f0b05ea" android:visibility="gone" style="@style/style_0x7f150439" />
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.popup.MaterialPopupView>

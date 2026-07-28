@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.search.universalmedia.UniversalMediaKeyboardTablet" recent_key_layout="@layout/layout_0x7f0e076d" recent_key_popup_layout="@layout/layout_0x7f0e0694" recent_key_type="smiley" remember_recent_key="ALL_ACTIONS">
+        <view direction="locale" layout="@layout/layout_0x7f0e05c9" type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubDeleteMotionEventHandler" preference_key="@string/string_0x7f140736" reverse_preference="false" />
+            <motion_event_handler class=".motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <softkeys href="@xml/xml_0x7f170cd3" />
+            <include href="@xml/xml_0x7f170a93" />
+            <softkeys href="@xml/xml_0x7f170ff9" id="@id/id_0x7f0b1f47" />
+            <include href="@xml/xml_0x7f170c68" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170fdb" />
+            <softkeys href="@xml/xml_0x7f170cb6" />
+            <include href="@xml/xml_0x7f170a9f" />
+            <softkeys href="@xml/xml_0x7f170cb2" />
+            <include href="@xml/xml_0x7f170ae4" />
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <if keyboard_mode="split">
+            <if device="tablet" device_size="large">
+                <if split_with_duplicate_keys="true">
+                    <view layout="@layout/layout_0x7f0e038c" type="body" />
+                </if>
+                <else>
+                    <view layout="@layout/layout_0x7f0e038d" type="body" />
+                </else>
+            </if>
+            <else_if enable_iw_staggered_layout="true">
+                <if split_with_duplicate_keys="true">
+                    <view layout="@layout/layout_0x7f0e038c" type="body" />
+                </if>
+                <else>
+                    <view layout="@layout/layout_0x7f0e038d" type="body" />
+                </else>
+            </else_if>
+            <else>
+                <view layout="@layout/layout_0x7f0e0258" type="body" />
+            </else>
+        </if>
+        <else_if device="tablet" device_size="large">
+            <if keyboard_mode="normal">
+                <view layout="@layout/layout_0x7f0e02e8" type="body" />
+            </if>
+            <else>
+                <view layout="@layout/layout_0x7f0e038b" type="body" />
+            </else>
+        </else_if>
+        <else_if enable_iw_staggered_layout="true">
+            <view layout="@layout/layout_0x7f0e038b" type="body" />
+        </else_if>
+        <else>
+            <view layout="@layout/layout_0x7f0e0257" type="body" />
+        </else>
+        <view type="body">
+            <softkeys href="@xml/xml_0x7f170fd7" />
+            <include href="@xml/xml_0x7f170bdf" />
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <include href="@xml/xml_0x7f170ba0" />
+            </if>
+            <else>
+                <include href="@xml/xml_0x7f170b9d" />
+            </else>
+        </view>
+    </keyboard>
+</framework>

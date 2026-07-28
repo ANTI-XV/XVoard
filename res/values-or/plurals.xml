@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d କୀ ନ୍ୟସ୍ତ କରାଯାଇଛି</item>
+        <item quantity="other">%d ଟି କୀ ନ୍ୟସ୍ତ କରାଯାଇଛି</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s ବର୍ତ୍ତମାନ ଇନଷ୍ଟଲ କରାଯାଇଛି।</item>
+        <item quantity="other">%s ବର୍ତ୍ତମାନ ଇନଷ୍ଟଲ କରାଯାଇଛି।</item>
+    </plurals>
+</resources>

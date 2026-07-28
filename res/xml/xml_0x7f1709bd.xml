@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.expression.keyboard.QueryableExpressionKeyboard">
+        <view direction="locale" layout="@layout/layout_0x7f0e05bb" type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubDeleteMotionEventHandler" preference_key="@string/string_0x7f140736" reverse_preference="false" />
+            <motion_event_handler class=".motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <softkeys href="@xml/xml_0x7f170cd3" />
+            <include href="@xml/xml_0x7f170a8a" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170fdb" />
+            <softkeys href="@xml/xml_0x7f170cb6" />
+            <include href="@xml/xml_0x7f170a9f" />
+            <softkeys href="@xml/xml_0x7f170cb2" />
+            <include href="@xml/xml_0x7f170ae4" />
+        </view>
+    </keyboard>
+</framework>

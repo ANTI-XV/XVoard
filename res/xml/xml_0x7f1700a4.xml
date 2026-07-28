@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dynamic_keys>
+    <key>
+        <primary_input>ʒ</primary_input>
+        <primary_input>Ʒ</primary_input>
+        <action state="0">ʒ</action>
+        <action state="0">ʒ̆</action>
+        <action state="1">Ʒ</action>
+        <action state="1">Ʒ̆</action>
+    </key>
+    <key>
+        <primary_input>t</primary_input>
+        <primary_input>T</primary_input>
+        <action state="0">t</action>
+        <action state="0">t̆</action>
+        <action state="1">T</action>
+        <action state="1">T̆</action>
+    </key>
+    <key>
+        <primary_input>p</primary_input>
+        <primary_input>P</primary_input>
+        <action state="0">p</action>
+        <action state="0">p̆</action>
+        <action state="1">P</action>
+        <action state="1">P̆</action>
+    </key>
+    <key>
+        <primary_input>k</primary_input>
+        <primary_input>K</primary_input>
+        <action state="0">k</action>
+        <action state="0">k̆</action>
+        <action state="1">K</action>
+        <action state="1">K̆</action>
+    </key>
+    <key>
+        <primary_input>z</primary_input>
+        <primary_input>Z</primary_input>
+        <action state="0">z</action>
+        <action state="0">z̆</action>
+        <action state="1">Z</action>
+    </key>
+    <key>
+        <primary_input>ç</primary_input>
+        <primary_input>Ç</primary_input>
+        <action state="0">ç</action>
+        <action state="0">ç̆</action>
+        <action state="1">Ç</action>
+        <action state="1">Ç̆</action>
+    </key>
+</dynamic_keys>

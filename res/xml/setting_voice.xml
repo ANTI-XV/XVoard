@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_0x7f140a71" android:key="@string/string_0x7f14089d"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.ColoredBackgroundSwitchPreference android:persistent="true" android:title="@string/string_0x7f14098b" android:key="@string/string_0x7f140743" />
+    <com.google.android.libraries.inputmethod.preferencewidgets.LinkableSwitchPreference android:persistent="true" android:title="@string/string_0x7f140980" android:key="@string/string_0x7f14072e" android:summary="@string/string_0x7f140638" android:dependency="@string/string_0x7f140743" />
+    <com.google.android.libraries.inputmethod.preferencewidgets.LinkableSwitchPreference android:persistent="true" android:title="@string/string_0x7f140971" android:key="@string/string_0x7f140719" android:summary="@string/string_0x7f140991" android:dependency="@string/string_0x7f140743">
+        <extra android:name="hide_if_flag_is_false" android:value="enable_nga=false" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.LinkableSwitchPreference>
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140972" android:key="@string/string_0x7f14071a" android:summary="@string/string_0x7f14098c" android:dependency="@string/string_0x7f140719">
+        <extra android:name="hide_if_flag_is_false" android:value="enable_nga=false" />
+    </SwitchPreferenceCompat>
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140973" android:key="@string/string_0x7f14071b" android:summary="@string/string_0x7f14098d" android:dependency="@string/string_0x7f140719">
+        <extra android:name="hide_if_flag_is_false" android:value="enable_nga=false" />
+    </SwitchPreferenceCompat>
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140974" android:key="@string/string_0x7f14071c" android:summary="@string/string_0x7f140990" android:dependency="@string/string_0x7f140719">
+        <extra android:name="hide_if_flag_is_false" android:value="enable_nga=false" />
+        <extra android:name="hide_if_flag_is_false" android:value="nga_enable_proofread_setting=false" />
+    </SwitchPreferenceCompat>
+    <Preference android:persistent="false" android:title="@string/string_0x7f140935" android:key="@string/string_0x7f14089e" android:summary="@string/string_0x7f140936" android:dependency="@string/string_0x7f140743">
+        <extra android:name="hide_if_flag_is_true" android:value="hide_offline_speech_recognition=false" />
+    </Preference>
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a3c" android:key="@string/string_0x7f1408a0" android:summary="@string/string_0x7f140a3b">
+        <extra android:name="hide_if_flag_is_false" android:value="@string/string_0x7f14025b" />
+        <extra android:name="toolbar_type" android:value="voice" />
+    </SwitchPreferenceCompat>
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14097a" android:key="@string/string_0x7f140722" android:summary="@string/string_0x7f140979" android:dependency="@string/string_0x7f140743">
+        <extra android:name="hide_if_flag_is_false" android:value="@string/string_0x7f140244" />
+    </SwitchPreferenceCompat>
+</PreferenceScreen>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b0cca" view_id="@id/key_pos_digit_1" />
+        <mapping key_id="@id/id_0x7f0b0ccb" view_id="@id/key_pos_digit_2" />
+        <mapping key_id="@id/id_0x7f0b0ccc" view_id="@id/key_pos_digit_3" />
+        <mapping key_id="@id/id_0x7f0b0ccd" view_id="@id/key_pos_digit_4" />
+        <mapping key_id="@id/id_0x7f0b0cce" view_id="@id/key_pos_digit_5" />
+        <mapping key_id="@id/id_0x7f0b0ccf" view_id="@id/key_pos_digit_6" />
+        <mapping key_id="@id/id_0x7f0b0cd0" view_id="@id/key_pos_digit_7" />
+        <mapping key_id="@id/id_0x7f0b0cd1" view_id="@id/key_pos_digit_8" />
+        <mapping key_id="@id/id_0x7f0b0cd2" view_id="@id/key_pos_digit_9" />
+        <mapping key_id="@id/id_0x7f0b0cc9" view_id="@id/key_pos_digit_0" />
+        <mapping key_id="@id/id_0x7f0b0ac6" view_id="@id/key_pos_digit_symbol_1" />
+        <mapping key_id="@id/id_0x7f0b1a2d" view_id="@id/key_pos_digit_symbol_2" />
+    </key_mapping>
+</framework>

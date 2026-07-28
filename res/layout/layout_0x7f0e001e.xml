@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="34.0dp" android:paddingHorizontal="?attr_0x7f040001"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:tag=".access-point-drag-in-area-hint" android:background="@drawable/drawable_0x7f0801e0" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

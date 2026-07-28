@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView style="@style/style_0x7f1501b9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:baselineAligned="false" style="@style/style_0x7f15040a">
+        <LinearLayout android:id="@id/id_0x7f0b058d" android:layout_width="0.0dp" android:layout_weight="?attr_0x7f04017e" style="@style/style_0x7f1501cb">
+            <LinearLayout style="@style/style_0x7f150467">
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_line1_1" android:layout_weight="333.0" style="@style/style_0x7f1505e4" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_line1_2" android:layout_weight="333.0" style="@style/style_0x7f1505e4" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_line1_3" android:layout_weight="333.0" style="@style/style_0x7f1505e4" />
+            </LinearLayout>
+            <LinearLayout style="@style/style_0x7f150467">
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_line2_1" android:layout_weight="333.0" style="@style/style_0x7f1505e4" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_line2_2" android:layout_weight="333.0" style="@style/style_0x7f1505e4" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_line2_3" android:layout_weight="333.0" style="@style/style_0x7f1505e4" />
+            </LinearLayout>
+            <LinearLayout style="@style/style_0x7f150467">
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_line3_1" android:layout_weight="333.0" style="@style/style_0x7f1505e4" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_line3_2" android:layout_weight="333.0" style="@style/style_0x7f1505e4" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_line3_3" android:layout_weight="333.0" style="@style/style_0x7f1505e4" />
+            </LinearLayout>
+            <LinearLayout style="@style/style_0x7f150467">
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_line4_1" android:layout_weight="333.0" style="@style/style_0x7f1505cf" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_line4_2" android:layout_weight="333.0" style="@style/style_0x7f1505e4" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="333.0" style="@style/style_0x7f1505dc" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

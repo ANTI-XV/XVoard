@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f1403a1" id="@id/id_0x7f0b0bba" layout="@layout/layout_0x7f0e072f" multi_touch="false">
+            <if rtl_layout="true">
+                <attrs layout="@layout/layout_0x7f0e0734" />
+            </if>
+            <action keycode="DEL" repeatable="true" type="PRESS" />
+            <action keycode="DELETE_FINISH" type="UP" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011a" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f1403a1" id="@id/id_0x7f0b0bbb" layout="@layout/layout_0x7f0e072f" multi_touch="false" popup_timing="ON_GESTURE" slide_sensitivity="LESS">
+            <if rtl_layout="true">
+                <attrs layout="@layout/layout_0x7f0e0734" />
+            </if>
+            <action keycode="DEL" repeatable="true" type="PRESS" />
+            <action keycode="DELETE_FINISH" type="UP" />
+            <action keycode="CLEAR_ALL" popup_label="@string/string_0x7f14048a" popup_layout="@layout/layout_0x7f0e06bc" type="SLIDE_LEFT" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011a" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140261" disable_lift_to_tap="true" id="@id/id_0x7f0b0d8f" layout="@layout/layout_0x7f0e074c">
+            <if rtl_layout="true">
+                <attrs layout="@layout/layout_0x7f0e0753" />
+            </if>
+            <action keycode="ENTER" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011d" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140261" disable_lift_to_tap="true" id="@id/id_0x7f0b0d90" layout="@layout/layout_0x7f0e074c" popup_timing="ON_TOUCH">
+            <if rtl_layout="true">
+                <attrs layout="@layout/layout_0x7f0e0753" />
+            </if>
+            <action data="\n" intention="COMMIT" keycode="PLAIN_TEXT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011d" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b145a" layout="@layout/layout_0x7f0e0792" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+            <action data="!" intention="DECODE" keycode="ALPHABET" popup_label="!" type="PRESS" />
+            <action data="‍" intention="D" keycode="ALPHABET" popup_icon="@drawable/drawable_0x7f080440" popup_layout="@attr/attr_0x7f04020c" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="!" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b145b" layout="@layout/layout_0x7f0e0792" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+            <action data="ៗ" intention="DECODE" keycode="ALPHABET" popup_label="ៗ" type="PRESS" />
+            <action data="‌" intention="D" keycode="ALPHABET" popup_icon="@drawable/drawable_0x7f080441" popup_layout="@attr/attr_0x7f04020c" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="ៗ" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b1025" layout="@layout/layout_0x7f0e0792">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="⎵" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b82" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?123" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f14062b" disable_lift_to_tap="true" id="@id/id_0x7f0b1b8c" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="digit" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="123" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b8d" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?!;" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b83" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="U+1E953U+1E952U+1E951U+061F" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b84" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="٣٢١؟" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b85" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="123؟" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b86" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="᭗᭘᭙" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b87" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="꛷ꛦꛧꛨ" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b88" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?১২৩" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b89" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="𑅃𑄷𑄸𑄹" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b8a" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?꩑꩒꩓" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b8b" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?፩፪፫" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b8e" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?૧૨૩" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b8f" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?੧੨੩" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b90" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?१२३" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b91" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="/ [ {" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b92" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="ꧏ꧐꧑" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b93" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?೧೨೩" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b94" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?꤁꤂꤃" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b95" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?᱁᱂᱃" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b96" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="᥅᥇᥈᥉" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b97" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?꯱꯲꯳" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b98" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?၁၂၃" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b99" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?႑႒႓" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b9a" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="？᧑᧒᧓" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b9b" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="߃߂߁؟" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b9c" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?୧୨୩" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b9d" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?᱑᱒᱓" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b9e" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="۳۲۱؟" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1b9f" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?꣑꣒꣓" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1ba0" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?᮱᮲᮳" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" disable_lift_to_tap="true" id="@id/id_0x7f0b1ba1" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="༡༢༣" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f1403ae" disable_lift_to_tap="true" id="@id/id_0x7f0b093d" layout="@layout/layout_0x7f0e073d" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action keycode="LAUNCH_PREFERENCE_ACTIVITY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08041b" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f1401c4" disable_lift_to_tap="true" id="@id/id_0x7f0b1b73" layout="@layout/layout_0x7f0e072f">
+            <action data="com.google.android.apps.inputmethod.libs.expression.extension.IEmojiOrGifExtension" keycode="OPEN_EXTENSION" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080474" />
+        </softkey>
+        <softkey alpha="@integer/integer_0x7f0c0067" content_description="" id="@id/id_0x7f0b1b76" layout="@layout/layout_0x7f0e072f">
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080474" />
+        </softkey>
+        <softkey a11y_click_action_label="@string/string_0x7f140577" additional_content_description="@string/string_0x7f140578" alpha="@integer/integer_0x7f0c00dd" content_description="@string/string_0x7f1401c4" disable_lift_to_tap="true" id="@id/id_0x7f0b1b77" layout="@layout/layout_0x7f0e072f">
+            <action data="@string/string_0x7f140436" keycode="POLICY_TRANSPARENCY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080474" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140211" disable_lift_to_tap="true" id="@id/id_0x7f0b1b78" layout="@layout/layout_0x7f0e072f">
+            <action data="@string/string_0x7f140425" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08040a" />
+        </softkey>
+        <softkey alpha="@integer/integer_0x7f0c0067" content_description="" id="@id/id_0x7f0b1b7b" layout="@layout/layout_0x7f0e072f">
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08040a" />
+        </softkey>
+        <softkey a11y_click_action_label="@string/string_0x7f140577" additional_content_description="@string/string_0x7f140578" alpha="@integer/integer_0x7f0c00dd" content_description="@string/string_0x7f140211" disable_lift_to_tap="true" id="@id/id_0x7f0b1b7c" layout="@layout/layout_0x7f0e072f">
+            <action data="@string/string_0x7f140436" keycode="POLICY_TRANSPARENCY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08040a" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f1401c4" disable_lift_to_tap="true" id="@id/id_0x7f0b1b74" layout="@layout/layout_0x7f0e074e" popup_timing="ON_TOUCH">
+            <action data="com.google.android.apps.inputmethod.libs.expression.extension.IEmojiOrGifExtension" keycode="OPEN_EXTENSION" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080474" />
+        </softkey>
+        <softkey a11y_click_action_label="@string/string_0x7f140577" additional_content_description="@string/string_0x7f140578" alpha="@integer/integer_0x7f0c00dd" content_description="@string/string_0x7f1401c4" disable_lift_to_tap="true" id="@id/id_0x7f0b1b75" layout="@layout/layout_0x7f0e074e" popup_timing="ON_TOUCH">
+            <action data="@string/string_0x7f140436" keycode="POLICY_TRANSPARENCY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080474" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140211" disable_lift_to_tap="true" id="@id/id_0x7f0b1b79" layout="@layout/layout_0x7f0e074f" popup_timing="ON_TOUCH">
+            <action data="@string/string_0x7f140425" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08040a" />
+        </softkey>
+        <softkey a11y_click_action_label="@string/string_0x7f140577" additional_content_description="@string/string_0x7f140578" alpha="@integer/integer_0x7f0c00dd" content_description="@string/string_0x7f140211" disable_lift_to_tap="true" id="@id/id_0x7f0b1b7a" layout="@layout/layout_0x7f0e074f" popup_timing="ON_TOUCH">
+            <action data="@string/string_0x7f140436" keycode="POLICY_TRANSPARENCY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08040a" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b12df" layout="@layout/layout_0x7f0e0735">
+            <action keycode="JAMO_SHORTCUT" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="▶" />
+        </softkey>
+    </softkeys>
+</framework>

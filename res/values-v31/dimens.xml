@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_0x7f070165">24.0dp</dimen>
+    <dimen name="dimen_0x7f07077a">28.0dp</dimen>
+    <dimen name="dimen_0x7f07077c">24.0dp</dimen>
+    <dimen name="dimen_0x7f07077d">72.0dp</dimen>
+    <dimen name="dimen_0x7f070780">48.0dp</dimen>
+    <dimen name="dimen_0x7f070783">28.0dp</dimen>
+    <dimen name="dimen_0x7f070785">16.0dp</dimen>
+    <dimen name="dimen_0x7f070786">20.0dp</dimen>
+    <dimen name="dimen_0x7f070787">20.0dp</dimen>
+</resources>

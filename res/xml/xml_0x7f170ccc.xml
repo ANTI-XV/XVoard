@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey content_description="@string/string_0x7f14023b" id="@id/id_0x7f0b06c0" layout="@layout/layout_0x7f0e0743" multi_touch="false">
+            <action keycode="LOCK_SHIFT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04012e" />
+            <icon location="@id/id_0x7f0b02ae" value="@drawable/drawable_0x7f080356" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f1401a2" id="@id/id_0x7f0b06c1" layout="@layout/layout_0x7f0e0742" multi_touch="false">
+            <action keycode="UNLOCK_SHIFT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04012f" />
+            <icon location="@id/id_0x7f0b02ae" value="@drawable/drawable_0x7f080355" />
+        </softkey>
+    </softkeys>
+</framework>

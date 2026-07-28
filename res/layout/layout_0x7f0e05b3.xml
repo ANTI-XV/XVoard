@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView app:attr_0x7f0402e6="false" style="@style/style_0x7f1502a2"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_0x7f0e01b3" />
+    <include layout="@layout/layout_0x7f0e06de" />
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

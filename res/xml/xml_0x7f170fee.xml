@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_list splitter=" ">
+            <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d49" layout="@layout/layout_0x7f0e0792" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+                <action data="$press_data$" intention="DECODE" keycode="$keycode_normal$" popup_label="$label$" type="PRESS" />
+                <label location="@id/id_0x7f0b04d0" value="$label$" />
+            </softkey_template>
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d49">
+            <softkey id="@id/id_0x7f0b12aa" keycode_normal="PLAIN_TEXT" label="!" press_data="!" />
+            <softkey id="@id/id_0x7f0b12b9" keycode_normal="PLAIN_TEXT" label="?" press_data="?" />
+        </softkey_list>
+    </softkeys>
+</framework>

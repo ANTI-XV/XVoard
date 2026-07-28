@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:tag=".expression-search-entry-icon-frame" android:background="@drawable/drawable_0x7f0801fa" android:layout_width="?attr_0x7f04008e" android:layout_height="?attr_0x7f04008e" android:layout_marginEnd="@dimen/dimen_0x7f0707fb" android:elevation="@dimen/dimen_0x7f07012f"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/id_0x7f0b01d6" android:tag=".expression-search-entry-icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/drawable_0x7f08055f" android:scaleType="centerInside" android:contentDescription="@string/string_0x7f140305" />
+</FrameLayout>

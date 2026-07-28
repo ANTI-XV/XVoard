@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping state="COMPOSING">
+        <mapping key_id="@id/id_0x7f0b0a98" view_id="@id/key_pos_shift" />
+    </key_mapping>
+    <key_mapping state="COMPOSING+MANUAL_SHIFT">
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <mapping key_id="@id/id_0x7f0b1ae6" view_id="@id/key_pos_shift" />
+        </if>
+        <else>
+            <mapping key_id="@id/id_0x7f0b1ae4" view_id="@id/key_pos_shift" />
+        </else>
+    </key_mapping>
+    <key_mapping state="COMPOSING+SHIFT_COMBO">
+        <mapping key_id="@id/id_0x7f0b1ae5" view_id="@id/key_pos_shift" />
+    </key_mapping>
+    <if device="tablet" device_size="large" keyboard_mode="normal" />
+    <else>
+        <key_mapping state="COMPOSING+SHIFT_LOCK">
+            <mapping key_id="@id/id_0x7f0b1ae1" view_id="@id/key_pos_shift" />
+        </key_mapping>
+    </else>
+    <key_mapping state="COMPOSING+SHUANGPIN_MS_ZIGUANG">
+        <mapping key_id="@id/id_0x7f0b0a95" view_id="@id/key_pos_shift" />
+    </key_mapping>
+    <key_mapping state="COMPOSING+SHUANGPIN_MS_ZIGUANG+SHIFT_LOCK">
+        <mapping key_id="@id/id_0x7f0b1ae1" view_id="@id/key_pos_shift" />
+    </key_mapping>
+</framework>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.languageselection.NestedRecyclerView android:orientation="horizontal" android:id="@id/keyboard_layout_container" android:paddingTop="@dimen/dimen_0x7f07037d" android:paddingBottom="@dimen/dimen_0x7f07037d" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_0x7f07037c"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">已指定 %d 個鍵</item>
+        <item quantity="other">已指定 %d 個鍵</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">現已安裝%s。</item>
+        <item quantity="other">現已安裝%s。</item>
+    </plurals>
+</resources>

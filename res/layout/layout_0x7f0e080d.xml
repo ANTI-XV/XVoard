@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView android:id="@id/id_0x7f0b2042" android:tag=".widget-tooltip-hint-ring" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@color/color_0x7f060b9a" android:scaleType="centerInside" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

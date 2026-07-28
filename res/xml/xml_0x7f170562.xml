@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime always_show_suggestions="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.hmmhandwriting.HmmHandwritingIme" display_app_completions="true" indicator_label="寫" language="zh-TW" language_specific_settings="@xml/xml_0x7f171002" string_id="ime_zh_tw_handwriting" use_ascii_password_keyboard="true">
+        <keyboard_group supports_one_handed_mode="false" variant="handwriting" variant_label="@string/string_0x7f1411c1">
+            <layout_specific_settings resource_id="@xml/xml_0x7f171000" />
+            <keyboard def="@xml/xml_0x7f1707ce" type="prime" />
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/id_0x7f0b020a" value="true" />
+            <item id="@id/id_0x7f0b021e" value="@string/string_0x7f1404cc" />
+            <item id="@id/id_0x7f0b0219" value="。" />
+            <item id="@id/id_0x7f0b0201" value="@string/string_0x7f140713" />
+            <item id="@id/id_0x7f0b0218" value="hmm" />
+            <item id="@id/id_0x7f0b0220" value="false" />
+        </extra_values>
+    </ime>
+</framework>

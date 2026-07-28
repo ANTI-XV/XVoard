@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_weight="672.0" style="@style/style_0x7f150365">
+        <ImageView style="@style/style_0x7f150360" />
+        <LinearLayout style="@style/style_0x7f15040b">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="750.0">
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_arrow_up" android:layout_weight="250.0" style="@style/style_0x7f1505cc" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_arrow_down" android:visibility="gone" android:layout_weight="250.0" style="@style/style_0x7f1505cc" />
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_2_0" android:visibility="gone" android:layout_weight="250.0" style="@style/style_0x7f1505cc" />
+            </LinearLayout>
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_3_0" android:layout_weight="250.0" style="@style/style_0x7f1505cc" />
+        </LinearLayout>
+    </FrameLayout>
+    <include android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2016.0" layout="@layout/layout_0x7f0e0150" />
+    <FrameLayout android:layout_weight="672.0" style="@style/style_0x7f150365">
+        <LinearLayout style="@style/style_0x7f15040b">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_0_4" android:visibility="gone" android:layout_weight="250.0" style="@style/style_0x7f1505df" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_1_4" android:visibility="gone" android:layout_weight="250.0" style="@style/style_0x7f1505df" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_2_4" android:visibility="gone" android:layout_weight="250.0" style="@style/style_0x7f1505df" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_number_panel_3_4" android:layout_weight="250.0" style="@style/style_0x7f1505df" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

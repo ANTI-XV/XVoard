@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if enable_secondary_symbols="true">
+        <merge_key_mapping>
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <merge key_id="@id/id_0x7f0b0fac" view_id="@id/key_pos_2_9" />
+                <merge key_id="@id/id_0x7f0b0ff5" view_id="@id/key_pos_2_10" />
+            </if>
+            <else>
+                <merge key_id="@id/id_0x7f0b0fac" view_id="@id/key_pos_input_symbol_1" />
+                <merge key_id="@id/id_0x7f0b0ff5" view_id="@id/key_pos_input_symbol_2" />
+            </else>
+        </merge_key_mapping>
+    </if>
+</framework>

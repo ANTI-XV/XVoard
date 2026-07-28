@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_0x7f1502b0" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/drawable_0x7f08058e</item>
+    </style>
+    <style name="style_0x7f1502f7">
+        <item name="android:tag">.item-ripple.on-surface</item>
+        <item name="android:background">@drawable/drawable_0x7f080491</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5.0dp</item>
+        <item name="android:layout_marginBottom">5.0dp</item>
+        <item name="android:minHeight">@dimen/dimen_0x7f07033d</item>
+        <item name="android:clipToOutline">true</item>
+    </style>
+    <style name="style_0x7f15040f" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/color_0x7f060b0c</item>
+        <item name="android:fontFamily">@font/font_0x7f090017</item>
+    </style>
+    <style name="style_0x7f150482">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:tag">.keyboard-clipboard-popup</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dimen_0x7f070314</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+        <item name="android:clipToOutline">true</item>
+    </style>
+    <style name="style_0x7f1504a9" parent="@style/style_0x7f1504aa">
+        <item name="attr_0x7f040391">@style/style_0x7f1504d9</item>
+        <item name="attr_0x7f040499">@style/style_0x7f1504dd</item>
+        <item name="attr_0x7f0404bb">@style/style_0x7f1504db</item>
+        <item name="attr_0x7f0404c1">@style/style_0x7f1504dc</item>
+        <item name="attr_0x7f04055a">@style/style_0x7f15049a</item>
+        <item name="attr_0x7f040750">@style/style_0x7f1504d8</item>
+        <item name="attr_0x7f040751">@style/style_0x7f15069f</item>
+        <item name="attr_0x7f040752">@color/color_0x7f060b49</item>
+        <item name="attr_0x7f040757">@style/style_0x7f1504de</item>
+        <item name="attr_0x7f040758">@style/style_0x7f1504dd</item>
+        <item name="attr_0x7f0407a4">@style/style_0x7f1504df</item>
+        <item name="attr_0x7f040839">@style/style_0x7f1504e0</item>
+    </style>
+    <style name="style_0x7f1504d8" parent="@style/style_0x7f15048f">
+        <item name="attr_0x7f0402e2">@bool/bool_0x7f05009f</item>
+        <item name="attr_0x7f0402e4">@bool/bool_0x7f05009f</item>
+        <item name="attr_0x7f040596">@bool/bool_0x7f0500a0</item>
+    </style>
+    <style name="style_0x7f1504d9" parent="@style/style_0x7f150491">
+        <item name="attr_0x7f040596">@bool/bool_0x7f0500a0</item>
+        <item name="attr_0x7f0405ed">@layout/layout_0x7f0e0706</item>
+    </style>
+    <style name="style_0x7f1504db" parent="@style/style_0x7f150497">
+        <item name="attr_0x7f040596">@bool/bool_0x7f0500a0</item>
+        <item name="attr_0x7f0405ed">@layout/layout_0x7f0e0702</item>
+    </style>
+    <style name="style_0x7f1504dc" parent="@style/style_0x7f150494">
+        <item name="attr_0x7f040497">@layout/layout_0x7f0e0707</item>
+        <item name="attr_0x7f040596">@bool/bool_0x7f0500a0</item>
+        <item name="attr_0x7f0405ed">@layout/layout_0x7f0e0706</item>
+    </style>
+    <style name="style_0x7f1504dd" parent="@style/style_0x7f15049a">
+        <item name="attr_0x7f040596">@bool/bool_0x7f0500a0</item>
+        <item name="attr_0x7f0405ed">@layout/layout_0x7f0e0706</item>
+    </style>
+    <style name="style_0x7f1504de" parent="@style/style_0x7f15049c">
+        <item name="attr_0x7f040596">@bool/bool_0x7f0500a0</item>
+        <item name="attr_0x7f0405ed">@layout/layout_0x7f0e0706</item>
+    </style>
+    <style name="style_0x7f1504df" parent="@style/style_0x7f15049e">
+        <item name="attr_0x7f040596">@bool/bool_0x7f0500a0</item>
+    </style>
+    <style name="style_0x7f1504e0" parent="@style/style_0x7f1504a0">
+        <item name="attr_0x7f040596">@bool/bool_0x7f0500a0</item>
+        <item name="attr_0x7f0405ed">@layout/layout_0x7f0e0706</item>
+    </style>
+    <style name="style_0x7f1505cc" parent="@style/style_0x7f1505c7">
+        <item name="android:clipToOutline">true</item>
+    </style>
+    <style name="style_0x7f1505df" parent="@style/style_0x7f1505de">
+        <item name="android:clipToOutline">true</item>
+    </style>
+    <style name="style_0x7f1505e3" parent="@style/style_0x7f1505e0">
+        <item name="android:clipToOutline">true</item>
+    </style>
+    <style name="style_0x7f150657" parent="@android:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:minHeight">@dimen/dimen_0x7f070780</item>
+        <item name="android:thumb">@drawable/drawable_0x7f080595</item>
+        <item name="android:track">@drawable/drawable_0x7f080596</item>
+        <item name="android:switchMinWidth">52.0dp</item>
+    </style>
+    <style name="style_0x7f15069f" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/color_0x7f060b49</item>
+    </style>
+    <style name="style_0x7f150753" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/color_0x7f060b4a</item>
+        <item name="android:fontFamily">@font/font_0x7f090017</item>
+    </style>
+    <style name="style_0x7f150897">
+        <item name="android:colorBackground">@color/color_0x7f060401</item>
+        <item name="android:textColorPrimary">@color/color_0x7f06021d</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/color_0x7f060221</item>
+        <item name="android:textColorSecondary">@color/color_0x7f06021e</item>
+        <item name="android:textColorPrimaryInverse">@color/color_0x7f060222</item>
+        <item name="android:textColorSecondaryInverse">@color/color_0x7f060223</item>
+        <item name="android:textColorHintInverse">@color/color_0x7f060225</item>
+        <item name="android:textColorHighlight">@color/color_0x7f06021f</item>
+        <item name="android:textColorHint">@color/color_0x7f060220</item>
+        <item name="android:textColorTertiary">@color/color_0x7f06021e</item>
+        <item name="android:textColorTertiaryInverse">@color/color_0x7f060223</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/color_0x7f060226</item>
+        <item name="android:textColorAlertDialogListItem">@color/color_0x7f06021d</item>
+        <item name="android:textColorHighlightInverse">@color/color_0x7f060224</item>
+        <item name="android:isLightTheme">false</item>
+        <item name="attr_0x7f0403e5">@color/color_0x7f060215</item>
+        <item name="attr_0x7f0403e6">@color/color_0x7f060216</item>
+        <item name="attr_0x7f0403e9">@color/color_0x7f06040a</item>
+        <item name="attr_0x7f0403ee">@color/color_0x7f060217</item>
+        <item name="attr_0x7f0403ef">@color/color_0x7f060218</item>
+        <item name="attr_0x7f0403f0">@color/color_0x7f06040d</item>
+        <item name="attr_0x7f0403f1">@color/color_0x7f06040e</item>
+        <item name="attr_0x7f0403f2">?attr_0x7f0403f1</item>
+        <item name="attr_0x7f0403f3">?attr_0x7f0403f1</item>
+        <item name="attr_0x7f0403f4">@color/color_0x7f060454</item>
+        <item name="attr_0x7f0403f5">@color/color_0x7f060455</item>
+        <item name="attr_0x7f0403f7">?attr_0x7f0403f0</item>
+        <item name="attr_0x7f0403f8">?attr_0x7f0403f0</item>
+        <item name="attr_0x7f0403fb">@color/color_0x7f06040f</item>
+        <item name="attr_0x7f0403fc">@color/color_0x7f060410</item>
+        <item name="attr_0x7f0403fd">?attr_0x7f0403fc</item>
+        <item name="attr_0x7f0403fe">?attr_0x7f0403fc</item>
+        <item name="attr_0x7f0403ff">@color/color_0x7f060456</item>
+        <item name="attr_0x7f040400">@color/color_0x7f060457</item>
+        <item name="attr_0x7f040401">?attr_0x7f0403fb</item>
+        <item name="attr_0x7f040402">?attr_0x7f0403fb</item>
+        <item name="attr_0x7f040403">@color/color_0x7f060411</item>
+        <item name="attr_0x7f040404">@color/color_0x7f060405</item>
+        <item name="attr_0x7f040405">@color/color_0x7f060412</item>
+        <item name="attr_0x7f040406">?attr_0x7f040403</item>
+        <item name="attr_0x7f040407">@color/color_0x7f060413</item>
+        <item name="attr_0x7f040408">@color/color_0x7f060414</item>
+        <item name="attr_0x7f040409">?attr_0x7f040407</item>
+        <item name="attr_0x7f04040a">@color/color_0x7f060415</item>
+        <item name="attr_0x7f04040b">@color/color_0x7f060416</item>
+        <item name="attr_0x7f04040c">?attr_0x7f04040b</item>
+        <item name="attr_0x7f04040d">?attr_0x7f04040b</item>
+        <item name="attr_0x7f04040e">@color/color_0x7f060458</item>
+        <item name="attr_0x7f04040f">@color/color_0x7f060459</item>
+        <item name="attr_0x7f040410">@color/color_0x7f060417</item>
+        <item name="attr_0x7f040411">@color/color_0x7f060418</item>
+        <item name="attr_0x7f040412">@color/color_0x7f060419</item>
+        <item name="attr_0x7f040413">@color/color_0x7f06041a</item>
+        <item name="attr_0x7f040415">@color/color_0x7f06045a</item>
+        <item name="attr_0x7f040416">@color/color_0x7f06045b</item>
+        <item name="attr_0x7f040419">@color/color_0x7f060443</item>
+        <item name="attr_0x7f04041a">?attr_0x7f040412</item>
+        <item name="attr_0x7f04041d">@color/color_0x7f060445</item>
+        <item name="attr_0x7f04041e">@color/color_0x7f06041b</item>
+        <item name="attr_0x7f040420">?attr_0x7f040412</item>
+        <item name="attr_0x7f040425">@color/color_0x7f06041c</item>
+        <item name="attr_0x7f040426">@color/color_0x7f06041d</item>
+        <item name="attr_0x7f040427">@color/color_0x7f06045c</item>
+        <item name="attr_0x7f040428">@color/color_0x7f06045d</item>
+        <item name="attr_0x7f040429">?attr_0x7f040425</item>
+        <item name="attr_0x7f04042a">@color/color_0x7f06041e</item>
+        <item name="attr_0x7f04042c">@color/color_0x7f06041f</item>
+        <item name="attr_0x7f04042d">@color/color_0x7f060420</item>
+        <item name="attr_0x7f04042e">@color/color_0x7f060421</item>
+        <item name="attr_0x7f04042f">@color/color_0x7f060422</item>
+        <item name="attr_0x7f040430">@color/color_0x7f060423</item>
+        <item name="attr_0x7f040431">@color/color_0x7f060424</item>
+        <item name="attr_0x7f040432">@color/color_0x7f060425</item>
+        <item name="attr_0x7f040433">@color/color_0x7f060426</item>
+        <item name="attr_0x7f040434">@color/color_0x7f060409</item>
+        <item name="attr_0x7f040435">@color/color_0x7f060427</item>
+        <item name="attr_0x7f040437">@color/color_0x7f060428</item>
+        <item name="attr_0x7f040438">@color/color_0x7f060429</item>
+        <item name="attr_0x7f040439">@color/color_0x7f06045e</item>
+        <item name="attr_0x7f04043a">@color/color_0x7f06045f</item>
+        <item name="attr_0x7f0404c5">?attr_0x7f040412</item>
+        <item name="attr_0x7f0405b8">true</item>
+    </style>
+    <style name="style_0x7f150899">
+        <item name="android:colorBackground">@color/color_0x7f06042a</item>
+        <item name="android:textColorPrimary">@color/color_0x7f060222</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/color_0x7f060226</item>
+        <item name="android:textColorSecondary">@color/color_0x7f060223</item>
+        <item name="android:textColorPrimaryInverse">@color/color_0x7f06021d</item>
+        <item name="android:textColorSecondaryInverse">@color/color_0x7f06021e</item>
+        <item name="android:textColorHintInverse">@color/color_0x7f060220</item>
+        <item name="android:textColorHighlight">@color/color_0x7f060224</item>
+        <item name="android:textColorHint">@color/color_0x7f060225</item>
+        <item name="android:textColorTertiary">@color/color_0x7f060223</item>
+        <item name="android:textColorTertiaryInverse">@color/color_0x7f06021e</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/color_0x7f060221</item>
+        <item name="android:textColorAlertDialogListItem">@color/color_0x7f060222</item>
+        <item name="android:textColorHighlightInverse">@color/color_0x7f06021f</item>
+        <item name="android:isLightTheme">true</item>
+        <item name="attr_0x7f0403e5">@color/color_0x7f060219</item>
+        <item name="attr_0x7f0403e6">@color/color_0x7f06021a</item>
+        <item name="attr_0x7f0403e9">@color/color_0x7f060433</item>
+        <item name="attr_0x7f0403ee">@color/color_0x7f06021b</item>
+        <item name="attr_0x7f0403ef">@color/color_0x7f06021c</item>
+        <item name="attr_0x7f0403f0">@color/color_0x7f060437</item>
+        <item name="attr_0x7f0403f1">@color/color_0x7f060438</item>
+        <item name="attr_0x7f0403f2">?attr_0x7f0403f1</item>
+        <item name="attr_0x7f0403f3">?attr_0x7f0403f1</item>
+        <item name="attr_0x7f0403f4">@color/color_0x7f060454</item>
+        <item name="attr_0x7f0403f5">@color/color_0x7f060455</item>
+        <item name="attr_0x7f0403f7">?attr_0x7f0403f0</item>
+        <item name="attr_0x7f0403f8">@color/color_0x7f060439</item>
+        <item name="attr_0x7f0403fb">@color/color_0x7f06043a</item>
+        <item name="attr_0x7f0403fc">@color/color_0x7f06043b</item>
+        <item name="attr_0x7f0403fd">?attr_0x7f0403fc</item>
+        <item name="attr_0x7f0403fe">?attr_0x7f0403fc</item>
+        <item name="attr_0x7f0403ff">@color/color_0x7f060456</item>
+        <item name="attr_0x7f040400">@color/color_0x7f060457</item>
+        <item name="attr_0x7f040401">?attr_0x7f0403fb</item>
+        <item name="attr_0x7f040402">@color/color_0x7f06043c</item>
+        <item name="attr_0x7f040403">@color/color_0x7f06043d</item>
+        <item name="attr_0x7f040404">@color/color_0x7f06042e</item>
+        <item name="attr_0x7f040405">?attr_0x7f040403</item>
+        <item name="attr_0x7f040406">?attr_0x7f040403</item>
+        <item name="attr_0x7f040407">@color/color_0x7f06043e</item>
+        <item name="attr_0x7f040408">?attr_0x7f040407</item>
+        <item name="attr_0x7f040409">?attr_0x7f040407</item>
+        <item name="attr_0x7f04040a">@color/color_0x7f06043f</item>
+        <item name="attr_0x7f04040b">@color/color_0x7f060440</item>
+        <item name="attr_0x7f04040c">?attr_0x7f04040b</item>
+        <item name="attr_0x7f04040d">?attr_0x7f04040b</item>
+        <item name="attr_0x7f04040e">@color/color_0x7f060458</item>
+        <item name="attr_0x7f04040f">@color/color_0x7f060459</item>
+        <item name="attr_0x7f040410">@color/color_0x7f060441</item>
+        <item name="attr_0x7f040411">@color/color_0x7f060442</item>
+        <item name="attr_0x7f040412">@color/color_0x7f060443</item>
+        <item name="attr_0x7f040413">@color/color_0x7f060444</item>
+        <item name="attr_0x7f040415">@color/color_0x7f06045a</item>
+        <item name="attr_0x7f040416">@color/color_0x7f06045b</item>
+        <item name="attr_0x7f040419">@color/color_0x7f060419</item>
+        <item name="attr_0x7f04041a">@color/color_0x7f060445</item>
+        <item name="attr_0x7f04041d">?attr_0x7f040412</item>
+        <item name="attr_0x7f04041e">?attr_0x7f040412</item>
+        <item name="attr_0x7f040420">@color/color_0x7f06041b</item>
+        <item name="attr_0x7f040425">@color/color_0x7f060446</item>
+        <item name="attr_0x7f040426">@color/color_0x7f060447</item>
+        <item name="attr_0x7f040427">@color/color_0x7f06045c</item>
+        <item name="attr_0x7f040428">@color/color_0x7f06045d</item>
+        <item name="attr_0x7f040429">@color/color_0x7f060448</item>
+        <item name="attr_0x7f04042a">?attr_0x7f040425</item>
+        <item name="attr_0x7f04042c">@color/color_0x7f060449</item>
+        <item name="attr_0x7f04042d">@color/color_0x7f06044a</item>
+        <item name="attr_0x7f04042e">@color/color_0x7f06044b</item>
+        <item name="attr_0x7f04042f">@color/color_0x7f06044c</item>
+        <item name="attr_0x7f040430">@color/color_0x7f06044d</item>
+        <item name="attr_0x7f040431">@color/color_0x7f06044e</item>
+        <item name="attr_0x7f040432">@color/color_0x7f06044f</item>
+        <item name="attr_0x7f040433">@color/color_0x7f060450</item>
+        <item name="attr_0x7f040434">@color/color_0x7f060432</item>
+        <item name="attr_0x7f040435">@color/color_0x7f060451</item>
+        <item name="attr_0x7f040437">@color/color_0x7f060452</item>
+        <item name="attr_0x7f040438">@color/color_0x7f060453</item>
+        <item name="attr_0x7f040439">@color/color_0x7f06045e</item>
+        <item name="attr_0x7f04043a">@color/color_0x7f06045f</item>
+        <item name="attr_0x7f0404c5">?attr_0x7f040412</item>
+        <item name="attr_0x7f0405b8">true</item>
+    </style>
+    <style name="style_0x7f1508b3" parent="@style/style_0x7f150897">
+        <item name="android:colorBackground">@color/color_0x7f06023b</item>
+        <item name="attr_0x7f04042c">@color/color_0x7f06024e</item>
+        <item name="attr_0x7f04042d">@color/color_0x7f06024f</item>
+        <item name="attr_0x7f04042e">@color/color_0x7f060250</item>
+        <item name="attr_0x7f04042f">@color/color_0x7f060251</item>
+        <item name="attr_0x7f040430">@color/color_0x7f060252</item>
+        <item name="attr_0x7f040431">@color/color_0x7f060253</item>
+        <item name="attr_0x7f040432">@color/color_0x7f060254</item>
+        <item name="attr_0x7f040433">@color/color_0x7f060255</item>
+    </style>
+    <style name="style_0x7f1508b5" parent="@style/style_0x7f150899">
+        <item name="android:colorBackground">@color/color_0x7f060259</item>
+        <item name="attr_0x7f04042c">@color/color_0x7f06026c</item>
+        <item name="attr_0x7f04042d">@color/color_0x7f06026d</item>
+        <item name="attr_0x7f04042e">@color/color_0x7f06026e</item>
+        <item name="attr_0x7f04042f">@color/color_0x7f06026f</item>
+        <item name="attr_0x7f040430">@color/color_0x7f060270</item>
+        <item name="attr_0x7f040431">@color/color_0x7f060271</item>
+        <item name="attr_0x7f040432">@color/color_0x7f060272</item>
+        <item name="attr_0x7f040433">@color/color_0x7f060273</item>
+    </style>
+    <style name="style_0x7f1508dd">
+        <item name="android:colorBackground">@color/color_0x7f0607f1</item>
+        <item name="android:textColorPrimary">@color/color_0x7f0606f1</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/color_0x7f0606f5</item>
+        <item name="android:textColorSecondary">@color/color_0x7f0606f2</item>
+        <item name="android:textColorPrimaryInverse">@color/color_0x7f0606f6</item>
+        <item name="android:textColorSecondaryInverse">@color/color_0x7f0606f7</item>
+        <item name="android:textColorHintInverse">@color/color_0x7f0606f9</item>
+        <item name="android:textColorHighlight">@color/color_0x7f0606f3</item>
+        <item name="android:textColorHint">@color/color_0x7f0606f4</item>
+        <item name="android:textColorTertiary">@color/color_0x7f0606f2</item>
+        <item name="android:textColorTertiaryInverse">@color/color_0x7f0606f7</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/color_0x7f0606fa</item>
+        <item name="android:textColorAlertDialogListItem">@color/color_0x7f0606f1</item>
+        <item name="android:textColorHighlightInverse">@color/color_0x7f0606f8</item>
+        <item name="attr_0x7f0403e5">@color/color_0x7f06088f</item>
+        <item name="attr_0x7f0403e6">@color/color_0x7f060890</item>
+        <item name="attr_0x7f0403e9">@color/color_0x7f0607f7</item>
+        <item name="attr_0x7f0403ee">@color/color_0x7f060891</item>
+        <item name="attr_0x7f0403ef">@color/color_0x7f060892</item>
+        <item name="attr_0x7f0403f0">@color/color_0x7f0607fa</item>
+        <item name="attr_0x7f0403f1">@color/color_0x7f0607fb</item>
+        <item name="attr_0x7f0403f4">@color/color_0x7f060835</item>
+        <item name="attr_0x7f0403f5">@color/color_0x7f060836</item>
+        <item name="attr_0x7f0403fb">@color/color_0x7f0607fc</item>
+        <item name="attr_0x7f0403fc">@color/color_0x7f0607fd</item>
+        <item name="attr_0x7f0403ff">@color/color_0x7f060837</item>
+        <item name="attr_0x7f040400">@color/color_0x7f060838</item>
+        <item name="attr_0x7f040403">@color/color_0x7f0607fe</item>
+        <item name="attr_0x7f040404">@color/color_0x7f0607f4</item>
+        <item name="attr_0x7f040407">@color/color_0x7f0607ff</item>
+        <item name="attr_0x7f04040a">@color/color_0x7f060800</item>
+        <item name="attr_0x7f04040b">@color/color_0x7f060801</item>
+        <item name="attr_0x7f04040e">@color/color_0x7f060839</item>
+        <item name="attr_0x7f04040f">@color/color_0x7f06083a</item>
+        <item name="attr_0x7f040410">@color/color_0x7f060802</item>
+        <item name="attr_0x7f040411">@color/color_0x7f060803</item>
+        <item name="attr_0x7f040412">@color/color_0x7f060804</item>
+        <item name="attr_0x7f040413">@color/color_0x7f060805</item>
+        <item name="attr_0x7f040415">@color/color_0x7f06083b</item>
+        <item name="attr_0x7f040416">@color/color_0x7f06083c</item>
+        <item name="attr_0x7f040419">@color/color_0x7f0607f5</item>
+        <item name="attr_0x7f040425">@color/color_0x7f060806</item>
+        <item name="attr_0x7f040426">@color/color_0x7f060807</item>
+        <item name="attr_0x7f040427">@color/color_0x7f06083d</item>
+        <item name="attr_0x7f040428">@color/color_0x7f06083e</item>
+        <item name="attr_0x7f04042c">@color/color_0x7f060808</item>
+        <item name="attr_0x7f04042d">@color/color_0x7f060809</item>
+        <item name="attr_0x7f04042e">@color/color_0x7f06080a</item>
+        <item name="attr_0x7f04042f">@color/color_0x7f06080b</item>
+        <item name="attr_0x7f040430">@color/color_0x7f06080c</item>
+        <item name="attr_0x7f040431">@color/color_0x7f06080d</item>
+        <item name="attr_0x7f040432">@color/color_0x7f06080e</item>
+        <item name="attr_0x7f040433">@color/color_0x7f06080f</item>
+        <item name="attr_0x7f040434">@color/color_0x7f0607f6</item>
+        <item name="attr_0x7f040435">@color/color_0x7f060810</item>
+        <item name="attr_0x7f040437">@color/color_0x7f060811</item>
+        <item name="attr_0x7f040438">@color/color_0x7f060812</item>
+        <item name="attr_0x7f040439">@color/color_0x7f06083f</item>
+        <item name="attr_0x7f04043a">@color/color_0x7f060840</item>
+        <item name="attr_0x7f0405b8">true</item>
+    </style>
+    <style name="style_0x7f1508df">
+        <item name="android:colorBackground">@color/color_0x7f060813</item>
+        <item name="android:textColorPrimary">@color/color_0x7f0606f6</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/color_0x7f0606fa</item>
+        <item name="android:textColorSecondary">@color/color_0x7f0606f7</item>
+        <item name="android:textColorPrimaryInverse">@color/color_0x7f0606f1</item>
+        <item name="android:textColorSecondaryInverse">@color/color_0x7f0606f2</item>
+        <item name="android:textColorHintInverse">@color/color_0x7f0606f4</item>
+        <item name="android:textColorHighlight">@color/color_0x7f0606f8</item>
+        <item name="android:textColorHint">@color/color_0x7f0606f9</item>
+        <item name="android:textColorTertiary">@color/color_0x7f0606f7</item>
+        <item name="android:textColorTertiaryInverse">@color/color_0x7f0606f2</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/color_0x7f0606f5</item>
+        <item name="android:textColorAlertDialogListItem">@color/color_0x7f0606f6</item>
+        <item name="android:textColorHighlightInverse">@color/color_0x7f0606f3</item>
+        <item name="attr_0x7f0403e5">@color/color_0x7f060893</item>
+        <item name="attr_0x7f0403e6">@color/color_0x7f060894</item>
+        <item name="attr_0x7f0403e9">@color/color_0x7f060819</item>
+        <item name="attr_0x7f0403ee">@color/color_0x7f060895</item>
+        <item name="attr_0x7f0403ef">@color/color_0x7f060896</item>
+        <item name="attr_0x7f0403f0">@color/color_0x7f06081c</item>
+        <item name="attr_0x7f0403f1">@color/color_0x7f06081d</item>
+        <item name="attr_0x7f0403f4">@color/color_0x7f060835</item>
+        <item name="attr_0x7f0403f5">@color/color_0x7f060836</item>
+        <item name="attr_0x7f0403fb">@color/color_0x7f06081e</item>
+        <item name="attr_0x7f0403fc">@color/color_0x7f06081f</item>
+        <item name="attr_0x7f0403ff">@color/color_0x7f060837</item>
+        <item name="attr_0x7f040400">@color/color_0x7f060838</item>
+        <item name="attr_0x7f040403">@color/color_0x7f060820</item>
+        <item name="attr_0x7f040404">@color/color_0x7f060816</item>
+        <item name="attr_0x7f040407">@color/color_0x7f060821</item>
+        <item name="attr_0x7f04040a">@color/color_0x7f060822</item>
+        <item name="attr_0x7f04040b">@color/color_0x7f060823</item>
+        <item name="attr_0x7f04040e">@color/color_0x7f060839</item>
+        <item name="attr_0x7f04040f">@color/color_0x7f06083a</item>
+        <item name="attr_0x7f040410">@color/color_0x7f060824</item>
+        <item name="attr_0x7f040411">@color/color_0x7f060825</item>
+        <item name="attr_0x7f040412">@color/color_0x7f060826</item>
+        <item name="attr_0x7f040413">@color/color_0x7f060827</item>
+        <item name="attr_0x7f040415">@color/color_0x7f06083b</item>
+        <item name="attr_0x7f040416">@color/color_0x7f06083c</item>
+        <item name="attr_0x7f040419">@color/color_0x7f060817</item>
+        <item name="attr_0x7f040425">@color/color_0x7f060828</item>
+        <item name="attr_0x7f040426">@color/color_0x7f060829</item>
+        <item name="attr_0x7f040427">@color/color_0x7f06083d</item>
+        <item name="attr_0x7f040428">@color/color_0x7f06083e</item>
+        <item name="attr_0x7f04042c">@color/color_0x7f06082a</item>
+        <item name="attr_0x7f04042d">@color/color_0x7f06082b</item>
+        <item name="attr_0x7f04042e">@color/color_0x7f06082c</item>
+        <item name="attr_0x7f04042f">@color/color_0x7f06082d</item>
+        <item name="attr_0x7f040430">@color/color_0x7f06082e</item>
+        <item name="attr_0x7f040431">@color/color_0x7f06082f</item>
+        <item name="attr_0x7f040432">@color/color_0x7f060830</item>
+        <item name="attr_0x7f040433">@color/color_0x7f060831</item>
+        <item name="attr_0x7f040434">@color/color_0x7f060818</item>
+        <item name="attr_0x7f040435">@color/color_0x7f060832</item>
+        <item name="attr_0x7f040437">@color/color_0x7f060833</item>
+        <item name="attr_0x7f040438">@color/color_0x7f060834</item>
+        <item name="attr_0x7f040439">@color/color_0x7f06083f</item>
+        <item name="attr_0x7f04043a">@color/color_0x7f060840</item>
+        <item name="attr_0x7f0405b8">true</item>
+    </style>
+</resources>

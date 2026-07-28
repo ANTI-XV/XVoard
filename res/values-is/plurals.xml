@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d lykli úthlutað</item>
+        <item quantity="other">%d lyklum úthlutað</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Uppsetningu lokið fyrir: %s.</item>
+        <item quantity="other">Uppsetningu lokið fyrir: %s.</item>
+    </plurals>
+</resources>

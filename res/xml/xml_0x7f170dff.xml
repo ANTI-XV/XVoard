@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_list>
+            <softkey_template content_description="$desc$" enable_slide_actions_in_a11y_mode="true" id="@id/id_0x7f0b1d0f" layout="$key_layout=@layout/softkey_ja_12keys_hiragana$" multi_touch="false" popup_timing="ON_TOUCH" slide_sensitivity="NORMAL">
+                <action content_description="$desc$" data="$press_data$" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="$press_keycode$" popup_icon="$press_icon$" popup_label="$press_label$" popup_layout="$press_layout=@layout/popup_bubble_ja_support$" type="PRESS">
+                    <if enable_popup_on_keypress="false" ja_enable_12keys_longpress_delay="true">
+                        <attrs always_show_popup="true" popup_layout="$press_layout=@layout/popup_bubble_ja_support_longpress_delay$" />
+                    </if>
+                </action>
+                <action content_description="$slideleft_desc$" data="$slideleft_data$" icon_background_level="@integer/integer_0x7f0c008d" intention="DECODE" keycode="$press_keycode$" popup_icon="$slideleft_icon$" popup_label="$slideleft_label$" popup_layout="$slideleft_layout=@layout/popup_bubble_ja_label_large$" type="SLIDE_LEFT" />
+                <action content_description="$slideup_desc$" data="$slideup_data$" icon_background_level="@integer/integer_0x7f0c008f" intention="DECODE" keycode="$press_keycode$" popup_icon="$slideup_icon$" popup_label="$slideup_label$" popup_layout="$slideup_layout=@layout/popup_bubble_ja_label_large$" type="SLIDE_UP">
+                    <if ja_enable_popup_slideup_padding="true">
+                        <attrs popup_layout="$slideup_layout=@layout/popup_bubble_ja_label_large_slideup$" />
+                    </if>
+                </action>
+                <action content_description="$slideright_desc$" data="$slideright_data$" icon_background_level="@integer/integer_0x7f0c008e" intention="DECODE" keycode="$press_keycode$" popup_icon="$slideright_icon$" popup_label="$slideright_label$" popup_layout="$slideright_layout=@layout/popup_bubble_ja_label_large$" type="SLIDE_RIGHT" />
+                <action content_description="$slidedown_desc$" data="$slidedown_data$" icon_background_level="@integer/integer_0x7f0c008c" intention="DECODE" keycode="$press_keycode$" popup_icon="$slidedown_icon$" popup_label="$slidedown_label$" popup_layout="$slidedown_layout=@layout/popup_bubble_ja_label_large$" type="SLIDE_DOWN" />
+                <icon location="@id/id_0x7f0b02ac" value="$key_icon$" />
+                <label location="@id/id_0x7f0b04d0" value="$key_label$" />
+                <label location="@id/id_0x7f0b04d7" value="$key_label_left$" />
+                <label location="@id/id_0x7f0b04dd" value="$key_label_top$" />
+                <label location="@id/id_0x7f0b04db" value="$key_label_right$" />
+                <label location="@id/id_0x7f0b04d1" value="$key_label_bottom$" />
+            </softkey_template>
+            <softkey_template content_description="$desc$" enable_slide_actions_in_a11y_mode="true" id="@id/id_0x7f0b1d11" layout="$key_layout=@layout/softkey_ja_12keys_hiragana_nosupport$" multi_touch="false" popup_timing="ON_TOUCH" slide_sensitivity="NORMAL">
+                <action content_description="$desc$" data="$press_data$" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="$press_keycode$" popup_icon="$press_icon$" popup_label="$press_label$" popup_layout="$press_layout=@layout/popup_bubble_ja_support$" type="PRESS">
+                    <if enable_popup_on_keypress="false" ja_enable_12keys_longpress_delay="true">
+                        <attrs always_show_popup="true" popup_layout="$press_layout=@layout/popup_bubble_ja_support_longpress_delay$" />
+                    </if>
+                </action>
+                <action content_description="$slideleft_desc$" data="$slideleft_data$" icon_background_level="@integer/integer_0x7f0c008d" intention="DECODE" keycode="$press_keycode$" popup_icon="$slideleft_icon$" popup_label="$slideleft_label$" popup_layout="$slideleft_layout=@layout/popup_bubble_ja_label_large$" type="SLIDE_LEFT" />
+                <action content_description="$slideup_desc$" data="$slideup_data$" icon_background_level="@integer/integer_0x7f0c008f" intention="DECODE" keycode="$press_keycode$" popup_icon="$slideup_icon$" popup_label="$slideup_label$" popup_layout="$slideup_layout=@layout/popup_bubble_ja_label_large$" type="SLIDE_UP">
+                    <if ja_enable_popup_slideup_padding="true">
+                        <attrs popup_layout="$slideup_layout=@layout/popup_bubble_ja_label_large_slideup$" />
+                    </if>
+                </action>
+                <action content_description="$slideright_desc$" data="$slideright_data$" icon_background_level="@integer/integer_0x7f0c008e" intention="DECODE" keycode="$press_keycode$" popup_icon="$slideright_icon$" popup_label="$slideright_label$" popup_layout="$slideright_layout=@layout/popup_bubble_ja_label_large$" type="SLIDE_RIGHT" />
+                <action content_description="$slidedown_desc$" data="$slidedown_data$" icon_background_level="@integer/integer_0x7f0c008c" intention="DECODE" keycode="$press_keycode$" popup_icon="$slidedown_icon$" popup_label="$slidedown_label$" popup_layout="$slidedown_layout=@layout/popup_bubble_ja_label_large$" type="SLIDE_DOWN" />
+                <icon location="@id/id_0x7f0b02ac" value="$key_icon$" />
+                <label location="@id/id_0x7f0b04d0" value="$key_label$" />
+            </softkey_template>
+            <softkey_template content_description="@string/string_0x7f14009a" enable_slide_actions_in_a11y_mode="true" id="@id/id_0x7f0b1d10" layout="@layout/layout_0x7f0e0767" multi_touch="false" popup_timing="ON_TOUCH" slide_sensitivity="NORMAL">
+                <action content_description="@string/string_0x7f14009a" data="*" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="MOZC_NO_START_COMPOSING" popup_icon="@drawable/drawable_0x7f0803fb" popup_layout="@layout/layout_0x7f0e0683" type="PRESS">
+                    <if enable_popup_on_keypress="false" ja_enable_12keys_longpress_delay="true">
+                        <attrs always_show_popup="true" popup_layout="@layout/popup_bubble_ja_icon_longpress_delay" />
+                    </if>
+                </action>
+                <action content_description="だくてん" data="[" icon_background_level="@integer/integer_0x7f0c008d" intention="DECODE" keycode="MOZC_NO_START_COMPOSING" popup_icon="@drawable/drawable_0x7f080406" popup_layout="@layout/layout_0x7f0e0683" type="SLIDE_LEFT" />
+                <action content_description="こがき" data="`" icon_background_level="@integer/integer_0x7f0c008f" intention="DECODE" keycode="MOZC_NO_START_COMPOSING" popup_icon="@drawable/drawable_0x7f080401" popup_layout="@layout/layout_0x7f0e0683" type="SLIDE_UP">
+                    <if ja_enable_popup_slideup_padding="true">
+                        <attrs popup_layout="@layout/layout_0x7f0e0685" />
+                    </if>
+                </action>
+                <action content_description="はんだくてん" data="]" icon_background_level="@integer/integer_0x7f0c008e" intention="DECODE" keycode="MOZC_NO_START_COMPOSING" popup_icon="@drawable/drawable_0x7f0803ff" popup_layout="@layout/layout_0x7f0e0683" type="SLIDE_RIGHT" />
+                <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803fb" />
+            </softkey_template>
+        </softkey_list>
+        <softkey_list template_id="@id/id_0x7f0b1d0f">
+            <softkey id="@id/id_0x7f0b1239" key_label="あ" key_label_bottom="お" key_label_left="い" key_label_right="え" key_label_top="う" press_data="1" press_keycode="1" press_label="あ い う え お" slidedown_data="@" slidedown_label="お" slideleft_data="_" slideleft_label="い" slideright_data=":" slideright_label="え" slideup_data=";" slideup_label="う" />
+            <softkey id="@id/id_0x7f0b123d" key_label="か" key_label_bottom="こ" key_label_left="き" key_label_right="け" key_label_top="く" press_data="2" press_keycode="2" press_label="か き く け こ" slidedown_data="|" slidedown_label="こ" slideleft_data="a" slideleft_label="き" slideright_data="c" slideright_label="け" slideup_data="b" slideup_label="く" />
+            <softkey id="@id/id_0x7f0b1245" key_label="さ" key_label_bottom="そ" key_label_left="し" key_label_right="せ" key_label_top="す" press_data="3" press_keycode="3" press_label="さ し す せ そ" slidedown_data="~" slidedown_label="そ" slideleft_data="d" slideleft_label="し" slideright_data="f" slideright_label="せ" slideup_data="e" slideup_label="す" />
+            <softkey id="@id/id_0x7f0b1247" key_label="た" key_label_bottom="と" key_label_left="ち" key_label_right="て" key_label_top="つ" press_data="4" press_keycode="4" press_label="た ち つ て と" slidedown_data="$" slidedown_label="と" slideleft_data="g" slideleft_label="ち" slideright_data="i" slideright_label="て" slideup_data="h" slideup_label="つ" />
+            <softkey id="@id/id_0x7f0b1241" key_label="な" key_label_bottom="の" key_label_left="に" key_label_right="ね" key_label_top="ぬ" press_data="5" press_keycode="5" press_label="な に ぬ ね の" slidedown_data="%" slidedown_label="の" slideleft_data="j" slideleft_label="に" slideright_data="l" slideright_label="ね" slideup_data="k" slideup_label="ぬ" />
+            <softkey id="@id/id_0x7f0b123b" key_label="は" key_label_bottom="ほ" key_label_left="ひ" key_label_right="へ" key_label_top="ふ" press_data="6" press_keycode="6" press_label="は ひ ふ へ ほ" slidedown_data="&amp;" slidedown_label="ほ" slideleft_data="m" slideleft_label="ひ" slideright_data="o" slideright_label="へ" slideup_data="n" slideup_label="ふ" />
+            <softkey id="@id/id_0x7f0b123f" key_label="ま" key_label_bottom="も" key_label_left="み" key_label_right="め" key_label_top="む" press_data="7" press_keycode="7" press_label="ま み む め も" slidedown_data="s" slidedown_label="も" slideleft_data="p" slideleft_label="み" slideright_data="r" slideright_label="め" slideup_data="q" slideup_label="む" />
+            <softkey id="@id/id_0x7f0b124c" key_label="や" key_label_bottom="よ" key_label_left="(" key_label_right=")" key_label_top="ゆ" press_data="8" press_keycode="8" press_label="や ( ゆ ) よ" slidedown_data="^" slidedown_label="よ" slideleft_data="(" slideleft_desc="かっこ ひらき" slideleft_label="(" slideright_data=")" slideright_desc="かっこ とじ" slideright_label=")" slideup_data="u" slideup_label="ゆ" />
+            <softkey id="@id/id_0x7f0b1243" key_label="ら" key_label_bottom="ろ" key_label_left="り" key_label_right="れ" key_label_top="る" press_data="9" press_keycode="9" press_label="ら り る れ ろ" slidedown_data="z" slidedown_label="ろ" slideleft_data="w" slideleft_label="り" slideright_data="y" slideright_label="れ" slideup_data="x" slideup_label="る" />
+            <softkey id="@id/id_0x7f0b124a" key_label="わ" key_label_bottom="〜" key_label_left="を" key_label_right="ー" key_label_top="ん" press_data="0" press_keycode="0" press_label="わ を ん ー 〜" slidedown_data="&lt;" slidedown_desc="なみせん" slidedown_label="〜" slideleft_data="+" slideleft_label="を" slideright_data="-" slideright_desc="ちょうおんぷ" slideright_label="ー" slideup_data="/" slideup_label="ん" />
+            <softkey desc="@string/string_0x7f14009f" id="@id/id_0x7f0b1249" key_layout="@layout/layout_0x7f0e075b" press_data="#" press_keycode="COMMA" press_label="、 。 ？ ！ …" slidedown_data=">" slidedown_desc="さんてん りーだ" slidedown_label="…" slideleft_data="," slideleft_desc="くてん" slideleft_label="。" slideright_data="!" slideright_desc="かんたんふ" slideright_label="！" slideup_data="?" slideup_desc="ぎもんふ" slideup_label="？" />
+        </softkey_list>
+        <softkey_list template_id="@id/id_0x7f0b1d11">
+            <softkey desc="アー" id="@id/id_0x7f0b123a" key_label="あ" press_data="1" press_keycode="1" press_label="あ い う え お" slidedown_data="@" slidedown_label="お" slideleft_data="_" slideleft_label="い" slideright_data=":" slideright_label="え" slideup_data=";" slideup_label="う" />
+            <softkey desc="カー" id="@id/id_0x7f0b123e" key_label="か" press_data="2" press_keycode="2" press_label="か き く け こ" slidedown_data="|" slidedown_label="こ" slideleft_data="a" slideleft_label="き" slideright_data="c" slideright_label="け" slideup_data="b" slideup_label="く" />
+            <softkey desc="サー" id="@id/id_0x7f0b1246" key_label="さ" press_data="3" press_keycode="3" press_label="さ し す せ そ" slidedown_data="~" slidedown_label="そ" slideleft_data="d" slideleft_label="し" slideright_data="f" slideright_label="せ" slideup_data="e" slideup_label="す" />
+            <softkey desc="ター" id="@id/id_0x7f0b1248" key_label="た" press_data="4" press_keycode="4" press_label="た ち つ て と" slidedown_data="$" slidedown_label="と" slideleft_data="g" slideleft_label="ち" slideright_data="i" slideright_label="て" slideup_data="h" slideup_label="つ" />
+            <softkey desc="ナー" id="@id/id_0x7f0b1242" key_label="な" press_data="5" press_keycode="5" press_label="な に ぬ ね の" slidedown_data="%" slidedown_label="の" slideleft_data="j" slideleft_label="に" slideright_data="l" slideright_label="ね" slideup_data="k" slideup_label="ぬ" />
+            <softkey desc="ハー" id="@id/id_0x7f0b123c" key_label="は" press_data="6" press_keycode="6" press_label="は ひ ふ へ ほ" slidedown_data="&amp;" slidedown_label="ほ" slideleft_data="m" slideleft_label="ひ" slideright_data="o" slideright_label="へ" slideup_data="n" slideup_label="ふ" />
+            <softkey desc="マー" id="@id/id_0x7f0b1240" key_label="ま" press_data="7" press_keycode="7" press_label="ま み む め も" slidedown_data="s" slidedown_label="も" slideleft_data="p" slideleft_label="み" slideright_data="r" slideright_label="め" slideup_data="q" slideup_label="む" />
+            <softkey desc="ヤー" id="@id/id_0x7f0b124d" key_label="や" press_data="8" press_keycode="8" press_label="や ( ゆ ) よ" slidedown_data="^" slidedown_label="よ" slideleft_data="(" slideleft_desc="かっこ ひらき" slideleft_label="(" slideright_data=")" slideright_desc="かっこ とじ" slideright_label=")" slideup_data="u" slideup_label="ゆ" />
+            <softkey desc="ラー" id="@id/id_0x7f0b1244" key_label="ら" press_data="9" press_keycode="9" press_label="ら り る れ ろ" slidedown_data="z" slidedown_label="ろ" slideleft_data="w" slideleft_label="り" slideright_data="y" slideright_label="れ" slideup_data="x" slideup_label="る" />
+            <softkey desc="ワー" id="@id/id_0x7f0b124b" key_label="わ" press_data="0" press_keycode="0" press_label="わ を ん ー 〜" slidedown_data="&lt;" slidedown_desc="なみせん" slidedown_label="〜" slideleft_data="+" slideleft_label="を" slideright_data="-" slideright_desc="ちょうおんぷ" slideright_label="ー" slideup_data="/" slideup_label="ん" />
+        </softkey_list>
+        <softkey_list template_id="@id/id_0x7f0b1d10">
+            <softkey id="@id/id_0x7f0b1292" />
+        </softkey_list>
+    </softkeys>
+</framework>

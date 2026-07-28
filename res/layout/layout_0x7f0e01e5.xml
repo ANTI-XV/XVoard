@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f1501c6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.FloatingMonolithicCandidatesRecyclerView android:id="@id/id_0x7f0b1217" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dimen_0x7f070331" app:attr_0x7f040379="@layout/layout_0x7f0e0765" app:attr_0x7f0406a9="?attr_0x7f0400e2" app:attr_0x7f0406bf="?attr_0x7f0400e3" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d کلید اختصاص داده شده است</item>
+        <item quantity="other">%d کلید اختصاص داده شده است</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s اکنون نصب شده است.</item>
+        <item quantity="other">%s اکنون نصب شده‌اند.</item>
+    </plurals>
+</resources>

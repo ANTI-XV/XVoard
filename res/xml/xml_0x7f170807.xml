@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f17059e" />
+    <keyboard>
+        <view layout="@layout/layout_0x7f0e0202" override="motion_event_handler" type="body">
+            <include href="@xml/xml_0x7f170ad5" />
+            <if enable_korean_composition_mode="false">
+                <include href="@xml/xml_0x7f170a4f" />
+            </if>
+            <else>
+                <include href="@xml/xml_0x7f170a66" />
+            </else>
+            <include href="@xml/xml_0x7f170a45" />
+            <include href="@xml/xml_0x7f170a90" />
+            <include href="@xml/xml_0x7f170a8e" />
+            <include href="@xml/xml_0x7f170a8d" />
+            <include href="@xml/xml_0x7f170b25" />
+        </view>
+    </keyboard>
+</framework>

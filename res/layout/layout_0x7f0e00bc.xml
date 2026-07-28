@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e00bb" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/id_0x7f0b01dd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/id_0x7f0b01e5" android:src="@drawable/drawable_0x7f0802fa" android:contentDescription="@string/string_0x7f14028c" android:layout_marginEnd="8.0dp" style="@style/style_0x7f15027a" />
+        <android.support.v7.widget.AppCompatImageView android:id="@id/id_0x7f0b01e3" android:src="@drawable/drawable_0x7f0802f9" android:contentDescription="@string/string_0x7f14028b" style="@style/style_0x7f15027a" />
+    </LinearLayout>
+</FrameLayout>

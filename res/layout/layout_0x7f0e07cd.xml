@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:scrollbarThumbVertical="@drawable/drawable_0x7f080583" android:scrollbarTrackVertical="@null" android:scrollbarStyle="outsideOverlay" android:id="@id/id_0x7f0b1f82" android:paddingTop="2.0dp" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/dimen_0x7f070366" android:paddingEnd="@dimen/dimen_0x7f070366"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

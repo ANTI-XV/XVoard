@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$desc$" id="@id/id_0x7f0b1cf4" layout="@layout/layout_0x7f0e0710" popup_timing="ON_TOUCH">
+            <action data="$press_data$" intention="$press_intention=COMMIT$" keycode="PLAIN_TEXT" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$press_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1cf4">
+            <softkey desc="@string/string_0x7f1401bd" id="@id/id_0x7f0b0d51" press_data="…" />
+            <softkey desc="@string/string_0x7f1402d4" id="@id/id_0x7f0b1ee6" press_data="～" />
+            <softkey desc="@string/string_0x7f1402d0" id="@id/id_0x7f0b1a55" press_data="？" />
+            <softkey desc="@string/string_0x7f1402cc" id="@id/id_0x7f0b0dde" press_data="！" />
+            <softkey desc="@string/string_0x7f1402d3" id="@id/id_0x7f0b1ada" press_data="；" />
+            <softkey desc="@string/string_0x7f1402ca" id="@id/id_0x7f0b0aa8" press_data="：" />
+            <softkey id="@id/id_0x7f0b1785" press_data="-" />
+            <softkey id="@id/id_0x7f0b07f3" press_data="@" />
+            <softkey id="@id/id_0x7f0b1a57" press_data="&quot;" press_intention="DECODE" />
+            <softkey id="@id/id_0x7f0b1a2a" press_data="%" />
+            <softkey id="@id/id_0x7f0b1b1c" press_data="/" />
+            <softkey desc="@string/string_0x7f1402cb" id="@id/id_0x7f0b0a8f" press_data="，" />
+            <softkey desc="@string/string_0x7f1402cf" id="@id/id_0x7f0b0a92" press_data="。" />
+        </softkey_list>
+    </softkeys>
+</framework>

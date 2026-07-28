@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b02fb" android:tag=".keyboard-clipboard-popup" android:background="@drawable/drawable_0x7f0802bf" android:paddingTop="@dimen/dimen_0x7f070318" android:paddingBottom="@dimen/dimen_0x7f070318" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/id_0x7f0b02f5" android:visibility="gone" style="@style/style_0x7f150486">
+        <ImageView android:id="@id/id_0x7f0b02f2" android:importantForAccessibility="no" style="@style/style_0x7f150484" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/id_0x7f0b02f4" style="@style/style_0x7f150485" />
+    </LinearLayout>
+    <com.google.android.libraries.inputmethod.widgets.TransformationTextView android:id="@id/id_0x7f0b02f9" style="@style/style_0x7f150488" />
+</LinearLayout>

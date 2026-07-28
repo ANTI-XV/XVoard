@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if enable_number_row="true">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b1099" view_id="@id/key_pos_top_left" />
+            <mapping key_id="@id/id_0x7f0b121d" view_id="@id/key_pos_number_10" />
+            <mapping key_id="@id/id_0x7f0b0d92" view_id="@id/key_pos_number_11" />
+        </key_mapping>
+    </if>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1716" view_id="@id/key_pos_2_8" />
+        <mapping key_id="@id/id_0x7f0b1026" view_id="@id/key_pos_2_9" />
+    </key_mapping>
+    <key_mapping state="SHOW_EMOJI_SWITCH_KEY">
+        <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_switch_to_next_language" />
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping key_id="@id/id_0x7f0b1b80" view_id="@id/key_pos_switch_to_next_language" />
+    </key_mapping>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b09c3" view_id="@id/key_pos_caps" />
+        <mapping key_id="@id/id_0x7f0b1ae3" view_id="@id/key_pos_shift" />
+        <mapping key_id="@id/id_0x7f0b1ae3" view_id="@id/key_pos_shift_right" />
+    </key_mapping>
+    <key_mapping state="AUTO_CAPS,CAPS_LOCK">
+        <mapping key_id="@id/id_0x7f0b09c4" view_id="@id/key_pos_caps" />
+        <mapping key_id="@id/id_0x7f0b1ae3" view_id="@id/key_pos_shift" />
+        <mapping key_id="@id/id_0x7f0b1ae3" view_id="@id/key_pos_shift_right" />
+    </key_mapping>
+    <key_mapping state="MANUAL_SHIFT">
+        <mapping key_id="@id/id_0x7f0b09c3" view_id="@id/key_pos_caps" />
+        <mapping key_id="@id/id_0x7f0b1ae6" view_id="@id/key_pos_shift" />
+        <mapping key_id="@id/id_0x7f0b1ae6" view_id="@id/key_pos_shift_right" />
+    </key_mapping>
+    <key_mapping state="CAPS_LOCK+MANUAL_SHIFT">
+        <mapping key_id="@id/id_0x7f0b09c4" view_id="@id/key_pos_caps" />
+    </key_mapping>
+</framework>

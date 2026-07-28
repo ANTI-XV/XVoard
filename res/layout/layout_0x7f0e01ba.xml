@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_header_start_extra_key" android:paddingStart="?attr_0x7f04025f" android:paddingEnd="6.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040616="@id/key_pos_header_access_points_menu" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150655"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

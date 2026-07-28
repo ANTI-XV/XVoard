@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsClippableHolderView android:layout_gravity="center_horizontal" android:id="@id/id_0x7f0b0609" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.CopyImageView android:id="@id/id_0x7f0b060e" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginHorizontal="@dimen/dimen_0x7f070722" app:attr_0x7f040460="@id/id_0x7f0b0137" />
+    <ImageView android:layout_gravity="left|center" android:id="@id/id_0x7f0b060b" android:contentDescription="@null" android:layout_marginEnd="@dimen/dimen_0x7f070722" android:paddingVertical="@dimen/dimen_0x7f070721" style="@style/style_0x7f1504ae" />
+    <ImageView android:layout_gravity="right|center" android:id="@id/id_0x7f0b060c" android:contentDescription="@null" android:layout_marginStart="@dimen/dimen_0x7f070722" android:paddingVertical="@dimen/dimen_0x7f070721" style="@style/style_0x7f1504ae" />
+    <HorizontalScrollView android:layout_gravity="center_horizontal" android:id="@id/id_0x7f0b060d" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="@dimen/dimen_0x7f070722">
+        <LinearLayout android:orientation="horizontal" android:id="@id/id_0x7f0b060a" android:background="@drawable/drawable_0x7f080500" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    </HorizontalScrollView>
+</com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsClippableHolderView>

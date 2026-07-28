@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140e00" id="@id/id_0x7f0b1b81" layout="@layout/layout_0x7f0e072f">
+            <action keycode="SWITCH_TO_NEXT_SPLIT_KEYBOARD_HANDEDNESS" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08056a" />
+        </softkey>
+    </softkeys>
+</framework>

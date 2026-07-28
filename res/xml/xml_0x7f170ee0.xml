@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <include href="xml/softkeys_input_common_symbols_tablet_large" />
+    </if>
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d27">
+            <softkey hint_label="~" id="@id/id_0x7f0b1099" long_press_data="~" press_data="`" />
+            <softkey hint_label="!" id="@id/id_0x7f0b0cfb" long_press_data="!,¡,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒" press_data="1" />
+            <softkey hint_label="@" id="@id/id_0x7f0b0d23" long_press_data="\\@,²,⅔,⅖" press_data="2" />
+            <softkey hint_label="#" id="@id/id_0x7f0b0d19" long_press_data="\\#,³,¾,⅗,⅜" press_data="3" />
+            <softkey hint_label="$" id="@id/id_0x7f0b0ce7" long_press_data="$,⁴,⅘" press_data="4" />
+            <softkey hint_label="%" id="@id/id_0x7f0b0cdd" long_press_data="%,⁵,⅚,⅝" press_data="5" />
+            <softkey hint_label="^" id="@id/id_0x7f0b0d0f" long_press_data="^,⁶" press_data="6" />
+            <softkey hint_label="&amp;" id="@id/id_0x7f0b0d05" long_press_data="&amp;,⁷,⅞" press_data="7" />
+            <softkey hint_label="*" id="@id/id_0x7f0b0cd3" long_press_data="*,⁸" press_data="8" />
+            <softkey hint_label="(" id="@id/id_0x7f0b0cf1" long_press_data="(,⁹" press_data="9" />
+            <softkey hint_label=")" id="@id/id_0x7f0b0d2d" long_press_data="),⁰,ⁿ,∅" press_data="0" />
+            <softkey hint_label="_" id="@id/id_0x7f0b121d" long_press_data="_,–,—,·" press_data="-" />
+            <softkey hint_label="+" id="@id/id_0x7f0b0d92" long_press_data="+,∞,≠,≈" press_data="=" />
+            <softkey hint_label="{" id="@id/id_0x7f0b165d" long_press_data="{" press_data="[" />
+            <softkey hint_label="}" id="@id/id_0x7f0b1a8e" long_press_data="}" press_data="]" />
+            <softkey hint_label="|" id="@id/id_0x7f0b1a7c" long_press_data="|" press_data="@string/string_0x7f1410e2" />
+            <softkey hint_label="?" id="@id/id_0x7f0b1b20" long_press_data="\\?,¿" press_data="/" />
+            <softkey hint_label=":" id="@id/id_0x7f0b1ad8" long_press_data=":" press_data=";" />
+            <softkey hint_label=">" id="@id/id_0x7f0b1026" long_press_data=">" press_data="." />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d27">
+            <softkey hint_label="&lt;" id="@id/id_0x7f0b1716" long_press_data="&lt;" press_data="," />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d09">
+            <softkey hint_label="&quot;" id="@id/id_0x7f0b0717" long_press_data="„,“,”,&quot;,‚,‘,’" press_data="'" />
+        </softkey_list>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140e24" id="@id/id_0x7f0b1be7" layout="@layout/layout_0x7f0e072f" multi_touch="false">
+            <action data="\t" intention="COMMIT" keycode="TAB" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080541" />
+        </softkey>
+    </softkeys>
+</framework>

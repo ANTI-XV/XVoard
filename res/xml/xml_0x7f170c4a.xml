@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys href="@xml/xml_0x7f170fd7" />
+    <key_mapping>
+        <if language="blk-MM">
+            <mapping key_id="@id/id_0x7f0b1815" view_id="@id/key_pos_input_symbol_1" />
+        </if>
+        <if language="ban-Bali                   |sas-Bali">
+            <mapping key_id="@id/id_0x7f0b0832" view_id="@id/key_pos_input_symbol_1" />
+            <mapping key_id="@id/id_0x7f0b0833" view_id="@id/key_pos_input_symbol_2" />
+        </if>
+        <if language="bax-CM">
+            <mapping key_id="@id/id_0x7f0b0890" view_id="@id/key_pos_input_symbol_1" />
+            <mapping key_id="@id/id_0x7f0b0892" view_id="@id/key_pos_input_symbol_2" />
+        </if>
+        <if language="bm-Nkoo">
+            <mapping key_id="@id/id_0x7f0b1897" view_id="@id/key_pos_input_symbol_1" />
+            <mapping key_id="@id/id_0x7f0b078a" view_id="@id/key_pos_input_symbol_2" />
+        </if>
+        <if language="ccp-BD">
+            <mapping key_id="@id/id_0x7f0b0a08" view_id="@id/key_pos_input_symbol_2" />
+        </if>
+        <if language="dv-MV">
+            <mapping key_id="@id/id_0x7f0b1d74" view_id="@id/key_pos_input_symbol_1" />
+            <mapping key_id="@id/id_0x7f0b078a" view_id="@id/key_pos_input_symbol_2" />
+        </if>
+        <if language="ii-Latn                   |khb-CN">
+            <mapping key_id="@id/id_0x7f0b102b" view_id="@id/key_pos_input_symbol_1" />
+            <mapping key_id="@id/id_0x7f0b102e" view_id="@id/key_pos_input_symbol_2" />
+        </if>
+        <if language="mul-x-ipa">
+            <mapping key_id="@id/id_0x7f0b165d" view_id="@id/key_pos_input_symbol_1" />
+            <mapping key_id="@id/id_0x7f0b1a8e" view_id="@id/key_pos_input_symbol_2" />
+        </if>
+        <if language="kxm-TH                   |nod-Thai                   |sou-TH                   |th                   |tts-TH">
+            <mapping key_id="@id/id_0x7f0b1d95" view_id="@id/key_pos_1_12" />
+            <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_2_11" />
+        </if>
+        <if language="lif-Limb">
+            <mapping key_id="@id/id_0x7f0b16ca" view_id="@id/key_pos_input_symbol_1" />
+            <mapping key_id="@id/id_0x7f0b16cb" view_id="@id/key_pos_input_symbol_2" />
+        </if>
+        <if language="my">
+            <mapping key_id="@id/id_0x7f0b17f1" view_id="@id/key_pos_1_10" />
+            <mapping key_id="@id/id_0x7f0b1815" view_id="@id/key_pos_input_symbol_1" />
+        </if>
+        <if language="nv-US">
+            <mapping key_id="@id/id_0x7f0b0717" view_id="@id/key_pos_1_11" />
+            <mapping key_id="@id/id_0x7f0b15c7" view_id="@id/key_pos_2_10" />
+        </if>
+        <if language="shn-MM">
+            <mapping key_id="@id/id_0x7f0b1830" view_id="@id/key_pos_input_symbol_1" />
+        </if>
+    </key_mapping>
+    <key_mapping state="SHIFT">
+        <if language="blk-MM">
+            <mapping key_id="@id/id_0x7f0b17d1" view_id="@id/key_pos_input_symbol_1" />
+            <mapping key_id="@id/id_0x7f0b0ddb" view_id="@id/key_pos_input_symbol_2" />
+        </if>
+        <if language="my">
+            <mapping key_id="@id/id_0x7f0b1810" view_id="@id/key_pos_1_10" />
+            <mapping key_id="@id/id_0x7f0b17d1" view_id="@id/key_pos_input_symbol_1" />
+            <mapping key_id="@id/id_0x7f0b0ddb" view_id="@id/key_pos_input_symbol_2" />
+        </if>
+        <if language="kxm-TH                   |nod-Thai                   |sou-TH                   |th                   |tts-TH">
+            <mapping key_id="@id/id_0x7f0b1d94" view_id="@id/key_pos_1_12" />
+            <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_input_symbol_1" />
+            <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_input_symbol_2" />
+        </if>
+        <if language="nv-US">
+            <mapping key_id="@id/id_0x7f0b14f8" view_id="@id/key_pos_2_10" />
+        </if>
+    </key_mapping>
+</framework>

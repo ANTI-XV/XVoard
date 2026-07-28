@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <extra_values>
+        <item id="@id/id_0x7f0b0213" value="true" />
+        <item id="@id/id_0x7f0b0215" value="20" />
+        <item id="@id/id_0x7f0b020a" value="true" />
+        <item id="@id/id_0x7f0b0200" value="false" />
+        <if enable_transliteration_tablet_floating_ui_v2="true">
+            <item id="@id/id_0x7f0b01f7" res="@xml/xml_0x7f1707df" />
+        </if>
+        <else>
+            <item id="@id/id_0x7f0b01f7" res="@xml/xml_0x7f1707de" />
+        </else>
+    </extra_values>
+</framework>

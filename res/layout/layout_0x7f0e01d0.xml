@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f150365"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView style="@style/style_0x7f150360" />
+    <LinearLayout style="@style/style_0x7f15040b">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_undo" android:layout_weight="250.0" style="@style/style_0x7f1505cc" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_left_arrow" android:layout_weight="250.0" style="@style/style_0x7f1505cc" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="250.0">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_switch_to_symbol" android:visibility="gone" android:layout_weight="100.0" style="@style/style_0x7f1505cd" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_switch_to_smiley" android:visibility="gone" android:layout_weight="100.0" style="@style/style_0x7f1505cd" />
+        </LinearLayout>
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_switch_hiragana_alphabet" android:layout_weight="250.0" style="@style/style_0x7f1505ca" />
+    </LinearLayout>
+</FrameLayout>

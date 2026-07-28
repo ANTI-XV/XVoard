@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">已分配 %d 个键</item>
+        <item quantity="other">已分配 %d 个键</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s现已安装完毕。</item>
+        <item quantity="other">%s现已安装完毕。</item>
+    </plurals>
+</resources>

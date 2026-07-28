@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end|bottom" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:gravity="center" android:id="@id/id_0x7f0b01eb" android:tag=".expression-navigation-del-button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="18.0dp" android:src="@drawable/drawable_0x7f08051a" android:contentDescription="@string/string_0x7f1403a1" app:attr_0x7f040350="0.0dp" app:attr_0x7f0404c3="5.0dp" app:attr_0x7f04075e="0.0dp" app:attr_0x7f0407ac="@style/style_0x7f150227" />
+</FrameLayout>

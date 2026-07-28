@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.ContentFrameLayout android:id="@id/id_0x7f0b004d" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?android:windowContentOverlay" android:foregroundGravity="fill_horizontal|top" />
+</merge>

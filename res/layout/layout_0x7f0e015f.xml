@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/id_0x7f0b0630" android:contentDescription="@string/string_0x7f1408e7" android:layout_marginEnd="?attr_0x7f04018b" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b0544" app:attr_0x7f04060e="id_0x7f0b05bc" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150323">
+        <ImageView android:src="@drawable/drawable_0x7f080343" android:importantForAccessibility="no" style="@style/style_0x7f15031c" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b1fb6" android:maxWidth="?attr_0x7f040183" android:text="?attr_0x7f04021f" android:layout_marginStart="?attr_0x7f040188" style="@style/style_0x7f15031e" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b0544" android:contentDescription="@string/string_0x7f1405a5" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04060e="id_0x7f0b05bc" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150321">
+        <ImageView android:src="@drawable/drawable_0x7f080340" android:importantForAccessibility="no" style="@style/style_0x7f15031d" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/id_0x7f0b0174" android:contentDescription="@string/string_0x7f140273" android:layout_marginStart="?attr_0x7f04018b" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f04060e="id_0x7f0b05bc" app:attr_0x7f040616="@id/id_0x7f0b0544" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150323">
+        <ImageView android:src="@drawable/drawable_0x7f08032e" android:importantForAccessibility="no" style="@style/style_0x7f15031c" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b1fb6" android:maxWidth="?attr_0x7f040183" android:text="?attr_0x7f04021e" style="@style/style_0x7f15031e" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

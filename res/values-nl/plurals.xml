@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d toets toegewezen</item>
+        <item quantity="other">%d toetsen toegewezen</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s is nu geïnstalleerd.</item>
+        <item quantity="other">%s zijn nu geïnstalleerd.</item>
+    </plurals>
+</resources>

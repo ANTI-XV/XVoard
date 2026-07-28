@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="@dimen/dimen_0x7f07008c"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="@dimen/dimen_0x7f07076a" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_0x7f070768" android:layout_marginEnd="@dimen/dimen_0x7f070767" android:layout_alignParentStart="true">
+        <ImageView android:layout_gravity="center" android:id="@id/id_0x7f0b065d" android:tag=".expression-query-candidate-icon" android:layout_width="@dimen/dimen_0x7f07076a" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+    </FrameLayout>
+    <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/dimen_0x7f070766" android:textColor="@color/color_0x7f060aeb" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/id_0x7f0b04da" android:tag=".expression-query-candidate-text.expression-search-box-ripple" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:fontFamily="?attr_0x7f0400fa" android:paddingStart="@dimen/dimen_0x7f070769" android:paddingEnd="@dimen/dimen_0x7f0702d2" android:fontFeatureSettings="calt off" style="@style/style_0x7f15092f" />
+    <FrameLayout style="@style/style_0x7f15092c">
+        <ImageView android:layout_gravity="center" android:id="@id/id_0x7f0b065b" android:tag=".expression-query-autofill-icon.expression-search-box-ripple" android:padding="@dimen/dimen_0x7f0702d0" android:layout_width="@dimen/dimen_0x7f0702d1" android:layout_height="@dimen/dimen_0x7f0702d1" android:src="@drawable/drawable_0x7f080588" android:contentDescription="@string/string_0x7f1402e4" android:importantForAccessibility="no" style="@style/style_0x7f15092f" />
+    </FrameLayout>
+</RelativeLayout>

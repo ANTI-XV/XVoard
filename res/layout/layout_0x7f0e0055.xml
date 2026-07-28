@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag=".nav_back_key.item-ripple.on-surface" android:background="@drawable/drawable_0x7f0801fa" style="@style/style_0x7f15021f"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView android:id="@id/id_0x7f0b02ac" android:src="@drawable/drawable_0x7f080337" style="@style/style_0x7f15021e" />
+</FrameLayout>

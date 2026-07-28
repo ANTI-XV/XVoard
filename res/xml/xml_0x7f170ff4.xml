@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d3e" layout="@layout/layout_0x7f0e0792" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+        <action data="$press_data$" intention="$press_intent=COMMIT$" keycode="ALPHABET" popup_label="$press_data$" type="PRESS" />
+        <action data="$long_press_data$" intention="$long_press_intention=COMMIT$" keycode="ALPHABET" merge_insertion_index="$merge_index=0$" popup_label="$long_press_data$" popup_layout="@attr/attr_0x7f040208" type="LONG_PRESS" />
+        <label location="@id/id_0x7f0b04d0" value="$press_data$" />
+    </softkey_template>
+    <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d09" layout="@layout/layout_0x7f0e0794" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+        <action data="$press_data$" intention="$press_intent=COMMIT$" keycode="ALPHABET" popup_label="$press_data$" type="PRESS" />
+        <action data="$long_press_data$" intention="$long_press_intention=COMMIT$" keycode="ALPHABET" merge_insertion_index="$merge_index=0$" popup_label="$long_press_data$" popup_layout="@attr/attr_0x7f0401fd" type="LONG_PRESS" />
+        <label location="@id/id_0x7f0b04d0" value="$press_data$" />
+        <label location="@id/id_0x7f0b04d6" value="$hint_label$" />
+    </softkey_template>
+    <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d43" layout="@layout/layout_0x7f0e0792" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+        <action data="$press_data$" intention="$press_intent=COMMIT$" keycode="ALPHABET" popup_label="$press_data$" type="PRESS" />
+        <label location="@id/id_0x7f0b04d0" value="$press_data$" />
+    </softkey_template>
+</framework>

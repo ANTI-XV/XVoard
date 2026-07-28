@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:duplicateParentState="true" android:weightSum="1000.0" style="@style/style_0x7f15040a"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="500.0" style="@style/style_0x7f15040a">
+        <Space android:layout_width="match_parent" android:layout_height="match_parent" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:gravity="center_horizontal" android:id="@id/id_0x7f0b058c" android:layout_width="?attr_0x7f0401f6" style="@style/style_0x7f150376" />
+    </LinearLayout>
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/id_0x7f0b04d0" android:layout_weight="500.0" style="@style/style_0x7f150394" />
+</LinearLayout>

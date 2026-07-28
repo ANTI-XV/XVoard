@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">Đã chỉ định %d phím</item>
+        <item quantity="other">Đã chỉ định %d phím</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s hiện đã được cài đặt.</item>
+        <item quantity="other">%s hiện đã được cài đặt.</item>
+    </plurals>
+</resources>

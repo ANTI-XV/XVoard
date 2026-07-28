@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping exclude_state="NO_SETTINGS_KEY,INPUT_TYPE_URI,INPUT_TYPE_EMAIL_ADDRESS">
+        <merge key_id="@id/id_0x7f0b0e3e" view_id="@id/key_pos_bottom_symbol_1" />
+    </merge_key_mapping>
+    <merge_key_mapping exclude_state="NO_SETTINGS_KEY" state="INPUT_TYPE_URI,INPUT_TYPE_EMAIL_ADDRESS">
+        <merge key_id="@id/id_0x7f0b0e3d" view_id="@id/key_pos_bottom_symbol_1" />
+    </merge_key_mapping>
+</framework>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_0x7f060b07">@android:color/system_neutral1_700</color>
+    <color name="color_0x7f060b08">@android:color/system_accent1_100</color>
+    <color name="color_0x7f060b09">@color/color_0x7f060b40</color>
+    <color name="color_0x7f060b0a">#f28b82</color>
+    <color name="color_0x7f060b40">@android:color/system_neutral1_800</color>
+    <color name="color_0x7f060b49">@android:color/system_accent1_100</color>
+    <color name="color_0x7f060b4b">@android:color/system_neutral1_50</color>
+    <color name="color_0x7f060b4e">@android:color/system_neutral1_700</color>
+    <color name="color_0x7f060b4f">@android:color/system_neutral1_400</color>
+    <color name="color_0x7f060b51">@android:color/system_neutral1_700</color>
+    <color name="color_0x7f060b52">@color/color_0x7f060b45</color>
+</resources>

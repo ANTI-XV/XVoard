@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d કી સોંપી</item>
+        <item quantity="other">%d કી સોંપી</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s ભાષા હવે ઇન્સ્ટૉલ થઈ ગઈ છે.</item>
+        <item quantity="other">%s ભાષાઓ હવે ઇન્સ્ટૉલ થઈ ગઈ છે.</item>
+    </plurals>
+</resources>

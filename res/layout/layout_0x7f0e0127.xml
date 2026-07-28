@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.BubbleHintView android:tag=".floating-tooltip-background" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_0x7f070342" app:attr_0x7f040340="@dimen/dimen_0x7f07033e" app:attr_0x7f040342="@dimen/dimen_0x7f070340" app:attr_0x7f040343="DOWN" app:attr_0x7f040344="@dimen/dimen_0x7f07033f" app:attr_0x7f040346="@dimen/dimen_0x7f070341" app:attr_0x7f040347="@android:color/white" app:attr_0x7f04034b="@dimen/dimen_0x7f070345"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/dimen_0x7f070344" android:layout_gravity="center" android:tag=".floating-tooltip-foreground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f1403df" android:fontFamily="?attr_0x7f040105" android:layout_marginHorizontal="@dimen/dimen_0x7f070343" />
+</com.google.android.libraries.inputmethod.widgets.BubbleHintView>

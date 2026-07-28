@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1294" view_id="@id/key_pos_ja_godan_a" />
+        <mapping key_id="@id/id_0x7f0b1297" view_id="@id/key_pos_ja_godan_i" />
+        <mapping key_id="@id/id_0x7f0b129f" view_id="@id/key_pos_ja_godan_u" />
+        <mapping key_id="@id/id_0x7f0b1295" view_id="@id/key_pos_ja_godan_e" />
+        <mapping key_id="@id/id_0x7f0b129b" view_id="@id/key_pos_ja_godan_o" />
+        <mapping key_id="@id/id_0x7f0b1298" view_id="@id/key_pos_ja_godan_k" />
+        <mapping key_id="@id/id_0x7f0b129d" view_id="@id/key_pos_ja_godan_s" />
+        <mapping key_id="@id/id_0x7f0b129e" view_id="@id/key_pos_ja_godan_t" />
+        <mapping key_id="@id/id_0x7f0b129a" view_id="@id/key_pos_ja_godan_n" />
+        <mapping key_id="@id/id_0x7f0b1296" view_id="@id/key_pos_ja_godan_h" />
+        <mapping key_id="@id/id_0x7f0b1299" view_id="@id/key_pos_ja_godan_m" />
+        <mapping key_id="@id/id_0x7f0b12a1" view_id="@id/key_pos_ja_godan_y" />
+        <mapping key_id="@id/id_0x7f0b129c" view_id="@id/key_pos_ja_godan_r" />
+        <mapping key_id="@id/id_0x7f0b12a0" view_id="@id/key_pos_ja_godan_w" />
+        <mapping key_id="@id/id_0x7f0b1292" view_id="@id/key_pos_globe_daisyou" />
+        <mapping key_id="@id/id_0x7f0b1b72" view_id="@id/key_pos_switch_hiragana_alphabet" />
+        <if japanese_use_tri_state_mode="true">
+            <mapping key_id="@id/id_0x7f0b12d0" view_id="@id/key_pos_switch_to_symbol" />
+        </if>
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping key_id="@id/id_0x7f0b12cb" view_id="@id/key_pos_globe_daisyou" />
+    </key_mapping>
+    <key_mapping state="COMPOSING">
+        <mapping key_id="@id/id_0x7f0b1292" view_id="@id/key_pos_globe_daisyou" />
+        <mapping key_id="@id/id_0x7f0b1b29" view_id="@id/key_pos_space" />
+    </key_mapping>
+    <if expressions="policy_transparency">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b1b77" view_id="@id/key_pos_switch_to_smiley" />
+        </key_mapping>
+    </if>
+    <else_if expressions="hidden">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_switch_to_smiley" />
+        </key_mapping>
+    </else_if>
+    <else>
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b1b76" view_id="@id/key_pos_switch_to_smiley" />
+        </key_mapping>
+        <key_mapping state="EMOJI_AVAILABLE">
+            <mapping key_id="@id/id_0x7f0b1b73" view_id="@id/key_pos_switch_to_smiley" />
+        </key_mapping>
+    </else>
+</framework>

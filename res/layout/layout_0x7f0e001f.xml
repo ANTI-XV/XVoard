@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b1f98" android:layout_width="0.0dp" android:layout_height="0.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/key_pos_header_power_key" app:attr_0x7f040616="@id/key_pos_header_access_points_menu" app:attr_0x7f04061b="id_0x7f0b05c6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="start|center" android:tag=".divider.vertical.for-candidate-key" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_0x7f070052" android:src="@drawable/drawable_0x7f08036c" android:scaleType="center" />
+    <ImageView android:layout_gravity="end|center" android:tag=".divider.vertical.for-candidate-key" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_0x7f070052" android:src="@drawable/drawable_0x7f08036c" android:scaleType="center" />
+</FrameLayout>

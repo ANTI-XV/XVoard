@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1ce4" press_data="్" />
+            <softkey id="@id/id_0x7f0b1ce6" press_data="ా" />
+            <softkey id="@id/id_0x7f0b1ce9" press_data="ి" />
+            <softkey id="@id/id_0x7f0b1cea" press_data="ీ" />
+            <softkey id="@id/id_0x7f0b1ced" press_data="ు" />
+            <softkey id="@id/id_0x7f0b1cee" press_data="ూ" />
+            <softkey id="@id/id_0x7f0b1ce7" press_data="ె" />
+            <softkey id="@id/id_0x7f0b1ce8" press_data="ే" />
+            <softkey id="@id/id_0x7f0b1ceb" press_data="ొ" />
+            <softkey id="@id/id_0x7f0b1cec" press_data="ో" />
+            <softkey id="@id/id_0x7f0b1ce3" press_data="ఁ" />
+            <softkey id="@id/id_0x7f0b1ce2" press_data="ం" />
+            <softkey id="@id/id_0x7f0b1cb1" press_data="అ" />
+            <softkey id="@id/id_0x7f0b1cb2" press_data="ఆ" />
+            <softkey id="@id/id_0x7f0b1cc3" press_data="ఇ" />
+            <softkey id="@id/id_0x7f0b1cc4" press_data="ఈ" />
+            <softkey id="@id/id_0x7f0b1cdc" press_data="ఉ" />
+            <softkey id="@id/id_0x7f0b1cdd" press_data="ఊ" />
+            <softkey id="@id/id_0x7f0b1cbe" press_data="ఎ" />
+            <softkey id="@id/id_0x7f0b1cbf" press_data="ఏ" />
+            <softkey id="@id/id_0x7f0b1cd0" press_data="ఒ" />
+            <softkey id="@id/id_0x7f0b1cd1" press_data="ఓ" />
+            <softkey id="@id/id_0x7f0b1cc7" press_data="క" />
+            <softkey id="@id/id_0x7f0b1cc0" press_data="గ" />
+            <softkey id="@id/id_0x7f0b1ccd" press_data="ఙ" />
+            <softkey id="@id/id_0x7f0b1cb7" press_data="చ" />
+            <softkey id="@id/id_0x7f0b1cc5" press_data="జ" />
+            <softkey id="@id/id_0x7f0b1ccf" press_data="ఞ" />
+            <softkey id="@id/id_0x7f0b1cda" press_data="ట" />
+            <softkey id="@id/id_0x7f0b1cba" press_data="డ" />
+            <softkey id="@id/id_0x7f0b1cce" press_data="ణ" />
+            <softkey id="@id/id_0x7f0b1cd8" press_data="త" />
+            <softkey id="@id/id_0x7f0b1cb9" press_data="ద" />
+            <softkey id="@id/id_0x7f0b1ccc" press_data="న" />
+            <softkey id="@id/id_0x7f0b1cd2" press_data="ప" />
+            <softkey id="@id/id_0x7f0b1cb5" press_data="బ" />
+            <softkey id="@id/id_0x7f0b1ccb" press_data="మ" />
+            <softkey id="@id/id_0x7f0b1cd4" press_data="ర" />
+            <softkey id="@id/id_0x7f0b1cca" press_data="ళ" />
+            <softkey id="@id/id_0x7f0b1cde" press_data="వ" />
+            <softkey id="@id/id_0x7f0b1cd5" press_data="స" />
+            <softkey id="@id/id_0x7f0b1cc2" press_data="హ" />
+            <softkey id="@id/id_0x7f0b1ce1" press_data="య" />
+            <softkey id="@id/id_0x7f0b1cc9" press_data="ల" />
+            <softkey id="@id/id_0x7f0b1cbb" press_data="డ఼" />
+        </softkey_list>
+    </softkeys>
+</framework>

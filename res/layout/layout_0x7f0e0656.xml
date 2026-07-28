@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/id_0x7f0b057d" android:layout_width="?attr_0x7f0401cc" android:layout_height="?attr_0x7f0401cc" android:contentDescription="@string/string_0x7f140600"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:tag=".background-icon.for-mic-protection" android:padding="@dimen/dimen_0x7f0705aa" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/drawable_0x7f0801f5" android:importantForAccessibility="no" />
+    <ImageView android:id="@id/id_0x7f0b057c" android:tag=".outline.for-dotkit-sticky-mic" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/drawable_0x7f0805a5" android:importantForAccessibility="no" />
+    <com.google.android.libraries.search.p6glow.AssistantP6GlowView android:id="@id/id_0x7f0b057b" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/dimen_0x7f0705aa" app:attr_0x7f0404e7="180.0" app:attr_0x7f040564="0.45" app:attr_0x7f0405e5="id_0x7f0b0008" app:attr_0x7f04063a="@dimen/dimen_0x7f0705a9" />
+</FrameLayout>

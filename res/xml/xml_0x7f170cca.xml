@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey content_description="@string/string_0x7f140e07" id="@id/id_0x7f0b1b82" layout="@layout/layout_0x7f0e0735">
+            <action action_on_down="true" data="symbol" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="\\?123" />
+        </softkey>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0ddb" long_press_data="¡" merge_index="-1" press_data="!" />
+            <softkey id="@id/id_0x7f0b1a53" long_press_data="¿" press_data="?" />
+            <softkey id="@id/id_0x7f0b102b" long_press_data="!,¡" long_press_intention="COMMIT" merge_index="-1" press_data="！" press_intention="COMMIT" />
+            <softkey id="@id/id_0x7f0b102e" long_press_data="\\?,¿" long_press_intention="COMMIT" press_data="？" press_intention="COMMIT" />
+        </softkey_list>
+    </softkeys>
+</framework>

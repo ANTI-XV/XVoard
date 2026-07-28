@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey_list template_id="@id/id_0x7f0b1d2b">
+        <softkey param_data=":-)" />
+        <softkey param_data="-_-" />
+        <softkey param_data=">:)" />
+        <softkey param_data=":^)" />
+        <softkey param_data="^_^" />
+        <softkey param_data="(^^)" />
+        <softkey param_data=":,-)" />
+        <softkey param_data="8-)" />
+        <softkey param_data="B-)" />
+        <softkey param_data="o:-)" />
+        <softkey param_data=":-D" />
+        <softkey param_data="}:‑)" />
+        <softkey param_data=";)" />
+        <softkey param_data=";-)" />
+        <softkey param_data=":-*" />
+        <softkey param_data=":-P" />
+        <softkey param_data=":-!" />
+        <softkey param_data=":-$" />
+        <softkey param_data=":‑X" />
+        <softkey param_data=":-|" />
+        <softkey param_data="@string/string_0x7f140217" />
+        <softkey param_data=":-[" />
+        <softkey param_data=":-(" />
+        <softkey param_data=":'(" />
+        <softkey param_data="(TT)" />
+        <softkey param_data="=_=" />
+        <softkey param_data=">.&lt;" />
+        <softkey param_data="(+_+)" />
+        <softkey param_data="(*_*)" />
+        <softkey param_data="O_o" />
+        <softkey param_data=":-O" />
+        <softkey param_data="=-O" />
+        <softkey param_data=":0" />
+        <softkey param_data="@string/string_0x7f140216" />
+    </softkey_list>
+</framework>

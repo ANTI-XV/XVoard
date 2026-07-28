@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_0x7f1409a8" android:key="@string/string_0x7f140892"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409ae" android:key="@string/string_0x7f140721" android:summary="@string/string_0x7f1409ad" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409af" android:key="@string/string_0x7f140761" android:dependency="@string/string_0x7f140721" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a35" android:key="@string/string_0x7f140736" android:summary="@string/string_0x7f140a34" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a37" android:key="@string/string_0x7f140737" android:summary="@string/string_0x7f140a36" />
+</PreferenceScreen>

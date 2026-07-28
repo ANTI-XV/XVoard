@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0aa5" press_data=":" />
+            <softkey id="@id/id_0x7f0b1ad8" press_data=";" />
+            <softkey id="@id/id_0x7f0b121d" press_data="-" />
+            <softkey id="@id/id_0x7f0b1a53" press_data="?" />
+            <softkey id="@id/id_0x7f0b1b1c" long_press_data="?" press_data="/" />
+            <softkey id="@id/id_0x7f0b1a56" long_press_data="!,'" press_data="&quot;" />
+            <softkey id="@id/id_0x7f0b1b20" press_data="/" />
+            <softkey id="@id/id_0x7f0b0aca" press_data="@" />
+            <softkey id="@id/id_0x7f0b0717" long_press_data="!,&quot;" press_data="'" />
+            <softkey id="@id/id_0x7f0b10ce" long_press_data="." press_data=">" />
+            <softkey id="@id/id_0x7f0b1026" long_press_data=">" press_data="." />
+            <softkey id="@id/id_0x7f0b1a4b" long_press_data="*" press_data="+" />
+            <softkey id="@id/id_0x7f0b1b30" long_press_data="+" press_data="*" />
+            <softkey id="@id/id_0x7f0b1574" long_press_data="Ç" press_data="ç" />
+            <softkey id="@id/id_0x7f0b14bf" long_press_data="ç" press_data="Ç" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1716" long_press_data="\\? &lt;" press_data="," />
+            <softkey id="@id/id_0x7f0b1718" long_press_data="\\? ," press_data="&lt;" />
+        </softkey_list>
+    </softkeys>
+</framework>

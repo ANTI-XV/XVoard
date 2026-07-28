@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_0x7f0b027c" android:tag=".item-ripple.on-surface.bg-jarvis-widget-chip" android:background="@drawable/drawable_0x7f0801d1" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_0x7f070348" android:layout_marginStart="@dimen/dimen_0x7f070347" android:layout_marginEnd="@dimen/dimen_0x7f070347"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_0x7f0e00f3" />
+    <View android:background="@drawable/drawable_0x7f0802a2" android:layout_width="0.0dp" android:layout_height="0.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

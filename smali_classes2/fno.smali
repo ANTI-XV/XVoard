@@ -1,0 +1,124 @@
+.class public abstract Lfno;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Llcd;
+
+
+# instance fields
+.field private a:Lfnn;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    sget-object v0, Lfnn;->a:Lfnn;
+
+    .line 5
+    .line 6
+    iput-object v0, p0, Lfno;->a:Lfnn;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract a(Lfnn;Lfnn;)V
+.end method
+
+.method public final c(Ljava/util/concurrent/Executor;)V
+    .locals 2
+
+    .line 1
+    const-class v0, Lfnp;
+
+    .line 2
+    .line 3
+    invoke-static {}, Llcg;->b()Llcg;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v1
+
+    .line 7
+    invoke-virtual {v1, p0, v0, p1}, Llcg;->g(Llcd;Ljava/lang/Class;Ljava/util/concurrent/Executor;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method
+
+.method public final synthetic cw(Ljava/lang/Class;)V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public final bridge synthetic cx(Llca;)V
+    .locals 2
+
+    .line 1
+    check-cast p1, Lfnp;
+
+    .line 2
+    .line 3
+    iget-object v0, p0, Lfno;->a:Lfnn;
+
+    .line 4
+    .line 5
+    iget-object v1, p1, Lfnp;->a:Lfnn;
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, v0, v1}, Lfno;->a(Lfnn;Lfnn;)V
+
+    .line 8
+    .line 9
+    .line 10
+    iget-object p1, p1, Lfnp;->a:Lfnn;
+
+    .line 11
+    .line 12
+    iput-object p1, p0, Lfno;->a:Lfnn;
+
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public final d()V
+    .locals 2
+
+    .line 1
+    const-class v0, Lfnp;
+
+    .line 2
+    .line 3
+    invoke-static {}, Llcg;->b()Llcg;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v1
+
+    .line 7
+    invoke-virtual {v1, p0, v0}, Llcg;->h(Llcd;Ljava/lang/Class;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

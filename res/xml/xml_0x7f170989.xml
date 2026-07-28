@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinPasswordKeyboard" popup="@attr/attr_0x7f040201">
+        <if show_suggestions="true">
+            <if keyboard_mode="split">
+                <view direction="locale" layout="@layout/layout_0x7f0e05a3" override="all" scalable="false" type="header">
+                    <softkeys href="@xml/xml_0x7f170fd0" />
+                    <include href="@xml/xml_0x7f170ba2" />
+                </view>
+            </if>
+            <else>
+                <view direction="locale" layout="@layout/layout_0x7f0e05a2" override="all" scalable="false" type="header">
+                    <softkeys href="@xml/xml_0x7f170fd0" />
+                    <include href="@xml/xml_0x7f170ba2" />
+                </view>
+            </else>
+        </if>
+        <else_if keyboard_mode="split">
+            <view direction="locale" layout="@layout/layout_0x7f0e05a1" override="all" scalable="false" type="header">
+                <softkeys href="@xml/xml_0x7f170fd0" />
+                <include href="@xml/xml_0x7f170ba2" />
+            </view>
+        </else_if>
+        <else>
+            <view direction="locale" layout="@layout/layout_0x7f0e059e" override="all" scalable="false" type="header">
+                <softkeys href="@xml/xml_0x7f170fd0" />
+                <include href="@xml/xml_0x7f170ba2" />
+            </view>
+        </else>
+    </keyboard>
+    <include href="@xml/xml_0x7f17098a" />
+    <include href="@xml/xml_0x7f17074f" />
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <include href="@xml/xml_0x7f17077a" />
+    </if>
+    <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+        <include href="@xml/xml_0x7f17077a" />
+    </else_if>
+</framework>

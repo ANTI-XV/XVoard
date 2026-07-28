@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b1b24" layout="@layout/layout_0x7f0e07a4" long_press_delay_flag="@string/string_0x7f140acb">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <action action_on_down="true" data="space" keycode="SHOW_SYSTEM_IME_PICKER" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value=" " />
+        </softkey>
+    </softkeys>
+</framework>

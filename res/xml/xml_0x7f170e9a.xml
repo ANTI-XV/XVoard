@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d27">
+            <softkey id="@id/id_0x7f0b17dc" press_data="က" />
+            <softkey id="@id/id_0x7f0b17dd" press_data="ခ" />
+            <softkey id="@id/id_0x7f0b17c9" press_data="စ" />
+            <softkey id="@id/id_0x7f0b17ca" press_data="ဆ" />
+            <softkey id="@id/id_0x7f0b1811" press_data="ဌ" />
+            <softkey id="@id/id_0x7f0b17ce" press_data="ဍ" />
+            <softkey id="@id/id_0x7f0b17f2" press_data="ဏ" />
+            <softkey id="@id/id_0x7f0b180d" press_data="တ" />
+            <softkey id="@id/id_0x7f0b180e" press_data="ထ" />
+            <softkey id="@id/id_0x7f0b17f8" press_data="ပ" />
+            <softkey id="@id/id_0x7f0b17f9" press_data="ဖ" />
+            <softkey hint_label="ဟ" id="@id/id_0x7f0b17fb" long_press_data="ဟ" press_data="သ" />
+            <softkey id="@id/id_0x7f0b17ea" press_data="ၜ" />
+            <softkey id="@id/id_0x7f0b17e5" press_data="ဠ" />
+            <softkey id="@id/id_0x7f0b17c5" press_data="အ" />
+            <softkey id="@id/id_0x7f0b17d8" press_data="ဣ" />
+            <softkey id="@id/id_0x7f0b1812" press_data="ဥ" />
+            <softkey id="@id/id_0x7f0b17ec" press_data="ဨ" />
+            <softkey id="@id/id_0x7f0b1821" press_data="ံ" />
+            <softkey id="@id/id_0x7f0b1822" press_data="်" />
+            <softkey id="@id/id_0x7f0b17b2" press_data="ှ" />
+            <softkey id="@id/id_0x7f0b17b6" press_data="ွ" />
+            <softkey id="@id/id_0x7f0b17b8" press_data="ၠ" />
+            <softkey id="@id/id_0x7f0b17b5" press_data="ြ" />
+            <softkey id="@id/id_0x7f0b1834" press_data="ာ" />
+            <softkey id="@id/id_0x7f0b1844" press_data="ါ" />
+            <softkey id="@id/id_0x7f0b183a" press_data="ိ" />
+            <softkey id="@id/id_0x7f0b183b" press_data="ီ" />
+            <softkey id="@id/id_0x7f0b182b" press_data="း" />
+            <softkey id="@id/id_0x7f0b182a" press_data="္" />
+            <softkey id="@id/id_0x7f0b17b7" press_data="ျ" />
+            <softkey id="@id/id_0x7f0b17b4" press_data="ၞ" />
+            <softkey id="@id/id_0x7f0b17b3" press_data="ၟ" />
+            <softkey id="@id/id_0x7f0b183d" press_data="ဴ" />
+            <softkey id="@id/id_0x7f0b183c" press_data="ဳ" />
+            <softkey hint_label="ူ" id="@id/id_0x7f0b1845" long_press_data="ူ" press_data="ု" />
+            <softkey hint_label="ဵ" id="@id/id_0x7f0b1837" long_press_data="ဵ" press_data="ေ" />
+            <softkey id="@id/id_0x7f0b1836" press_data="ဲ" />
+            <softkey id="@id/id_0x7f0b17e6" press_data="မ" />
+            <softkey id="@id/id_0x7f0b17ee" press_data="ၚ" />
+            <softkey id="@id/id_0x7f0b17da" press_data="ဇ" />
+            <softkey id="@id/id_0x7f0b17ed" press_data="ၛ" />
+            <softkey id="@id/id_0x7f0b17cf" press_data="ဎ" />
+            <softkey id="@id/id_0x7f0b17cb" press_data="ဒ" />
+            <softkey id="@id/id_0x7f0b17d0" press_data="ဓ" />
+            <softkey id="@id/id_0x7f0b17fa" press_data="ရ" />
+            <softkey id="@id/id_0x7f0b17eb" press_data="ၝ" />
+            <softkey id="@id/id_0x7f0b17e1" press_data="လ" />
+            <softkey hint_label="ဃ" id="@id/id_0x7f0b17d4" long_press_data="ဃ" press_data="ဂ" />
+            <softkey hint_label="ဝ" id="@id/id_0x7f0b1815" long_press_data="ဝ" press_data="ယ" />
+            <softkey hint_label="ည" id="@id/id_0x7f0b17ef" long_press_data="ဉ,ည" press_data="န" />
+            <softkey hint_label="ဘ" id="@id/id_0x7f0b17c7" long_press_data="ဘ" press_data="ဗ" />
+        </softkey_list>
+    </softkeys>
+    <include href="@xml/xml_0x7f170eeb" />
+</framework>

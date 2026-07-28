@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/dimen_0x7f070873" android:layout_marginTop="@dimen/dimen_0x7f070874" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/id_0x7f0b00aa" android:background="@drawable/drawable_0x7f0805b4" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/dimen_0x7f0706d7" android:layout_height="@dimen/dimen_0x7f0706d6" android:layout_alignParentLeft="true" android:contentDescription="@string/string_0x7f14005f" android:layout_marginStart="@dimen/dimen_0x7f0706d9">
+        <android.support.v7.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@drawable/drawable_0x7f08050f" android:scaleType="centerInside" android:tint="@color/color_0x7f060673" />
+    </FrameLayout>
+    <FrameLayout android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/id_0x7f0b011e" android:background="@drawable/drawable_0x7f0805b4" android:focusable="true" android:clickable="true" android:layout_width="@dimen/dimen_0x7f0706d7" android:layout_height="@dimen/dimen_0x7f0706d6" android:layout_alignParentRight="true" android:contentDescription="@string/string_0x7f1400e5" android:layout_marginEnd="@dimen/dimen_0x7f0706d8">
+        <android.support.v7.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@drawable/drawable_0x7f08032b" android:scaleType="centerInside" android:tint="@color/color_0x7f060673" />
+    </FrameLayout>
+</RelativeLayout>

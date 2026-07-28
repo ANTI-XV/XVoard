@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="true" android:state_hovered="true">
+        <objectAnimator android:interpolator="?attr_0x7f0406e8" android:duration="?attr_0x7f0406de" android:valueTo="@dimen/dimen_0x7f07041a" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="?attr_0x7f0406db" />
+    </item>
+    <item android:state_enabled="true" app:attr_0x7f04080e="true">
+        <objectAnimator android:interpolator="?attr_0x7f0406e8" android:duration="?attr_0x7f0406de" android:valueTo="@dimen/dimen_0x7f070414" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="?attr_0x7f0406db" />
+    </item>
+    <item android:state_enabled="true">
+        <objectAnimator android:interpolator="?attr_0x7f0406e8" android:duration="?attr_0x7f0406d8" android:valueTo="0.0dp" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+    <item>
+        <objectAnimator android:duration="0" android:valueTo="0.0dp" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+</selector>

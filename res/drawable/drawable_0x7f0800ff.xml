@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f08000b" android:duration="250" android:startOffset="0" android:valueFrom="M-36.37-46.37c21.5 6.25 23.12 16.87 23.12 16.87s-11.5-5.25-25.25 2.13" android:valueTo="M-34.37-36.94c22.5-.37 16.12-.12 16.12-.12s-1.06.19-16.06.06" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f08000c" android:duration="250" android:startOffset="250" android:valueFrom="M-34.37-36.94c22.5-.37 16.12-.12 16.12-.12s-1.06.19-16.06.06" android:valueTo="M-34.37-36.94c22.5-.37 16.12-.12 16.12-.12s-1.06.19-16.06.06" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f08000d" android:duration="333" android:startOffset="500" android:valueFrom="M-34.37-36.94c22.5-.37 16.12-.12 16.12-.12s-1.06.19-16.06.06" android:valueTo="M-36.37-46.37c21.5 6.25 23.12 16.87 23.12 16.87s-11.5-5.25-25.25 2.13" android:valueType="pathType" android:propertyName="pathData" />
+</set>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="ar-LY" string_id="ime_arabic_libya">
+        <keyboard_group supports_split_mode="true" variant="arabic" variant_label="@string/string_0x7f14110d">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <keyboard def="@xml/xml_0x7f170581" type="prime">
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f170864" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a06" />
+        </keyboard_group>
+        <keyboard_group supports_split_mode="true" variant="arabic_two" variant_label="@string/string_0x7f14110e">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <keyboard def="@xml/xml_0x7f170582" type="prime">
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f170865" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a06" />
+        </keyboard_group>
+    </ime>
+</framework>

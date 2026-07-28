@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b04eb" android:background="?attr_0x7f04042e" android:layout_width="match_parent" android:layout_height="65.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="top" android:id="@id/id_0x7f0b04f3" android:background="?attr_0x7f040411" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="1.0dp">
+        <android.support.v7.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="?attr_0x7f040403" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/id_0x7f0b04f2" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/string_0x7f1409e2" android:maxLines="2" android:layout_weight="1.0" android:fontFamily="?attr_0x7f040103" android:layout_marginStart="24.0dp" android:layout_marginEnd="16.0dp" />
+        <com.google.android.apps.inputmethod.libs.languageselection.preference.LanguageSpecificSettingBottomButtonsWrapper android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2.0">
+            <Button android:ellipsize="marquee" android:id="@id/id_0x7f0b04f0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f14039e" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textAllCaps="false" android:fontFamily="?attr_0x7f040103" android:layout_marginEnd="16.0dp" style="?attr_0x7f04067d" />
+            <Button android:ellipsize="marquee" android:id="@id/language_specific_setting_done_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f1403a2" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textAllCaps="false" android:fontFamily="?attr_0x7f040103" android:layout_marginEnd="16.0dp" />
+        </com.google.android.apps.inputmethod.libs.languageselection.preference.LanguageSpecificSettingBottomButtonsWrapper>
+    </LinearLayout>
+</FrameLayout>

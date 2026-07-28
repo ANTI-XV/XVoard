@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080000" android:duration="250" android:startOffset="0" android:valueFrom="M-30 12 C-7.5,26.25 9.5,26 31,11.75 " android:valueTo="M-5.75 20.88 C0.03,22.53 -2.6,22.99 4.44,21.13 " android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080001" android:duration="250" android:startOffset="250" android:valueFrom="M-5.75 20.88 C0.03,22.53 -2.6,22.99 4.44,21.13 " android:valueTo="M-4.69 20.88 C1.09,22.53 -3.72,22.99 3.31,21.13 " android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080002" android:duration="333" android:startOffset="500" android:valueFrom="M-4.69 20.88 C1.09,22.53 -3.72,22.99 3.31,21.13 " android:valueTo="M-30 12 C-7.5,26.25 9.5,26 31,11.75 " android:valueType="pathType" android:propertyName="pathData" />
+</set>

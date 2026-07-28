@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">Призначено %d ключ</item>
+        <item quantity="few">Призначено %d ключі</item>
+        <item quantity="many">Призначено %d ключів</item>
+        <item quantity="other">Призначено %d ключа</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Установлено такі мови: %s.</item>
+        <item quantity="few">Установлено такі мови: %s.</item>
+        <item quantity="many">Установлено такі мови: %s.</item>
+        <item quantity="other">Установлено такі мови: %s.</item>
+    </plurals>
+</resources>

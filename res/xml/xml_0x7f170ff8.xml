@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cc3" />
+    <softkeys>
+        <softkey content_description="@string/string_0x7f140ec6" disable_lift_to_tap="true" id="@id/id_0x7f0b1ea0" layout="@layout/layout_0x7f0e07fa">
+            <action data="source" keycode="SETUP_EXTENSION_OPTIONS" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080511" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140ecb" disable_lift_to_tap="true" id="@id/id_0x7f0b1ea3" layout="@layout/layout_0x7f0e07fa">
+            <action data="target" keycode="SETUP_EXTENSION_OPTIONS" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080511" />
+        </softkey>
+        <softkey disable_lift_to_tap="true" id="@id/id_0x7f0b1ea1" layout="@layout/layout_0x7f0e07fc">
+            <action data="source" keycode="SETUP_EXTENSION_OPTIONS" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f140ebc" />
+        </softkey>
+        <softkey disable_lift_to_tap="true" id="@id/id_0x7f0b1ea4" layout="@layout/layout_0x7f0e07fc">
+            <action data="target" keycode="SETUP_EXTENSION_OPTIONS" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="English" />
+        </softkey>
+        <softkey_list template_id="@id/id_0x7f0b1cf7">
+            <softkey desc="@string/string_0x7f14034e" id="@id/id_0x7f0b1e9f" keycode="CLOSE_EXTENSION" param_data="prime" param_icon="@drawable/drawable_0x7f080395" tooltip_text="@string/string_0x7f14034e" />
+        </softkey_list>
+        <softkey content_description="@string/string_0x7f140ec8" disable_lift_to_tap="true" id="@id/id_0x7f0b1ea2" layout="@layout/layout_0x7f0e07fd" tooltip_text="@string/string_0x7f140ec9">
+            <action data="swap" keycode="SETUP_EXTENSION_OPTIONS" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080471" />
+        </softkey>
+    </softkeys>
+</framework>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:id="@id/id_0x7f0b1f93" android:layout_width="match_parent" android:layout_height="match_parent" app:attr_0x7f0402e6="false"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.stylus.LowLatencyHandwritingOverlayView android:id="@id/id_0x7f0b0296" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" animation_delay_ms="@integer/integer_0x7f0c010b" animation_delay_ms_pref_key="@string/string_0x7f14088a" animation_mode="ZOOM_OUT" animation_time="@integer/integer_0x7f0c010c" max_stroke_width="@dimen/dimen_0x7f070805" min_stroke_width="@dimen/dimen_0x7f070806" stroke_color="@color/color_0x7f060b63" />
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

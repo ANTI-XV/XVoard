@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/dimen_0x7f0700eb" android:layout_marginVertical="@dimen/dimen_0x7f0700eb" style="@style/style_0x7f1505bb"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.expression.widget.AnimateOnVisibleAndSelectedImageView android:layout_gravity="center_vertical" android:id="@id/id_0x7f0b02ac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="10.0dp" />
+    <android.support.v7.widget.AppCompatTextView android:layout_gravity="center_vertical" android:id="@id/id_0x7f0b04d0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dp" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag=".popup-item.for-keytop-popup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="?attr_0x7f04022a" android:minHeight="?attr_0x7f04022a"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/id_0x7f0b05ea" style="@style/style_0x7f150559" />
+</FrameLayout>

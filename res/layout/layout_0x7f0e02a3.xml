@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/style_0x7f1502e2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e05b0" />
+    <LinearLayout style="@style/style_0x7f150359">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_0_0" android:layout_weight="684.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_0_1" android:layout_weight="684.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_0_2" android:layout_weight="684.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_0_3" android:layout_weight="684.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_0_4" android:layout_weight="684.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SplittableView android:layout_weight="480.0" style="@style/style_0x7f15063b" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_0_5" android:layout_weight="660.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_0_6" android:layout_weight="660.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_0_7" android:layout_weight="660.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_0_8" android:layout_weight="660.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_0_9" android:layout_weight="660.0" style="@style/style_0x7f1505f0" />
+    </LinearLayout>
+    <LinearLayout style="@style/style_0x7f150359">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_1_0" android:layout_weight="864.0" style="@style/style_0x7f150565">
+            <LinearLayout android:weightSum="864.0" style="@style/style_0x7f150627">
+                <FrameLayout android:id="@id/host" android:layout_width="0.0dp" android:layout_weight="639.0" style="@style/style_0x7f1505f1" />
+            </LinearLayout>
+        </com.google.android.libraries.inputmethod.widgets.SoftKeyView>
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_1_1" android:layout_weight="639.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_1_2" android:layout_weight="639.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_1_3" android:layout_weight="639.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_1_4" android:layout_weight="639.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SplittableView android:layout_weight="480.0" style="@style/style_0x7f15063b" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_1_5" android:layout_weight="708.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_1_6" android:layout_weight="708.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_1_7" android:layout_weight="708.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_1_8" android:layout_weight="1176.0" style="@style/style_0x7f150565">
+            <LinearLayout android:weightSum="1176.0" style="@style/style_0x7f150628">
+                <FrameLayout android:id="@id/host" android:layout_width="0.0dp" android:layout_weight="708.0" style="@style/style_0x7f1505f1" />
+            </LinearLayout>
+        </com.google.android.libraries.inputmethod.widgets.SoftKeyView>
+    </LinearLayout>
+    <LinearLayout style="@style/style_0x7f150359">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_shift" android:layout_weight="864.0" style="@style/style_0x7f1505e9" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_2_1" android:layout_weight="639.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_2_2" android:layout_weight="639.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_2_3" android:layout_weight="639.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_2_4" android:layout_weight="639.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SplittableView android:layout_weight="480.0" style="@style/style_0x7f15063b" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_2_5" android:layout_weight="708.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_2_6" android:layout_weight="708.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_2_7" android:layout_weight="708.0" style="@style/style_0x7f1505f0" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_del" android:layout_weight="1176.0" style="@style/style_0x7f1505e9" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1b72" view_id="@id/key_pos_switch_hiragana_alphabet" />
+        <mapping key_id="@id/id_0x7f0b1b26" view_id="@id/key_pos_space" />
+        <mapping key_id="@id/id_0x7f0b128f" view_id="@id/key_pos_bottom_symbol_1" />
+        <mapping key_id="@id/id_0x7f0b1290" view_id="@id/key_pos_bottom_symbol_2" />
+    </key_mapping>
+    <if device_size="large" />
+    <else>
+        <include href="@xml/xml_0x7f170aec" />
+    </else>
+    <if device_size="large">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b12b8" view_id="@id/key_pos_qwerty_globe" />
+        </key_mapping>
+        <key_mapping state="SHOW_EMOJI_SWITCH_KEY">
+            <mapping key_id="@id/id_0x7f0b12b8" view_id="@id/key_pos_qwerty_globe" />
+        </key_mapping>
+        <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+            <mapping key_id="@id/id_0x7f0b12cb" view_id="@id/key_pos_qwerty_globe" />
+        </key_mapping>
+        <key_mapping state="COMPOSING">
+            <mapping key_id="@id/id_0x7f0b12b8" view_id="@id/key_pos_qwerty_globe" />
+        </key_mapping>
+        <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY+SPELL_CHECKER_HIGHLIGHT">
+            <mapping key_id="@id/id_0x7f0b12cb" view_id="@id/key_pos_qwerty_globe" />
+        </key_mapping>
+    </if>
+    <else>
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b12bd" view_id="@id/key_pos_qwerty_globe" />
+        </key_mapping>
+        <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+            <mapping key_id="@id/id_0x7f0b12cb" view_id="@id/key_pos_qwerty_globe" />
+        </key_mapping>
+        <key_mapping state="COMPOSING">
+            <mapping key_id="@id/id_0x7f0b12bd" view_id="@id/key_pos_qwerty_globe" />
+        </key_mapping>
+        <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY+SPELL_CHECKER_HIGHLIGHT">
+            <mapping key_id="@id/id_0x7f0b12cb" view_id="@id/key_pos_qwerty_globe" />
+        </key_mapping>
+    </else>
+</framework>

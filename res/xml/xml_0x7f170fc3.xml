@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey content_description="@string/string_0x7f140552" id="@id/id_0x7f0b128d" layout="@layout/layout_0x7f0e0736">
+            <action data="@string/string_0x7f140784" keycode="SWITCH_TO_KEYBOARD_IN_PREF" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f140460" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f14019e" id="@id/id_0x7f0b128e" layout="@layout/layout_0x7f0e0736">
+            <action data="@string/string_0x7f140784" keycode="SWITCH_TO_KEYBOARD_IN_PREF" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f14045f" />
+        </softkey>
+    </softkeys>
+</framework>

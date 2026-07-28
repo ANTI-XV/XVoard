@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <if ja_omit_support_label="true">
+            <mapping key_id="@id/id_0x7f0b123a" view_id="@id/key_pos_ja_12keys_sub_1" />
+            <mapping key_id="@id/id_0x7f0b123e" view_id="@id/key_pos_ja_12keys_sub_2" />
+            <mapping key_id="@id/id_0x7f0b1246" view_id="@id/key_pos_ja_12keys_sub_3" />
+            <mapping key_id="@id/id_0x7f0b1248" view_id="@id/key_pos_ja_12keys_sub_4" />
+            <mapping key_id="@id/id_0x7f0b1242" view_id="@id/key_pos_ja_12keys_sub_5" />
+            <mapping key_id="@id/id_0x7f0b123c" view_id="@id/key_pos_ja_12keys_sub_6" />
+            <mapping key_id="@id/id_0x7f0b1240" view_id="@id/key_pos_ja_12keys_sub_7" />
+            <mapping key_id="@id/id_0x7f0b124d" view_id="@id/key_pos_ja_12keys_sub_8" />
+            <mapping key_id="@id/id_0x7f0b1244" view_id="@id/key_pos_ja_12keys_sub_9" />
+            <mapping key_id="@id/id_0x7f0b124b" view_id="@id/key_pos_ja_12keys_sub_11" />
+        </if>
+        <else>
+            <mapping key_id="@id/id_0x7f0b1239" view_id="@id/key_pos_ja_12keys_sub_1" />
+            <mapping key_id="@id/id_0x7f0b123d" view_id="@id/key_pos_ja_12keys_sub_2" />
+            <mapping key_id="@id/id_0x7f0b1245" view_id="@id/key_pos_ja_12keys_sub_3" />
+            <mapping key_id="@id/id_0x7f0b1247" view_id="@id/key_pos_ja_12keys_sub_4" />
+            <mapping key_id="@id/id_0x7f0b1241" view_id="@id/key_pos_ja_12keys_sub_5" />
+            <mapping key_id="@id/id_0x7f0b123b" view_id="@id/key_pos_ja_12keys_sub_6" />
+            <mapping key_id="@id/id_0x7f0b123f" view_id="@id/key_pos_ja_12keys_sub_7" />
+            <mapping key_id="@id/id_0x7f0b124c" view_id="@id/key_pos_ja_12keys_sub_8" />
+            <mapping key_id="@id/id_0x7f0b1243" view_id="@id/key_pos_ja_12keys_sub_9" />
+            <mapping key_id="@id/id_0x7f0b124a" view_id="@id/key_pos_ja_12keys_sub_11" />
+        </else>
+        <mapping key_id="@id/id_0x7f0b1292" view_id="@id/key_pos_ja_12keys_sub_10" />
+        <mapping key_id="@id/id_0x7f0b1249" view_id="@id/key_pos_ja_12keys_sub_12" />
+    </key_mapping>
+</framework>

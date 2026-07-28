@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b0a9d" view_id="@id/key_pos_clipboard_back_to_prime" />
+        <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_clipboard_batch_delete" />
+        <mapping key_id="@id/id_0x7f0b1946" view_id="@id/key_pos_clipboard_batch_pin" />
+        <mapping key_id="@id/id_0x7f0b0d4e" view_id="@id/key_pos_clipboard_edit_and_add" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_1">
+        <mapping key_id="@id/id_0x7f0b0a9e" view_id="@id/key_pos_clipboard_back_to_prime" />
+        <mapping key_id="@id/id_0x7f0b08bf" view_id="@id/key_pos_clipboard_batch_delete" />
+        <mapping key_id="@id/id_0x7f0b08c1" view_id="@id/key_pos_clipboard_batch_pin" />
+        <mapping key_id="@id/id_0x7f0b06c9" view_id="@id/key_pos_clipboard_edit_and_add" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_6">
+        <mapping key_id="@id/id_0x7f0b0a9e" view_id="@id/key_pos_clipboard_back_to_prime" />
+        <mapping key_id="@id/id_0x7f0b08bf" view_id="@id/key_pos_clipboard_batch_delete" />
+        <mapping key_id="@id/id_0x7f0b08c1" view_id="@id/key_pos_clipboard_batch_pin" />
+        <mapping key_id="@id/id_0x7f0b06cc" view_id="@id/key_pos_clipboard_edit_and_add" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_2">
+        <mapping key_id="@id/id_0x7f0b0a9e" view_id="@id/key_pos_clipboard_back_to_prime" />
+        <mapping key_id="@id/id_0x7f0b08be" view_id="@id/key_pos_clipboard_batch_delete" />
+        <mapping key_id="@id/id_0x7f0b08c0" view_id="@id/key_pos_clipboard_batch_pin" />
+        <mapping key_id="@id/id_0x7f0b06cb" view_id="@id/key_pos_clipboard_edit_and_add" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_3">
+        <mapping key_id="@id/id_0x7f0b0a9e" view_id="@id/key_pos_clipboard_back_to_prime" />
+        <mapping key_id="@id/id_0x7f0b08be" view_id="@id/key_pos_clipboard_batch_delete" />
+        <mapping key_id="@id/id_0x7f0b08c2" view_id="@id/key_pos_clipboard_batch_pin" />
+        <mapping key_id="@id/id_0x7f0b06cb" view_id="@id/key_pos_clipboard_edit_and_add" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_5">
+        <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_clipboard_batch_delete" />
+        <mapping key_id="@id/id_0x7f0b1945" view_id="@id/key_pos_clipboard_batch_pin" />
+        <mapping key_id="@id/id_0x7f0b0d4f" view_id="@id/key_pos_clipboard_edit_and_add" />
+    </key_mapping>
+</framework>

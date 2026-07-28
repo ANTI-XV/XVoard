@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b11dc" long_press_data="״,',&quot;" press_data="׳" />
+            <softkey id="@id/id_0x7f0b1208" long_press_data="-" press_data="־" />
+            <softkey id="@id/id_0x7f0b121d" long_press_data="־" press_data="-" />
+            <softkey id="@id/id_0x7f0b1715" long_press_data="׳,״,',&quot;" press_data="_" />
+            <softkey id="@id/id_0x7f0b11f4" press_data="ק" />
+            <softkey id="@id/id_0x7f0b11f5" press_data="ר" />
+            <softkey id="@id/id_0x7f0b11e1" long_press_data="אַ,אָ" press_data="א" />
+            <softkey id="@id/id_0x7f0b11fa" press_data="ט" />
+            <softkey id="@id/id_0x7f0b11fc" long_press_data="ױ,װ,וּ,וֹ" press_data="ו" />
+            <softkey id="@id/id_0x7f0b11e8" press_data="ן" />
+            <softkey id="@id/id_0x7f0b11e7" press_data="ם" />
+            <softkey id="@id/id_0x7f0b11f3" long_press_data="פּ,פֿ" press_data="פ" />
+            <softkey id="@id/id_0x7f0b11f7" long_press_data="שׂ,שׁ" press_data="ש" />
+            <softkey id="@id/id_0x7f0b11e4" press_data="ד" />
+            <softkey id="@id/id_0x7f0b11eb" press_data="ג" />
+            <softkey id="@id/id_0x7f0b11ee" long_press_data="כּ" press_data="כ" />
+            <softkey id="@id/id_0x7f0b11e2" press_data="ע" />
+            <softkey id="@id/id_0x7f0b11ff" long_press_data="ײ,ײַ,יִ" press_data="י" />
+            <softkey id="@id/id_0x7f0b11ed" press_data="ח" />
+            <softkey id="@id/id_0x7f0b11ef" press_data="ל" />
+            <softkey id="@id/id_0x7f0b11e6" press_data="ך" />
+            <softkey id="@id/id_0x7f0b11e9" press_data="ף" />
+            <softkey id="@id/id_0x7f0b1200" press_data="ז" />
+            <softkey id="@id/id_0x7f0b11f6" press_data="ס" />
+            <softkey id="@id/id_0x7f0b11e3" long_press_data="בּ,בֿ" press_data="ב" />
+            <softkey id="@id/id_0x7f0b11ec" press_data="ה" />
+            <softkey id="@id/id_0x7f0b11f2" press_data="נ" />
+            <softkey id="@id/id_0x7f0b11f1" press_data="מ" />
+            <softkey id="@id/id_0x7f0b11fb" press_data="צ" />
+            <softkey id="@id/id_0x7f0b11f9" long_press_data="תּ" press_data="ת" />
+            <softkey id="@id/id_0x7f0b11ea" press_data="ץ" />
+        </softkey_list>
+    </softkeys>
+</framework>

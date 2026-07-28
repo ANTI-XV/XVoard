@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyView android:visibility="gone" android:layout_width="?attr_0x7f040004" android:layout_height="match_parent" android:paddingHorizontal="?attr_0x7f040003"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

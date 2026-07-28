@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0164" android:tag=".chip-item-suggestion-text" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0165" android:tag=".keyboard-device-intelligence-chip-text-secondary" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0162" android:tag=".keyboard-device-intelligence-chip-background" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0161" android:tag=".keyboard-device-intelligence-action-icon" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0163" android:tag=".background-icon.for-action-key" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

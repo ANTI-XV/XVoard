@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f1501c3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout style="@style/style_0x7f1501ce">
+        <com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.MonolithicCandidatesRecyclerView android:id="@id/id_0x7f0b1217" app:attr_0x7f040379="@layout/layout_0x7f0e075e" candidate_background="@android:color/transparent" last_column_candidate_background="@android:color/transparent" style="@style/style_0x7f1502ed" />
+        <FrameLayout android:layout_gravity="right|top" android:id="@id/id_0x7f0b053d" android:layout_width="?attr_0x7f04016e" android:layout_height="?attr_0x7f04016e">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_show_more_candidates" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

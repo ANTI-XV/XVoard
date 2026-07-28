@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_0x7f15093e" parent="@style/style_0x7f1508a2">
+        <item name="attr_0x7f040677">@style/style_0x7f150946</item>
+    </style>
+    <style name="style_0x7f150946" parent="@style/style_0x7f15041d">
+        <item name="android:minHeight">65.0dp</item>
+    </style>
+</resources>

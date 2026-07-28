@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dynamic_rules>
+    <rule>
+        <pattern>([𞤀𞤢])´</pattern>
+        <label>1𞥄</label>
+        <replacement>1𞥄</replacement>
+        <input_text>𞥄</input_text>
+    </rule>
+    <rule>
+        <pattern>([𞤉𞤋𞤌𞤓𞤫𞤭𞤮𞤵])´</pattern>
+        <label>1𞥅</label>
+        <replacement>1𞥅</replacement>
+        <input_text>𞥅</input_text>
+    </rule>
+    <rule>
+        <pattern>([𞤁-𞤈𞤊𞤍-𞤒𞤔-𞤡𞤣-𞤪𞤬𞤯-𞤴𞤶-𞥃])´</pattern>
+        <label>1𞥆</label>
+        <replacement>1𞥆</replacement>
+        <input_text>𞥆</input_text>
+    </rule>
+    <rule>
+        <pattern>´</pattern>
+        <label> </label>
+        <replacement />
+        <input_text />
+    </rule>
+</dynamic_rules>

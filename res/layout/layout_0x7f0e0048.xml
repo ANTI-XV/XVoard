@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b00f6" style="@style/style_0x7f1501e5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/id_0x7f0b00ff" style="@style/style_0x7f1501ec">
+        <FrameLayout android:id="@id/id_0x7f0b0102" style="@style/style_0x7f1501ef">
+            <ImageView android:id="@id/id_0x7f0b0101" style="@style/style_0x7f1501ee" />
+        </FrameLayout>
+        <ImageView android:id="@id/id_0x7f0b0100" style="@style/style_0x7f1501ed" />
+        <com.google.android.libraries.inputmethod.widgets.TransformationTextView android:id="@id/id_0x7f0b00f7" style="@style/style_0x7f1501eb" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/id_0x7f0b00fe" android:visibility="gone" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/id_0x7f0b00fc" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1501e9" />
+            <ImageView android:id="@id/id_0x7f0b00fd" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040602="1:1" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1501ea" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/id_0x7f0b00f9" style="@style/style_0x7f1501e6">
+        <ImageView android:id="@id/id_0x7f0b00fa" android:tag=".icon.clipboard-item-selector" android:src="@drawable/drawable_0x7f080558" style="@style/style_0x7f1501e8" />
+        <include layout="@layout/layout_0x7f0e0049" />
+        <CheckBox android:id="@id/id_0x7f0b00f8" style="@style/style_0x7f1501e7" />
+    </FrameLayout>
+</FrameLayout>

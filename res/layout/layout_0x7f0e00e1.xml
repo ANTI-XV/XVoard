@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b0499" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/id_0x7f0b049f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:splitMotionEvents="false" style="@style/style_0x7f150328">
+        <ImageView android:id="@id/id_0x7f0b04ac" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dimen_0x7f0701a6" android:layout_marginTop="@dimen/dimen_0x7f0701a8" android:layout_marginRight="@dimen/dimen_0x7f0701a6" android:layout_marginBottom="@dimen/dimen_0x7f0701a7" android:scaleType="fitCenter" android:adjustViewBounds="true" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="left|top" android:id="@id/id_0x7f0b04a1" android:contentDescription="@string/string_0x7f14027f" style="@style/style_0x7f150289" />
+        <ImageView android:layout_gravity="left|bottom" android:id="@id/id_0x7f0b04a0" android:contentDescription="@string/string_0x7f14027d" android:rotation="270.0" style="@style/style_0x7f150289" />
+        <ImageView android:layout_gravity="right|top" android:id="@id/id_0x7f0b04a3" android:contentDescription="@string/string_0x7f140282" android:rotation="90.0" style="@style/style_0x7f150289" />
+        <ImageView android:layout_gravity="right|bottom" android:id="@id/id_0x7f0b04a2" android:contentDescription="@string/string_0x7f140280" android:rotation="180.0" style="@style/style_0x7f150289" />
+    </FrameLayout>
+</FrameLayout>

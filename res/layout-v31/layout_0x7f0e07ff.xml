@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/id_0x7f0b0695" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@dimen/dimen_0x7f0703ba" layout="@layout/layout_0x7f0e002d" />
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b015e" android:layout_width="0.0dp" android:layout_height="match_parent" android:weightSum="1.0" android:layout_weight="@dimen/dimen_0x7f070758">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/id_0x7f0b015b" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr_0x7f0405f3="com.google.android.libraries.inputmethod.appcompat.ExpandableAppBarLayoutBehavior">
+                <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/id_0x7f0b015d" android:layout_width="match_parent" android:layout_height="?attr_0x7f0403d4" app:attr_0x7f040633="id_0x7f0b064a|id_0x7f0b01cf|id_0x7f0b06a5" app:attr_0x7f0408e0="@id/id_0x7f0b015a" style="?attr_0x7f0403d5">
+                    <com.google.android.material.appbar.MaterialToolbar android:id="@id/id_0x7f0b015a" android:layout_width="match_parent" android:layout_height="?attr_0x7f0402b4" android:elevation="0.0dp" app:attr_0x7f0405f4="id_0x7f0b05d9" />
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <com.google.android.material.progressindicator.LinearProgressIndicator android:layout_gravity="top" android:id="@id/id_0x7f0b0160" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" app:attr_0x7f0405f3="@string/string_0x7f140054" />
+            <FrameLayout android:id="@id/id_0x7f0b015f" android:layout_width="match_parent" android:layout_height="match_parent" app:attr_0x7f0405f3="@string/string_0x7f140054" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <FrameLayout android:id="@id/id_0x7f0b015c" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

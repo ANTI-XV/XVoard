@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$data$" enable_slide_actions_in_a11y_mode="true" id="@id/id_0x7f0b1d13" layout="@layout/layout_0x7f0e0759" multi_touch="false" popup_timing="ON_TOUCH" slide_sensitivity="NORMAL">
+            <action content_description="$data$" data="$data$" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" popup_label="$data$" popup_layout="@layout/layout_0x7f0e0688" type="PRESS" />
+            <action content_description="$left_data$" data="$left_data$" icon_background_level="@integer/integer_0x7f0c008d" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" popup_label="$left_data$" popup_layout="@layout/popup_bubble_ja_label_large" type="SLIDE_LEFT" />
+            <action data="" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="0" type="SLIDE_UP" />
+            <action content_description="$right_data$" data="$right_data$" icon_background_level="@integer/integer_0x7f0c008e" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" popup_label="$right_data$" popup_layout="@layout/popup_bubble_ja_label_large" type="SLIDE_RIGHT" />
+            <action data="" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="0" type="SLIDE_DOWN" />
+            <label location="@id/id_0x7f0b04d0" value="$data$" />
+        </softkey_template>
+        <softkey_template content_description="$data$" id="@id/id_0x7f0b1d12" layout="@layout/layout_0x7f0e0759" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+            <action content_description="$data$" data="$data$" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" popup_label="$data$" popup_layout="@layout/layout_0x7f0e0688" type="PRESS" />
+            <action data="" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="0" type="SLIDE_LEFT" />
+            <action data="" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="0" type="SLIDE_UP" />
+            <action data="" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="0" type="SLIDE_RIGHT" />
+            <action data="" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="0" type="SLIDE_DOWN" />
+            <label location="@id/id_0x7f0b04d0" value="$data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1d13">
+            <softkey data="()" id="@id/id_0x7f0b1251" left_data="(" right_data=")" />
+            <softkey data="[]" id="@id/id_0x7f0b1252" left_data="[" right_data="]" />
+            <softkey data="{}" id="@id/id_0x7f0b1235" left_data="{" right_data="}" />
+            <softkey data="（）" id="@id/id_0x7f0b1237" left_data="（" right_data="）" />
+            <softkey data="「」" id="@id/id_0x7f0b124f" left_data="「" right_data="」" />
+            <softkey data="【】" id="@id/id_0x7f0b124e" left_data="【" right_data="】" />
+        </softkey_list>
+        <softkey_list template_id="@id/id_0x7f0b1d12">
+            <softkey data="&amp;" id="@id/id_0x7f0b1234" />
+            <softkey data="＆" id="@id/id_0x7f0b1236" />
+            <softkey data="・" id="@id/id_0x7f0b1250" />
+            <softkey data="`" id="@id/id_0x7f0b1238" />
+        </softkey_list>
+    </softkeys>
+</framework>

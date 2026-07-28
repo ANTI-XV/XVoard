@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0b99" long_press_data="ꙟ,ј,ѷ" press_data="й" />
+            <softkey id="@id/id_0x7f0b0b4a" long_press_data="Ꙟ,Ј,Ѷ" press_data="Й" />
+            <softkey id="@id/id_0x7f0b0b9f" long_press_data="ꙡ,ⷰ" press_data="ц" />
+            <softkey id="@id/id_0x7f0b0b50" long_press_data="Ꙡ,ⷰ" press_data="Ц" />
+            <softkey id="@id/id_0x7f0b0b8f" long_press_data="у,оу,ⷹ,ꙷ" press_data="ꙋ" />
+            <softkey id="@id/id_0x7f0b0b40" long_press_data="У,Оу,ⷹ,ꙷ" press_data="Ꙋ" />
+            <softkey id="@id/id_0x7f0b0b89" long_press_data="ѯ,к҄,ⷦ" press_data="к" />
+            <softkey id="@id/id_0x7f0b0b3a" long_press_data="Ѯ,К҄,ⷦ" press_data="К" />
+            <softkey id="@id/id_0x7f0b0b85" long_press_data="є,э,ѥ,ё,ⷷ,ꙴ,ꚟ" press_data="е" />
+            <softkey id="@id/id_0x7f0b0b36" long_press_data="Є,Э,Ѥ,Ё,ꚟ,ⷷ,ꙴ" press_data="Е" />
+            <softkey id="@id/id_0x7f0b0b75" long_press_data="н҄,ⷩ" press_data="н" />
+            <softkey id="@id/id_0x7f0b0b26" long_press_data="Н҄,ⷩ" press_data="Н" />
+            <softkey id="@id/id_0x7f0b0b7b" long_press_data="г҄,ґ,ⷢ" press_data="г" />
+            <softkey id="@id/id_0x7f0b0b2c" long_press_data="Г҄,Ґ,ⷢ" press_data="Г" />
+            <softkey id="@id/id_0x7f0b0b96" long_press_data="ћ,ⷲ" press_data="ш" />
+            <softkey id="@id/id_0x7f0b0b47" long_press_data="Ћ,ⷲ" press_data="Ш" />
+            <softkey id="@id/id_0x7f0b0b97" long_press_data="ⷳ" press_data="щ" />
+            <softkey id="@id/id_0x7f0b0b48" long_press_data="ⷳ" press_data="Щ" />
+            <softkey id="@id/id_0x7f0b0ba9" long_press_data="ѕ,ꙁ,ꙃ,ꙅ,ⷥ" press_data="з" />
+            <softkey id="@id/id_0x7f0b0b5a" long_press_data="Ѕ,Ꙁ,Ꙃ,Ꙅ,ⷥ" press_data="З" />
+            <softkey id="@id/id_0x7f0b0b80" long_press_data="һ,х҄,ⷯ" press_data="х" />
+            <softkey id="@id/id_0x7f0b0b31" long_press_data="Һ,Х҄,ⷯ" press_data="Х" />
+            <softkey id="@id/id_0x7f0b0b82" long_press_data="ꙏ,ꙸ" press_data="ъ" />
+            <softkey id="@id/id_0x7f0b0b33" long_press_data="Ꙏ,ꙸ" press_data="Ъ" />
+            <softkey id="@id/id_0x7f0b0b72" long_press_data="ѳ,ⷴ" press_data="ф" />
+            <softkey id="@id/id_0x7f0b0b23" long_press_data="Ѳ,ⷴ" press_data="Ф" />
+            <softkey id="@id/id_0x7f0b0ba6" long_press_data="ꙹ" press_data="ы" />
+            <softkey id="@id/id_0x7f0b0b57" long_press_data="ꙹ" press_data="Ы" />
+            <softkey id="@id/id_0x7f0b0ba4" long_press_data="в҄,ѵ,ⷡ" press_data="в" />
+            <softkey id="@id/id_0x7f0b0b55" long_press_data="В҄,Ѵ,ⷡ" press_data="В" />
+            <softkey id="@id/id_0x7f0b0b61" long_press_data="ꙗ,ⷶ,ⷼ" press_data="а" />
+            <softkey id="@id/id_0x7f0b0b12" long_press_data="Ꙗ,ⷶ,ⷼ" press_data="А" />
+            <softkey id="@id/id_0x7f0b0b94" long_press_data="ѱ,ⷫ" press_data="п" />
+            <softkey id="@id/id_0x7f0b0b45" long_press_data="Ѱ,ⷫ" press_data="П" />
+            <softkey id="@id/id_0x7f0b0b78" long_press_data="р҄,ⷬ" press_data="р" />
+            <softkey id="@id/id_0x7f0b0b29" long_press_data="Р҄,ⷬ" press_data="Р" />
+            <softkey id="@id/id_0x7f0b0b91" long_press_data="ⷪ,ꙩ,ꙭ,ꙮ,ꚙ,ꚛ" press_data="о" />
+            <softkey id="@id/id_0x7f0b0b42" long_press_data="ⷪ,Ꙩ,Ꙭ,ꙮ,Ꚙ,Ꚛ" press_data="О" />
+            <softkey id="@id/id_0x7f0b0b73" long_press_data="л҄,ꙥ,љ,ⷧ" press_data="л" />
+            <softkey id="@id/id_0x7f0b0b24" long_press_data="Л҄,Ꙥ,Љ,ⷧ" press_data="Л" />
+            <softkey id="@id/id_0x7f0b0b6d" long_press_data="д҄,ⷣ" press_data="д" />
+            <softkey id="@id/id_0x7f0b0b1e" long_press_data="Д҄,ⷣ" press_data="Д" />
+            <softkey id="@id/id_0x7f0b0baa" long_press_data="ꙉ,ђ,ⷤ,ⷸ" press_data="ж" />
+            <softkey id="@id/id_0x7f0b0b5b" long_press_data="Ꙉ,Ђ,ⷤ,ⷸ" press_data="Ж" />
+            <softkey id="@id/id_0x7f0b0b93" long_press_data="ꙍ,ѻ,ѿ,ѽ,ꙻ" press_data="ѡ" />
+            <softkey id="@id/id_0x7f0b0b44" long_press_data="Ꙍ,Ѻ,Ѿ,Ѽ,ꙻ" press_data="Ѡ" />
+            <softkey id="@id/id_0x7f0b0b8d" long_press_data="я,ѣ,ѩ,ꙓ,ꙙ,ꙝ,ⷽ,ⷺ" press_data="ѧ" />
+            <softkey id="@id/id_0x7f0b0b3e" long_press_data="Я,Ѣ,Ѩ,Ꙓ,Ꙙ,Ꙝ,ⷽ,ⷺ" press_data="Ѧ" />
+            <softkey id="@id/id_0x7f0b0b6a" long_press_data="ҁ,ⷱ" press_data="ч" />
+            <softkey id="@id/id_0x7f0b0b1b" long_press_data="Ҁ,ⷱ" press_data="Ч" />
+            <softkey id="@id/id_0x7f0b0b79" long_press_data="ⷭ" press_data="с" />
+            <softkey id="@id/id_0x7f0b0b2a" long_press_data="ⷭ" press_data="С" />
+            <softkey id="@id/id_0x7f0b0b74" long_press_data="м҄,ꙧ,ⷨ" press_data="м" />
+            <softkey id="@id/id_0x7f0b0b25" long_press_data="М҄,Ꙧ,ⷨ" press_data="М" />
+            <softkey id="@id/id_0x7f0b0b83" long_press_data="і,ї,ꙵ,ꙶ" press_data="и" />
+            <softkey id="@id/id_0x7f0b0b34" long_press_data="І,Ї,ꙵ,ꙶ" press_data="И" />
+            <softkey id="@id/id_0x7f0b0b9e" long_press_data="ⷮ" press_data="т" />
+            <softkey id="@id/id_0x7f0b0b4f" long_press_data="ⷮ" press_data="Т" />
+            <softkey id="@id/id_0x7f0b0b9b" long_press_data="ꙏ,ꙺ" press_data="ь" />
+            <softkey id="@id/id_0x7f0b0b4c" long_press_data="Ꙏ,ꙺ" press_data="Ь" />
+            <softkey id="@id/id_0x7f0b0b68" long_press_data="б҄,ⷠ" press_data="б" />
+            <softkey id="@id/id_0x7f0b0b19" long_press_data="Б҄,ⷠ" press_data="Б" />
+            <softkey id="@id/id_0x7f0b0ba8" long_press_data="ѫ,ѭ,ꙕ,ꙛ,ⷻ,ⷾ,ⷿ" press_data="ю" />
+            <softkey id="@id/id_0x7f0b0b59" long_press_data="Ѫ,Ѭ,Ꙕ,Ꙛ,ⷻ,ⷾ,ⷿ" press_data="Ю" />
+        </softkey_list>
+    </softkeys>
+</framework>

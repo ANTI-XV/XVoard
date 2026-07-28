@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1ea0" view_id="@id/id_0x7f0b2026" />
+        <mapping key_id="@id/id_0x7f0b1ea3" view_id="@id/id_0x7f0b202a" />
+        <mapping key_id="@id/id_0x7f0b1ea1" view_id="@id/id_0x7f0b2027" />
+        <mapping key_id="@id/id_0x7f0b1ea4" view_id="@id/id_0x7f0b202b" />
+        <mapping key_id="@id/id_0x7f0b1ea2" view_id="@id/id_0x7f0b2028" />
+        <mapping key_id="@id/id_0x7f0b1e9f" view_id="@id/key_pos_translate_back" />
+    </key_mapping>
+</framework>

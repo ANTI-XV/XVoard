@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_0x7f070002">48.0dp</dimen>
+    <dimen name="dimen_0x7f070158">40.0dp</dimen>
+    <dimen name="dimen_0x7f07015d">15.0dp</dimen>
+    <dimen name="dimen_0x7f070160">3.5</dimen>
+    <dimen name="dimen_0x7f07018a">20.0dp</dimen>
+    <dimen name="dimen_0x7f07018b">50.0dp</dimen>
+    <dimen name="dimen_0x7f07018e">42.0dp</dimen>
+    <dimen name="dimen_0x7f070192">26.0dp</dimen>
+    <dimen name="dimen_0x7f0702c6">12.0dp</dimen>
+    <dimen name="dimen_0x7f0702c7">14.0dp</dimen>
+    <dimen name="dimen_0x7f07030f">72.0dp</dimen>
+    <dimen name="dimen_0x7f070310">20.0dp</dimen>
+    <dimen name="dimen_0x7f07031d">340.0dp</dimen>
+    <dimen name="dimen_0x7f07031e">11.0dp</dimen>
+    <dimen name="dimen_0x7f07031f">11.0dp</dimen>
+    <dimen name="dimen_0x7f070320">5.0dp</dimen>
+    <dimen name="dimen_0x7f070370">34.0dp</dimen>
+    <dimen name="dimen_0x7f070371">196.0dp</dimen>
+    <dimen name="dimen_0x7f070372">200.0dp</dimen>
+    <dimen name="dimen_0x7f0705ca">24.0dp</dimen>
+    <dimen name="dimen_0x7f0705cd">24.0dp</dimen>
+    <dimen name="dimen_0x7f070606">96.0dp</dimen>
+    <dimen name="dimen_0x7f070757">5.0</dimen>
+    <dimen name="dimen_0x7f070858">200.0dp</dimen>
+    <dimen name="dimen_0x7f070881">9.0dp</dimen>
+    <dimen name="dimen_0x7f070882">14.0dp</dimen>
+    <dimen name="dimen_0x7f070897">85.0dp</dimen>
+    <dimen name="dimen_0x7f070898">0.0dp</dimen>
+    <dimen name="dimen_0x7f070899">0.0dp</dimen>
+    <dimen name="dimen_0x7f07089a">14.0dp</dimen>
+</resources>

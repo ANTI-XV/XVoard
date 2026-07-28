@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.search.sticker.StickerSearchKeyboard">
+        <view direction="locale" layout="@attr/attr_0x7f04019c" scalable="false" type="header">
+            <softkeys href="@xml/xml_0x7f170ff0" />
+            <include href="@xml/xml_0x7f170c26" />
+        </view>
+        <view id="@id/id_0x7f0b05f1" layout="@layout/layout_0x7f0e06be" />
+    </keyboard>
+</framework>

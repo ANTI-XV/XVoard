@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d5c" layout="@layout/layout_0x7f0e0792" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+            <action data="$press_data$" intention="$intention=COMMIT$" keycode="$keycode_normal=PLAIN_TEXT$" popup_label="$press_data$" type="PRESS" />
+            <action data="$long_press_data$" intention="COMMIT" keycode="PLAIN_TEXT" merge_insertion_index="$merge_index=0$" popup_label="$long_press_data$" popup_layout="@attr/attr_0x7f040208" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$press_data$" />
+        </softkey_template>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d5c">
+            <softkey id="@id/id_0x7f0b102a" keycode="COMMA" long_press_data="," press_data="，" />
+            <softkey id="@id/id_0x7f0b121f" keycode="PERIOD" long_press_data="." press_data="。" />
+            <softkey id="@id/id_0x7f0b0a91" long_press_data="《 〈" press_data="&lt;" />
+            <softkey id="@id/id_0x7f0b0a90" long_press_data="》 〉" press_data=">" />
+            <softkey id="@id/id_0x7f0b0a8e" intention="DECODE" keycode="APOSTROPHE" long_press_data="‘ ’ 「 」" press_data="'" />
+            <softkey id="@id/id_0x7f0b0a93" long_press_data="“ ” 『 』" press_data="&quot;" />
+        </softkey_list>
+    </softkeys>
+</framework>

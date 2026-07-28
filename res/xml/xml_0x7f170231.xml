@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime always_show_suggestions="true" announce_auto_selected_candidate="true" ascii_capable="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="en-US" string_id="ime_en_us_clariti">
+        <keyboard_group supports_split_mode="true" variant="clariti" variant_label="@string/string_0x7f141169">
+            <keyboard def="@xml/xml_0x7f170667" type="prime">
+                <merge def="@xml/xml_0x7f170604" />
+            </keyboard>
+            <keyboard def="@xml/xml_0x7f17097b" type="symbol" />
+            <if device="tablet|foldable" keyboard_mode="normal">
+                <keyboard def="@xml/xml_0x7f1708bf" type="digit" />
+            </if>
+            <else>
+                <keyboard def="@xml/xml_0x7f1708be" type="digit" />
+            </else>
+        </keyboard_group>
+    </ime>
+</framework>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/id_0x7f0b02ac" android:tag=".icon.for-emojify-key" android:background="@drawable/drawable_0x7f0802f6" android:duplicateParentState="true" android:layout_width="32.0dp" android:layout_height="32.0dp" android:scaleType="centerInside" android:contentDescription="@null" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/id_0x7f0b01bb" android:tag=".background-icon.for-emojify-key.progress-circle" android:layout_width="32.0dp" android:layout_height="32.0dp" android:max="360" android:progressDrawable="@drawable/drawable_0x7f0802be" style="?android:progressBarStyleHorizontal" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/id_0x7f0b01bc" android:tag=".background-icon.for-emojify-key.second-progress-circle" android:background="@drawable/drawable_0x7f0802bd" android:visibility="invisible" android:layout_width="34.0dp" android:layout_height="34.0dp" android:max="360" android:progressDrawable="@drawable/drawable_0x7f0802bc" style="?android:progressBarStyleHorizontal" />
+</FrameLayout>

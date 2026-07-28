@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170fe0" />
+    <softkeys>
+        <softkey_list template_id="@id/id_0x7f0b1d4d">
+            <softkey desc="@string/string_0x7f14061c" id="@id/id_0x7f0b18ec" param_icon="@attr/attr_0x7f04012a" />
+            <softkey desc="@string/string_0x7f140abd" id="@id/id_0x7f0b18ee" param_icon="@drawable/drawable_0x7f080433" />
+            <softkey desc="@string/string_0x7f140ab9" id="@id/id_0x7f0b18f0" param_icon="@drawable/drawable_0x7f080432" />
+            <softkey desc="@string/string_0x7f140abb" id="@id/id_0x7f0b18f2" param_icon="@drawable/drawable_0x7f08042f" />
+            <softkey desc="@string/string_0x7f140abf" id="@id/id_0x7f0b18f4" param_icon="@drawable/drawable_0x7f080430" />
+            <softkey desc="@string/string_0x7f140ab8" id="@id/id_0x7f0b18f6" param_icon="@drawable/drawable_0x7f08042d" />
+            <softkey desc="@string/string_0x7f140abc" id="@id/id_0x7f0b18f8" param_icon="@drawable/drawable_0x7f08042e" />
+            <softkey desc="@string/string_0x7f140abe" id="@id/id_0x7f0b18fa" param_icon="@drawable/drawable_0x7f080434" />
+            <softkey desc="@string/string_0x7f140aba" id="@id/id_0x7f0b18fc" param_icon="@drawable/drawable_0x7f080431" />
+        </softkey_list>
+        <softkey_list template_id="@id/id_0x7f0b1d4e">
+            <softkey desc="@string/string_0x7f14061c" id="@id/id_0x7f0b18ed" param_data="SUB_CATEGORY_1" param_icon="@attr/attr_0x7f04012a" />
+            <softkey desc="@string/string_0x7f140abd" id="@id/id_0x7f0b18ef" param_data="SUB_CATEGORY_2" param_icon="@drawable/drawable_0x7f080433" />
+            <softkey desc="@string/string_0x7f140ab9" id="@id/id_0x7f0b18f1" param_data="SUB_CATEGORY_3" param_icon="@drawable/drawable_0x7f080432" />
+            <softkey desc="@string/string_0x7f140abb" id="@id/id_0x7f0b18f3" param_data="SUB_CATEGORY_4" param_icon="@drawable/drawable_0x7f08042f" />
+            <softkey desc="@string/string_0x7f140abf" id="@id/id_0x7f0b18f5" param_data="SUB_CATEGORY_5" param_icon="@drawable/drawable_0x7f080430" />
+            <softkey desc="@string/string_0x7f140ab8" id="@id/id_0x7f0b18f7" param_data="SUB_CATEGORY_6" param_icon="@drawable/drawable_0x7f08042d" />
+            <softkey desc="@string/string_0x7f140abc" id="@id/id_0x7f0b18f9" param_data="SUB_CATEGORY_7" param_icon="@drawable/drawable_0x7f08042e" />
+            <softkey desc="@string/string_0x7f140abe" id="@id/id_0x7f0b18fb" param_data="SUB_CATEGORY_8" param_icon="@drawable/drawable_0x7f080434" />
+            <softkey desc="@string/string_0x7f140aba" id="@id/id_0x7f0b18fd" param_data="SUB_CATEGORY_9" param_icon="@drawable/drawable_0x7f080431" />
+        </softkey_list>
+    </softkeys>
+</framework>

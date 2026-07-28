@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <if keyboard_mode="split">
+            <if split_with_duplicate_keys="true">
+                <view layout="@layout/layout_0x7f0e03ba" type="body" />
+            </if>
+            <else>
+                <view layout="@layout/layout_0x7f0e03bb" type="body" />
+            </else>
+        </if>
+        <else>
+            <view layout="@layout/layout_0x7f0e03b9" type="body" />
+        </else>
+        <view type="body">
+            <include href="@xml/xml_0x7f170bf8" />
+            <include href="@xml/xml_0x7f170aec" />
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b0df1" view_id="@id/key_pos_show_more_candidates" />
+    </key_mapping>
+    <key_mapping state="MORE_CANDIDATES_SHOWN">
+        <mapping key_id="@id/id_0x7f0b0df0" view_id="@id/key_pos_show_more_candidates" />
+    </key_mapping>
+</framework>

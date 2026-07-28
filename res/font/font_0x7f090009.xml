@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family android:fontProviderAuthority="com.google.android.gms.fonts" android:fontProviderQuery="Google Sans Display" android:fontProviderPackage="com.google.android.gms" android:fontProviderCerts="@array/array_0x7f030009" app:attr_0x7f040550="com.google.android.gms.fonts" app:attr_0x7f040551="@array/array_0x7f030009" app:attr_0x7f040554="com.google.android.gms" app:attr_0x7f040555="Google Sans Display"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

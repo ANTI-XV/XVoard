@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime class="com.google.android.libraries.inputmethod.ime.processor.AsyncProcessorBasedIme" inline_composing="true" keyevent_interpreter="com.google.android.apps.inputmethod.libs.korean.KoreanKeyEventInterpreter" label="@string/string_0x7f140435" language="ko" prime_keyboard_type="HARD_QWERTY" status_icon="@drawable/drawable_0x7f08044c" string_id="@string/string_0x7f140afe">
+        <keyboard_group pk_language_tag="en-US" pk_layout_type="qwerty">
+            <keyboard def="@xml/xml_0x7f17080a" type="prime" />
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/id_0x7f0b0219" value=". " />
+            <item id="@id/id_0x7f0b0201" value="@string/string_0x7f140713" />
+            <item id="@id/id_0x7f0b021d" value="@string/string_0x7f140820" />
+        </extra_values>
+        <include href="@xml/xml_0x7f170c8c" />
+    </ime>
+</framework>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="@string/string_0x7f140552" disable_lift_to_tap="true" id="@id/id_0x7f0b1cf9" layout="$param_layout$">
+            <action data="prime" keycode="$param_keycode$" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f14043e" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1cf9">
+            <softkey id="@id/id_0x7f0b07f4" param_keycode="SWITCH_KEYBOARD" param_layout="@layout/layout_0x7f0e072b" />
+            <softkey id="@id/id_0x7f0b07f5" param_keycode="EXIT_EXPRESSION_VIA_ABC_BUTTON" param_layout="@layout/layout_0x7f0e072b" />
+            <softkey id="@id/id_0x7f0b07f6" param_keycode="EXIT_EXPRESSION_VIA_ABC_BUTTON" param_layout="@layout/layout_0x7f0e072c" />
+        </softkey_list>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f1403a1" id="@id/id_0x7f0b0bba" layout="@layout/layout_0x7f0e0729" multi_touch="false">
+            <if rtl_layout="true">
+                <attrs layout="@layout/layout_0x7f0e072a" />
+            </if>
+            <action keycode="DEL" repeatable="true" type="PRESS" />
+            <action keycode="DELETE_FINISH" type="UP" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011a" />
+        </softkey>
+    </softkeys>
+</framework>

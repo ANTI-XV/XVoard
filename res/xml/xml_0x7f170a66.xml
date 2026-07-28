@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170b28" />
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b12df" view_id="@id/key_pos_move_cursor" />
+        <mapping key_id="@id/id_0x7f0b0bba" view_id="@id/key_pos_del" />
+    </key_mapping>
+</framework>

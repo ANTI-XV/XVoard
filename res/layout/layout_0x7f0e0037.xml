@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/id_0x7f0b04e1" android:layout_width="22.0dp" android:layout_height="15.0dp" app:attr_0x7f04065a="false" app:attr_0x7f040664="false" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b04e2" android:tag=".language-indicator" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+    <android.support.v7.widget.AppCompatTextView android:textSize="12.0sp" android:id="@id/id_0x7f0b04e3" android:tag=".language-indicator-text" android:layout_width="0.0dp" android:layout_height="0.0dp" android:fontFamily="?attr_0x7f040105" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keygroup_mapping group_view_id="@id/id_0x7f0b1213">
+        <key key_id="@id/id_0x7f0b1a49" />
+        <key key_id="@id/id_0x7f0b1785" />
+        <key key_id="@id/id_0x7f0b1b30" />
+        <key key_id="@id/id_0x7f0b1b1c" />
+        <key key_id="@id/id_0x7f0b165b" />
+        <key key_id="@id/id_0x7f0b1a8c" />
+    </keygroup_mapping>
+</framework>

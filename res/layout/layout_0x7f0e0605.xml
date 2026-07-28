@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/style_0x7f1502da"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.keyboard.widget.FixedSizeSoftKeyViewsPage android:orientation="vertical" android:id="@id/id_0x7f0b1214" android:layout_width="?attr_0x7f0400a5" android:layout_height="match_parent" android:horizontalSpacing="0.0dp" android:verticalSpacing="0.0dp" android:layout_weight="181.0" app:attr_0x7f040441="3" app:attr_0x7f040793="3" app:attr_0x7f0407e3="@layout/layout_0x7f0e061f" />
+    <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="424.0">
+        <include layout="@layout/layout_0x7f0e0601" />
+    </FrameLayout>
+    <com.google.android.libraries.inputmethod.keyboard.widget.FixedSizeSoftKeyViewsPage android:orientation="vertical" android:id="@id/id_0x7f0b1215" android:layout_width="?attr_0x7f0400a6" android:layout_height="match_parent" android:horizontalSpacing="0.0dp" android:verticalSpacing="0.0dp" android:layout_weight="116.0" app:attr_0x7f040441="2" app:attr_0x7f040793="3" app:attr_0x7f0407e3="@layout/layout_0x7f0e061f" />
+    <LinearLayout android:weightSum="300.0" android:layout_weight="65.0" style="@style/style_0x7f15040e">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_del" android:layout_weight="100.0" style="@style/style_0x7f150570" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="100.0" style="@style/style_0x7f150587" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_right_side_3rd_key" android:layout_weight="100.0" style="@style/style_0x7f150570" />
+    </LinearLayout>
+</LinearLayout>

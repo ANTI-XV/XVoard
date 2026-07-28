@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dimen_0x7f070785" android:paddingBottom="@dimen/dimen_0x7f070785" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/id_0x7f0b025d" android:background="@drawable/drawable_0x7f080591" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dimen_0x7f07077d" android:paddingStart="@dimen/dimen_0x7f070786" android:paddingEnd="@dimen/dimen_0x7f070787">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/id_0x7f0b1fa1" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/dimen_0x7f070784" android:hyphenationFrequency="normalFast" android:layout_marginVertical="@dimen/dimen_0x7f070784" android:lineBreakWordStyle="phrase" style="@style/style_0x7f15040f" />
+        <Switch android:theme="@style/style_0x7f150657" android:layout_gravity="center_vertical" android:id="@android:id/switch_widget" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="48.0dp" />
+    </LinearLayout>
+</LinearLayout>

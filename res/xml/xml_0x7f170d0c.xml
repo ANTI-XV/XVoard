@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3d">
+            <softkey id="@id/id_0x7f0b0dad" press_data="" press_label="" />
+            <softkey id="@id/id_0x7f0b0db4" press_data="" press_label="" />
+            <softkey id="@id/id_0x7f0b0db2" press_data="" press_label="" />
+            <softkey id="@id/id_0x7f0b0dae" press_data="" press_label="" />
+            <softkey id="@id/id_0x7f0b0db0" press_data="" press_label="" />
+            <softkey id="@id/id_0x7f0b0db3" press_data="" press_label="" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0daf" press_data="ህ" />
+            <softkey id="@id/id_0x7f0b0db8" press_data="ል" />
+            <softkey id="@id/id_0x7f0b0db1" press_data="ሕ" />
+            <softkey id="@id/id_0x7f0b0dba" press_data="ም" />
+            <softkey id="@id/id_0x7f0b0dc6" press_data="ር" />
+            <softkey id="@id/id_0x7f0b0dc8" press_data="ስ" />
+            <softkey id="@id/id_0x7f0b0dc9" press_data="ሽ" />
+            <softkey id="@id/id_0x7f0b0dca" press_data="ⶥ" />
+            <softkey id="@id/id_0x7f0b0dcb" press_data="ሥ" />
+            <softkey id="@id/id_0x7f0b0dc0" press_data="ቅ" />
+            <softkey id="@id/id_0x7f0b0da2" press_data="ብ" />
+            <softkey id="@id/id_0x7f0b0dcc" press_data="ት" />
+            <softkey id="@id/id_0x7f0b0da5" press_data="ች" />
+            <softkey id="@id/id_0x7f0b0da3" press_data="ⶭ" />
+            <softkey id="@id/id_0x7f0b0d93" long_press_data="፤,፦,፨,፧,፠" press_data="፥" />
+            <softkey id="@id/id_0x7f0b0dbb" press_data="ን" />
+            <softkey id="@id/id_0x7f0b0dac" press_data="እ" />
+            <softkey id="@id/id_0x7f0b0db6" press_data="ክ" />
+            <softkey id="@id/id_0x7f0b0dd1" press_data="ው" />
+            <softkey id="@id/id_0x7f0b0dd4" press_data="ዝ" />
+            <softkey id="@id/id_0x7f0b0dd5" press_data="ዥ" />
+            <softkey id="@id/id_0x7f0b0dd6" press_data="ⶵ" />
+            <softkey id="@id/id_0x7f0b0dd3" press_data="ይ" />
+            <softkey id="@id/id_0x7f0b0da8" press_data="ድ" />
+            <softkey id="@id/id_0x7f0b0dd7" long_press_data="፟,፝,፞" press_data="፡" />
+            <softkey id="@id/id_0x7f0b0db5" press_data="ጅ" />
+            <softkey id="@id/id_0x7f0b0daa" press_data="ግ" />
+            <softkey id="@id/id_0x7f0b0dcd" press_data="ጥ" />
+            <softkey id="@id/id_0x7f0b0da6" press_data="ጭ" />
+            <softkey id="@id/id_0x7f0b0da4" press_data="ⶽ" />
+            <softkey id="@id/id_0x7f0b0dbf" press_data="ጵ" />
+            <softkey id="@id/id_0x7f0b0dce" press_data="ጽ" />
+            <softkey id="@id/id_0x7f0b0dbd" press_data="ፕ" />
+        </softkey_list>
+    </softkeys>
+</framework>

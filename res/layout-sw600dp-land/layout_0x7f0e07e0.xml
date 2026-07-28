@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/style_0x7f150847"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e07e6" />
+    <include layout="@layout/layout_0x7f0e07e2" />
+    <include layout="@layout/layout_0x7f0e07de" />
+</LinearLayout>

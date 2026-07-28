@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d కీ కేటాయించబడింది</item>
+        <item quantity="other">%d కీలు కేటాయించబడ్డాయి</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s ఇప్పుడు ఇన్‌స్టాల్ అయింది.</item>
+        <item quantity="other">%s ఇప్పుడు ఇన్‌స్టాల్ అయ్యాయి.</item>
+    </plurals>
+</resources>

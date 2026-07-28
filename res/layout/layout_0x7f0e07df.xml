@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:paddingTop="@dimen/dimen_0x7f070857" style="@style/style_0x7f150854">
+        <com.google.android.material.materialswitch.MaterialSwitch style="@style/style_0x7f150853" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/style_0x7f150849">
+        <Button app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" app:attr_0x7f040621="130.0dp" style="@style/style_0x7f15084b" />
+        <Button android:id="@id/id_0x7f0b1fde" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" app:attr_0x7f040621="130.0dp" style="@style/style_0x7f150848" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

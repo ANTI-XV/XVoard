@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/id_0x7f0b04d0" android:paddingEnd="28.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150464" />
+    <ProgressBar android:tag=".notice.for-notice-key" android:layout_width="24.0dp" android:layout_height="24.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="@id/id_0x7f0b04d0" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150c96" />
+</androidx.constraintlayout.widget.ConstraintLayout>

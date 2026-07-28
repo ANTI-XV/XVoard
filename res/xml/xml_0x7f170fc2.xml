@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if japanese_use_tri_state_mode="true">
+        <softkeys>
+            <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f1401da" disable_lift_to_tap="true" id="@id/id_0x7f0b1b73" layout="@layout/layout_0x7f0e0762">
+                <action data="com.google.android.apps.inputmethod.libs.expression.extension.IEmojiOrGifExtension" keycode="OPEN_EXTENSION" type="PRESS" />
+                <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080474" />
+            </softkey>
+            <softkey a11y_click_action_label="@string/string_0x7f140577" additional_content_description="@string/string_0x7f140578" content_description="@string/string_0x7f1401da" disable_lift_to_tap="true" id="@id/id_0x7f0b1b77" layout="@layout/layout_0x7f0e0763">
+                <action data="@string/string_0x7f140436" keycode="POLICY_TRANSPARENCY" type="PRESS" />
+                <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080474" />
+            </softkey>
+            <softkey content_description="@string/string_0x7f1401da" id="@id/id_0x7f0b1b76" layout="@layout/layout_0x7f0e0763">
+                <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080474" />
+            </softkey>
+        </softkeys>
+    </if>
+</framework>

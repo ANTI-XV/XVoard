@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/id_0x7f0b0013" android:tag=".access-point-item-background.item-ripple.on-surface" android:background="@drawable/drawable_0x7f0801b5" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="?attr_0x7f04000d">
+        <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView android:id="@id/id_0x7f0b02ac" android:importantForAccessibility="no" style="@style/style_0x7f1502cc" />
+    </FrameLayout>
+    <android.support.v7.widget.AppCompatTextView android:layout_gravity="center|bottom" android:id="@id/id_0x7f0b04d0" style="@style/style_0x7f1503a7" />
+</LinearLayout>
