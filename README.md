@@ -18,14 +18,11 @@ XVoard is a privacy and security focused version of Gboard that designed to give
 # 💻 installation guide 📱
 1. Download the source code zip from above
 2. extract the .zip file
-4. Download <a href="https://github.com/iBotPeaches/Apktool">Apktool</a> ( or if you are in mobile , download <a href="https://maximoff.su/apktool/?lang=en">Apktool M by maximoff</a> )
+4. Download <a href="https://github.com/iBotPeaches/Apktool">Apktool</a> ( or if you are in mobile , download <a href="https://github.com/rohitswami876604/apktool-in-termux">Apktool in termux</a> )
 5. compile the source code by:
-computer
 go to your terminal and type:
 `apktool b [PATH/TO/SOURCE/CODE]`
-mobile:
-simply go to the source code folder and tap at "compile" at the very top
-6. when it compiled it will give you the XVoard apk , install XVoard at your phone ( extra step for computer: you had to sign the apk before installing it , to do that , Download <a href="https://github.com/patrickfav/uber-apk-signer/releases/tag/v1.3.0">uber apk signer</a> and run ```java -jar [PATH/TO/UBERAPKSIGNER] -apks [PATH/TO/XVOARD/APK]```
+6. when it compiled it will give you the XVoard apk , if are in mobile, you need a tool such as <a href="https://maximoff.su/apktool/dl/en/Apktool_M_v2.4.0-260728%282026072802%29.apk?ts=1785269508&dt=release">Apktool M by maximoff</a> to sign the apk, then install XVoard at your phone ,if you are in computer,you had to sign the apk before installing it , to do that , Download <a href="https://github.com/patrickfav/uber-apk-signer/releases/tag/v1.3.0">uber apk signer</a> and run ```java -jar [PATH/TO/UBERAPKSIGNER] -apks [PATH/TO/XVOARD/APK]```
 and you are done :) .
 # credit's ❤️‍🔥
 - <a href="https://github.com/ANTI-XV">DEXV</a> The creator of XVoard
