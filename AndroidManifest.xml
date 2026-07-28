@@ -9,23 +9,9 @@
     <uses-feature android:name="android.hardware.camera.any" android:required="false"/>
     <uses-feature android:name="android.hardware.camera" android:required="false"/>
     <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
-    <queries>
-        <package android:name="com.bitstrips.imoji"/>
-        <package android:name="com.google.android.googlequicksearchbox"/>
-        <package android:name="com.google.android.apps.inputmethod.datahound.app"/>
-        <package android:name="com.google.android.inputmethod.keyboarddevutils"/>
-        <package android:name="com.google.android.apps.village.boond"/>
-        <package android:name="com.google.android.marvin.talkback"/>
-        <intent>
-            <action android:name="android.view.InputMethod"/>
-        </intent>
-        <package android:name="com.google.android.apps.internal.betterbug"/>
-    </queries>
-    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:backupAgent="com.google.android.libraries.inputmethod.backup.BackupAgent" android:crossProfile="true" android:enableOnBackInvokedCallback="true" android:extractNativeLibs="false" android:gwpAsanMode="always" android:icon="@mipmap/ic_app" android:killAfterRestore="false" android:label="XVoard" android:name="com.google.android.apps.inputmethod.latin.ImeLatinApp" android:restoreAnyVersion="true" android:roundIcon="@mipmap/ic_app_round" android:supportsRtl="true" android:theme="@style/style_0x7f15001e" android:usesCleartextTraffic="false">
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:crossProfile="true" android:enableOnBackInvokedCallback="true" android:extractNativeLibs="false" android:gwpAsanMode="always" android:icon="@mipmap/ic_app" android:killAfterRestore="false" android:label="XVoard" android:name="com.google.android.apps.inputmethod.latin.ImeLatinApp" android:restoreAnyVersion="true" android:roundIcon="@mipmap/ic_app_round" android:supportsRtl="true" android:theme="@style/style_0x7f15001e" android:usesCleartextTraffic="false">
         <property android:name="android.window.PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED" android:value="true"/>
         <profileable android:shell="true"/>
-        <uses-native-library android:name="libedgetpu_util.so" android:required="false"/>
-        <uses-native-library android:name="libedgetpu_client.google.so" android:required="false"/>
         <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIl3fO6Spo7vqdonbORA0gOqfXPTnKWTdG6eHJNA"/>
         <meta-data android:name="com.google.android.partnersetup.RLZ_BOUNTY_ACCESS_POINT" android:value="y0,yg"/>
         <service android:directBootAware="true" android:exported="true" android:name="com.android.inputmethod.latin.LatinIME" android:permission="android.permission.BIND_INPUT_METHOD">
@@ -75,7 +61,6 @@
         </activity>
         <activity android:exported="true" android:label="@string/string_0x7f141397" android:name="com.google.android.apps.inputmethod.latin.stylus.StylusSettingsActivity" android:theme="@style/DayNightTheme.NoActionBar"/>
         <provider android:authorities="com.google.android.inputmethod.latin.iBGT.clipboard_content" android:exported="false" android:name="com.google.android.apps.inputmethod.libs.clipboard.ClipboardContentProvider"/>
-        <service android:exported="false" android:foregroundServiceType="shortService" android:name="com.google.android.apps.inputmethod.libs.dataservice.superpacks.SuperpacksForegroundTaskService"/>
         <service android:exported="false" android:name="com.google.android.apps.inputmethod.libs.dataservice.superpacks.SuperpacksBackgroundJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <activity android:exported="false" android:name="com.google.android.apps.inputmethod.libs.expression.startactivityforresult.StartActivityForResult" android:theme="@style/Theme.AppCompat.Light.NoActionBar.Translucent"/>
         <receiver android:exported="true" android:name="com.google.android.apps.inputmethod.libs.kcm.InputDeviceReceiver">
@@ -107,11 +92,9 @@
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
             </intent-filter>
         </receiver>
-        <service android:exported="false" android:foregroundServiceType="shortService" android:name="com.google.android.libraries.inputmethod.mdd.ForegroundDownloadService"/>
         <service android:directBootAware="false" android:enabled="@bool/bool_0x7f05000c" android:exported="false" android:foregroundServiceType="shortService" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
         <activity android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.google.android.libraries.inputmethod.permissions.PermissionsActivity" android:taskAffinity="" android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar"/>
         <service android:exported="true" android:name="com.google.android.libraries.inputmethod.taskscheduler.JobSchedulerImpl$TaskRunnerJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <provider android:authorities="com.google.android.inputmethod.latin.iBGT.wdb" android:exported="true" android:name="com.google.android.libraries.inputmethod.webdebugbridge.WebDebugBridgeContentProvider"/>
         <activity android:exported="false" android:name="com.google.android.libraries.inputmethod.workprofile.EmptyActivity" android:theme="@style/TransparentActivity"/>
         <activity android:exported="false" android:name="com.google.android.libraries.inputmethod.workprofile.TrampolineActivity" android:theme="@style/TransparentActivity"/>
         <receiver android:exported="false" android:name="com.google.android.libraries.inputmethod.workprofile.CanInteractAcrossProfilesBroadcastReceiver">
@@ -119,13 +102,7 @@
                 <action android:name="android.content.pm.action.CAN_INTERACT_ACROSS_PROFILES_CHANGED"/>
             </intent-filter>
         </receiver>
-        <receiver android:exported="false" android:name="com.google.android.libraries.performance.primes.transmitter.LifeboatReceiver" android:process=":primes_lifeboat"/>
-        <receiver android:exported="true" android:name="com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver" android:process="">
-            <intent-filter>
-                <action android:name="android.accounts.action.ACCOUNT_REMOVED"/>
-            </intent-filter>
-        </receiver>
-        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+               <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
         <uses-library android:name="androidx.window.extensions" android:required="false"/>
         <uses-library android:name="androidx.window.sidecar" android:required="false"/>
         <service android:directBootAware="false" android:enabled="@bool/bool_0x7f05000d" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
