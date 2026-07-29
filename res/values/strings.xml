@@ -658,7 +658,6 @@ Please wait a moment and then try again."</string>
     <string name="string_0x7f14031f">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
     <string name="string_0x7f140320">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
     <string name="string_0x7f140322">Go</string>
-    <string name="google_api_key">AIzaSyDPejeIUWuoRgIrn35eLPSjig2WR8C3jBg</string>
     <string name="google_app_id">1:917133497490:android:439bf8f355424942</string>
     <string name="google_crash_reporting_api_key">AIzaSyDPejeIUWuoRgIrn35eLPSjig2WR8C3jBg</string>
     <string name="google_storage_bucket">gboard-1132.google.com.a.appspot.com</string>
