@@ -149,7 +149,7 @@
 
     .line 57
     .line 58
-    const-string v1, "sticker-pa.googleapis.com"
+    const-string v1, ""
 
     .line 59
     .line 60
@@ -169,7 +169,7 @@
 
     .line 67
     .line 68
-    const-string v1, "https://sticker-pa.googleapis.com/v1/sticker/packs"
+    const-string v1, ""
 
     .line 69
     .line 70
@@ -294,7 +294,7 @@
 
     .line 132
     .line 133
-    const-string v1, "AIzaSyBPSAFlv3zpgK1jCJhlmNwl9NoAuhL-AKc"
+    const-string v1, ""
 
     .line 134
     .line 135
@@ -314,7 +314,7 @@
 
     .line 142
     .line 143
-    const-wide/16 v1, 0x2
+    const-wide/16 v1, 0x0
 
     .line 144
     .line 145

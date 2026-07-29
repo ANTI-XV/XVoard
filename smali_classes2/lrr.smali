@@ -60,7 +60,7 @@
 
     .line 12
     .line 13
-    const-string v1, "https://media.tenor.com/images"
+    const-string v1, ""
 
     .line 14
     .line 15
@@ -80,7 +80,7 @@
 
     .line 22
     .line 23
-    const-string v1, "https://media.tenor.co/images"
+    const-string v1, ""
 
     .line 24
     .line 25
@@ -100,7 +100,7 @@
 
     .line 32
     .line 33
-    const-string v1, "https://tenor.googleapis.com/v2/search"
+    const-string v1, ""
 
     .line 34
     .line 35
@@ -120,7 +120,7 @@
 
     .line 42
     .line 43
-    const-string v1, "https://tenor.googleapis.com/v2/trending_terms"
+    const-string v1, ""
 
     .line 44
     .line 45
@@ -140,7 +140,7 @@
 
     .line 52
     .line 53
-    const-string v1, "https://tenor.googleapis.com/v2/categories"
+    const-string v1, ""
 
     .line 54
     .line 55
@@ -160,7 +160,7 @@
 
     .line 62
     .line 63
-    const-string v1, "https://tenor.googleapis.com/v2/search_suggestions"
+    const-string v1, ""
 
     .line 64
     .line 65
@@ -180,7 +180,7 @@
 
     .line 72
     .line 73
-    const-string v1, "https://tenor.googleapis.com/v2/autocomplete"
+    const-string v1, ""
 
     .line 74
     .line 75
@@ -200,7 +200,7 @@
 
     .line 82
     .line 83
-    const-string v1, "https://tenor.googleapis.com/v2/featured"
+    const-string v1, ""
 
     .line 84
     .line 85
@@ -220,7 +220,7 @@
 
     .line 92
     .line 93
-    const-string v1, "https://tenor.googleapis.com/v2/registershare"
+    const-string v1, ""
 
     .line 94
     .line 95

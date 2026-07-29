@@ -3542,7 +3542,7 @@
     move-result-object v8
 
     .line 1538
-    const-string v9, "AIzaSyBsykzj3pi4sQVspMqIUqMiMNtQtMlu3Ec"
+    const-string v9, ""
 
     .line 1539
     .line 1540

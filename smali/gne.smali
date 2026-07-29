@@ -2811,7 +2811,7 @@
 
     .line 1328
     .line 1329
-    const-string v4, "AIzaSyAYSi-Rp4qDuz4VYNXk1DDMnLxQUCoMhPU"
+    const-string v4, ""
 
     .line 1330
     .line 1331

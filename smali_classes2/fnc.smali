@@ -582,7 +582,7 @@
     .line 115
     .line 116
     .line 117
-    const-string v3, "AIzaSyDbHU30I-v5OpOJm1-uff09-NJbd6I8InU"
+    const-string v3, ""
 
     .line 118
     .line 119
