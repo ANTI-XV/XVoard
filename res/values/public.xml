@@ -6118,6 +6118,7 @@
     <public type="drawable" name="drawable_0x7f0802a9" id="0x7f0802a9" />
     <public type="drawable" name="drawable_0x7f0802aa" id="0x7f0802aa" />
     <public type="drawable" name="drawable_0x7f0802ab" id="0x7f0802ab" />
+    <public type="drawable" name="drawable_0x7f0802ac" id="0x7f0802ac" />
     <public type="drawable" name="drawable_0x7f0802ad" id="0x7f0802ad" />
     <public type="drawable" name="drawable_0x7f0802ae" id="0x7f0802ae" />
     <public type="drawable" name="drawable_0x7f0802af" id="0x7f0802af" />
@@ -17633,6 +17634,8 @@
     <public type="string" name="string_0x7f14031f" id="0x7f14031f" />
     <public type="string" name="string_0x7f140320" id="0x7f140320" />
     <public type="string" name="string_0x7f140322" id="0x7f140322" />
+    <public type="string" name="google_api_key" id="0x7f140323" />
+    <public type="string" name="google_app_id" id="0x7f140324" />
     <public type="string" name="google_crash_reporting_api_key" id="0x7f140325" />
     <public type="string" name="google_storage_bucket" id="0x7f140326" />
     <public type="string" name="string_0x7f140329" id="0x7f140329" />
