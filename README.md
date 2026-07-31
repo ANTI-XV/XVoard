@@ -1,5 +1,5 @@
 # XVoard ⌨️
-Gboard but batter
+Gboard but better
 # What is XVoard ❓
 XVoard is a privacy and security focused version of Gboard that designed to give you the features and UI of Gboard while keeping your privacy respected :D
 # Features ✨
