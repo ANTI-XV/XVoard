@@ -11,6 +11,7 @@ XVoard is a privacy and security focused version of Gboard that designed to give
 - no useless used libaries at manifest
 - FLAG_SECURE to prevent keyloggers from recording your keyboard
 - auto clear clipboard for other apps while you still can access your clipboard content
+- clipboard history encryption ( of XVoard memory and internal storage )
 - force incognito mode
 - clipboard at incognito mode
 - Custom symbols ( in emoticons at the classic tab ) 
