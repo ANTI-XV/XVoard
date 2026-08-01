@@ -18890,7 +18890,7 @@
 
     new-instance v11, Lxvoard/ClipboardClearer;
 
-    const-wide v12, 0x7530
+    const-wide/32 v12, 0x7530
 
     invoke-direct {v11, p0, v10, v12, v13}, Lxvoard/ClipboardClearer;-><init>(Landroid/content/Context;Landroid/os/Handler;J)V
 

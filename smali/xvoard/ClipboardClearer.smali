@@ -51,6 +51,7 @@
 
     invoke-virtual {v0, v1}, Landroid/content/ClipboardManager;->setPrimaryClip(Landroid/content/ClipData;)V
 
+
     iget-object v0, p0, Lxvoard/ClipboardClearer;->handler:Landroid/os/Handler;
 
     iget-wide v2, p0, Lxvoard/ClipboardClearer;->intervalMs:J
