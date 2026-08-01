@@ -12,7 +12,7 @@ XVoard is a privacy and security focused version of Gboard that designed to give
 - auto clear clipboard
 - force incognito mode
 - clipboard at incognito mode
-- Custom symbols ( in emoticons at the classictab ) 
+- Custom symbols ( in emoticons at the classic tab ) 
 # cons ⛔
 - features like translator and voice typing stop working beacause of no internet permission to connect to google servers ( there will be a fix soon )
 - stickers and GIFs and emoji kitchen don't and wouldn't work
