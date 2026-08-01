@@ -1,10 +1,10 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android)
-SHA-256-Digest-Manifest: DQjNm8lUk98qXuVKVtFXmLAoqEUP0mBQfzGD9jbwtos=
+SHA-256-Digest-Manifest: z9cJL94khEmVEILP7pOeIe+UVtTxRTNRpIwB7669jcU=
 X-Android-APK-Signed: 2, 3
 
 Name: AndroidManifest.xml
-SHA-256-Digest: pZD0h0edJyMJUSKfb8a+5MOgHcOLugBFFLceABRSLQs=
+SHA-256-Digest: 3hKMsDwFyoX/k3W0Pa0MgMYPAsv4TJVeeD6EJjJ068w=
 
 Name: LICENSE_OFL
 SHA-256-Digest: 7opSdDFJwUjSEPEzhTfNxERRWdq7g47lgUVtbp/NuI0=
@@ -469,7 +469,7 @@ Name: assets/theme/theme_package_metadata_no_background.binarypb
 SHA-256-Digest: gz+cvEdHk4r/a7ybvIrr/tj/GAhMFQq8k4c5EK+SCzM=
 
 Name: classes.dex
-SHA-256-Digest: c2LkcPWWX1KfUTKwQMtzPxxjqc4+cN15E38mH2Rq66M=
+SHA-256-Digest: nigTc2vSpuTqy9m1wHAAgL4KHI/Ucnt8spdS/D7OuoE=
 
 Name: classes2.dex
 SHA-256-Digest: sgctgiltm1TmOsUXL55pUodxtMaRu0wjlAm39ZpwJN8=
@@ -22417,7 +22417,7 @@ Name: res/xml/xml_0x7f170d7e.xml
 SHA-256-Digest: PeA0ctddOyMkDDvo1Ox0RzOd7IY0PGhMPkG7mGc+kSk=
 
 Name: res/xml/xml_0x7f170d7f.xml
-SHA-256-Digest: nydW25vn8W+MecntiLYuQTKJj/hwnc+tTRQKKGZ3Dn4=
+SHA-256-Digest: UXmQ+r21mOxmjubpfNNQXAmi2Ez/0jRR9E8RkHJNcco=
 
 Name: res/xml/xml_0x7f170d80.xml
 SHA-256-Digest: z1cDPFSqvZGVW4Ie99x3L0AWN4sQsoNl4NL3tAYBlxY=
@@ -24295,5 +24295,5 @@ Name: res/xml/xml_0x7f171003.xml
 SHA-256-Digest: HT3LPC0HXZWA41ucUxWvxfHiX8X5i7By3HnbMLtWaZI=
 
 Name: resources.arsc
-SHA-256-Digest: sdb9z9rdYvMb7Lg7BuEIRrCe3Td1i+HiyymF2UUFRrU=
+SHA-256-Digest: Q5KKuTiWlhzvgUlykR+uH24X1hz3MlB2ICTidT4Qw1g=
 

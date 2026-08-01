@@ -1,5 +1,5 @@
 version: 3.0.2-dirty
-apkFileName: XVoard_FPC.apk
+apkFileName: XVoard-BXV.apk
 usesFramework:
   ids:
   - 1

@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 
 Name: AndroidManifest.xml
-SHA-256-Digest: EjIXTM80E4MBaWYc+MWk6DkAzyFdqyke9cFJ8wm1Tzg=
+SHA-256-Digest: QH9u56SQuSIcMEaYuxSiWHVhk12iC6LpyRNNBYOqy+Q=
 
 Name: LICENSE_OFL
 SHA-256-Digest: anP5VBwt50FYwOfPawpY73dPWngL8ZHy1+ycxT7+K/I=
@@ -466,7 +466,7 @@ Name: assets/theme/theme_package_metadata_no_background.binarypb
 SHA-256-Digest: DYQG2iI1vf3tiYyDgXJTkDeowkzMSYLFTwOVLzyKKik=
 
 Name: classes.dex
-SHA-256-Digest: irAaCEGF3nZlqNaDy2rgFBB1CU2ZsUYkXV93PfDWG/4=
+SHA-256-Digest: XGDIh+w2le932uUF/9xWF+cuwuUri3wXOUL5Jy1awt0=
 
 Name: classes2.dex
 SHA-256-Digest: p97mpYFDh8xyxm7LgAAixJWdLUP8ThFRfccL5xRiH1c=
@@ -22414,7 +22414,7 @@ Name: res/xml/xml_0x7f170d7e.xml
 SHA-256-Digest: V9BzKtxP41C1GyPB8ZZcJ/n4pghjD0spIIE0CNoFcWo=
 
 Name: res/xml/xml_0x7f170d7f.xml
-SHA-256-Digest: O/FwJWvbmaSlNOYElBWdAo1PpfpjCb0qbH0/e+uNrCY=
+SHA-256-Digest: HsjUDHCssCfiCjiDfPnRS+v77KVSjlyUah5ztR3UgxQ=
 
 Name: res/xml/xml_0x7f170d80.xml
 SHA-256-Digest: 0whsqzY6Xh44JSmaCnXzXXY4YZoM4KWuBDoofPVWTLM=
@@ -24292,5 +24292,5 @@ Name: res/xml/xml_0x7f171003.xml
 SHA-256-Digest: dJMWxP4ZxMos9VMJUqcNhr0jX9JSPE3ezkWWZEl/Ce8=
 
 Name: resources.arsc
-SHA-256-Digest: WlXOw/uzHJiNxahEjQ9dfmx46pOnM00q82OUHnfwn2o=
+SHA-256-Digest: Yi3Qt1ZdC4UTq1OqJdHK25YO13yEnai4VduWgYRBpWU=
 

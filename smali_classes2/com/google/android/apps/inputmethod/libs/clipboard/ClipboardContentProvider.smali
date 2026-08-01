@@ -610,6 +610,8 @@
     .line 54
     const/4 v3, 0x5
 
+    invoke-static {p2}, Lxvoard/ClipboardCrypto;->encryptValues(Landroid/content/ContentValues;)V
+
     .line 55
     invoke-virtual {v0, v1, v2, p2, v3}, Landroid/database/sqlite/SQLiteDatabase;->insertWithOnConflict(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;I)J
     :try_end_0
@@ -916,6 +918,10 @@
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_0
 
+    invoke-static {p1}, Lxvoard/ClipboardCrypto;->wrapCursor(Landroid/database/Cursor;)Landroid/database/Cursor;
+
+    move-result-object p1
+
     .line 58
     return-object p1
 
@@ -1086,6 +1092,8 @@
 
     .line 53
     :cond_0
+    invoke-static {p2}, Lxvoard/ClipboardCrypto;->encryptValues(Landroid/content/ContentValues;)V
+
     invoke-virtual {v1, v4, p2, p3, p4}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
     .line 54
@@ -1168,6 +1176,8 @@
 
     .line 95
     :cond_2
+    invoke-static {p2}, Lxvoard/ClipboardCrypto;->encryptValues(Landroid/content/ContentValues;)V
+
     invoke-virtual {v1, v4, p2, p1, p4}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
     .line 96

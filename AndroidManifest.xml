@@ -61,7 +61,7 @@
         <provider android:authorities="com.google.android.inputmethod.latin.iBGT.clipboard_content" android:exported="false" android:name="com.google.android.apps.inputmethod.libs.clipboard.ClipboardContentProvider"/>
         <service android:exported="false" android:name="com.google.android.apps.inputmethod.libs.dataservice.superpacks.SuperpacksBackgroundJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <activity android:exported="false" android:name="com.google.android.apps.inputmethod.libs.expression.startactivityforresult.StartActivityForResult" android:theme="@style/Theme.AppCompat.Light.NoActionBar.Translucent"/>
-            <provider android:authorities="com.google.android.inputmethod.latin.iBGT.inputactionprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.apps.inputmethod.libs.keyhound.InputActionFileProvider">
+        <provider android:authorities="com.google.android.inputmethod.latin.iBGT.inputactionprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.apps.inputmethod.libs.keyhound.InputActionFileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/input_action_path"/>
         </provider>
         <service android:enabled="true" android:exported="true" android:name="com.google.android.apps.inputmethod.libs.nga.impl.KeyboardDictationService"/>
@@ -86,5 +86,5 @@
         <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
         <uses-library android:name="androidx.window.extensions" android:required="false"/>
         <uses-library android:name="androidx.window.sidecar" android:required="false"/>
-            </application>
+    </application>
 </manifest>
