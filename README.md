@@ -9,7 +9,7 @@ XVoard is a privacy and security focused version of Gboard that designed to give
 - no queries
 - ram usage is about 100mb less then Gboard
 - stability
-- no useless used libaries at manifest
+- no useless used libraries at manifest
 - FLAG_SECURE to prevent keyloggers from recording your keyboard
 - auto clear clipboard for other apps while you still can access your clipboard content
 - clipboard history encryption ( of XVoard memory and internal storage )
@@ -17,7 +17,7 @@ XVoard is a privacy and security focused version of Gboard that designed to give
 - clipboard at incognito mode
 - Custom symbols ( in emoticons at the classic tab ) 
 # cons ⛔
-- features like translator and voice typing stop working beacause of no internet permission to connect to google servers ( there will be a fix soon )
+- features like translator and voice typing stop working because of no internet permission to connect to google servers ( there will be a fix soon )
 - stickers and GIFs and emoji kitchen don't and wouldn't work
 # 💻 installation guide 📱
 # For PC users: 
@@ -29,9 +29,9 @@ go to your terminal and type:
 `apktool b [PATH/TO/SOURCE/CODE]`
 6. sign the apk before installing it , to do that , Download <a href="https://github.com/patrickfav/uber-apk-signer/releases/tag/v1.3.0">uber apk signer</a> and run ```java -jar [PATH/TO/UBERAPKSIGNER] -apks [PATH/TO/XVOARD/APK]```
 # For mobile users:
-Follow the Guide <a href="https://github.com/ANTI-XV/termux-scipt-for-XVoard">Termux Scipt For XVoard</a>
+Follow the Guide <a href="https://github.com/ANTI-XV/termux-scipt-for-XVoard">Termux Script For XVoard</a>
 and you are done :) .
-# credit's ❤️‍🔥
+# credits ❤️‍🔥
 - <a href="https://github.com/ANTI-XV">DEXV</a> The creator of XVoard
 - <a href="https://github.com/jkennethcarino/adobo">adobo</a> The creator of Gboard patches that helped to improve XVoard
 - <a href="https://github.com/Justlinuxyourself">Ali Yahya Ali Sumaily</a> feature suggester
