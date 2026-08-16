@@ -1,5 +1,6 @@
 # XVoard ⌨️
-Gboard but better
+Anti-Google Gboard
+<img src="1001925791.png" alt="DeGboard" width="600">
 # What is XVoard ❓
 XVoard is a privacy and security focused version of Gboard that designed to give you the features and UI of Gboard while keeping your privacy respected :D
 # Features ✨
