@@ -70,7 +70,7 @@
     move-result-object p0
 
     .line 6
-    const-string v1, "com.google.android.gms"
+    const-string v1, ""
 
     .line 7
     .line 8
@@ -161,7 +161,7 @@
     move-result-object v0
 
     .line 23
-    const-string v1, "com.google.android.gms"
+    const-string v1, ""
 
     .line 24
     .line 25
@@ -289,7 +289,7 @@
     .line 75
     .line 76
     .line 77
-    const-string v3, "com.google.android.gms.version"
+    const-string v3, ""
 
     .line 78
     .line 79
@@ -619,7 +619,7 @@
     .line 219
     :goto_8
     :try_start_8
-    const-string v7, "com.google.android.gms"
+    const-string v7, ""
 
     .line 220
     .line 221
@@ -917,7 +917,7 @@
     .line 367
     .line 368
     :try_start_9
-    const-string p0, "com.google.android.gms"
+    const-string p0, ""
 
     .line 369
     .line 370
@@ -1147,7 +1147,7 @@
     move-result-object v0
 
     .line 11
-    const-string v3, "com.google.android.gms"
+    const-string v3, ""
 
     .line 12
     .line 13
@@ -1385,7 +1385,7 @@
     move-result v2
 
     .line 22
-    const-string v3, "com.google.android.gms"
+    const-string v3, ""
 
     .line 23
     .line 24

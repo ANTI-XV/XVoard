@@ -457,7 +457,7 @@
 
     .line 208
     .line 209
-    const-string v3, "com.google.android.gms.googlehelp.HELP"
+    const-string v3, ""
 
     .line 210
     .line 211
@@ -466,7 +466,7 @@
     .line 212
     .line 213
     .line 214
-    const-string v6, "com.google.android.gms"
+    const-string v6, ""
 
     .line 215
     .line 216

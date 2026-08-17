@@ -250,7 +250,7 @@
 
     .line 7
     .line 8
-    const-string v0, "com.google.android.gms.vision.ocr"
+    const-string v0, ""
 
     .line 9
     .line 10

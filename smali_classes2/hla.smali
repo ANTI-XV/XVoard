@@ -119,7 +119,7 @@
     iput p3, p0, Lhla;->e:I
 
     .line 2
-    const-string p2, "com.google.android.gms"
+    const-string p2, ""
 
     invoke-virtual {p2, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -145,7 +145,7 @@
     if-eqz p5, :cond_6
 
     .line 4
-    const-string p3, "com.google.android.gms.common.internal.IAccountAccessor"
+    const-string p3, ""
 
     .line 5
     invoke-interface {p5, p3}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;

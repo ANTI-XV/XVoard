@@ -52,7 +52,7 @@
 
     .line 16
     .line 17
-    const-string v2, "com.google.android.gms.org.conscrypt.OpenSSLProvider"
+    const-string v2, ""
 
     .line 18
     .line 19

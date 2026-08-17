@@ -155,7 +155,7 @@
 
     .line 47
     .line 48
-    const-string v1, "com.google.android.gms.common.internal.IGmsServiceBroker"
+    const-string v1, ""
 
     .line 49
     .line 50

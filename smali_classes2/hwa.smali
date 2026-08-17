@@ -11,7 +11,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.internal.training.IInAppTrainer"
+    const-string v0, ""
 
     .line 2
     .line 3

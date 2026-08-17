@@ -15,7 +15,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.dynamite.training.IInAppTrainingController"
+    const-string v0, ""
 
     invoke-direct {p0, v0}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -28,7 +28,7 @@
     .line 2
     iput-object p1, p0, Lhtk;->a:Lcom/google/android/gms/learning/dynamite/training/InAppTrainingServiceImpl;
 
-    const-string p1, "com.google.android.gms.learning.dynamite.training.IInAppTrainingController"
+    const-string p1, ""
 
     invoke-direct {p0, p1}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -438,7 +438,7 @@
     const/4 v2, 0x0
 
     .line 5
-    const-string v3, "com.google.android.gms.learning.dynamite.training.IInAppTrainingResultCallback"
+    const-string v3, ""
 
     .line 6
     .line 7

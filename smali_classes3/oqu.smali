@@ -37,7 +37,7 @@
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string v0, "com.google.android.gms"
+    const-string v0, ""
 
     iput-object v0, p0, Loqu;->c:Ljava/lang/Object;
 

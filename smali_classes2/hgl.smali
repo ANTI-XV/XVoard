@@ -47,7 +47,7 @@
 
     .line 10
     .line 11
-    const-string v1, "com.google.android.gms.clearcut.public"
+    const-string v1, ""
 
     .line 12
     .line 13

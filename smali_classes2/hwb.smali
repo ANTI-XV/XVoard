@@ -11,7 +11,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.internal.training.IInAppTrainer"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -38,7 +38,7 @@
 
     .line 5
     :cond_0
-    const-string v0, "com.google.android.gms.learning.internal.training.IInAppTrainer"
+    const-string v0, ""
 
     .line 6
     .line 7
@@ -84,11 +84,11 @@
     .locals 5
 
     .line 1
-    const-string v0, "com.google.android.gms.common.api.internal.IStatusCallback"
+    const-string v0, ""
 
     .line 2
     .line 3
-    const-string v1, "com.google.android.gms.dynamic.IObjectWrapper"
+    const-string v1, ""
 
     .line 4
     .line 5

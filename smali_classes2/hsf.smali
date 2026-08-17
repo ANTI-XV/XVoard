@@ -23,7 +23,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.dynamite.proxy.IExampleStoreChunkingIteratorCallback"
+    const-string v0, ""
 
     invoke-direct {p0, v0}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -36,7 +36,7 @@
     .line 2
     iput-object p1, p0, Lhsf;->e:Lhxp;
 
-    const-string p1, "com.google.android.gms.learning.dynamite.proxy.IExampleStoreChunkingIteratorCallback"
+    const-string p1, ""
 
     invoke-direct {p0, p1}, Lddx;-><init>(Ljava/lang/String;)V
 

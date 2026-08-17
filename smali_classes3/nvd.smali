@@ -63,7 +63,7 @@
     const/4 p5, 0x0
 
     .line 28
-    const-string p1, "com.google.android.gms.learning"
+    const-string p1, ""
 
     .line 29
     .line 30
@@ -140,7 +140,7 @@
     .line 27
     .line 28
     .line 29
-    const-string p2, "com.google.android.gms.learning"
+    const-string p2, ""
 
     .line 30
     .line 31
@@ -298,7 +298,7 @@
     .line 24
     .line 25
     .line 26
-    const-string v1, "com.google.android.gms.learning"
+    const-string v1, ""
 
     .line 27
     .line 28

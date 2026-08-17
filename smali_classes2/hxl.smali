@@ -347,7 +347,7 @@
 
     .line 132
     .line 133
-    const-string v0, "com.google.android.gms"
+    const-string v0, ""
 
     .line 134
     .line 135

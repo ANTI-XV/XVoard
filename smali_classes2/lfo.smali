@@ -52,7 +52,7 @@
     move-result-object p1
 
     .line 9
-    const-string v0, "com.google.android.gms.phenotype.URGENT"
+    const-string v0, ""
 
     .line 10
     .line 11

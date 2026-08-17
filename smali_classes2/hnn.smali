@@ -350,7 +350,7 @@
 
     .line 55
     :cond_2
-    const-string v4, "com.google.android.gms.droidguard.internal.IDroidGuardHandle"
+    const-string v4, ""
 
     .line 56
     .line 57

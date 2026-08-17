@@ -276,7 +276,7 @@
     const/4 v3, 0x1
 
     .line 16
-    const-string v1, "com.google.android.gms.learning"
+    const-string v1, ""
 
     .line 17
     .line 18

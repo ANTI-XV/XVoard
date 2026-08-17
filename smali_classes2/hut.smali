@@ -15,7 +15,7 @@
     .locals 1
 
     .line 2
-    const-string v0, "com.google.android.gms.learning.internal.IExampleStoreV2"
+    const-string v0, ""
 
     invoke-direct {p0, v0}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -28,7 +28,7 @@
     .line 1
     iput-object p1, p0, Lhut;->a:Lhqt;
 
-    const-string p1, "com.google.android.gms.learning.internal.IExampleStoreV2"
+    const-string p1, ""
 
     invoke-direct {p0, p1}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -266,14 +266,14 @@
     const/4 v0, 0x2
 
     .line 2
-    const-string v1, "com.google.android.gms.learning.internal.IExampleStoreQueryCallbackV2"
+    const-string v1, ""
 
     .line 3
     .line 4
     const/4 v2, 0x1
 
     .line 5
-    const-string v3, "com.google.android.gms.dynamic.IObjectWrapper"
+    const-string v3, ""
 
     .line 6
     .line 7

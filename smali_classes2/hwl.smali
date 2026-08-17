@@ -228,7 +228,7 @@
     .line 86
     .line 87
     :try_start_1
-    const-string v6, "com.google.android.gms.learning.dynamite.training.InAppTrainerImpl"
+    const-string v6, ""
 
     .line 88
     .line 89

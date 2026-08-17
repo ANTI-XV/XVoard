@@ -11,7 +11,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.common.internal.ICertData"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -106,7 +106,7 @@
 
     .line 18
     :cond_0
-    const-string v2, "com.google.android.gms.dynamic.IObjectWrapper"
+    const-string v2, ""
 
     .line 19
     .line 20

@@ -118,7 +118,7 @@
     const/4 v0, 0x1
 
     .line 2
-    const-string v1, "com.google.android.gms"
+    const-string v1, ""
 
     .line 3
     .line 4

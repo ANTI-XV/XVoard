@@ -45,7 +45,7 @@
     move-result-object v0
 
     .line 12
-    const-string v1, "com.google.android.gms.chimera"
+    const-string v1, ""
 
     .line 13
     .line 14
@@ -110,7 +110,7 @@
     iput-object p1, p0, Lhlc;->b:Ljava/lang/String;
 
     .line 3
-    const-string p1, "com.google.android.gms"
+    const-string p1, ""
 
     invoke-static {p1}, Lgei;->ao(Ljava/lang/String;)V
 

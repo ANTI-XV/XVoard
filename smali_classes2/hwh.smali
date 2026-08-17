@@ -11,7 +11,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.internal.training.IInAppTrainingService"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -38,7 +38,7 @@
 
     .line 5
     :cond_0
-    const-string v0, "com.google.android.gms.learning.internal.training.IInAppTrainingService"
+    const-string v0, ""
 
     .line 6
     .line 7
@@ -123,7 +123,7 @@
 
     .line 18
     :cond_0
-    const-string v0, "com.google.android.gms.learning.internal.http.IHttpRequestHandleFactory"
+    const-string v0, ""
 
     .line 19
     .line 20
@@ -205,7 +205,7 @@
 
     .line 58
     :cond_2
-    const-string v0, "com.google.android.gms.learning.internal.training.IHttpUrlConnectionFactory"
+    const-string v0, ""
 
     .line 59
     .line 60
@@ -516,7 +516,7 @@
 
     .line 216
     :cond_4
-    const-string v0, "com.google.android.gms.dynamic.IObjectWrapper"
+    const-string v0, ""
 
     .line 217
     .line 218

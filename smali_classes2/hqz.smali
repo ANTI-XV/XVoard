@@ -50,7 +50,7 @@
     move-result-object p1
 
     .line 5
-    const-string v0, "com.google.android.gms.learning.COMPUTATION_RESULT"
+    const-string v0, ""
 
     .line 6
     .line 7

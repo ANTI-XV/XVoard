@@ -30,7 +30,7 @@
 
     .line 8
     .line 9
-    const-string v2, "com.google.android.gms.learning"
+    const-string v2, ""
 
     .line 10
     .line 11

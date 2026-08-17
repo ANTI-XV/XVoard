@@ -2043,7 +2043,7 @@
     move-result-object v3
 
     .line 706
-    const-string v5, "com.google.android.gms"
+    const-string v5, ""
 
     .line 707
     .line 708

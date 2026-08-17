@@ -96,7 +96,7 @@
     move-result-object p0
 
     .line 21
-    const-string v1, "com.google.android.gms.auth.accounts"
+    const-string v1, ""
 
     .line 22
     .line 23

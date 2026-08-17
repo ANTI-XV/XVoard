@@ -139,7 +139,7 @@
 
     .line 30
     .line 31
-    const-string v2, "com.google.android.gms.net.PlayServicesCronetProvider"
+    const-string v2, ""
 
     .line 32
     .line 33
@@ -155,7 +155,7 @@
 
     .line 38
     .line 39
-    const-string v2, "com.google.android.gms.net.GmsCoreCronetProvider"
+    const-string v2, ""
 
     .line 40
     .line 41
@@ -449,7 +449,7 @@
 
     .line 12
     .line 13
-    const-string v2, "com.google.android.gms.net.PlayServicesCronetProvider"
+    const-string v2, ""
 
     .line 14
     .line 15
@@ -461,7 +461,7 @@
     .line 17
     .line 18
     .line 19
-    const-string v1, "com.google.android.gms.net.GmsCoreCronetProvider"
+    const-string v1, ""
 
     .line 20
     .line 21

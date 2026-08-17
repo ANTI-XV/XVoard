@@ -21,7 +21,7 @@
 
     iput-object p1, p0, Lhyy;->a:Ljava/lang/Object;
 
-    const-string p1, "com.google.android.gms.auth.account.data.IGetAccountsCallback"
+    const-string p1, ""
 
     invoke-direct {p0, p1}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -36,7 +36,7 @@
 
     iput-object p1, p0, Lhyy;->a:Ljava/lang/Object;
 
-    const-string p1, "com.google.android.gms.phenotype.internal.IGetStorageInfoCallbacks"
+    const-string p1, ""
 
     invoke-direct {p0, p1}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -51,7 +51,7 @@
 
     iput-object p1, p0, Lhyy;->a:Ljava/lang/Object;
 
-    const-string p1, "com.google.android.gms.phenotype.internal.IFlagUpdateListener"
+    const-string p1, ""
 
     invoke-direct {p0, p1}, Lddx;-><init>(Ljava/lang/String;)V
 

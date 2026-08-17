@@ -11,7 +11,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.internal.http.IHttpRequestHandleFactory"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -92,7 +92,7 @@
 
     .line 33
     :cond_0
-    const-string p3, "com.google.android.gms.learning.internal.http.IHttpRequestHandle"
+    const-string p3, ""
 
     .line 34
     .line 35

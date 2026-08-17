@@ -35,7 +35,7 @@
 
     .line 9
     .line 10
-    const-string v0, "com.google.android.gms.provider.action.PICK_IMAGES"
+    const-string v0, ""
 
     .line 11
     .line 12

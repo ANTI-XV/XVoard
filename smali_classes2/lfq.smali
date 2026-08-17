@@ -1580,7 +1580,7 @@
 
     .line 56
     .line 57
-    const-string v1, "com.google.android.gms.phenotype.UPDATE"
+    const-string v1, ""
 
     .line 58
     .line 59

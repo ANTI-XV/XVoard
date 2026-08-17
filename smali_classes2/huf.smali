@@ -16,11 +16,11 @@
 
     .line 2
     .line 3
-    const-string v1, "com.google.android.gms"
+    const-string v1, ""
 
     .line 4
     .line 5
-    const-string v2, "com.google.android.gms.chimera.GmsInternalBoundBrokerService"
+    const-string v2, ""
 
     .line 6
     .line 7

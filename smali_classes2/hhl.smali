@@ -310,7 +310,7 @@
 
     .line 18
     .line 19
-    const-string v3, "com.google.android.gms"
+    const-string v3, ""
 
     .line 20
     .line 21

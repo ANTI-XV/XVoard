@@ -1721,7 +1721,7 @@
 
     .line 193
     :try_start_2
-    const-string v9, "com.google.android.gms.common.internal.IGmsServiceBroker"
+    const-string v9, ""
 
     .line 194
     .line 195

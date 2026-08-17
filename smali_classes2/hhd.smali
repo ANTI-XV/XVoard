@@ -261,7 +261,7 @@
 
     .line 21
     .line 22
-    const-string v3, "com.google.android.gms.googlecertificates"
+    const-string v3, ""
 
     .line 23
     .line 24
@@ -273,7 +273,7 @@
     move-result-object v1
 
     .line 28
-    const-string v2, "com.google.android.gms.common.GoogleCertificatesImpl"
+    const-string v2, ""
 
     .line 29
     .line 30
@@ -296,7 +296,7 @@
 
     .line 38
     :cond_1
-    const-string v2, "com.google.android.gms.common.internal.IGoogleCertificatesApi"
+    const-string v2, ""
 
     .line 39
     .line 40

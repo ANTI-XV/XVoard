@@ -123,7 +123,7 @@
 
     .line 42
     .line 43
-    const-string v7, "com.google.android.gms.learning.internal.training.InAppJobService"
+    const-string v7, ""
 
     .line 44
     .line 45

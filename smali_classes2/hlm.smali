@@ -17,7 +17,7 @@
     .locals 1
 
     .line 2
-    const-string v0, "com.google.android.gms.common.internal.IGmsCallbacks"
+    const-string v0, ""
 
     invoke-direct {p0, v0}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -28,7 +28,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.common.internal.IGmsCallbacks"
+    const-string v0, ""
 
     invoke-direct {p0, v0}, Lddx;-><init>(Ljava/lang/String;)V
 

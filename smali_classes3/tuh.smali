@@ -12,7 +12,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.org.conscrypt"
+    const-string v0, ""
 
     iput-object v0, p0, Ltuh;->a:Ljava/lang/Object;
 

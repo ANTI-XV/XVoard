@@ -975,7 +975,7 @@
     move-result-object p0
 
     .line 51
-    const-string v2, "com.google.android.gms"
+    const-string v2, ""
 
     .line 52
     .line 53
@@ -1014,7 +1014,7 @@
 
     .line 64
     .line 65
-    const-string v3, "com.google.android.gms"
+    const-string v3, ""
 
     .line 66
     .line 67

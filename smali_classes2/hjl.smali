@@ -107,7 +107,7 @@
 
     .line 13
     :goto_0
-    const-string p2, "com.google.android.gms"
+    const-string p2, ""
 
     .line 14
     .line 15

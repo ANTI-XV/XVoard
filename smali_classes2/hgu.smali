@@ -1060,7 +1060,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 239
-    const-string p2, "com.google.android.gms.availability"
+    const-string p2, ""
 
     .line 240
     .line 241
@@ -1150,7 +1150,7 @@
     .line 284
     :cond_b
     :goto_5
-    const-string p1, "com.google.android.gms.availability"
+    const-string p1, ""
 
     .line 285
     .line 286

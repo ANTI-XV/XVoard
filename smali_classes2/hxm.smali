@@ -54,7 +54,7 @@
 
     .line 5
     :cond_0
-    const-string v0, "com.google.android.gms.learning.dynamite.proxy.IExampleStoreProxy"
+    const-string v0, ""
 
     .line 6
     .line 7

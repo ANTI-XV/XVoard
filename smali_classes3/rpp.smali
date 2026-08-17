@@ -455,7 +455,7 @@
     move-result-object v3
 
     .line 146
-    const-string v5, "com.google.android.gms.vision.text.mlkit.CommonTextRecognizerCreator"
+    const-string v5, ""
 
     .line 147
     .line 148
@@ -659,7 +659,7 @@
     move-result-object v2
 
     .line 245
-    const-string v3, "com.google.android.gms.vision.text.mlkit.TextRecognizerCreator"
+    const-string v3, ""
 
     .line 246
     .line 247

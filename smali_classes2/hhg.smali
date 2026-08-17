@@ -62,7 +62,7 @@
 
     :cond_0
     :try_start_0
-    const-string v2, "com.google.android.gms.common.internal.ICertData"
+    const-string v2, ""
 
     invoke-interface {p2, v2}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 

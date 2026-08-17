@@ -11,7 +11,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.internal.training.IHttpUrlConnectionFactory"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -72,7 +72,7 @@
 
     .line 21
     :cond_0
-    const-string v1, "com.google.android.gms.dynamic.IObjectWrapper"
+    const-string v1, ""
 
     .line 22
     .line 23

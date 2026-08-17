@@ -118,7 +118,7 @@
 
     .line 7
     :try_start_0
-    const-string v2, "com.google.android.gms.learning.dynamite.training.InAppTrainingServiceImpl"
+    const-string v2, ""
 
     .line 8
     .line 9

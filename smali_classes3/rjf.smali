@@ -953,7 +953,7 @@
 
     move-result-object v7
 
-    const-string v8, "com.google.android.gms"
+    const-string v8, ""
 
     invoke-virtual {v8, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -999,7 +999,7 @@
 
     aput-object v5, v7, v10
 
-    const-string v5, "com.google.android.gms.learning.%s.COMPUTATION_RESULT"
+    const-string v5, ""
 
     .line 9
     invoke-static {v5, v7}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -1012,7 +1012,7 @@
 
     new-instance v7, Landroid/content/ComponentName;
 
-    const-string v12, "com.google.android.gms.chimera.GmsInternalBoundBrokerService"
+    const-string v12, ""
 
     invoke-direct {v7, v8, v12}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1036,7 +1036,7 @@
 
     move-result-object v7
 
-    const-string v8, "com.google.android.gms.learning.COMPUTATION_RESULT"
+    const-string v8, ""
 
     .line 13
     invoke-virtual {v7, v8}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
@@ -1172,7 +1172,7 @@
     .line 29
     :cond_4
     :try_start_3
-    const-string v6, "com.google.android.gms.learning.internal.training.IInAppResultHandler"
+    const-string v6, ""
 
     .line 30
     invoke-interface {v3, v6}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;

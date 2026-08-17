@@ -1221,11 +1221,11 @@
     .line 577
     .line 578
     .line 579
-    const-string v6, "com.google.android.gms"
+    const-string v6, ""
 
     .line 580
     .line 581
-    const-string v7, "com.google.android.gms.chimera.GmsIntentOperationService$GmsExternalReceiver"
+    const-string v7, ""
 
     .line 582
     .line 583
@@ -1237,7 +1237,7 @@
     move-result-object v5
 
     .line 587
-    const-string v6, "com.google.android.gms.googlehelp.metrics.MetricsIntentOperation.LOG_METRIC"
+    const-string v6, ""
 
     .line 588
     .line 589

@@ -50,7 +50,7 @@
 
     .line 18
     .line 19
-    const-string v4, "com.google.android.gms.net.GmsCoreCronetProvider"
+    const-string v4, ""
 
     .line 20
     .line 21

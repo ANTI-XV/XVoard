@@ -24,11 +24,11 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string v0, "com.google.android.gms.fonts"
+    const-string v0, ""
 
     iput-object v0, p0, Laup;->a:Ljava/lang/String;
 
-    const-string v1, "com.google.android.gms"
+    const-string v1, ""
 
     iput-object v1, p0, Laup;->b:Ljava/lang/String;
 

@@ -11,7 +11,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.internal.IExampleStoreIteratorCallbackV2"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -99,7 +99,7 @@
     const/4 v0, 0x0
 
     .line 33
-    const-string v1, "com.google.android.gms.dynamic.IObjectWrapper"
+    const-string v1, ""
 
     .line 34
     .line 35

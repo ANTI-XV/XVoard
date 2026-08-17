@@ -103,7 +103,7 @@
 
     .line 5
     :cond_0
-    const-string v0, "com.google.android.gms.signin.internal.ISignInService"
+    const-string v0, ""
 
     .line 6
     .line 7
@@ -154,7 +154,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.signin.internal.ISignInService"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -165,7 +165,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.signin.service.START"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -227,7 +227,7 @@
 
     .line 20
     .line 21
-    const-string v2, "com.google.android.gms.signin.internal.realClientPackageName"
+    const-string v2, ""
 
     .line 22
     .line 23

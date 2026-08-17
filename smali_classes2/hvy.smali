@@ -15,7 +15,7 @@
     .locals 1
 
     .line 2
-    const-string v0, "com.google.android.gms.learning.internal.training.IInAppResultHandler"
+    const-string v0, ""
 
     invoke-direct {p0, v0}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -28,7 +28,7 @@
     .line 1
     iput-object p1, p0, Lhvy;->a:Lhqz;
 
-    const-string p1, "com.google.android.gms.learning.internal.training.IInAppResultHandler"
+    const-string p1, ""
 
     invoke-direct {p0, p1}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -155,7 +155,7 @@
 
     .line 36
     :cond_1
-    const-string v3, "com.google.android.gms.common.api.internal.IStatusCallback"
+    const-string v3, ""
 
     .line 37
     .line 38

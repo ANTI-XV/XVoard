@@ -2793,7 +2793,7 @@
 
     .line 313
     .line 314
-    const-string p3, "com.google.android.gms"
+    const-string p3, ""
 
     .line 315
     .line 316

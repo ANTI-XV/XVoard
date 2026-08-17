@@ -1061,7 +1061,7 @@
 
     .line 37
     .line 38
-    const-string v6, "com.google.android.gms.learning.%s.EXAMPLE_STORE"
+    const-string v6, ""
 
     .line 39
     .line 40
@@ -1094,7 +1094,7 @@
 
     .line 54
     :cond_1
-    const-string v6, "com.google.android.gms.learning.EXAMPLE_STORE_V2"
+    const-string v6, ""
 
     .line 55
     .line 56

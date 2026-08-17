@@ -19,7 +19,7 @@
     .line 3
     iput p2, p0, Lhvg;->a:I
 
-    const-string p2, "com.google.android.gms.phenotype.internal.IPhenotypeCallbacks"
+    const-string p2, ""
 
     invoke-direct {p0, p2}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -34,7 +34,7 @@
     .line 1
     iput p2, p0, Lhvg;->a:I
 
-    const-string p2, "com.google.android.gms.common.moduleinstall.internal.IModuleInstallStatusListener"
+    const-string p2, ""
 
     invoke-direct {p0, p2}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -49,7 +49,7 @@
     .line 4
     iput p2, p0, Lhvg;->a:I
 
-    const-string p2, "com.google.android.gms.usagereporting.internal.IUsageReportingOptInOptionsChangedListener"
+    const-string p2, ""
 
     invoke-direct {p0, p2}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -64,7 +64,7 @@
     .line 2
     iput p2, p0, Lhvg;->a:I
 
-    const-string p2, "com.google.android.gms.learning.internal.http.IHttpRequestCallback"
+    const-string p2, ""
 
     invoke-direct {p0, p2}, Lddx;-><init>(Ljava/lang/String;)V
 

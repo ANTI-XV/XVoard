@@ -27,7 +27,7 @@
     .locals 1
 
     .line 5
-    const-string v0, "com.google.android.gms.learning.dynamite.proxy.IExampleStoreChunkingIterator"
+    const-string v0, ""
 
     invoke-direct {p0, v0}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -38,7 +38,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.dynamite.proxy.IExampleStoreChunkingIterator"
+    const-string v0, ""
 
     invoke-direct {p0, v0}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -689,7 +689,7 @@
 
     .line 17
     :cond_1
-    const-string p3, "com.google.android.gms.common.api.internal.IStatusCallback"
+    const-string p3, ""
 
     .line 18
     .line 19
@@ -760,7 +760,7 @@
 
     .line 50
     :cond_4
-    const-string p3, "com.google.android.gms.learning.dynamite.proxy.IExampleStoreChunkingIteratorCallback"
+    const-string p3, ""
 
     .line 51
     .line 52

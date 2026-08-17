@@ -58,7 +58,7 @@
 
     .line 10
     .line 11
-    const-string v0, "com.google.android.gms.signin"
+    const-string v0, ""
 
     .line 12
     .line 13

@@ -96,7 +96,7 @@
 
     .line 7
     :cond_0
-    const-string v1, "com.google.android.gms.common.internal.IAccountAccessor"
+    const-string v1, ""
 
     .line 8
     .line 9

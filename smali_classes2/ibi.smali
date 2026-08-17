@@ -189,7 +189,7 @@
 
     .line 5
     :cond_0
-    const-string v0, "com.google.android.gms.usagereporting.internal.IUsageReportingService"
+    const-string v0, ""
 
     .line 6
     .line 7
@@ -240,7 +240,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.usagereporting.internal.IUsageReportingService"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -251,7 +251,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.usagereporting.service.START"
+    const-string v0, ""
 
     .line 2
     .line 3

@@ -15,7 +15,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.dynamite.proxy.IExampleStoreProxy"
+    const-string v0, ""
 
     invoke-direct {p0, v0}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -28,7 +28,7 @@
     .line 2
     iput-object p1, p0, Lhsl;->a:Lcom/google/android/gms/learning/dynamite/proxy/InAppExampleStoreProxyImpl;
 
-    const-string p1, "com.google.android.gms.learning.dynamite.proxy.IExampleStoreProxy"
+    const-string p1, ""
 
     invoke-direct {p0, p1}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -107,7 +107,7 @@
     move-result-object v4
 
     .line 33
-    const-string v6, "com.google.android.gms"
+    const-string v6, ""
 
     .line 34
     .line 35
@@ -156,7 +156,7 @@
 
     .line 56
     :try_start_1
-    const-string v6, "com.google.android.gms"
+    const-string v6, ""
 
     .line 57
     .line 58
@@ -1484,7 +1484,7 @@
 
     .line 40
     :cond_2
-    const-string p3, "com.google.android.gms.learning.dynamite.proxy.IExampleStoreChunkingQueryCallback"
+    const-string p3, ""
 
     .line 41
     .line 42

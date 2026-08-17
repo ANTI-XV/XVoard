@@ -77,7 +77,7 @@
 
     .line 10
     .line 11
-    const-string v2, "com.google.android.gms.vision.dynamite"
+    const-string v2, ""
 
     .line 12
     .line 13
@@ -89,7 +89,7 @@
     move-result-object v0
 
     .line 17
-    const-string v1, "com.google.android.gms.vision.text.ChimeraNativeTextRecognizerCreator"
+    const-string v1, ""
 
     .line 18
     .line 19
@@ -115,7 +115,7 @@
 
     .line 28
     :cond_1
-    const-string v2, "com.google.android.gms.vision.text.internal.client.INativeTextRecognizerCreator"
+    const-string v2, ""
 
     .line 29
     .line 30
@@ -215,7 +215,7 @@
 
     .line 77
     :cond_3
-    const-string v1, "com.google.android.gms.vision.text.internal.client.INativeTextRecognizer"
+    const-string v1, ""
 
     .line 78
     .line 79
@@ -408,11 +408,11 @@
     .line 169
     .line 170
     .line 171
-    const-string v4, "com.google.android.gms"
+    const-string v4, ""
 
     .line 172
     .line 173
-    const-string v5, "com.google.android.gms.vision.DependencyBroadcastReceiverProxy"
+    const-string v5, ""
 
     .line 174
     .line 175
@@ -421,7 +421,7 @@
     .line 176
     .line 177
     .line 178
-    const-string v4, "com.google.android.gms.vision.DEPENDENCY"
+    const-string v4, ""
 
     .line 179
     .line 180
@@ -430,7 +430,7 @@
     .line 181
     .line 182
     .line 183
-    const-string v4, "com.google.android.gms.vision.DEPENDENCIES"
+    const-string v4, ""
 
     .line 184
     .line 185

@@ -69,7 +69,7 @@
 
     .line 16
     .line 17
-    const-string v1, "com.google.android.gms.learning"
+    const-string v1, ""
 
     .line 18
     .line 19

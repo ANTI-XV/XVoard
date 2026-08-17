@@ -21,7 +21,7 @@
 
     .line 2
     .line 3
-    const-string v1, "com.google.android.gms.auth_account"
+    const-string v1, ""
 
     .line 4
     .line 5

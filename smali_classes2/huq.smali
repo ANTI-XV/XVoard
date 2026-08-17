@@ -31,7 +31,7 @@
     .locals 1
 
     .line 3
-    const-string v0, "com.google.android.gms.learning.internal.IExampleStoreQueryCallbackV2"
+    const-string v0, ""
 
     invoke-direct {p0, v0}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -42,7 +42,7 @@
     .locals 2
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.internal.IExampleStoreQueryCallbackV2"
+    const-string v0, ""
 
     invoke-direct {p0, v0}, Lddx;-><init>(Ljava/lang/String;)V
 
@@ -451,7 +451,7 @@
 
     .line 36
     :cond_2
-    const-string v0, "com.google.android.gms.learning.internal.IExampleStoreIteratorV2"
+    const-string v0, ""
 
     .line 37
     .line 38

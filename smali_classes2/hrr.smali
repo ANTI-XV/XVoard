@@ -120,7 +120,7 @@
 
     .line 36
     .line 37
-    const-string v4, "com.google.android.gms.learning"
+    const-string v4, ""
 
     .line 38
     .line 39
@@ -178,7 +178,7 @@
 
     .line 66
     :goto_0
-    const-string v2, "com.google.android.gms.learning#"
+    const-string v2, ""
 
     .line 67
     .line 68

@@ -1432,7 +1432,7 @@
 
     .line 309
     .line 310
-    const-string v3, "com.google.android.gms.learning.training.START"
+    const-string v3, ""
 
     .line 311
     .line 312
@@ -2024,7 +2024,7 @@
     .line 549
     :cond_12
     :try_start_23
-    const-string v2, "com.google.android.gms.learning.dynamite.training.IInAppTrainingController"
+    const-string v2, ""
 
     .line 550
     .line 551

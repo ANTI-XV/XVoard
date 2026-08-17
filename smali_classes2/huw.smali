@@ -11,7 +11,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.internal.IInAppExampleStoreProxy"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -38,7 +38,7 @@
 
     .line 5
     :cond_0
-    const-string v0, "com.google.android.gms.learning.internal.IInAppExampleStoreProxy"
+    const-string v0, ""
 
     .line 6
     .line 7
@@ -281,7 +281,7 @@
 
     .line 99
     :cond_0
-    const-string v1, "com.google.android.gms.dynamic.IObjectWrapper"
+    const-string v1, ""
 
     .line 100
     .line 101
@@ -335,7 +335,7 @@
 
     .line 124
     :cond_2
-    const-string v0, "com.google.android.gms.learning.internal.IExampleStoreV2"
+    const-string v0, ""
 
     .line 125
     .line 126

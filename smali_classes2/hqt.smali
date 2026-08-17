@@ -96,7 +96,7 @@
     .locals 5
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.EXAMPLE_STORE_V2"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -183,7 +183,7 @@
     .line 40
     .line 41
     :try_start_1
-    const-string v1, "com.google.android.gms.learning.dynamite.proxy.InAppExampleStoreProxyImpl"
+    const-string v1, ""
 
     .line 42
     .line 43

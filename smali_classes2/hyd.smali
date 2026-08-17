@@ -186,7 +186,7 @@
 
     .line 40
     .line 41
-    const-string v3, "com.google.android.gms.cronet_dynamite"
+    const-string v3, ""
 
     .line 42
     .line 43

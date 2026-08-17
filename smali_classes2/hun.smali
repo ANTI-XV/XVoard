@@ -11,7 +11,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.internal.IExampleStoreIteratorV2"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -107,7 +107,7 @@
 
     .line 35
     :cond_3
-    const-string v0, "com.google.android.gms.learning.internal.IExampleStoreIteratorCallbackV2"
+    const-string v0, ""
 
     .line 36
     .line 37

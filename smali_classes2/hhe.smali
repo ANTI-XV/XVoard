@@ -78,7 +78,7 @@
 
     .line 14
     :cond_0
-    const-string p1, "com.google.android.gms.dynamic.IObjectWrapper"
+    const-string p1, ""
 
     .line 15
     .line 16

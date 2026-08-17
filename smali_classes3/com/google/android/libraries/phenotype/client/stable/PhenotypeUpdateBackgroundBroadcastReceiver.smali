@@ -22,7 +22,7 @@
     .locals 6
 
     .line 1
-    const-string v0, "com.google.android.gms.phenotype.PACKAGE_NAME"
+    const-string v0, ""
 
     .line 2
     .line 3

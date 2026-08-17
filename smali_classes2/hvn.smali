@@ -11,7 +11,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "com.google.android.gms.learning.internal.training.IBrellaInvocation"
+    const-string v0, ""
 
     .line 2
     .line 3
@@ -38,7 +38,7 @@
 
     .line 5
     :cond_0
-    const-string v0, "com.google.android.gms.learning.internal.training.IBrellaInvocation"
+    const-string v0, ""
 
     .line 6
     .line 7
@@ -87,7 +87,7 @@
     const/4 v0, 0x2
 
     .line 2
-    const-string v1, "com.google.android.gms.common.api.internal.IStatusCallback"
+    const-string v1, ""
 
     .line 3
     .line 4
@@ -143,7 +143,7 @@
 
     .line 26
     :cond_1
-    const-string v1, "com.google.android.gms.learning.internal.training.IHttpUrlConnectionFactory"
+    const-string v1, ""
 
     .line 27
     .line 28
@@ -275,7 +275,7 @@
     move-result-object p1
 
     .line 89
-    const-string v0, "com.google.android.gms.dynamic.IObjectWrapper"
+    const-string v0, ""
 
     .line 90
     .line 91
@@ -481,7 +481,7 @@
 
     .line 179
     :cond_d
-    const-string v0, "com.google.android.gms.learning.internal.training.IBrellaInvocationCallback"
+    const-string v0, ""
 
     .line 180
     .line 181

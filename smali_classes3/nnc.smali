@@ -169,7 +169,7 @@
 
     .line 48
     .line 49
-    const-string v22, "com.google.android.gms"
+    const-string v22, ""
 
     .line 50
     .line 51

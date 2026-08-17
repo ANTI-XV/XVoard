@@ -271,7 +271,7 @@
     move-result-object v3
 
     .line 83
-    const-string v5, "com.google.android.gms"
+    const-string v5, ""
 
     .line 84
     .line 85
@@ -312,7 +312,7 @@
 
     .line 103
     .line 104
-    const-string v6, "com.google.android.gms.phenotype.UPDATE"
+    const-string v6, ""
 
     .line 105
     .line 106
@@ -346,7 +346,7 @@
 
     .line 120
     .line 121
-    const-string v6, "com.google.android.gms.phenotype.UPDATE"
+    const-string v6, ""
 
     .line 122
     .line 123
