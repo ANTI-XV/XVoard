@@ -65,7 +65,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "2bf4b62968523855a8bdb3e934c535e476ab5a87-refs/branch-heads/6521@{#1}"
+    const-string v0, ""
 
     .line 2
     .line 3

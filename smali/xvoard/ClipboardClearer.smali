@@ -43,13 +43,7 @@
 
     check-cast v0, Landroid/content/ClipboardManager;
 
-    const-string v1, ""
-
-    invoke-static {v1, v1}, Landroid/content/ClipData;->newPlainText(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Landroid/content/ClipData;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Landroid/content/ClipboardManager;->setPrimaryClip(Landroid/content/ClipData;)V
+    invoke-virtual {v0}, Landroid/content/ClipboardManager;->clearPrimaryClip()V
 
     iget-object v0, p0, Lxvoard/ClipboardClearer;->handler:Landroid/os/Handler;
 

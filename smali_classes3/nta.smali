@@ -78,7 +78,7 @@
     move-result-object v2
 
     .line 22
-    const-string v3, "content://com.google.android.gms.phenotype/"
+    const-string v3, "content://.phenotype/"
 
     .line 23
     .line 24

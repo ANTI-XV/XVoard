@@ -8,7 +8,7 @@
 
 .field private static final CRONET_VERSION:Ljava/lang/String; = "127.0.6521.0"
 
-.field private static final LAST_CHANGE:Ljava/lang/String; = "2bf4b62968523855a8bdb3e934c535e476ab5a87-refs/branch-heads/6521@{#1}"
+.field private static final LAST_CHANGE:Ljava/lang/String; = ""
 
 .field private static final MIN_COMPATIBLE_API_LEVEL:I = 0x3
 
@@ -74,7 +74,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "2bf4b62968523855a8bdb3e934c535e476ab5a87-refs/branch-heads/6521@{#1}"
+    const-string v0, ""
 
     .line 2
     .line 3
