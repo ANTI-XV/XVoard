@@ -43,3 +43,4 @@ and you are done :) .
 <a href="https://t.me/XVoard">Telegram channel</a>
 <br>
 <a href="https://www.reddit.com/r/XVoard">Reddit</a>
+<a href="https://matrix.to/#/%23xvoard:matrix.org">Matrix</a>
