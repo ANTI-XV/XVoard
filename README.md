@@ -22,13 +22,12 @@ XVoard is a privacy and security focused version of Gboard that designed to give
 - stickers and GIFs and emoji kitchen don't and wouldn't work
 # 💻 installation guide 📱
 # For PC users: 
-1. Download the source code zip from above
-2. extract the .zip file
-4. Download <a href="https://github.com/iBotPeaches/Apktool">Apktool</a> 
-5. compile the source code by:
+1. install git at your computer and run `git clone https://github.com/ANTI-XV/XVoard`
+2. Download <a href="https://github.com/iBotPeaches/Apktool">Apktool</a> 
+3. compile the source code by:
 go to your terminal and type:
 `apktool b [PATH/TO/SOURCE/CODE]`
-6. sign the apk before installing it , to do that , Download <a href="https://github.com/patrickfav/uber-apk-signer/releases/tag/v1.3.0">uber apk signer</a> and run ```java -jar [PATH/TO/UBERAPKSIGNER] -apks [PATH/TO/XVOARD/APK]```
+4. sign the apk before installing it , to do that , Download <a href="https://github.com/patrickfav/uber-apk-signer/releases/tag/v1.3.0">uber apk signer</a> and run ```java -jar [PATH/TO/UBERAPKSIGNER] -apks [PATH/TO/XVOARD/APK]```
 # For mobile users:
 Follow the Guide <a href="https://github.com/ANTI-XV/termux-scipt-for-XVoard">Termux Script For XVoard</a>
 and you are done :) .
