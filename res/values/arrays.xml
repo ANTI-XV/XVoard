@@ -461,12 +461,24 @@
     </string-array>
     <string-array name="array_0x7f030006">
         <item>en-us</item>
+        <item>ar-dz</item>
+        <item>es-es</item>
+        <item>fr-fr</item>
+        <item>pl-pl</item>
     </string-array>
     <array name="array_0x7f030007">
         <item>@raw/main_en_us_d3</item>
+        <item>@raw/ar-dz_d3</item>
+        <item>@raw/es-es_d3</item>
+        <item>@raw/fr-fr_d3</item>
+        <item>@raw/pl-pl_d3</item>
     </array>
     <integer-array name="array_0x7f030008">
         <item>2024051500</item>
+        <item>2024022700</item>
+        <item>2024030100</item>
+        <item>2024041700</item>
+        <item>2024040900</item>
     </integer-array>
     <array name="array_0x7f030009">
         <item>@array/array_0x7f03000a</item>
