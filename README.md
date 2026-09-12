@@ -47,7 +47,7 @@ and here we go you are done , keep in mind the ru-ru ( russia russian ) is used 
 # credits ❤️‍🔥
 - <a href="https://github.com/ANTI-XV">DEXV</a> The creator of XVoard
 - <a href="https://github.com/jkennethcarino/adobo">adobo</a> The creator of Gboard patches that helped to improve XVoard
-- 
+- <a href="https://github.com/kusznier">kusznier</a> The one who fixes the resources issue , special thanks
 - <a href="https://discord.gg/spdPb4M3NE">SLE leaper</a> designer of XVoard icons
 # Social's 🎧
 <a href="https://discord.gg/spdPb4M3NE">Discord Server</a>
