@@ -145,7 +145,8 @@
     <string name="string_0x7f1400cd">Disabled because opt-in is disabled</string>
     <string name="string_0x7f1400ce">A notification to let users know that current application does not support pasting images.</string>
     <string name="string_0x7f1400cf">Turn on Clipboard</string>
-    <string name="string_0x7f1400d0">"Gboard's clipboard lets you copy text and images, keeping them for 1 hour, to quickly paste many things at once."</string>
+    <string name="string_0x7f1400d0">"Gboard's clipboard lets you copy text and images, keeping them
+        for 1 hour, to quickly paste many things at once."</string>
     <string name="string_0x7f1400d1">Copy more for faster pasting</string>
     <string name="string_0x7f1400d2">Turn on clipboard.</string>
     <string name="string_0x7f1400d3">Turn off clipboard</string>
@@ -181,16 +182,19 @@
     <string name="string_0x7f1400f5">"%1$s won't work unless you enable Google Play services."</string>
     <string name="string_0x7f1400f6">Enable Google Play services</string>
     <string name="string_0x7f1400f7">Install</string>
-    <string name="string_0x7f1400f8">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="string_0x7f1400f8">"%1$s won't run without Google Play services, which are missing
+        from your device."</string>
     <string name="string_0x7f1400f9">Get Google Play services</string>
     <string name="string_0x7f1400fa">Google Play services availability</string>
     <string name="string_0x7f1400fb">Google Play services error</string>
     <string name="string_0x7f1400fc">%1$s is having trouble with Google Play services. Please try again.</string>
-    <string name="string_0x7f1400fd">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="string_0x7f1400fd">"%1$s won't run without Google Play services, which are not
+        supported by your device."</string>
     <string name="string_0x7f1400fe">Update</string>
     <string name="string_0x7f1400ff">"%1$s won't run unless you update Google Play services."</string>
     <string name="string_0x7f140100">Update Google Play services</string>
-    <string name="string_0x7f140101">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="string_0x7f140101">"%1$s won't run without Google Play services, which are
+        currently updating."</string>
     <string name="string_0x7f140102">New version of Google Play services needed. It will update itself shortly.</string>
     <string name="string_0x7f140105">Open on phone</string>
     <string name="string_0x7f140109">Define the order of displayed access point icons, separated by semicolon</string>
@@ -284,7 +288,7 @@
     <string name="string_0x7f140165">generative sticker</string>
     <string name="string_0x7f140166">https://crowdsource.google.com/csf/?utm_source=gboard&amp;utm_medium=1p_referral&amp;utm_campaign=asr1k v_%1$s&amp;utm_content=voice_typing_unavailable_dialog&amp;utm_term=%2$s&amp;pl=%3$s&amp;hl=%4$s#/contribute/audio_donation</string>
     <string name="string_0x7f140167">Record and donate simple phrases in %s using Google Crowdsource to help make Google products even better for your language, region and culture.</string>
-    <string name="string_0x7f140168"><a href="https://crowdsource.google.com/about/">Learn About Google Crowdsource</a></string>
+    <string name="string_0x7f140168"> <a href="https://crowdsource.google.com/about/">Learn About Google Crowdsource</a> </string>
     <string name="string_0x7f140169">No thanks</string>
     <string name="string_0x7f14016a">Donate via Crowdsource</string>
     <string name="string_0x7f14016b">Donate audio to help Google get better at %s</string>
@@ -461,8 +465,9 @@
     <string name="string_0x7f14023f">enable_dynamic_diacritic_key=false</string>
     <string name="string_0x7f140240">enable_emoticon_multipage_ja_jp=true</string>
     <string name="string_0x7f140241">enable_flick_symbols=false</string>
-    <string name="string_0x7f140242">"Toggle on = Autocorrect suggestions are shown on the toolbar and at the cursor when toolbar is minimized
-Toggle off = Autocorrect suggestions are shown on the toolbar"</string>
+    <string name="string_0x7f140242">"Toggle on = Autocorrect suggestions are shown on the toolbar
+        and at the cursor when toolbar is minimized
+        Toggle off = Autocorrect suggestions are shown on the toolbar"</string>
     <string name="string_0x7f140243">Autocorrect suggestions shown at the cursor when toolbar is minimized</string>
     <string name="string_0x7f140244">config_global_direct_to_dictation=false</string>
     <string name="string_0x7f140245">enable_hebrew_qwerty_layout=false</string>
@@ -589,7 +594,7 @@ Toggle off = Autocorrect suggestions are shown on the toolbar"</string>
     <string name="string_0x7f1402d7">Search for Bitmoji Stickers</string>
     <string name="string_0x7f1402d8">Cancel current search query</string>
     <string name="string_0x7f1402d9">"Something's gone wrong.
-Please wait a while and then try again."</string>
+        Please wait a while and then try again."</string>
     <string name="string_0x7f1402da">Back to letter keyboard</string>
     <string name="string_0x7f1402db">AI Stickers</string>
     <string name="string_0x7f1402dc">Search for emoji</string>
@@ -614,7 +619,7 @@ Please wait a while and then try again."</string>
     <string name="string_0x7f1402ef">Recents</string>
     <string name="string_0x7f1402f0">Recent used stickers</string>
     <string name="string_0x7f1402f1">"Something's gone wrong.
-Please wait a moment and then try again."</string>
+        Please wait a moment and then try again."</string>
     <string name="string_0x7f1402f2">Rich Symbols</string>
     <string name="string_0x7f1402f3">Search %s</string>
     <string name="string_0x7f1402f4">Search keyboard</string>
@@ -658,9 +663,9 @@ Please wait a moment and then try again."</string>
     <string name="string_0x7f14031f">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
     <string name="string_0x7f140320">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
     <string name="string_0x7f140322">Go</string>
-    <string name="google_api_key">AIzaSyDPejeIUWuoRgIrn35eLPSjig2WR8C3jBg</string>
-    <string name="google_app_id">1:917133497490:android:439bf8f355424942</string>
-    <string name="google_crash_reporting_api_key">AIzaSyDPejeIUWuoRgIrn35eLPSjig2WR8C3jBg</string>
+    <string name="google_api_key" />
+    <string name="google_app_id">99</string>
+    <string name="google_crash_reporting_api_key" />
     <string name="google_storage_bucket">gboard-1132.google.com.a.appspot.com</string>
     <string name="string_0x7f140329">Handwrite here!</string>
     <string name="string_0x7f14032a">Waiting for the handwriting support to download...</string>
@@ -829,16 +834,17 @@ Please wait a moment and then try again."</string>
     <string name="string_0x7f1403e0">Fix it</string>
     <string name="string_0x7f1403e1">More fixes</string>
     <string name="string_0x7f1403e2">Close proofread</string>
-    <string name="string_0x7f1403e3">"Use Gboard to proofread your text and correct spelling, grammar, and punctuation. Just tap to fix the error, or say “Fix it” when you’re using Assistant voice typing.
-
-The text that’s proofread will be sent to Google and temporarily processed to create grammar and writing suggestions.
-
-Your use of the proofreading feature in Gboard is subject to the "<a href="https://policies.google.com/terms/generative-ai">Generative AI Terms of Service</a>". To learn how your data is handled, visit the
-"<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</string>
+    <string name="string_0x7f1403e3">"Use Gboard to proofread your text and correct spelling,
+        grammar, and punctuation. Just tap to fix the error, or say “Fix it” when you’re using
+        Assistant voice typing. The text that’s proofread will be sent to Google and temporarily
+        processed to create grammar and writing suggestions. Your use of the proofreading feature in
+        Gboard is subject to the "<a href="https://policies.google.com/terms/generative-ai">Generative AI Terms of Service</a>. To learn how your data is handled, visit the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</string>
     <string name="string_0x7f1403e5">Proofread with Gboard</string>
-    <string name="string_0x7f1403e6">"The text that’s proofread and your feedback will be sent to Google and may be read by human reviewers to improve this feature and Google’s machine learning technologies. Do not send feedback if the text that’s proofread contains personal information that can be used to identify you or others.
-
-To learn how your data is handled, visit the "<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</string>
+    <string name="string_0x7f1403e6">"The text that’s proofread and your feedback will be sent to
+        Google and may be read by human reviewers to improve this feature and Google’s machine
+        learning technologies. Do not send feedback if the text that’s proofread contains personal
+        information that can be used to identify you or others. To learn how your data is handled,
+        visit the "<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</string>
     <string name="string_0x7f1403e7">Send feedback?</string>
     <string name="string_0x7f1403e8">Try again</string>
     <string name="string_0x7f1403ea">Proofreading message…</string>
@@ -1263,17 +1269,17 @@ To learn how your data is handled, visit the "<a href="https://policies.google.c
     <string name="string_0x7f1405ff">Editing…</string>
     <string name="string_0x7f140600">Stop Assistant voice Typing</string>
     <string name="string_0x7f140601">Assistant voice dictation is not available right now</string>
-    <string name="string_0x7f140602"><a href="https://support.google.com/gboard/answer/11197787?hl=en#zippy=%2Cyouve-set-up-your-new-pixel-but-assistant-voice-typing-still-isnt-available">Learn more</a></string>
+    <string name="string_0x7f140602"> <a href="https://support.google.com/gboard/answer/11197787?hl=en#zippy=%2Cyouve-set-up-your-new-pixel-but-assistant-voice-typing-still-isnt-available">Learn more</a> </string>
     <string name="string_0x7f140603">Educational tip about using commands while dictating.</string>
     <string name="string_0x7f140605">No application found to handle the action</string>
     <string name="string_0x7f140606">"All set!
-Your message has been proofread."</string>
+        Your message has been proofread."</string>
     <string name="string_0x7f140607">All set! Your message has been proofread.</string>
     <string name="string_0x7f140608">No emoji found</string>
     <string name="string_0x7f140609">No GIFs found</string>
     <string name="string_0x7f14060a">No keys assigned</string>
     <string name="string_0x7f140613">"Can’t find any suggestions.
- Check back as suggestions keep improving."</string>
+        Check back as suggestions keep improving."</string>
     <string name="string_0x7f140614">No suggestions available</string>
     <string name="string_0x7f140615">no results</string>
     <string name="string_0x7f140616">No results found</string>
@@ -1291,7 +1297,7 @@ Your message has been proofread."</string>
     <string name="string_0x7f140625">%1$s does not support image pasting here.</string>
     <string name="string_0x7f140626">Tap here to start searching in Indian language:</string>
     <string name="string_0x7f140627">"Enjoy typing in %1$s?
- Share with others."</string>
+        Share with others."</string>
     <string name="string_0x7f140628">Tap to enable contact suggestions.</string>
     <string name="string_0x7f14062a">Number</string>
     <string name="string_0x7f14062b">Number keyboard</string>
@@ -1302,7 +1308,7 @@ Your message has been proofread."</string>
     <string name="string_0x7f140632">60FA3283-7560-4962-BA8A-029C63305568</string>
     <string name="string_0x7f140633">5D1E452C-0442-4410-BEC8-716768C8B351</string>
     <string name="string_0x7f140634">"On-device proofread is temporarily unavailable.
-Please join AiCore dogfood(g/aicore-dogfood) and try later"</string>
+        Please join AiCore dogfood(g/aicore-dogfood) and try later"</string>
     <string name="string_0x7f140635">Faster voice typing has been installed (100MB) and now works offline. You can deactivate this from &lt;linkable>Settings>Voice Typing&lt;/linkable>.</string>
     <string name="string_0x7f140636">Faster voice typing has been installed (100MB) and now works offline. You can deactivate this from Settings.</string>
     <string name="string_0x7f140637">A promo to let users know that a faster voice typing experience is now available for them.</string>
@@ -1350,7 +1356,8 @@ Please join AiCore dogfood(g/aicore-dogfood) and try later"</string>
     <string name="string_0x7f14067c">Optional shortcut</string>
     <string name="string_0x7f14067d">Shortcut:</string>
     <string name="string_0x7f14067e">Type a word</string>
-    <string name="string_0x7f14067f">"You don't have any words in the personal dictionary. To add a word, tap the Add (+) button."</string>
+    <string name="string_0x7f14067f">"You don't have any words in the personal dictionary. To add a
+        word, tap the Add (+) button."</string>
     <string name="string_0x7f140680">Dial keyboard</string>
     <string name="string_0x7f140681">Phone number</string>
     <string name="string_0x7f140682">Dial keyboard</string>
@@ -2084,13 +2091,21 @@ Please join AiCore dogfood(g/aicore-dogfood) and try later"</string>
     <string name="string_0x7f14098a">Audio donations</string>
     <string name="string_0x7f14098b">Use voice typing</string>
     <string name="string_0x7f14098c">Automatically add punctuation when using voice typing</string>
-    <string name="string_0x7f14098d">"Automatically switch to the language you're speaking when using languages supported by Assistant voice typing"</string>
+    <string name="string_0x7f14098d">"Automatically switch to the language you're speaking when
+        using languages supported by Assistant voice typing"</string>
     <string name="string_0x7f14098e">&lt;br>&lt;helpcenterlink>Learn more&lt;/helpcenterlink> &lt;br>&lt;br>&lt;learningcenterlink>See voice commands&lt;/learningcenterlink> &lt;br>&lt;br>&lt;personalizationlink>Manage personalization&lt;/personalizationlink></string>
-    <string name="string_0x7f14098f">"You can't currently use Assistant voice typing. &lt;br>&lt;helpcenterlink>Learn more&lt;/helpcenterlink>"</string>
+    <string name="string_0x7f14098f">"You can't currently use Assistant voice typing.
+        &lt;br>&lt;helpcenterlink>Learn more&lt;/helpcenterlink>"</string>
     <string name="string_0x7f140990">Fix spelling, punctuation and grammar errors by saying “fix it”</string>
     <string name="string_0x7f140991">Use Google Assistant to type and edit messages, add emoji, and more</string>
     <string name="string_0x7f140992">Emojis, Stickers &amp; GIFs (Stickers and GIFs doesnt and wont work)</string>
-    <string name="string_0x7f140994">"Help Google get better at recognizing words and phrases for everyone, based on your Gboard usage patterns on this device. &lt;br>&lt;br>These patterns are combined with learnings from other users, and used to improve Google's voice and typing services. &lt;br>&lt;br>Audio recordings and transcripts of what you say will be saved on this device. This setting does not affect how Google processes, transcribes, and learns from your dictated audio in real time or from Gboard voice typing audio snippets that you donate. &lt;br>&lt;br>&lt;linkable>Learn more&lt;/linkable>"</string>
+    <string name="string_0x7f140994">"Help Google get better at recognizing words and phrases for
+        everyone, based on your Gboard usage patterns on this device. &lt;br>&lt;br>These patterns
+        are combined with learnings from other users, and used to improve Google's voice and typing
+        services. &lt;br>&lt;br>Audio recordings and transcripts of what you say will be saved on
+        this device. This setting does not affect how Google processes, transcribes, and learns from
+        your dictated audio in real time or from Gboard voice typing audio snippets that you donate.
+        &lt;br>&lt;br>&lt;linkable>Learn more&lt;/linkable>"</string>
     <string name="string_0x7f140996">Improve for everyone</string>
     <string name="string_0x7f140997">setting_flag_editor_key</string>
     <string name="string_0x7f140998">Flag editor</string>
@@ -2199,7 +2214,8 @@ Please join AiCore dogfood(g/aicore-dogfood) and try later"</string>
     <string name="string_0x7f140a01">5 sec</string>
     <string name="string_0x7f140a02">This setting controls how long Gboard waits before it turns a Morse code sequence into a letter. The default timeout is 1 second.</string>
     <string name="string_0x7f140a03">Mini keyboard height</string>
-    <string name="string_0x7f140a04">"This setting controls how long Gboard waits before it turns a series of letters into a word. This setting is off by default, so there's no timeout."</string>
+    <string name="string_0x7f140a04">"This setting controls how long Gboard waits before it turns a
+        series of letters into a word. This setting is off by default, so there's no timeout."</string>
     <string name="string_0x7f140a05">This setting lets you hold down the dot (.) or dash (-) to repeat the keystroke. For example, press and hold the dash (-) key to produce multiple dashes.</string>
     <string name="string_0x7f140a06">Word timeout</string>
     <string name="string_0x7f140a07">0.25 sec</string>
@@ -2254,9 +2270,11 @@ Please join AiCore dogfood(g/aicore-dogfood) and try later"</string>
     <string name="string_0x7f140a3a">Show canonical romanization</string>
     <string name="string_0x7f140a3b">Show a button on the keyboard toolbar to open emoji keyboard</string>
     <string name="string_0x7f140a3c">Emojis on toolbar</string>
-    <string name="string_0x7f140a3d">"Show a dedicated key to access emoji. When turned on, the language switch key can't be shown"</string>
+    <string name="string_0x7f140a3d">"Show a dedicated key to access emoji. When turned on, the
+        language switch key can't be shown"</string>
     <string name="string_0x7f140a3e">Show emoji switch key</string>
-    <string name="string_0x7f140a3f">"Show a dedicated key to switch languages. When turned on, the emoji switch key can't be shown"</string>
+    <string name="string_0x7f140a3f">"Show a dedicated key to switch languages. When turned on, the
+        emoji switch key can't be shown"</string>
     <string name="string_0x7f140a40">Show a dedicated key to switch languages</string>
     <string name="string_0x7f140a41">Show language switch key</string>
     <string name="string_0x7f140a42">Display application icon in the launcher</string>
@@ -2299,8 +2317,7 @@ Please join AiCore dogfood(g/aicore-dogfood) and try later"</string>
     <string name="string_0x7f140a6d">Vibration strength on keypress</string>
     <string name="string_0x7f140a6e">All voice commands</string>
     <string name="string_0x7f140a6f">Snippets of your audio input on Gboard will be sent to and stored on Google servers to help improve speech recognition for everyone. This setting does not affect audio saved on your device or how Google processes, transcribes, and learns from your audio in real time</string>
-    <string name="string_0x7f140a70">"
-"<a href="https://github.com/Justlinuxyourself">credit: Ali Yahya Ali Sumail ( feature suggester) </a></string>
+    <string name="string_0x7f140a70"> <a href="https://github.com/Justlinuxyourself">credit: Ali Yahya Ali Sumail ( feature suggester) </a></string>
     <string name="string_0x7f140a71">Voice typing (doesnt work for now :( )</string>
     <string name="string_0x7f140a72">Used by work apps</string>
     <string name="string_0x7f140a73">Work dictionary</string>
@@ -2439,7 +2456,8 @@ Please join AiCore dogfood(g/aicore-dogfood) and try later"</string>
     <string name="string_0x7f140b08">Use your stylus to scratch out a word or phrase to delete it</string>
     <string name="string_0x7f140b09">Insert</string>
     <string name="string_0x7f140b0a">Draw a caret to add a &lt;b>new &lt;/b>space</string>
-    <string name="string_0x7f140b0b">"Use your stylus to draw a caret or arrow where you'd like to add new text"</string>
+    <string name="string_0x7f140b0b">"Use your stylus to draw a caret or arrow where you'd like to
+        add new text"</string>
     <string name="string_0x7f140b0c">Join/split</string>
     <string name="string_0x7f140b0d">Draw vertical lines to &lt;b>join&lt;/b> text or separate&lt;b>words&lt;/b></string>
     <string name="string_0x7f140b0e">Draw a “|” between text to insert a space or merge the text before and after the space</string>
@@ -3210,16 +3228,16 @@ Please join AiCore dogfood(g/aicore-dogfood) and try later"</string>
     <string name="string_0x7f140e13">([{&amp;«„“</string>
     <string name="string_0x7f140e14">"¡¿
 
-"</string>
+        "</string>
     <string name="string_0x7f140e15">"।॥.?‽!
 
-。？！"</string>
+        。？！"</string>
     <string name="string_0x7f140e16">#@&amp;._*</string>
     <string name="string_0x7f140e17">,-:;</string>
     <string name="string_0x7f140e18">"'-"</string>
     <string name="string_0x7f140e19">"।॥ \t
 
- ​()[]{}*&amp;&lt;>+=|.,;:!?‽/\"¡¿、：；（）〜…。，？！"</string>
+         ​()[]{}*&amp;&lt;>+=|.,;:!?‽/\"¡¿、：；（）〜…。，？！"</string>
     <string name="string_0x7f140e1a">ro.com.google.ime.number_row</string>
     <string name="string_0x7f140e1b">ro.com.google.ime.vibration</string>
     <string name="string_0x7f140e1c">ro.com.google.ime.key_border</string>
@@ -3363,7 +3381,7 @@ Please join AiCore dogfood(g/aicore-dogfood) and try later"</string>
     <string name="string_0x7f140eaa">Please input the bug’s title.</string>
     <string name="string_0x7f140eab">No permission to enable:</string>
     <string name="string_0x7f140eac">"No permission to enable:
-Voice typing"</string>
+        Voice typing"</string>
     <string name="string_0x7f140ead">This application has disabled scrubbing.</string>
     <string name="string_0x7f140eae">Emoji search data unavailable.</string>
     <string name="string_0x7f140eaf">Emoji search doesnt work for the language.</string>
@@ -3372,9 +3390,9 @@ Voice typing"</string>
     <string name="string_0x7f140eb2">Double-tap to caps lock</string>
     <string name="string_0x7f140eb3">Hold and drag to move toolbar</string>
     <string name="string_0x7f140eb4">Got it</string>
-    <string name="string_0x7f140eb5"><b>alt</b></string>
-    <string name="string_0x7f140eb6"><b>1</b></string>
-    <string name="string_0x7f140eb7"><b>+</b></string>
+    <string name="string_0x7f140eb5"> <b>alt</b> </string>
+    <string name="string_0x7f140eb6"> <b>1</b> </string>
+    <string name="string_0x7f140eb7"> <b>+</b> </string>
     <string name="string_0x7f140eb8">https://github.com/ANTIXV</string>
     <string name="string_0x7f140eb9">Translate</string>
     <string name="string_0x7f140eba">Connecting to Google Translate server</string>
@@ -4496,11 +4514,20 @@ Voice typing"</string>
     <string name="string_0x7f141351">a promo to confirm with users that they have agreed to donate their audio input to help improve voice typing.</string>
     <string name="string_0x7f141352">Thanks for improving voice typing</string>
     <string name="string_0x7f141353">If you agree, snippets of your audio input on Gboard will be sent to and stored by Google to help improve voice typing for everyone.</string>
-    <string name="string_0x7f141354">"Your audio snippets will be sent to and stored on Google’s servers and used in line with Google's &lt;linkable>privacy policy.&lt;/linkable> They'll only be used to improve speech technology. As part of this improvement, human reviewers may listen to or transcribe some snippets."</string>
+    <string name="string_0x7f141354">"Your audio snippets will be sent to and stored on Google’s
+        servers and used in line with Google's &lt;linkable>privacy policy.&lt;/linkable> They'll
+        only be used to improve speech technology. As part of this improvement, human reviewers may
+        listen to or transcribe some snippets."</string>
     <string name="string_0x7f141355">Used only to improve technology</string>
-    <string name="string_0x7f141356">"&lt;html>You can remove permission to store new audio snippets on Google servers anytime by turning this feature off in &lt;linkable>keyboard settings.&lt;/linkable> You won't have access to your audio snippets once they're sent to Google.&lt;/html>"</string>
+    <string name="string_0x7f141356">"&lt;html>You can remove permission to store new audio snippets
+        on Google servers anytime by turning this feature off in &lt;linkable>keyboard
+        settings.&lt;/linkable> You won't have access to your audio snippets once they're sent to
+        Google.&lt;/html>"</string>
     <string name="string_0x7f141357">Change your settings anytime</string>
-    <string name="string_0x7f141358">"Your audio snippets won't be associated with you or your account. Snippets include a maximum of 15 seconds of speech and may be up to 25 seconds long if there are periods of silence or unrecognized speech. Google won't keep them beyond 18 months."</string>
+    <string name="string_0x7f141358">"Your audio snippets won't be associated with you or your
+        account. Snippets include a maximum of 15 seconds of speech and may be up to 25 seconds long
+        if there are periods of silence or unrecognized speech. Google won't keep them beyond 18
+        months."</string>
     <string name="string_0x7f141359">Not associated with you</string>
     <string name="string_0x7f14135a">Horizontal divider</string>
     <string name="string_0x7f14135b">Donating audio snippets</string>

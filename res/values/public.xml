@@ -16938,8 +16938,12 @@
     <public type="raw" name="raw_0x7f130051" id="0x7f130051" />
     <public type="raw" name="raw_0x7f130052" id="0x7f130052" />
     <public type="raw" name="raw_0x7f130053" id="0x7f130053" />
+    <public type="raw" name="ar-dz_d3" id="0x7f130054" />
     <public type="raw" name="raw_0x7f130055" id="0x7f130055" />
     <public type="raw" name="raw_0x7f130056" id="0x7f130056" />
+    <public type="raw" name="es-es_d3" id="0x7f130057" />
+    <public type="raw" name="fr-fr_d3" id="0x7f130058" />
+    <public type="raw" name="pl-pl_d3" id="0x7f130059" />
     <public type="raw" name="raw_0x7f13005c" id="0x7f13005c" />
     <public type="raw" name="raw_0x7f13005d" id="0x7f13005d" />
     <public type="raw" name="raw_0x7f13005e" id="0x7f13005e" />

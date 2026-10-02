@@ -76,13 +76,6 @@
         <service android:exported="false" android:name="com.google.android.libraries.inputmethod.featuresplit.metrics.FeatureSplitMultiprocessMetricsService"/>
         <activity android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.google.android.libraries.inputmethod.permissions.PermissionsActivity" android:taskAffinity="" android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar"/>
         <service android:exported="false" android:name="com.google.android.libraries.inputmethod.taskscheduler.JobSchedulerImpl$TaskRunnerJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <activity android:exported="false" android:name="com.google.android.libraries.inputmethod.workprofile.EmptyActivity" android:theme="@style/TransparentActivity"/>
-        <activity android:exported="false" android:name="com.google.android.libraries.inputmethod.workprofile.TrampolineActivity" android:theme="@style/TransparentActivity"/>
-        <receiver android:exported="false" android:name="com.google.android.libraries.inputmethod.workprofile.CanInteractAcrossProfilesBroadcastReceiver">
-            <intent-filter>
-                <action android:name="android.content.pm.action.CAN_INTERACT_ACROSS_PROFILES_CHANGED"/>
-            </intent-filter>
-        </receiver>
         <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
         <uses-library android:name="androidx.window.extensions" android:required="false"/>
         <uses-library android:name="androidx.window.sidecar" android:required="false"/>

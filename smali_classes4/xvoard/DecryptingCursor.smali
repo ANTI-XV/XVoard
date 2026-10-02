@@ -33,7 +33,7 @@
 
     move-result v3
 
-    if-nez v3, :cond_decrypt
+    if-nez v3, :cond_0
 
     const-string v2, "html_text"
 
@@ -41,13 +41,13 @@
 
     move-result v3
 
-    if-eqz v3, :cond_not_sensitive
+    if-eqz v3, :cond_1
 
-    :cond_decrypt
+    :cond_0
     invoke-static {v0}, Lxvoard/ClipboardCrypto;->decrypt(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    :cond_not_sensitive
+    :cond_1
     return-object v0
 .end method

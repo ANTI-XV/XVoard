@@ -1,4 +1,4 @@
-version: 3.0.2-dirty
+version: 3.0.3
 apkFileName: XVoard-BXV.apk
 usesFramework:
   ids:
@@ -66,15 +66,15 @@ doNotCompress:
 - res/raw-zh-rTW/raw_0x7f130078
 - res/raw-zh-rTW/raw_0x7f130079
 - res/raw-zh-rTW/raw_0x7f13007a
+- res/raw/ar-dz_d3.dict
 - res/raw/com_google_android_gms_icing_mdd_registration_info.binarypb
 - res/raw/com_google_android_gms_learning_registration_info.binarypb
 - res/raw/com_google_android_libraries_consentverifier_heterodyne_info
 - res/raw/com_google_android_libraries_consentverifier_registration_info.binarypb
 - res/raw/com_google_android_libraries_performance_primes_registration_info.binarypb
-- res/raw/main_en_us_d3.dict
-- res/raw/ar-dz_d3.dict
 - res/raw/es-es_d3.dict
 - res/raw/fr-fr_d3.dict
+- res/raw/main_en_us_d3.dict
 - res/raw/pl-pl_d3.dict
 - res/raw/raw_0x7f130000.pb
 - res/raw/raw_0x7f130004
