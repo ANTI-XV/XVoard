@@ -16941,9 +16941,11 @@
     <public type="raw" name="ar-dz_d3" id="0x7f130054" />
     <public type="raw" name="raw_0x7f130055" id="0x7f130055" />
     <public type="raw" name="raw_0x7f130056" id="0x7f130056" />
-    <public type="raw" name="es-es_d3" id="0x7f130057" />
-    <public type="raw" name="fr-fr_d3" id="0x7f130058" />
-    <public type="raw" name="pl-pl_d3" id="0x7f130059" />
+    <public type="raw" name="bn-bd_d3" id="0x7f130057" />
+    <public type="raw" name="es-es_d3" id="0x7f130058" />
+    <public type="raw" name="fr-fr_d3" id="0x7f130059" />
+    <public type="raw" name="hi-in_d3" id="0x7f13005a" />
+    <public type="raw" name="pl-pl_d3" id="0x7f13005b" />
     <public type="raw" name="raw_0x7f13005c" id="0x7f13005c" />
     <public type="raw" name="raw_0x7f13005d" id="0x7f13005d" />
     <public type="raw" name="raw_0x7f13005e" id="0x7f13005e" />
@@ -16967,6 +16969,7 @@
     <public type="raw" name="raw_0x7f130070" id="0x7f130070" />
     <public type="raw" name="raw_0x7f130071" id="0x7f130071" />
     <public type="raw" name="main_en_us_d3" id="0x7f130072" />
+    <public type="raw" name="pt-pt_d3" id="0x7f130073" />
     <public type="raw" name="metadata" id="0x7f130074" />
     <public type="raw" name="raw_0x7f130075" id="0x7f130075" />
     <public type="raw" name="raw_0x7f130076" id="0x7f130076" />
@@ -16978,7 +16981,9 @@
     <public type="raw" name="raw_0x7f13007c" id="0x7f13007c" />
     <public type="raw" name="third_party_license_metadata" id="0x7f13007d" />
     <public type="raw" name="third_party_licenses" id="0x7f13007e" />
+    <public type="raw" name="ru-ru_d3" id="0x7f13007f" />
     <public type="raw" name="raw_0x7f130080" id="0x7f130080" />
+    <public type="raw" name="ur-pk_d3" id="0x7f130081" />
     <public type="raw" name="raw_0x7f130083" id="0x7f130083" />
     <public type="raw" name="raw_0x7f130084" id="0x7f130084" />
     <public type="raw" name="raw_0x7f130085" id="0x7f130085" />
