@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">הוקצו %d תווים</item>
+        <item quantity="two">הוקצו %d תווים</item>
+        <item quantity="other">הוקצו %d תווים</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s מותקנות עכשיו.</item>
+        <item quantity="two">%s מותקנות עכשיו.</item>
+        <item quantity="other">%s מותקנות עכשיו.</item>
+    </plurals>
+</resources>

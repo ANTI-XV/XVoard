@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f1409c9">
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409cd" android:key="@string/string_0x7f140788" android:summary="@string/string_0x7f1409cc" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409cf" android:key="@string/string_0x7f140783" android:summary="@string/string_0x7f1409ce" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

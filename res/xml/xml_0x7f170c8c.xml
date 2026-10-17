@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <processors>
+        <processor class="com.google.android.libraries.inputmethod.ime.processor.AppCompletionsProcessor" />
+        <processor class="com.google.android.apps.inputmethod.libs.korean.HmmKoreanHardKeyboardDecodeProcessor" />
+        <processor class="com.google.android.apps.inputmethod.libs.korean.KoreanDoubleSpaceProcessor" />
+        <processor class="com.google.android.apps.inputmethod.libs.korean.KoreanAutoSpaceProcessor" />
+        <processor class="com.google.android.libraries.inputmethod.ime.processor.OutputProcessor" />
+    </processors>
+</framework>

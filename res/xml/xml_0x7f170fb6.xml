@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170fde" />
+    <softkeys>
+        <softkey alpha="@attr/attr_0x7f0401a0" content_description="@string/string_0x7f140927" id="@id/id_0x7f0b06a9" layout="@layout/layout_0x7f0e0744" popup_timing="ON_GESTURE">
+            <action data="'" intention="DECODE" keycode="APOSTROPHE" type="PRESS" />
+            <action data="1" intention="COMMIT" keycode="KEYCODE_1" popup_label="1" popup_layout="@attr/attr_0x7f04020b" type="LONG_PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803c0" />
+            <label location="@id/id_0x7f0b04dc" value="1" />
+        </softkey>
+        <softkey_template content_description="$desc$" id="@id/id_0x7f0b1cf3" layout="@layout/layout_0x7f0e070f" multi_touch="false" popup_timing="ON_GESTURE" slide_sensitivity="LESS">
+            <action data="$press_data$" intention="DECODE" keycode="$keycode_press$" type="PRESS" />
+            <action data="$long_press_data$" intention="COMMIT" keycode="$keycode_long_press$" popup_label="$long_press_data$" popup_layout="@attr/attr_0x7f04020b" type="LONG_PRESS" />
+            <action data="$slideup_data$" intention="DECODE" keycode="$keycode_slideup$" popup_label="$slideup_data$" type="SLIDE_UP" />
+            <action data="$slidedown_data$" intention="DECODE" keycode="$keycode_slidedown$" popup_label="$slidedown_data$" type="SLIDE_DOWN" />
+            <action data="$slideleft_data$" intention="DECODE" keycode="$keycode_slideleft$" popup_label="$slideleft_data$" type="SLIDE_LEFT" />
+            <action data="$slideright_data$" intention="DECODE" keycode="$keycode_slideright$" popup_label="$slideright_data$" type="SLIDE_RIGHT" />
+            <label location="@id/id_0x7f0b04d0" value="$key_text$" />
+            <label location="@id/id_0x7f0b04dc" value="$long_press_label$" />
+        </softkey_template>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cf3">
+            <softkey desc="@string/string_0x7f140010" id="@id/id_0x7f0b06aa" key_text="abc" keycode_long_press="KEYCODE_2" keycode_press="KEYCODE_2" keycode_slideleft="A" keycode_slideright="C" keycode_slideup="B" long_press_data="2 c a b" long_press_label="2" press_data="2" slideleft_data="a" slideright_data="c" slideup_data="b" />
+            <softkey desc="@string/string_0x7f140188" id="@id/id_0x7f0b06ab" key_text="def" keycode_long_press="KEYCODE_3" keycode_press="KEYCODE_3" keycode_slideleft="D" keycode_slideright="F" keycode_slideup="E" long_press_data="3 f d e" long_press_label="3" press_data="3" slideleft_data="d" slideright_data="f" slideup_data="e" />
+            <softkey desc="@string/string_0x7f140308" id="@id/id_0x7f0b06ac" key_text="ghi" keycode_long_press="KEYCODE_4" keycode_press="KEYCODE_4" keycode_slideleft="G" keycode_slideright="I" keycode_slideup="H" long_press_data="4 i g h" long_press_label="4" press_data="4" slideleft_data="g" slideright_data="i" slideup_data="h" />
+            <softkey desc="@string/string_0x7f1403f4" id="@id/id_0x7f0b06ad" key_text="jkl" keycode_long_press="KEYCODE_5" keycode_press="KEYCODE_5" keycode_slideleft="J" keycode_slideright="L" keycode_slideup="K" long_press_data="5 l j k" long_press_label="5" press_data="5" slideleft_data="j" slideright_data="l" slideup_data="k" />
+            <softkey desc="@string/string_0x7f14059e" id="@id/id_0x7f0b06ae" key_text="mno" keycode_long_press="KEYCODE_6" keycode_press="KEYCODE_6" keycode_slideleft="M" keycode_slideright="O" keycode_slideup="N" long_press_data="6 o m n" long_press_label="6" press_data="6" slideleft_data="m" slideright_data="o" slideup_data="n" />
+            <softkey desc="@string/string_0x7f140696" id="@id/id_0x7f0b06af" key_text="pqrs" keycode_long_press="KEYCODE_7" keycode_press="KEYCODE_7" keycode_slidedown="R" keycode_slideleft="P" keycode_slideright="S" keycode_slideup="Q" long_press_data="7 s p q r" long_press_label="7" press_data="7" slidedown_data="r" slideleft_data="p" slideright_data="s" slideup_data="q" />
+            <softkey desc="@string/string_0x7f140ed8" id="@id/id_0x7f0b06b5" key_text="tuv" keycode_long_press="KEYCODE_8" keycode_press="KEYCODE_8" keycode_slideleft="T" keycode_slideright="V" keycode_slideup="U" long_press_data="8 v t u" long_press_label="8" press_data="8" slideleft_data="t" slideright_data="v" slideup_data="u" />
+            <softkey desc="@string/string_0x7f141399" id="@id/id_0x7f0b06bf" key_text="wxyz" keycode_long_press="KEYCODE_9" keycode_press="KEYCODE_9" keycode_slidedown="Y" keycode_slideleft="W" keycode_slideright="Z" keycode_slideup="X" long_press_data="9 z w x y" long_press_label="9" press_data="9" slidedown_data="y" slideleft_data="w" slideright_data="z" slideup_data="x" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b06b0" layout="@layout/layout_0x7f0e070f" popup_timing="ON_GESTURE">
+            <action data=";" intention="DECODE" keycode="SEMICOLON" type="PRESS" />
+            <action data="1" intention="COMMIT" keycode="KEYCODE_1" popup_label="1" popup_layout="@attr/attr_0x7f04020b" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value=";" />
+            <label location="@id/id_0x7f0b04dc" value="1" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b06b1" layout="@layout/layout_0x7f0e07a8" multi_touch="false" popup_timing="ON_GESTURE">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <action data="0" intention="COMMIT" keycode="KEYCODE_0" popup_label="0" popup_layout="@attr/attr_0x7f04020c" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f1404d0" />
+            <label location="@id/id_0x7f0b04dc" value="0" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140211" id="@id/id_0x7f0b0a96" layout="@layout/layout_0x7f0e072f">
+            <action data="@string/string_0x7f140425" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08040a" />
+        </softkey>
+        <softkey alpha="@integer/integer_0x7f0c0067" content_description="" id="@id/id_0x7f0b07ed" layout="@layout/layout_0x7f0e072f">
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803bb" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f1400af" id="@id/id_0x7f0b07ee" layout="@layout/layout_0x7f0e072f">
+            <action data="SUB_CATEGORY_1" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803bd" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f1400b0" id="@id/id_0x7f0b07ef" layout="@layout/layout_0x7f0e072f">
+            <action data="SUB_CATEGORY_2" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803bd" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f1400ad" id="@id/id_0x7f0b07ea" layout="@layout/layout_0x7f0e072f">
+            <action data="SUB_CATEGORY_2" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803b9" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f1400ae" id="@id/id_0x7f0b07eb" layout="@layout/layout_0x7f0e072f">
+            <action data="SUB_CATEGORY_3" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803b9" />
+        </softkey>
+        <softkey alpha="@integer/integer_0x7f0c0067" content_description="" id="@id/id_0x7f0b07ec" layout="@layout/layout_0x7f0e072f">
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803b7" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f14019e" disable_lift_to_tap="true" id="@id/id_0x7f0b18c8" layout="@layout/layout_0x7f0e0788">
+            <action data="prime" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f040124" />
+        </softkey>
+    </softkeys>
+</framework>

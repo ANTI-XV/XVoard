@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <keyboard class=".latin.keyboard.LatinSymbolsKeyboard" popup="@attr/attr_0x7f040201" recent_key_layout="@layout/layout_0x7f0e076e" recent_key_popup_layout="@layout/layout_0x7f0e0694">
+            <view direction="locale" layout="@layout/layout_0x7f0e0590" scalable="false" type="header">
+                <softkeys href="@xml/xml_0x7f170cd8" />
+                <include href="@xml/xml_0x7f170b48" />
+            </view>
+            <view layout="@layout/layout_0x7f0e0570" type="body">
+                <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+                <motion_event_handler class=".motioneventhandler.ScrubDeleteMotionEventHandler" preference_key="@string/string_0x7f140736" reverse_preference="false" />
+                <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+                <motion_event_handler class=".motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+                <if language="zh">
+                    <softkeys href="@xml/xml_0x7f170fd9" />
+                </if>
+                <else>
+                    <softkeys href="@xml/xml_0x7f170fd7" />
+                </else>
+                <softkeys href="@xml/xml_0x7f170cc1" />
+                <softkeys href="@xml/xml_0x7f170cc6" />
+                <softkeys href="@xml/xml_0x7f170fdb" />
+                <softkeys href="@xml/xml_0x7f170ec8" />
+                <softkeys href="@xml/xml_0x7f170cb2" />
+                <softkeys href="@xml/xml_0x7f170cd1" />
+                <if device="tablet" device_size="large" keyboard_mode="normal">
+                    <softkeys href="@xml/xml_0x7f170fe2" />
+                </if>
+                <include href="@xml/xml_0x7f170a6d" />
+                <include href="@xml/xml_0x7f170a8c" />
+                <include href="@xml/xml_0x7f170a2b" />
+                <include href="@xml/xml_0x7f170b32" />
+                <if device="tablet" device_size="large" keyboard_mode="normal">
+                    <include href="@xml/xml_0x7f170b33" />
+                    <include href="@xml/xml_0x7f170bdb" />
+                </if>
+            </view>
+        </keyboard>
+    </if>
+    <else>
+        <include href="@xml/xml_0x7f170974" />
+    </else>
+</framework>

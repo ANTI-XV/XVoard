@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cd2" />
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1716" press_data="," />
+            <softkey id="@id/id_0x7f0b1026" long_press_data="…" press_data="." />
+            <softkey id="@id/id_0x7f0b0a91" long_press_data="《 ≤ ‹ « ⟨ 〈" press_data="&lt;" />
+            <softkey id="@id/id_0x7f0b0a90" long_press_data="》 ≥ › » ⟩ 〉" press_data=">" />
+            <softkey id="@id/id_0x7f0b169b" long_press_data="≤ ‹ « ⟨" press_data="&lt;" />
+            <softkey id="@id/id_0x7f0b17a5" long_press_data="≥ › » ⟩" press_data=">" />
+            <softkey desc="@string/string_0x7f1402cb" id="@id/id_0x7f0b0a8f" press_data="，" />
+            <softkey desc="@string/string_0x7f1402cf" id="@id/id_0x7f0b0a92" press_data="。" />
+        </softkey_list>
+    </softkeys>
+</framework>

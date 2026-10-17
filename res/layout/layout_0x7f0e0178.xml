@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView android:id="@id/id_0x7f0b0261" app:attr_0x7f0402e6="false" style="@style/style_0x7f1501bf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/style_0x7f150270">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/style_0x7f15026f">
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:paddingTop="@dimen/dimen_0x7f07016a" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/id_0x7f0b00e0" android:layout_width="0.0dp" android:layout_height="0.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b028c" app:attr_0x7f04060e="id_0x7f0b1f66" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150664">
+                    <include layout="@layout/layout_0x7f0e0652" />
+                    <include android:paddingStart="2.0dp" android:paddingEnd="2.0dp" layout="@layout/layout_0x7f0e0043" />
+                    <android.support.v7.widget.RecyclerView android:id="@id/id_0x7f0b029d" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="9.0" android:nestedScrollingEnabled="false" />
+                </LinearLayout>
+                <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/id_0x7f0b028c" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f040607="0.17" />
+                <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:id="@id/id_0x7f0b0131" android:layout_width="0.0dp" android:layout_height="0.0dp" android:paddingHorizontal="16.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b01a8" app:attr_0x7f04060f="1.0" app:attr_0x7f040616="@id/id_0x7f0b028c" app:attr_0x7f04061b="id_0x7f0b05c6">
+                    <android.support.v7.widget.AppCompatTextView android:textSize="12.0dp" android:gravity="start|center" android:tag=".content-suggestion-primary-color" android:paddingLeft="7.0dp" android:paddingTop="4.0dp" android:paddingRight="7.0dp" android:layout_width="wrap_content" android:layout_height="24.0dp" android:text="@string/string_0x7f1401e6" android:fontFamily="?attr_0x7f040105" android:letterSpacing="0.1" style="?attr_0x7f0400cd" />
+                    <com.google.android.libraries.inputmethod.contentsuggestion.browse.resource.CategoryViewPager android:id="@id/id_0x7f0b01a6" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+                </LinearLayout>
+                <com.google.android.libraries.inputmethod.contentsuggestion.browse.resource.StaticEmojiPanelView android:layout_gravity="center" android:orientation="vertical" android:id="@id/id_0x7f0b01a8" android:layout_width="?attr_0x7f0400c4" android:layout_height="0.0dp" android:paddingEnd="16.0dp" android:layout_marginEnd="32.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04060e="id_0x7f0b1f66" app:attr_0x7f040616="@id/id_0x7f0b0131" app:attr_0x7f04061b="id_0x7f0b05c6">
+                    <com.google.android.libraries.inputmethod.emoji.picker.EmojiPickerBodyRecyclerView android:id="@id/id_0x7f0b01a7" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:keyboardNavigationCluster="true" background_emoji_filter="false" emoji_filter="true" offscreen_page_limit="2" page_layout="@layout/layout_0x7f0e0094" page_margin_ratio="15" />
+                    <android.support.v7.widget.RecyclerView android:id="@id/id_0x7f0b019b" android:tag=".emojikitchen-browse-footer" android:background="@color/color_0x7f060619" android:layout_width="match_parent" android:layout_height="34.0dp" />
+                </com.google.android.libraries.inputmethod.contentsuggestion.browse.resource.StaticEmojiPanelView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

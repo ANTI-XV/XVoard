@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.MaterialPopupView android:id="@id/id_0x7f0b05dc" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f040092="?attr_0x7f0401fe" app:attr_0x7f040210="?attr_0x7f0401c2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/id_0x7f0b05f0" style="@style/style_0x7f15043d">
+        <FrameLayout android:id="@id/id_0x7f0b05e4" style="@style/style_0x7f15043f">
+            <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/id_0x7f0b05ea" android:visibility="gone" android:maxWidth="?attr_0x7f0401be" android:fontFamily="@font/font_0x7f090013" app:attr_0x7f0408a1="my-MM" style="@style/style_0x7f150435" />
+            <ImageView android:id="@id/id_0x7f0b05e9" android:visibility="gone" style="@style/style_0x7f150432" />
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05e6" android:visibility="gone" style="@style/style_0x7f150431" />
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.popup.MaterialPopupView>

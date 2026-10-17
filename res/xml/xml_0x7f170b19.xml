@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170b18" />
+    <include href="@xml/xml_0x7f170b22" />
+    <include href="@xml/xml_0x7f170b1f" />
+    <if device="tablet">
+        <include href="@xml/xml_0x7f170b21" />
+    </if>
+    <else>
+        <include href="@xml/xml_0x7f170b20" />
+    </else>
+    <include href="@xml/xml_0x7f170b1d" />
+    <include href="@xml/xml_0x7f170b1e" />
+</framework>

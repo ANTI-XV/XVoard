@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:tag=".floating-tooltip-background" android:background="@drawable/drawable_0x7f080273" android:layout_width="@dimen/dimen_0x7f07007a" android:layout_height="wrap_content" android:elevation="2.0dp">
+        <ImageView android:id="@id/id_0x7f0b0166" android:tag=".floating-tooltip-foreground" android:layout_width="22.0dp" android:layout_height="22.0dp" android:layout_margin="18.0dp" android:src="@drawable/drawable_0x7f080523" android:tint="@android:color/white" android:contentDescription="@string/string_0x7f14039f" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" />
+        <android.support.v7.widget.AppCompatTextView android:textSize="14.0dp" android:textColor="@color/color_0x7f060673" android:id="@id/id_0x7f0b0167" android:tag=".floating-tooltip-foreground" android:paddingTop="18.0dp" android:paddingBottom="28.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/string_0x7f14019a" android:lineSpacingMultiplier="1.2" android:fontFamily="?attr_0x7f040105" android:paddingStart="28.0dp" android:paddingEnd="8.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b0166" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

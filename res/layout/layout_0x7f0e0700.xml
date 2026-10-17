@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b0685" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@android:id/list_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" android:layoutDirection="locale">
+            <android.support.v7.widget.RecyclerView android:id="@id/id_0x7f0b04e5" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:background="?attr_0x7f040410" android:layout_width="match_parent" android:layout_height="1.0dp" />
+            <Button android:textAppearance="?android:textAppearanceListItem" android:id="@id/add_language_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:tint="?attr_0x7f040412" android:text="@string/string_0x7f1409de" android:textAlignment="textStart" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" app:attr_0x7f040591="@drawable/drawable_0x7f08050e" app:attr_0x7f040594="24.0dp" style="@style/style_0x7f150b4e" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

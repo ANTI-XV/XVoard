@@ -1,0 +1,53 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+public enum hbi implements rsd {
+    KEYBOARD_TIP_EVENT_UNSPECIFIED(0),
+    ONBOARDING_HEADER_SHOWN(1),
+    ONBOARDING_DISMISSED_EXPLICIT(2),
+    ONBOARDING_HEADER_PRESSED(3),
+    EDUCATION_TIP_SHOWN(4),
+    EDUCATION_TIP_DISMISSED_EXPLICIT(5),
+    MIC_TIP_SHOWN(6),
+    MIC_TIP_DISMISSED_EXPLICIT(7),
+    VOICE_CORRECTION_TIP_SHOWN(8),
+    VOICE_CORRECTION_TIP_DISMISSED_EXPLICIT(9),
+    BUTTON_TIP_SHOWN(10),
+    BUTTON_TIP_DISMISSED_EXPLICIT(11),
+    OVERLAY_LEARNING_CENTER_TIP_SHOWN(12),
+    OVERLAY_LEARNING_CENTER_TIP_DISMISSED_EXPLICIT(13),
+    SPELL_IT_OUT_TIP_SHOWN(14),
+    SPELL_IT_OUT_TIP_DISMISSED_EXPLICIT(15),
+    LANGUAGE_INDICATOR_TIP_SHOWN(16),
+    LANGUAGE_INDICATOR_TIP_DISMISSED_EXPLICIT(17),
+    LANGUAGE_DOWNLOAD_POPUP_SHOWN(18),
+    LANGUAGE_DOWNLOAD_POPUP_DISMISSED_LATER_BUTTON(19),
+    LANGUAGE_DOWNLOAD_POPUP_DISMISSED_TOUCH_OUTSIDE(20),
+    LANGUAGE_DOWNLOAD_POPUP_ACCEPTED(21),
+    LANGUAGE_DOWNLOAD_POPUP_LEARN_MORE_PRESSED(24),
+    LANGUAGE_DOWNLOAD_BANNER_SHOWN(22),
+    LANGUAGE_DOWNLOAD_BANNER_ACCEPTED(23),
+    MULTILANG_TIP_SHOWN(25),
+    MULTILANG_TIP_DISMISSED_EXPLICIT(26),
+    UNRECOGNIZED(-1);
+
+    private final int C;
+
+    hbi(int i) {
+        this.C = i;
+    }
+
+    @Override // defpackage.rsd
+    public final int a() {
+        if (this != UNRECOGNIZED) {
+            return this.C;
+        }
+        throw new IllegalArgumentException("Can't get the number of an unknown enum value.");
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(a());
+    }
+}

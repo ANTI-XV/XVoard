@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <processors>
+        <processor class="com.google.android.apps.inputmethod.libs.pinyin.HmmWubiDecodeProcessor" />
+        <processor class="com.google.android.apps.inputmethod.libs.chinese.ime.hmm.ChineseDoubleSpaceProcessor" />
+        <processor class="com.google.android.apps.inputmethod.libs.chinese.ime.hmm.ChineseAutoSpaceProcessor" />
+        <processor class="com.google.android.libraries.inputmethod.ime.processor.OutputProcessor" />
+    </processors>
+</framework>

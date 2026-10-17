@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080067" android:duration="133" android:startOffset="0" android:valueFrom="10" android:valueTo="10" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080068" android:duration="133" android:startOffset="0" android:valueFrom="10" android:valueTo="10" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f08006b" android:duration="83" android:startOffset="133" android:valueFrom="10" android:valueTo="10.5" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f08006c" android:duration="83" android:startOffset="133" android:valueFrom="10" android:valueTo="8.5" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f08006d" android:duration="333" android:startOffset="217" android:valueFrom="10.5" android:valueTo="9" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f08006e" android:duration="333" android:startOffset="217" android:valueFrom="8.5" android:valueTo="11.5" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f08006f" android:duration="100" android:startOffset="550" android:valueFrom="9" android:valueTo="9" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080070" android:duration="100" android:startOffset="550" android:valueFrom="11.5" android:valueTo="10.5" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080071" android:duration="50" android:startOffset="650" android:valueFrom="9" android:valueTo="11" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080072" android:duration="50" android:startOffset="650" android:valueFrom="10.5" android:valueTo="8" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080069" android:duration="133" android:startOffset="700" android:valueFrom="11" android:valueTo="10" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f08006a" android:duration="133" android:startOffset="700" android:valueFrom="8" android:valueTo="10" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b17ae" view_id="@id/key_pos_switch_to_symbol_right" />
+    </key_mapping>
+    <key_mapping state="SHIFT">
+        <mapping key_id="@id/id_0x7f0b1b2a" view_id="@id/key_pos_switch_to_symbol_right" />
+    </key_mapping>
+    <key_mapping state="COMPOSING">
+        <mapping key_id="@id/id_0x7f0b0a9b" view_id="@id/key_pos_switch_to_symbol_right" />
+    </key_mapping>
+</framework>

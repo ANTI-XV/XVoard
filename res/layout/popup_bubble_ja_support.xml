@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.MultiLabelPopupView android:id="@id/id_0x7f0b05dc" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f040092="false" app:attr_0x7f040210="?attr_0x7f0401c2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/id_0x7f0b05f0" style="@style/style_0x7f15043e">
+        <FrameLayout style="@style/style_0x7f150430">
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05eb" android:visibility="gone" style="@style/style_0x7f150437" />
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05ec" android:visibility="gone" android:layout_marginRight="?attr_0x7f0401a3" style="@style/style_0x7f150438" />
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05ed" android:visibility="gone" android:layout_marginBottom="?attr_0x7f0401a4" style="@style/style_0x7f150438" />
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05ee" android:visibility="gone" android:layout_marginLeft="?attr_0x7f0401a3" style="@style/style_0x7f150438" />
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05ef" android:visibility="gone" android:layout_marginTop="?attr_0x7f0401a4" style="@style/style_0x7f150438" />
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.MultiLabelPopupView>

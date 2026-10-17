@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if device="tablet">
+        <ime announce_auto_selected_candidate="true" class="com.google.android.libraries.inputmethod.ime.processor.ProcessorBasedIme" indicator_icon="@drawable/drawable_0x7f080484" inline_composing="true" keyevent_interpreter="com.google.android.apps.inputmethod.libs.chinese.PositionBasedKeyEventInterpreter" label="@string/string_0x7f14139c" language="zh-TW" prime_keyboard_type="HARD_QWERTY" status_icon="@drawable/drawable_0x7f080485" string_id="zh_tw_zhuyin_hard_qwerty">
+            <keyboard_group pk_language_tag="en-US" pk_layout_type="qwerty">
+                <keyboard def="@xml/xml_0x7f170a00" type="prime" />
+                <include href="@xml/xml_0x7f170a0c" />
+            </keyboard_group>
+            <extra_values>
+                <item id="@id/id_0x7f0b0204" value="false" />
+                <item id="@id/id_0x7f0b0219" value="。" />
+                <item id="@id/id_0x7f0b0201" value="@string/string_0x7f140713" />
+                <item id="@id/id_0x7f0b021f" value="false" />
+            </extra_values>
+            <include href="@xml/xml_0x7f170c93" />
+        </ime>
+    </if>
+    <else>
+        <ime announce_auto_selected_candidate="true" class="com.google.android.libraries.inputmethod.ime.processor.ProcessorBasedIme" inline_composing="false" keyevent_interpreter="com.google.android.apps.inputmethod.libs.chinese.PositionBasedKeyEventInterpreter" label="@string/string_0x7f14139c" language="zh-TW" prime_keyboard_type="HARD_QWERTY" status_icon="@drawable/drawable_0x7f080485" string_id="zh_tw_zhuyin_hard_qwerty">
+            <if enable_chinese_inline_composing_shape_based="true">
+                <if pref_enable_chinese_inline_composing_tw="true">
+                    <attrs inline_composing="true" />
+                </if>
+            </if>
+            <keyboard_group pk_language_tag="en-US" pk_layout_type="qwerty">
+                <keyboard def="@xml/xml_0x7f170a02" type="prime" />
+                <include href="@xml/xml_0x7f170a0c" />
+            </keyboard_group>
+            <extra_values>
+                <item id="@id/id_0x7f0b0219" value="。" />
+                <item id="@id/id_0x7f0b0201" value="@string/string_0x7f140713" />
+            </extra_values>
+            <include href="@xml/xml_0x7f170c93" />
+        </ime>
+    </else>
+</framework>

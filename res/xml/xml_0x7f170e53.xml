@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list template_id="@id/id_0x7f0b1d43">
+            <softkey id="@id/id_0x7f0b1586" press_data="e" />
+            <softkey id="@id/id_0x7f0b15e5" press_data="r" />
+            <softkey id="@id/id_0x7f0b1611" press_data="t" />
+            <softkey id="@id/id_0x7f0b1642" press_data="y" />
+            <softkey id="@id/id_0x7f0b162e" press_data="u" />
+            <softkey id="@id/id_0x7f0b15a9" press_data="i" />
+            <softkey id="@id/id_0x7f0b15cd" press_data="o" />
+            <softkey id="@id/id_0x7f0b15de" press_data="p" />
+            <softkey id="@id/id_0x7f0b0ac2" press_data="̃" />
+            <softkey id="@id/id_0x7f0b155b" press_data="a" />
+            <softkey id="@id/id_0x7f0b15eb" press_data="s" />
+            <softkey id="@id/id_0x7f0b157a" press_data="d" />
+            <softkey id="@id/id_0x7f0b1599" press_data="g" />
+            <softkey id="@id/id_0x7f0b15a4" press_data="h" />
+            <softkey id="@id/id_0x7f0b15b6" press_data="j" />
+            <softkey id="@id/id_0x7f0b15b9" press_data="k" />
+            <softkey id="@id/id_0x7f0b15bc" press_data="l" />
+            <softkey id="@id/id_0x7f0b15c9" press_data="ṅ" />
+            <softkey id="@id/id_0x7f0b156e" press_data="c" />
+            <softkey id="@id/id_0x7f0b163c" press_data="v" />
+            <softkey id="@id/id_0x7f0b156a" press_data="b" />
+            <softkey id="@id/id_0x7f0b15c5" press_data="n" />
+            <softkey id="@id/id_0x7f0b15c3" press_data="m" />
+            <softkey id="@id/id_0x7f0b0abe" press_data="̅" />
+            <softkey id="@id/id_0x7f0b0ab4" press_data="̣" />
+        </softkey_list>
+    </softkeys>
+</framework>

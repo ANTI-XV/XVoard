@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_0x7f0b006a" android:layout_above="@id/id_0x7f0b006c" style="@style/style_0x7f15000d"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="0.0dp" android:layout_height="wrap_content" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f040623="?attr_0x7f040011">
+        <LinearLayout android:layout_gravity="bottom" android:id="@id/id_0x7f0b0069" android:importantForAccessibility="no" android:layoutDirection="inherit" style="@style/style_0x7f15000b">
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0070" android:text="@string/string_0x7f140042" style="@style/style_0x7f15000f" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="69.0dp" android:paddingStart="0.0dp" android:paddingEnd="@dimen/dimen_0x7f07006a">
+                <com.google.android.libraries.inputmethod.widgets.EditTextOnKeyboard android:id="@id/id_0x7f0b006b" android:layout_centerVertical="true" style="@style/style_0x7f15000e" />
+            </RelativeLayout>
+            <LinearLayout android:layoutDirection="inherit" style="@style/style_0x7f15000a">
+                <com.google.android.material.button.MaterialButton android:textSize="@dimen/dimen_0x7f070068" android:id="@id/id_0x7f0b0067" android:tag=".keyboard-clipboard-dialog-negative-button" android:paddingTop="@dimen/dimen_0x7f070067" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_0x7f070065" android:text="@string/string_0x7f14039e" style="?attr_0x7f040351" />
+                <com.google.android.material.button.MaterialButton android:textSize="@dimen/dimen_0x7f070068" android:id="@id/id_0x7f0b0068" android:paddingTop="@dimen/dimen_0x7f070067" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_0x7f070065" android:text="@string/string_0x7f1403ac" style="?attr_0x7f040351" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

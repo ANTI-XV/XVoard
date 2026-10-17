@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard candidate_text_size_ratio="1.0" class=".latin.keyboard.MorseKeyboard" popup="@attr/attr_0x7f040201" session_states="CAPS_LOCK">
+        <view direction="locale" layout="@layout/layout_0x7f0e05a7" scalable="false" type="header">
+            <softkeys href="@xml/xml_0x7f170cd6" />
+            <include href="@xml/xml_0x7f170b47" />
+        </view>
+        <view layout="@layout/layout_0x7f0e0565" type="body">
+            <motion_event_handler class=".libs.latin5.handler.LatinMotionEventHandler" />
+            <motion_event_handler class=".libs.latin5.handler.LatinKeyboardLayoutHandler" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170cc9" />
+            <softkeys href="@xml/xml_0x7f170fe7" />
+            <softkeys href="@xml/xml_0x7f170e9c" />
+            <include href="@xml/xml_0x7f170b28" />
+            <include href="@xml/xml_0x7f170b30" />
+            <include href="@xml/xml_0x7f170b18" />
+            <include href="@xml/xml_0x7f170b24" />
+            <include href="@xml/xml_0x7f170bc7" />
+        </view>
+        <view id="@id/id_0x7f0b0542" layout="@layout/layout_0x7f0e0567" type="body">
+            <motion_event_handler class=".libs.latin5.handler.LatinMotionEventHandler" />
+            <motion_event_handler class=".libs.latin5.handler.LatinKeyboardLayoutHandler" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170cc9" />
+            <softkeys href="@xml/xml_0x7f170fe7" />
+            <softkeys href="@xml/xml_0x7f170e9c" />
+            <include href="@xml/xml_0x7f170b28" />
+            <include href="@xml/xml_0x7f170b30" />
+            <include href="@xml/xml_0x7f170b18" />
+            <include href="@xml/xml_0x7f170b24" />
+            <include href="@xml/xml_0x7f170bc7" />
+        </view>
+    </keyboard>
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <include href="@xml/xml_0x7f17077a" />
+    </if>
+    <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+        <include href="@xml/xml_0x7f17077a" />
+    </else_if>
+</framework>

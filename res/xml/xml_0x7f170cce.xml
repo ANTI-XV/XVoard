@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b1b2a" layout="@layout/layout_0x7f0e072f" long_press_delay_flag="@string/string_0x7f140acb" multi_touch="false">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <action action_on_down="true" data="space" keycode="SHOW_SYSTEM_IME_PICKER" type="LONG_PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f040132" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b1b2b" layout="@layout/layout_0x7f0e072f" multi_touch="false">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f040132" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b1b25" layout="@layout/layout_0x7f0e07a1" long_press_delay_flag="@string/string_0x7f140acb">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <action action_on_down="true" data="space" keycode="SHOW_SYSTEM_IME_PICKER" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f1404c9" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b1b21" layout="@layout/layout_0x7f0e07a0" multi_touch="false">
+            <action data="0" keycode="KEYCODE_0" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="0" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b1b22" layout="@layout/layout_0x7f0e07a1" long_press_delay_flag="@string/string_0x7f140acb">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <action action_on_down="true" data="space" keycode="SHOW_SYSTEM_IME_PICKER" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value=" " />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b1b23" layout="@layout/layout_0x7f0e07a1">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value=" " />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b18b9" layout="@layout/layout_0x7f0e07a1" long_press_delay_flag="@string/string_0x7f140acb">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <action action_on_down="true" data="space" keycode="SHOW_SYSTEM_IME_PICKER" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value=" " />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b06b2" layout="@layout/layout_0x7f0e07a8" multi_touch="false" popup_timing="ON_GESTURE">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <action data="0" intention="COMMIT" keycode="KEYCODE_0" popup_label="0" popup_layout="@layout/layout_0x7f0e06bd" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f1404c9" />
+            <label location="@id/id_0x7f0b04dc" value="0" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b1b2d" layout="@layout/layout_0x7f0e07a7" long_press_delay_flag="@string/string_0x7f140acb">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <action action_on_down="true" data="space" keycode="SHOW_SYSTEM_IME_PICKER" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04dd" value="拼" />
+            <label location="@id/id_0x7f0b04d1" value="音" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b1b2c" layout="@layout/layout_0x7f0e07a6" long_press_delay_flag="@string/string_0x7f140acb">
+            <action data=" " keycode="SPACE" type="PRESS" />
+            <action action_on_down="true" data="space" keycode="SHOW_SYSTEM_IME_PICKER" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="拼音" />
+        </softkey>
+    </softkeys>
+</framework>

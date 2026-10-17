@@ -1,0 +1,8 @@
+package defpackage;
+
+/* JADX INFO: Access modifiers changed from: package-private */
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+public interface fba {
+    public static final fba a = new faz();
+}

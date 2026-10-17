@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d баскыч дайындалган</item>
+        <item quantity="other">%d баскыч дайындалган</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s орнотулду.</item>
+        <item quantity="other">%s орнотулду.</item>
+    </plurals>
+</resources>

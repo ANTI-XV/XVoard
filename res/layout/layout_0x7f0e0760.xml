@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f150300"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_0x7f0b00cc" style="@style/style_0x7f150623" />
+    <com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.HorizontalCompressionTextView android:id="@id/id_0x7f0b04d0" android:singleLine="true" app:attr_0x7f0408a1="ja-JP" style="@style/style_0x7f15036e" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b04d2" android:layout_width="0.0dp" android:layout_height="0.0dp" />
+</FrameLayout>

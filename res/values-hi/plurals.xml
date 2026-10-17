@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d कुंजियां असाइन की गईं</item>
+        <item quantity="other">%d कुंजियां असाइन की गईं</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">अब %s इंस्टॉल हो गया है.</item>
+        <item quantity="other">अब %s इंस्टॉल हो गए हैं.</item>
+    </plurals>
+</resources>

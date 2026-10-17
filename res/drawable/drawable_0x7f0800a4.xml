@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="44.0dp" android:width="44.0dp" android:viewportWidth="88.0" android:viewportHeight="88.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="outer" android:pathData="M5 44 A 34 34 0 1 1 83 44 A 34 34 0 0 1 5 44" android:strokeColor="?attr_0x7f040439" android:strokeWidth="10.0" android:strokeAlpha="0.5" />
+    <path android:name="inner" android:pathData="M12 44 A 32 32 0 1 1 76 44 A 32 32 0 0 1 12 44" android:strokeColor="?attr_0x7f040439" android:strokeWidth="4.0" android:strokeAlpha="1.0" />
+</vector>

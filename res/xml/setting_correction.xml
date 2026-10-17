@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_0x7f140959" android:key="@string/string_0x7f14088e"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f140a5c" android:key="@string/string_0x7f140a5a">
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a4b" android:key="@string/string_0x7f140845" android:summary="@string/string_0x7f140a4a" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a0e" android:key="@string/string_0x7f14085e" android:summary="@string/string_0x7f140a0d" android:dependency="@string/string_0x7f140845" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140945" android:key="@string/string_0x7f1406e6" android:summary="@string/string_0x7f140944" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409ba" android:key="@string/string_0x7f14077e" android:summary="@string/string_0x7f1409b9" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14097b" android:key="@string/string_0x7f140727">
+            <extra android:name="hide_if_flag_is_false" android:value="enable_inline_suggestions_on_client_side=false" />
+        </SwitchPreferenceCompat>
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f14095b" android:key="@string/string_0x7f14095a">
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14093d" android:key="@string/string_0x7f140826" android:summary="@string/string_0x7f14093c" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140965" android:key="@string/string_0x7f140840" android:summary="@string/string_0x7f140964" android:dependency="@string/string_0x7f140826" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140941" android:key="@string/string_0x7f14070c" android:summary="@string/string_0x7f140940" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14093b" android:key="@string/string_0x7f1406e2" android:summary="@string/string_0x7f14093a" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140962" android:key="@string/string_0x7f140713" android:summary="@string/string_0x7f140961" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f140a56" android:key="@string/string_0x7f140a55">
+        <extra android:name="NON_INDEXABLE" android:value="true" />
+        <Preference android:persistent="false" android:title="@string/string_0x7f140a51" android:key="@string/string_0x7f1408a9" android:summary="@string/string_0x7f140a50">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$SpellCheckersSettingsActivity" />
+        </Preference>
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409fb" android:key="@string/string_0x7f14072c" android:summary="@string/string_0x7f1409fa" android:shouldDisableView="true" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140ad8" android:key="@string/string_0x7f140723" android:summary="@string/string_0x7f140ad7" android:shouldDisableView="true" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140ada" android:key="@string/string_0x7f14078d" android:summary="@string/string_0x7f140ad9" android:shouldDisableView="true">
+            <extra android:name="hide_if_flag_is_false" android:value="writing_helper=false" />
+        </SwitchPreferenceCompat>
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

@@ -1,0 +1,247 @@
+package defpackage;
+
+import android.view.View;
+import android.widget.PopupWindow;
+import java.util.ArrayList;
+import java.util.List;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+public final class jr {
+    static int a(PopupWindow popupWindow, View view, int i, boolean z) {
+        return popupWindow.getMaxAvailableHeight(view, i, z);
+    }
+
+    public static List b(int i, boolean z, boolean z2) {
+        ArrayList arrayList = new ArrayList();
+        ArrayList arrayList2 = new ArrayList();
+        azi aziVar = new azi((char[]) null, (byte[]) null);
+        aziVar.s(new aef(1, aee.MAXIMUM, 0L));
+        arrayList2.add(aziVar);
+        azi aziVar2 = new azi((char[]) null, (byte[]) null);
+        aziVar2.s(new aef(3, aee.MAXIMUM, 0L));
+        arrayList2.add(aziVar2);
+        azi aziVar3 = new azi((char[]) null, (byte[]) null);
+        aziVar3.s(new aef(2, aee.MAXIMUM, 0L));
+        arrayList2.add(aziVar3);
+        azi aziVar4 = new azi((char[]) null, (byte[]) null);
+        aziVar4.s(new aef(1, aee.PREVIEW, 0L));
+        aziVar4.s(new aef(3, aee.MAXIMUM, 0L));
+        arrayList2.add(aziVar4);
+        azi aziVar5 = new azi((char[]) null, (byte[]) null);
+        aziVar5.s(new aef(2, aee.PREVIEW, 0L));
+        aziVar5.s(new aef(3, aee.MAXIMUM, 0L));
+        arrayList2.add(aziVar5);
+        azi aziVar6 = new azi((char[]) null, (byte[]) null);
+        aziVar6.s(new aef(1, aee.PREVIEW, 0L));
+        aziVar6.s(new aef(1, aee.PREVIEW, 0L));
+        arrayList2.add(aziVar6);
+        azi aziVar7 = new azi((char[]) null, (byte[]) null);
+        aziVar7.s(new aef(1, aee.PREVIEW, 0L));
+        aziVar7.s(new aef(2, aee.PREVIEW, 0L));
+        arrayList2.add(aziVar7);
+        azi aziVar8 = new azi((char[]) null, (byte[]) null);
+        aziVar8.s(new aef(1, aee.PREVIEW, 0L));
+        aziVar8.s(new aef(2, aee.PREVIEW, 0L));
+        aziVar8.s(new aef(3, aee.MAXIMUM, 0L));
+        arrayList2.add(aziVar8);
+        arrayList.addAll(arrayList2);
+        if (i == 0 || i == 1) {
+            ArrayList arrayList3 = new ArrayList();
+            azi aziVar9 = new azi((char[]) null, (byte[]) null);
+            aziVar9.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar9.s(new aef(1, aee.RECORD, 0L));
+            arrayList3.add(aziVar9);
+            azi aziVar10 = new azi((char[]) null, (byte[]) null);
+            aziVar10.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar10.s(new aef(2, aee.RECORD, 0L));
+            arrayList3.add(aziVar10);
+            azi aziVar11 = new azi((char[]) null, (byte[]) null);
+            aziVar11.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar11.s(new aef(2, aee.RECORD, 0L));
+            arrayList3.add(aziVar11);
+            azi aziVar12 = new azi((char[]) null, (byte[]) null);
+            aziVar12.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar12.s(new aef(1, aee.RECORD, 0L));
+            aziVar12.s(new aef(3, aee.RECORD, 0L));
+            arrayList3.add(aziVar12);
+            azi aziVar13 = new azi((char[]) null, (byte[]) null);
+            aziVar13.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar13.s(new aef(2, aee.RECORD, 0L));
+            aziVar13.s(new aef(3, aee.RECORD, 0L));
+            arrayList3.add(aziVar13);
+            azi aziVar14 = new azi((char[]) null, (byte[]) null);
+            aziVar14.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar14.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar14.s(new aef(3, aee.MAXIMUM, 0L));
+            arrayList3.add(aziVar14);
+            arrayList.addAll(arrayList3);
+        } else if (i == 3) {
+            i = 3;
+            ArrayList arrayList4 = new ArrayList();
+            azi aziVar15 = new azi((char[]) null, (byte[]) null);
+            aziVar15.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar15.s(new aef(1, aee.RECORD, 0L));
+            arrayList4.add(aziVar15);
+            azi aziVar16 = new azi((char[]) null, (byte[]) null);
+            aziVar16.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar16.s(new aef(2, aee.RECORD, 0L));
+            arrayList4.add(aziVar16);
+            azi aziVar17 = new azi((char[]) null, (byte[]) null);
+            aziVar17.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar17.s(new aef(2, aee.RECORD, 0L));
+            arrayList4.add(aziVar17);
+            azi aziVar18 = new azi((char[]) null, (byte[]) null);
+            aziVar18.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar18.s(new aef(1, aee.RECORD, 0L));
+            aziVar18.s(new aef(3, aee.RECORD, 0L));
+            arrayList4.add(aziVar18);
+            azi aziVar19 = new azi((char[]) null, (byte[]) null);
+            aziVar19.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar19.s(new aef(2, aee.RECORD, 0L));
+            aziVar19.s(new aef(3, aee.RECORD, 0L));
+            arrayList4.add(aziVar19);
+            azi aziVar110 = new azi((char[]) null, (byte[]) null);
+            aziVar110.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar110.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar110.s(new aef(3, aee.MAXIMUM, 0L));
+            arrayList4.add(aziVar110);
+            arrayList.addAll(arrayList4);
+        }
+        if (i == 1) {
+            ArrayList arrayList5 = new ArrayList();
+            azi aziVar20 = new azi((char[]) null, (byte[]) null);
+            aziVar20.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar20.s(new aef(1, aee.MAXIMUM, 0L));
+            arrayList5.add(aziVar20);
+            azi aziVar21 = new azi((char[]) null, (byte[]) null);
+            aziVar21.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar21.s(new aef(2, aee.MAXIMUM, 0L));
+            arrayList5.add(aziVar21);
+            azi aziVar22 = new azi((char[]) null, (byte[]) null);
+            aziVar22.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar22.s(new aef(2, aee.MAXIMUM, 0L));
+            arrayList5.add(aziVar22);
+            azi aziVar23 = new azi((char[]) null, (byte[]) null);
+            aziVar23.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar23.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar23.s(new aef(3, aee.MAXIMUM, 0L));
+            arrayList5.add(aziVar23);
+            azi aziVar24 = new azi((char[]) null, (byte[]) null);
+            aziVar24.s(new aef(2, aee.VGA, 0L));
+            aziVar24.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar24.s(new aef(2, aee.MAXIMUM, 0L));
+            arrayList5.add(aziVar24);
+            azi aziVar25 = new azi((char[]) null, (byte[]) null);
+            aziVar25.s(new aef(2, aee.VGA, 0L));
+            aziVar25.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar25.s(new aef(2, aee.MAXIMUM, 0L));
+            arrayList5.add(aziVar25);
+            arrayList.addAll(arrayList5);
+        } else if (i == 3) {
+            i = 3;
+            ArrayList arrayList6 = new ArrayList();
+            azi aziVar26 = new azi((char[]) null, (byte[]) null);
+            aziVar26.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar26.s(new aef(1, aee.MAXIMUM, 0L));
+            arrayList6.add(aziVar26);
+            azi aziVar27 = new azi((char[]) null, (byte[]) null);
+            aziVar27.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar27.s(new aef(2, aee.MAXIMUM, 0L));
+            arrayList6.add(aziVar27);
+            azi aziVar28 = new azi((char[]) null, (byte[]) null);
+            aziVar28.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar28.s(new aef(2, aee.MAXIMUM, 0L));
+            arrayList6.add(aziVar28);
+            azi aziVar29 = new azi((char[]) null, (byte[]) null);
+            aziVar29.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar29.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar29.s(new aef(3, aee.MAXIMUM, 0L));
+            arrayList6.add(aziVar29);
+            azi aziVar210 = new azi((char[]) null, (byte[]) null);
+            aziVar210.s(new aef(2, aee.VGA, 0L));
+            aziVar210.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar210.s(new aef(2, aee.MAXIMUM, 0L));
+            arrayList6.add(aziVar210);
+            azi aziVar211 = new azi((char[]) null, (byte[]) null);
+            aziVar211.s(new aef(2, aee.VGA, 0L));
+            aziVar211.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar211.s(new aef(2, aee.MAXIMUM, 0L));
+            arrayList6.add(aziVar211);
+            arrayList.addAll(arrayList6);
+        }
+        if (z) {
+            ArrayList arrayList7 = new ArrayList();
+            azi aziVar30 = new azi((char[]) null, (byte[]) null);
+            aziVar30.s(new aef(5, aee.MAXIMUM, 0L));
+            arrayList7.add(aziVar30);
+            azi aziVar31 = new azi((char[]) null, (byte[]) null);
+            aziVar31.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar31.s(new aef(5, aee.MAXIMUM, 0L));
+            arrayList7.add(aziVar31);
+            azi aziVar32 = new azi((char[]) null, (byte[]) null);
+            aziVar32.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar32.s(new aef(5, aee.MAXIMUM, 0L));
+            arrayList7.add(aziVar32);
+            azi aziVar33 = new azi((char[]) null, (byte[]) null);
+            aziVar33.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar33.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar33.s(new aef(5, aee.MAXIMUM, 0L));
+            arrayList7.add(aziVar33);
+            azi aziVar34 = new azi((char[]) null, (byte[]) null);
+            aziVar34.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar34.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar34.s(new aef(5, aee.MAXIMUM, 0L));
+            arrayList7.add(aziVar34);
+            azi aziVar35 = new azi((char[]) null, (byte[]) null);
+            aziVar35.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar35.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar35.s(new aef(5, aee.MAXIMUM, 0L));
+            arrayList7.add(aziVar35);
+            azi aziVar36 = new azi((char[]) null, (byte[]) null);
+            aziVar36.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar36.s(new aef(3, aee.MAXIMUM, 0L));
+            aziVar36.s(new aef(5, aee.MAXIMUM, 0L));
+            arrayList7.add(aziVar36);
+            azi aziVar37 = new azi((char[]) null, (byte[]) null);
+            aziVar37.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar37.s(new aef(3, aee.MAXIMUM, 0L));
+            aziVar37.s(new aef(5, aee.MAXIMUM, 0L));
+            arrayList7.add(aziVar37);
+            arrayList.addAll(arrayList7);
+        }
+        if (z2 && i == 0) {
+            ArrayList arrayList8 = new ArrayList();
+            azi aziVar38 = new azi((char[]) null, (byte[]) null);
+            aziVar38.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar38.s(new aef(1, aee.MAXIMUM, 0L));
+            arrayList8.add(aziVar38);
+            azi aziVar39 = new azi((char[]) null, (byte[]) null);
+            aziVar39.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar39.s(new aef(2, aee.MAXIMUM, 0L));
+            arrayList8.add(aziVar39);
+            azi aziVar40 = new azi((char[]) null, (byte[]) null);
+            aziVar40.s(new aef(2, aee.PREVIEW, 0L));
+            aziVar40.s(new aef(2, aee.MAXIMUM, 0L));
+            arrayList8.add(aziVar40);
+            arrayList.addAll(arrayList8);
+        }
+        if (i == 3) {
+            ArrayList arrayList9 = new ArrayList();
+            azi aziVar41 = new azi((char[]) null, (byte[]) null);
+            aziVar41.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar41.s(new aef(1, aee.VGA, 0L));
+            aziVar41.s(new aef(2, aee.MAXIMUM, 0L));
+            aziVar41.s(new aef(5, aee.MAXIMUM, 0L));
+            arrayList9.add(aziVar41);
+            azi aziVar42 = new azi((char[]) null, (byte[]) null);
+            aziVar42.s(new aef(1, aee.PREVIEW, 0L));
+            aziVar42.s(new aef(1, aee.VGA, 0L));
+            aziVar42.s(new aef(3, aee.MAXIMUM, 0L));
+            aziVar42.s(new aef(5, aee.MAXIMUM, 0L));
+            arrayList9.add(aziVar42);
+            arrayList.addAll(arrayList9);
+        }
+        return arrayList;
+    }
+}

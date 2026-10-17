@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <softkeys href="@xml/xml_0x7f170d50" />
+    </if>
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d27">
+            <softkey id="@id/id_0x7f0b0bd0" long_press_data="ौ,१" press_data="औ" />
+            <softkey id="@id/id_0x7f0b0bcf" long_press_data="ै,२" press_data="ऐ" />
+            <softkey id="@id/id_0x7f0b0bce" long_press_data="ा,३" press_data="आ" />
+            <softkey id="@id/id_0x7f0b0c11" long_press_data="ी,४" press_data="ई" />
+            <softkey id="@id/id_0x7f0b0c9b" long_press_data="ू,५" press_data="ऊ" />
+            <softkey id="@id/id_0x7f0b0bd2" long_press_data="भ,६" press_data="ब" />
+            <softkey id="@id/id_0x7f0b0c09" long_press_data="७" press_data="ह" />
+            <softkey id="@id/id_0x7f0b0c00" long_press_data="घ,८," press_data="ग" />
+            <softkey id="@id/id_0x7f0b0be9" long_press_data="ध,९" press_data="द" />
+            <softkey id="@id/id_0x7f0b0c12" long_press_data="झ,ज्ञ,०" press_data="ज" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0bf6" long_press_data="ढ" press_data="ड" />
+            <softkey id="@id/id_0x7f0b0c47" long_press_data="ो" press_data="ओ" />
+            <softkey id="@id/id_0x7f0b0bff" long_press_data="े" press_data="ए" />
+            <softkey id="@id/id_0x7f0b0bcd" long_press_data="्" press_data="अ" />
+            <softkey id="@id/id_0x7f0b0c0f" long_press_data="ि" press_data="इ" />
+            <softkey id="@id/id_0x7f0b0c99" long_press_data="ु" press_data="उ" />
+            <softkey id="@id/id_0x7f0b0c4a" long_press_data="फ" press_data="प" />
+            <softkey id="@id/id_0x7f0b0c53" long_press_data="ऋ,ृ" press_data="र" />
+            <softkey id="@id/id_0x7f0b0c18" long_press_data="ख" press_data="क" />
+            <softkey id="@id/id_0x7f0b0c87" long_press_data="थ,त्र" press_data="त" />
+            <softkey id="@id/id_0x7f0b0bdd" long_press_data="छ" press_data="च" />
+            <softkey id="@id/id_0x7f0b0c94" long_press_data="ठ" press_data="ट" />
+            <softkey id="@id/id_0x7f0b0be6" long_press_data="ॉ" press_data="ऑ" />
+            <softkey id="@id/id_0x7f0b0cae" long_press_data="ॅ,ऍ" press_data="्" />
+            <softkey id="@id/id_0x7f0b0ca8" long_press_data="ः,ँ,़,ऽ" press_data="ं" />
+            <softkey id="@id/id_0x7f0b0c2d" long_press_data="ॐ" press_data="म" />
+            <softkey id="@id/id_0x7f0b0c37" long_press_data="ण,ञ,ङ" press_data="न" />
+            <softkey id="@id/id_0x7f0b0c23" long_press_data="ळ" press_data="ल" />
+            <softkey id="@id/id_0x7f0b0c6c" long_press_data="श,ष,श्र" press_data="स" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d43">
+            <softkey id="@id/id_0x7f0b0c9d" press_data="व" />
+            <softkey id="@id/id_0x7f0b0ca5" press_data="य" />
+            <softkey id="@id/id_0x7f0b0c19" press_data="क्ष" />
+            <softkey id="@id/id_0x7f0b0baf" press_data="।" />
+        </softkey_list>
+    </softkeys>
+</framework>

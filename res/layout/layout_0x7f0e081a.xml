@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton android:gravity="start" android:layout_gravity="start" android:id="@id/id_0x7f0b0571" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stateListAnimator="@null" app:attr_0x7f040466="18.0dp" app:attr_0x7f040861="false" style="@style/style_0x7f150957"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

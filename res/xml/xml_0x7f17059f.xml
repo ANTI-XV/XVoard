@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard candidate_text_size_ratio="1.0" class=".latin.keyboard.LatinPrimeKeyboard" popup="@attr/attr_0x7f040201" session_states="CAPS_LOCK">
+        <view default_show="true" direction="locale" layout="@layout/layout_0x7f0e05a8" scalable="false" type="header">
+            <softkeys href="@xml/xml_0x7f170cd6" />
+            <include href="@xml/xml_0x7f170b47" />
+        </view>
+        <view type="body">
+            <motion_event_handler class=".libs.latin5.handler.LatinMotionEventHandler" />
+            <if enable_preemptive_decode="true">
+                <motion_event_handler class=".libs.latin5.handler.LatinPreemptiveDecodeHandler" />
+            </if>
+            <motion_event_handler class=".libs.latin5.handler.LatinGestureMotionEventHandler" preference_key="@string/string_0x7f140721" reverse_preference="false" />
+            <motion_event_handler class=".motioneventhandler.ScrubDeleteMotionEventHandler" preference_key="@string/string_0x7f140736" reverse_preference="false" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <motion_event_handler class=".libs.latin5.handler.LatinKeyboardLayoutHandler" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170cc9" />
+            <softkeys href="@xml/xml_0x7f170fe6" />
+            <softkeys href="@xml/xml_0x7f170fe7" />
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <softkeys href="@xml/xml_0x7f170cbb" />
+            </if>
+            <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+                <softkeys href="@xml/xml_0x7f170cbb" />
+            </else_if>
+            <else>
+                <softkeys href="@xml/xml_0x7f170cba" />
+            </else>
+            <softkeys href="@xml/xml_0x7f170cb3" />
+            <include href="@xml/xml_0x7f170b28" />
+            <include href="@xml/xml_0x7f170b30" />
+            <include href="@xml/xml_0x7f170b19" />
+            <include href="@xml/xml_0x7f170b24" />
+            <include href="@xml/xml_0x7f170bf1" />
+            <include href="@xml/xml_0x7f170a47" />
+        </view>
+    </keyboard>
+</framework>

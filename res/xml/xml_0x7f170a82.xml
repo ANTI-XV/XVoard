@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1b72" view_id="@id/key_pos_switch_hiragana_alphabet" />
+        <mapping key_id="@id/id_0x7f0b12b8" view_id="@id/key_pos_qwerty_globe" />
+        <mapping key_id="@id/id_0x7f0b1b26" view_id="@id/key_pos_space" />
+        <if device="tablet" device_size="large" keyboard_mode="normal" />
+        <else>
+            <mapping key_id="@id/id_0x7f0b128f" view_id="@id/key_pos_bottom_symbol_1" />
+            <mapping key_id="@id/id_0x7f0b1290" view_id="@id/key_pos_bottom_symbol_2" />
+        </else>
+    </key_mapping>
+    <include href="@xml/xml_0x7f170aec" />
+    <key_mapping state="SHOW_EMOJI_SWITCH_KEY">
+        <if expressions="policy_transparency">
+            <mapping key_id="@id/id_0x7f0b1b77" view_id="@id/key_pos_qwerty_globe" />
+        </if>
+        <else_if expressions="hidden">
+            <mapping key_id="@id/id_0x7f0b12ce" view_id="@id/key_pos_qwerty_globe" />
+        </else_if>
+        <else>
+            <mapping key_id="@id/id_0x7f0b1b73" view_id="@id/key_pos_qwerty_globe" />
+        </else>
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping key_id="@id/id_0x7f0b12cb" view_id="@id/key_pos_qwerty_globe" />
+    </key_mapping>
+    <key_mapping state="COMPOSING">
+        <mapping key_id="@id/id_0x7f0b12b8" view_id="@id/key_pos_qwerty_globe" />
+        <mapping key_id="@id/id_0x7f0b1b27" view_id="@id/key_pos_space" />
+    </key_mapping>
+    <key_mapping state="SHOW_EMOJI_SWITCH_KEY+SPELL_CHECKER_HIGHLIGHT">
+        <if expressions="policy_transparency">
+            <mapping key_id="@id/id_0x7f0b1b77" view_id="@id/key_pos_qwerty_globe" />
+        </if>
+        <else_if expressions="hidden">
+            <mapping key_id="@id/id_0x7f0b12ce" view_id="@id/key_pos_qwerty_globe" />
+        </else_if>
+        <else>
+            <mapping key_id="@id/id_0x7f0b1b73" view_id="@id/key_pos_qwerty_globe" />
+        </else>
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY+SPELL_CHECKER_HIGHLIGHT">
+        <mapping key_id="@id/id_0x7f0b12cb" view_id="@id/key_pos_qwerty_globe" />
+    </key_mapping>
+    <key_mapping state="COMPOSING+SPELL_CHECKER_HIGHLIGHT">
+        <mapping key_id="@id/id_0x7f0b1b26" view_id="@id/key_pos_space" />
+    </key_mapping>
+    <if japanese_use_tri_state_mode="true">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b12d0" view_id="@id/key_pos_switch_to_symbol" />
+            <mapping key_id="@id/id_0x7f0b12d0" view_id="@id/key_pos_switch_to_symbol_right" />
+        </key_mapping>
+        <merge_key_mapping exclude_state="NO_SETTINGS_KEY">
+            <merge key_id="@id/id_0x7f0b0e3c" view_id="@id/key_pos_switch_to_symbol" />
+        </merge_key_mapping>
+        <merge_key_mapping state="SHOW_ONE_HANDED_MODE_SWITCH">
+            <merge key_id="@id/id_0x7f0b0ebe" view_id="@id/key_pos_switch_to_symbol" />
+        </merge_key_mapping>
+    </if>
+    <else>
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b1b82" view_id="@id/key_pos_switch_to_symbol" />
+            <mapping key_id="@id/id_0x7f0b1b82" view_id="@id/key_pos_switch_to_symbol_right" />
+        </key_mapping>
+    </else>
+</framework>

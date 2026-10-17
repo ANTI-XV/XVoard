@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.popupatcursor.WidgetPopupViewWrapperWithArrow android:id="@id/id_0x7f0b208b" android:tag=".widget-popup-menu-wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/dimen_0x7f070357" android:layout_height="@dimen/dimen_0x7f07034e" app:attr_0x7f040340="@dimen/dimen_0x7f070349" app:attr_0x7f040341="@dimen/dimen_0x7f070353" app:attr_0x7f040342="@dimen/dimen_0x7f070085" app:attr_0x7f040344="@dimen/dimen_0x7f070086" app:attr_0x7f040345="@dimen/dimen_0x7f070354" app:attr_0x7f040346="@dimen/dimen_0x7f07034a" app:attr_0x7f040347="?attr_0x7f04042d" app:attr_0x7f04034b="@dimen/dimen_0x7f070353" app:attr_0x7f040798="@dimen/dimen_0x7f070355"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/layout_0x7f0e0837" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_0x7f0b031c" android:paddingBottom="@dimen/dimen_0x7f070351" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/dimen_0x7f070352" android:paddingEnd="@dimen/dimen_0x7f070352">
+            <include layout="@layout/layout_0x7f0e0200" />
+            <ImageView android:id="@id/id_0x7f0b208a" android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/dimen_0x7f07034c" android:src="@drawable/drawable_0x7f0805ce" app:attr_0x7f0405fd="id_0x7f0b05c6" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.popupatcursor.WidgetPopupViewWrapperWithArrow>

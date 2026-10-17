@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1194" long_press_data="ਸ੍ਹ,ਸ੍ਰ,ਸ੍ਵ,ਸ੍ਯ,ਸ੍ਤ,ਸ਼" press_data="ਸ" />
+            <softkey id="@id/id_0x7f0b1184" long_press_data="ਹ੍ਰ,ਹ੍ਵ,ਹ੍ਯ" press_data="ਹ" />
+            <softkey id="@id/id_0x7f0b1189" long_press_data="ਕ੍ਹ,ਕ੍ਰ,ਕ੍ਵ,ਕ੍ਯ,ਕ੍ਕ" press_data="ਕ" />
+            <softkey id="@id/id_0x7f0b118a" long_press_data="ਖ੍ਹ,ਖ੍ਰ,ਖ੍ਵ,ਖ੍ਯ,ਖ਼" press_data="ਖ" />
+            <softkey id="@id/id_0x7f0b1182" long_press_data="ਗ੍ਹ,ਗ੍ਰ,ਗ੍ਵ,ਗ੍ਯ,ਗ਼" press_data="ਗ" />
+            <softkey id="@id/id_0x7f0b1183" long_press_data="ਘ੍ਹ,ਘ੍ਰ,ਘ੍ਵ,ਘ੍ਯ" press_data="ਘ" />
+            <softkey id="@id/id_0x7f0b117b" long_press_data="ਚ੍ਹ,ਚ੍ਰ,ਚ੍ਵ,ਚ੍ਯ,ਚ੍ਚ" press_data="ਚ" />
+            <softkey id="@id/id_0x7f0b1187" long_press_data="ਜ੍ਹ,ਜ੍ਰ,ਜ੍ਵ,ਜ੍ਯ,ਜ਼" press_data="ਜ" />
+            <softkey id="@id/id_0x7f0b1197" long_press_data="ਟ੍ਹ,ਟ੍ਰ,ਟ੍ਵ,ਟ੍ਯ" press_data="ਟ" />
+            <softkey id="@id/id_0x7f0b117e" long_press_data="ਡ੍ਹ,ਡ੍ਰ,ਡ੍ਵ,ਡ੍ਯ" press_data="ਡ" />
+            <softkey id="@id/id_0x7f0b1195" long_press_data="ਤ੍ਹ,ਤ੍ਰ,ਤ੍ਵ,ਤ੍ਯ" press_data="ਤ" />
+            <softkey id="@id/id_0x7f0b1196" long_press_data="ਥ੍ਹ,ਥ੍ਰ,ਥ੍ਵ,ਥ੍ਯ" press_data="ਥ" />
+            <softkey id="@id/id_0x7f0b117d" long_press_data="ਦ੍ਹ,ਦ੍ਰ,ਦ੍ਵ,ਦ੍ਯ" press_data="ਦ" />
+            <softkey id="@id/id_0x7f0b1180" long_press_data="ਧ੍ਹ,ਧ੍ਰ,ਧ੍ਵ,ਧ੍ਯ" press_data="ਧ" />
+            <softkey id="@id/id_0x7f0b118d" long_press_data="ਨ੍ਹ,ਨ੍ਰ,ਨ੍ਵ,ਨ੍ਯ,ਙ,ਞ,ਨ੍ਹ੍ਹ" press_data="ਨ" />
+            <softkey id="@id/id_0x7f0b1190" long_press_data="ਪ੍ਹ,ਪ੍ਰ,ਪ੍ਵ,ਪ੍ਯ,ਪ੍ਭ,ਪ੍ਨ" press_data="ਪ" />
+            <softkey id="@id/id_0x7f0b1191" long_press_data="ਫ੍ਹ,ਫ੍ਰ,ਫ੍ਵ,ਫ੍ਯ,ਫ਼" press_data="ਫ" />
+            <softkey id="@id/id_0x7f0b1179" long_press_data="ਬ੍ਹ,ਬ੍ਰ,ਬ੍ਵ,ਬ੍ਯ" press_data="ਬ" />
+            <softkey id="@id/id_0x7f0b117a" long_press_data="ਭ੍ਹ,ਭ੍ਰ,ਭ੍ਵ,ਭ੍ਯ" press_data="ਭ" />
+            <softkey id="@id/id_0x7f0b118c" long_press_data="ਮ੍ਹ,ਮ੍ਰ,ਮ੍ਵ,ਮ੍ਯ,ਮ੍ਮ,ਮ੍ਹ੍ਹ" press_data="ਮ" />
+            <softkey id="@id/id_0x7f0b1192" long_press_data="ਰ੍ਹ,ਰ੍ਵ,ਰ੍ਯ,ਰ੍ਭ,ਰ੍ਗ" press_data="ਰ" />
+            <softkey id="@id/id_0x7f0b118b" long_press_data="ਲ੍ਹ,ਲ੍ਰ,ਲ੍ਵ,ਲ੍ਯ,ਲ੍ਮ,ਲ੍ਸ,ਲ਼" press_data="ਲ" />
+            <softkey id="@id/id_0x7f0b119b" long_press_data="ਵ੍ਹ,ਵ੍ਰ,ਵ੍ਯ" press_data="ਵ" />
+            <softkey id="@id/id_0x7f0b1193" long_press_data="ੜ੍ਹ" press_data="ੜ" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d43">
+            <softkey id="@id/id_0x7f0b11a4" press_data="ੳ" />
+            <softkey id="@id/id_0x7f0b1174" press_data="ੲ" />
+            <softkey id="@id/id_0x7f0b117c" press_data="ਛ" />
+            <softkey id="@id/id_0x7f0b1188" press_data="ਝ" />
+            <softkey id="@id/id_0x7f0b1198" press_data="ਠ" />
+            <softkey id="@id/id_0x7f0b117f" press_data="ਢ" />
+            <softkey id="@id/id_0x7f0b118e" press_data="ਣ" />
+            <softkey id="@id/id_0x7f0b119c" press_data="ਯ" />
+            <softkey id="@id/id_0x7f0b0baf" press_data="।" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3d">
+            <softkey id="@id/id_0x7f0b1175" press_data="ਅ" press_label="ਅ" />
+            <softkey id="@id/id_0x7f0b1176" long_press_data="ਾ" long_press_label="ਾ" press_data="ਆ" press_label="ਆ" />
+            <softkey id="@id/id_0x7f0b1185" long_press_data="ਿ" long_press_label="ਿ" press_data="ਇ" press_label="ਇ" />
+            <softkey id="@id/id_0x7f0b1186" long_press_data="ੀ" long_press_label="ੀ" press_data="ਈ" press_label="ਈ" />
+            <softkey id="@id/id_0x7f0b1199" long_press_data="ੁ" long_press_label="ੁ" press_data="ਉ" press_label="ਉ" />
+            <softkey id="@id/id_0x7f0b119a" long_press_data="ੂ" long_press_label="ੂ" press_data="ਊ" press_label="ਊ" />
+            <softkey id="@id/id_0x7f0b1181" long_press_data="ੇ" long_press_label="ੇ" press_data="ਏ" press_label="ਏ" />
+            <softkey id="@id/id_0x7f0b1177" long_press_data="ੈ" long_press_label="ੈ" press_data="ਐ" press_label="ਐ" />
+            <softkey id="@id/id_0x7f0b118f" long_press_data="ੋ" long_press_label="ੋ" press_data="ਓ" press_label="ਓ" />
+            <softkey id="@id/id_0x7f0b1178" long_press_data="ੌ" long_press_label="ੌ" press_data="ਔ" press_label="ਔ" />
+            <softkey id="@id/id_0x7f0b11a3" press_data="ੰ" press_label="ੰ" />
+            <softkey id="@id/id_0x7f0b119d" press_data="ਂ" press_label="ਂ" />
+            <softkey id="@id/id_0x7f0b1168" press_data="ੱ" press_label="ੱ" />
+            <softkey id="@id/id_0x7f0b11a1" press_data="੍ਰ" press_label="੍ਰ" />
+            <softkey id="@id/id_0x7f0b11a0" press_data="੍ਹ" press_label="੍ਹ" />
+            <softkey id="@id/id_0x7f0b119f" long_press_data="ੑ" long_press_label="ੑ" press_data="੍" press_label="੍" />
+            <softkey id="@id/id_0x7f0b119e" press_data="਼" press_label="਼" />
+        </softkey_list>
+    </softkeys>
+</framework>

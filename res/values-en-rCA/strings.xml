@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="string_0x7f140009">Navigate up</string>
+    <string name="string_0x7f14000b">Done</string>
+    <string name="string_0x7f14000e">OFF</string>
+    <string name="string_0x7f14000f">ON</string>
+    <string name="string_0x7f140011">Alt+</string>
+    <string name="string_0x7f140012">Ctrl+</string>
+    <string name="string_0x7f140013">delete</string>
+    <string name="string_0x7f140014">enter</string>
+    <string name="string_0x7f140015">Function+</string>
+    <string name="string_0x7f140016">Meta+</string>
+    <string name="string_0x7f140017">Shift+</string>
+    <string name="string_0x7f140018">space</string>
+    <string name="string_0x7f140019">Sym+</string>
+    <string name="string_0x7f14001a">Menu+</string>
+    <string name="string_0x7f14001b">Search…</string>
+    <string name="string_0x7f14001c">Clear query</string>
+    <string name="string_0x7f14001e">Search</string>
+    <string name="string_0x7f14001f">Submit query</string>
+    <string name="string_0x7f140020">Voice search</string>
+    <string name="string_0x7f140024">Collapse</string>
+    <string name="string_0x7f140162">Copy</string>
+    <string name="string_0x7f14027b">Advanced</string>
+    <string name="string_0x7f14061d">Not set</string>
+    <string name="string_0x7f1408ca">\"%1$s\" copied to clipboard.</string>
+    <string name="string_0x7f140dfb">%1$s, %2$s</string>
+    <string name="string_0x7f1410f8">OFF</string>
+    <string name="string_0x7f1410f9">ON</string>
+</resources>

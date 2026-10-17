@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <keyboard def="@xml/xml_0x7f1708bf" type="digit" />
+    </if>
+    <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+        <keyboard def="@xml/xml_0x7f1708bf" type="digit" />
+    </else_if>
+    <else>
+        <keyboard def="@xml/xml_0x7f1708be" type="digit" />
+    </else>
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <keyboard def="@xml/xml_0x7f170979" type="symbol" />
+    </if>
+    <else>
+        <keyboard def="@xml/xml_0x7f170978" type="symbol" />
+    </else>
+</framework>

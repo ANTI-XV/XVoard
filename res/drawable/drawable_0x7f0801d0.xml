@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask" android:drawable="@drawable/drawable_0x7f0801be" android:top="?attr_0x7f04005d" android:bottom="?attr_0x7f04005d" />
+    <item android:id="@android:id/background" android:drawable="@drawable/drawable_0x7f0801be" android:top="?attr_0x7f04005d" android:bottom="?attr_0x7f04005d" />
+</ripple>

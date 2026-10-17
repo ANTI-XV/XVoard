@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170fd5" />
+    <include href="@xml/xml_0x7f170fd3" />
+    <softkeys>
+        <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d2c" layout="@layout/layout_0x7f0e076c" multi_touch="false" slide_sensitivity="NORMAL">
+            <action data="$press_data$" keycode="$keycode$" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$press_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1d2c">
+            <softkey id="@id/id_0x7f0b1a3f" keycode="PLAIN_TEXT" press_data="(" />
+            <softkey id="@id/id_0x7f0b1a45" keycode="SLASH" press_data="/" />
+            <softkey id="@id/id_0x7f0b1a44" keycode="PLAIN_TEXT" press_data=")" />
+            <softkey id="@id/id_0x7f0b1a41" keycode="PLAIN_TEXT" press_data="N" />
+            <softkey id="@id/id_0x7f0b1a3e" keycode="STAR" press_data="*" />
+            <softkey id="@id/id_0x7f0b1a43" keycode="POUND" press_data="#" />
+            <softkey id="@id/id_0x7f0b1a40" keycode="MINUS" press_data="-" />
+            <softkey desc="@string/string_0x7f14068e" id="@id/id_0x7f0b1a3d" keycode="PLUS" press_data="+" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b1a42" layout="@layout/layout_0x7f0e0778" multi_touch="false" slide_sensitivity="NORMAL">
+            <action data="," keycode="COMMA" popup_label="," type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f1404af" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b1a47" layout="@layout/layout_0x7f0e0778" multi_touch="false" slide_sensitivity="NORMAL">
+            <action data=";" keycode="SEMICOLON" popup_label=";" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f1404e6" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e07" id="@id/id_0x7f0b1a46" layout="@layout/layout_0x7f0e0771">
+            <action keycode="LOCK_SHIFT" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="* #" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140680" id="@id/id_0x7f0b1a34" layout="@layout/layout_0x7f0e0771">
+            <action keycode="UNLOCK_SHIFT" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="123" />
+        </softkey>
+    </softkeys>
+</framework>

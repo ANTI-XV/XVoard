@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d düymə təyin olunub</item>
+        <item quantity="other">%d düymə təyin olunub</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s quraşdırıldı.</item>
+        <item quantity="other">%s quraşdırıldı.</item>
+    </plurals>
+</resources>

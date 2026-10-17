@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/dimen_0x7f0700e3" android:layout_height="@dimen/dimen_0x7f0700e3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e0089" />
+</FrameLayout>

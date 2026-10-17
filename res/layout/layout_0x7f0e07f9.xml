@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="?attr_0x7f040291"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_0x7f0b201e" android:tag=".translate.queryholder" android:background="@drawable/drawable_0x7f08029d" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/drawable_0x7f0805b5" />
+    <com.google.android.libraries.inputmethod.widgets.EditTextOnKeyboard android:textColorHint="@color/color_0x7f060a20" android:ellipsize="end" android:id="@id/id_0x7f0b201f" android:tag=".translate-query.non-linear-scale" android:background="#00000000" android:fontFamily="?attr_0x7f040103" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" style="@style/style_0x7f15093b" />
+    <com.google.android.libraries.material.progress.MaterialProgressBar android:layout_gravity="end|center" android:id="@id/id_0x7f0b201d" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginEnd="8.0dp" style="@style/style_0x7f1509c9" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/id_0x7f0b2022" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" style="@style/style_0x7f150939">
+        <ImageView android:id="@id/id_0x7f0b2020" android:background="@android:color/transparent" android:src="@drawable/quantum_gm_ic_cloud_off_vd_theme_24" android:tint="@color/color_0x7f0608db" android:layout_marginStart="10.0dp" style="@style/style_0x7f150932" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b2021" android:background="@android:color/transparent" style="@style/style_0x7f15093a" />
+    </LinearLayout>
+</FrameLayout>

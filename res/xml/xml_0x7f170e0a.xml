@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$data$" enable_slide_actions_in_a11y_mode="true" id="@id/id_0x7f0b1d1e" layout="$key_layout=@layout/softkey_ja_tri_state_digit$" multi_touch="false" popup_timing="ON_TOUCH" slide_sensitivity="NORMAL">
+            <action content_description="$data$" data="$data$" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" popup_label="$press_label$" popup_layout="$press_layout=@layout/popup_bubble_ja_support$" type="PRESS">
+                <if enable_popup_on_keypress="false" ja_enable_12keys_longpress_delay="true">
+                    <attrs always_show_popup="true" popup_layout="$press_layout=@layout/popup_bubble_ja_support_longpress_delay$" />
+                </if>
+            </action>
+            <action content_description="$left_data$" data="$left_data$" icon_background_level="@integer/integer_0x7f0c008d" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" popup_label="$left_data$" popup_layout="@layout/popup_bubble_ja_label_large" type="SLIDE_LEFT" />
+            <action content_description="$up_data$" data="$up_data$" icon_background_level="@integer/integer_0x7f0c008f" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" popup_label="$up_data$" popup_layout="@layout/popup_bubble_ja_label_large" type="SLIDE_UP">
+                <if ja_enable_popup_slideup_padding="true">
+                    <attrs popup_layout="@layout/popup_bubble_ja_label_large_slideup" />
+                </if>
+            </action>
+            <action content_description="$right_data$" data="$right_data$" icon_background_level="@integer/integer_0x7f0c008e" intention="DECODE" keycode="PLAIN_TEXT_MOZC_AS_IS" popup_label="$right_data$" popup_layout="@layout/popup_bubble_ja_label_large" type="SLIDE_RIGHT" />
+            <action data="" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="0" type="SLIDE_DOWN" />
+            <label location="@id/id_0x7f0b04d0" value="$key_label$" />
+            <label location="@id/id_0x7f0b04d1" value="$key_label_bottom$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1d1e">
+            <softkey data="1" id="@id/id_0x7f0b12d4" key_label="1" key_label_bottom="☆♪→" left_data="☆" press_label="1 ☆ ♪ →" right_data="→" up_data="♪" />
+            <softkey data="2" id="@id/id_0x7f0b12d5" key_label="2" key_label_bottom="¥$€" left_data="¥" press_label="2 ¥ $ €" right_data="€" up_data="$" />
+            <softkey data="3" id="@id/id_0x7f0b12d6" key_label="3" key_label_bottom="%ﾟ#" left_data="%" press_label="3 % ゜ #" right_data="#" up_data="゜" />
+            <softkey data="4" id="@id/id_0x7f0b12d7" key_label="4" key_label_bottom="○*・" left_data="○" press_label="4 ○ * ・" right_data="・" up_data="*" />
+            <softkey data="5" id="@id/id_0x7f0b12d8" key_label="5" key_label_bottom="+×÷" left_data="+" press_label="5 + × ÷" right_data="÷" up_data="×" />
+            <softkey data="6" id="@id/id_0x7f0b12d9" key_label="6" key_label_bottom="&lt;=>" left_data="&lt;" press_label="6 &lt; = >" right_data=">" up_data="=" />
+            <softkey data="7" id="@id/id_0x7f0b12da" key_label="7" key_label_bottom="｢｣:" left_data="「" press_label="7 ｢ ｣ :" right_data=":" up_data="」" />
+            <softkey data="8" id="@id/id_0x7f0b12db" key_label="8" key_label_bottom="〒々〆" left_data="〒" press_label="8 〒 々 〆" right_data="〆" up_data="々" />
+            <softkey data="9" id="@id/id_0x7f0b12dc" key_label="9" key_label_bottom="@string/string_0x7f140ac5" left_data="^" press_label="@string/string_0x7f140ac6" right_data="@string/string_0x7f1410e2" up_data="|" />
+            <softkey data="(" id="@id/id_0x7f0b12dd" key_label="()[]" left_data=")" press_label="( ) [ ]" right_data="]" up_data="[" />
+            <softkey data="." id="@id/id_0x7f0b12de" key_label=".,-/" left_data="," press_label=". , - /" right_data="/" up_data="-" />
+            <softkey data="0" id="@id/id_0x7f0b12d3" key_label="0" key_label_bottom="〜…@" left_data="〜" press_label="0 〜 … @" right_data="@" up_data="…" />
+        </softkey_list>
+    </softkeys>
+</framework>

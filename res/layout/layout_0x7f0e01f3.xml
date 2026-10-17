@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/style_0x7f1501d0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_weight="181.0" style="@style/style_0x7f1502fe">
+        <LinearLayout android:layout_weight="116.0" style="@style/style_0x7f1502fe">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_switch_hiragana_alphabet" android:layout_weight="58.0" style="@style/style_0x7f150597" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_switch_to_symbol" android:visibility="gone" android:layout_weight="58.0" style="@style/style_0x7f150596" />
+        </LinearLayout>
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_qwerty_globe" android:layout_weight="65.0" style="@style/style_0x7f150596" />
+    </LinearLayout>
+    <LinearLayout android:layout_weight="424.0" style="@style/style_0x7f15062c">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_space" android:layout_weight="359.0" style="@style/style_0x7f1505a8" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_zwnj_with_zwj" android:visibility="gone" android:layout_weight="65.0" style="@style/style_0x7f150593" />
+    </LinearLayout>
+    <LinearLayout android:layout_weight="116.0" style="@style/style_0x7f1502fe">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_left_arrow" android:layout_weight="58.0" style="@style/style_0x7f150596" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_right_arrow" android:layout_weight="58.0" style="@style/style_0x7f150596" />
+    </LinearLayout>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_switch_to_symbol_right" android:layout_weight="65.0" style="@style/style_0x7f150599" />
+</LinearLayout>

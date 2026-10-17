@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:attr_0x7f040446="@id/id_0x7f0b0128" motion:attr_0x7f040447="@id/id_0x7f0b0129" motion:attr_0x7f0404bc="300" motion:attr_0x7f0406f7="id_0x7f0b018a" />
+    <Transition motion:attr_0x7f040446="@id/id_0x7f0b0129" motion:attr_0x7f040447="@id/id_0x7f0b0128" motion:attr_0x7f0404bc="200" motion:attr_0x7f0406f7="id_0x7f0b018c" />
+    <ConstraintSet android:id="@id/id_0x7f0b0129">
+        <Constraint android:id="@id/id_0x7f0b02fe" android:layout_height="0.0dp" motion:attr_0x7f0405fe="@id/input_area" motion:attr_0x7f040611="id_0x7f0b05c6" motion:attr_0x7f040615="id_0x7f0b05c6" motion:attr_0x7f04061b="id_0x7f0b05c6" />
+        <Constraint android:id="@id/input_area" motion:attr_0x7f0405fd="id_0x7f0b05c6" motion:attr_0x7f040611="id_0x7f0b05c6" motion:attr_0x7f040615="id_0x7f0b05c6" motion:attr_0x7f04061b="id_0x7f0b05c6" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/id_0x7f0b0128">
+        <Constraint android:id="@id/id_0x7f0b02fe" android:layout_height="0.0dp" motion:attr_0x7f0405fe="@id/input_area" motion:attr_0x7f040611="id_0x7f0b05c6" motion:attr_0x7f040615="id_0x7f0b05c6" motion:attr_0x7f04061b="id_0x7f0b05c6" />
+        <Constraint android:id="@id/input_area" android:layout_height="0.0dp" motion:attr_0x7f040609="id_0x7f0b05d0" motion:attr_0x7f04060c="1.0" motion:attr_0x7f040611="id_0x7f0b05c6" motion:attr_0x7f040615="id_0x7f0b05c6" motion:attr_0x7f04061a="id_0x7f0b05c6" />
+    </ConstraintSet>
+</MotionScene>

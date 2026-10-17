@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_list splitter=",">
+            <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d41" layout="@layout/layout_0x7f0e079b" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+                <action data="$press_data$" intention="$press_intent=DECODE$" keycode="ALPHABET" popup_label="$press_data$" type="PRESS" />
+                <action data="$long_press_data$" intention="$long_press_intention=DECODE$" keycode="ALPHABET" merge_insertion_index="$merge_index=0$" popup_label="$long_press_data$" popup_layout="@layout/layout_0x7f0e069c" type="LONG_PRESS" />
+                <label location="@id/id_0x7f0b04d0" value="$press_data$" />
+            </softkey_template>
+        </softkey_list>
+    </softkeys>
+</framework>

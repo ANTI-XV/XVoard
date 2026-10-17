@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.companionwidget.widget.WidgetPopupMenuContentWrapper android:orientation="vertical" android:id="@id/id_0x7f0b208c" android:tag=".widget-popup-menu-wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f040340="@dimen/dimen_0x7f070595" app:attr_0x7f040342="@dimen/dimen_0x7f070598" app:attr_0x7f040344="@dimen/dimen_0x7f070597" app:attr_0x7f040346="@dimen/dimen_0x7f070599" app:attr_0x7f040347="@color/color_0x7f060b95" app:attr_0x7f04034b="@dimen/dimen_0x7f0705a2" app:attr_0x7f04034c="@color/color_0x7f060b96" />
+</FrameLayout>

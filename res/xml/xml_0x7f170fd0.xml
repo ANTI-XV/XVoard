@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/id_0x7f0b1d46" layout="@layout/layout_0x7f0e073b" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="$press_data$" intention="COMMIT" keycode="$keycode_press$" popup_label="$press_data$" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$press_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1d46">
+            <softkey id="@id/id_0x7f0b1a1f" keycode_press="KEYCODE_1" press_data="1" />
+            <softkey id="@id/id_0x7f0b1a20" keycode_press="KEYCODE_2" press_data="2" />
+            <softkey id="@id/id_0x7f0b1a21" keycode_press="KEYCODE_3" press_data="3" />
+            <softkey id="@id/id_0x7f0b1a22" keycode_press="KEYCODE_4" press_data="4" />
+            <softkey id="@id/id_0x7f0b1a23" keycode_press="KEYCODE_5" press_data="5" />
+            <softkey id="@id/id_0x7f0b1a24" keycode_press="KEYCODE_6" press_data="6" />
+            <softkey id="@id/id_0x7f0b1a25" keycode_press="KEYCODE_7" press_data="7" />
+            <softkey id="@id/id_0x7f0b1a26" keycode_press="KEYCODE_8" press_data="8" />
+            <softkey id="@id/id_0x7f0b1a27" keycode_press="KEYCODE_9" press_data="9" />
+            <softkey id="@id/id_0x7f0b1a1e" keycode_press="KEYCODE_0" press_data="0" />
+        </softkey_list>
+        <softkey_template id="@id/id_0x7f0b1d2d" layout="@layout/layout_0x7f0e073c" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="$param_data$" intention="COMMIT" keycode="$param_keycode=PLAIN_TEXT$" popup_label="$param_data$" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$param_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1d2d">
+            <softkey id="@id/id_0x7f0b16a0" param_data="!" />
+            <softkey id="@id/id_0x7f0b169e" param_data="@" param_keycode="AT" />
+            <softkey id="@id/id_0x7f0b16a4" param_data="#" param_keycode="POUND" />
+            <softkey id="@id/id_0x7f0b169f" param_data="$" />
+            <softkey id="@id/id_0x7f0b16a6" param_data="*" param_keycode="STAR" />
+            <softkey id="@id/id_0x7f0b16a3" param_data="%" />
+            <softkey id="@id/id_0x7f0b16a1" param_data="^" />
+            <softkey id="@id/id_0x7f0b169d" param_data="&amp;" />
+            <softkey id="@id/id_0x7f0b16a2" param_data="(" />
+            <softkey id="@id/id_0x7f0b16a5" param_data=")" />
+        </softkey_list>
+    </softkeys>
+</framework>

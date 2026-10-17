@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">Dodeljena je %d tipka</item>
+        <item quantity="two">Dodeljeni sta %d tipki</item>
+        <item quantity="few">Dodeljene so %d tipke</item>
+        <item quantity="other">Dodeljenih je %d tipk</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Jeziki %s so zdaj nameščeni.</item>
+        <item quantity="two">Jezika %s sta zdaj nameščena.</item>
+        <item quantity="few">Jeziki %s so zdaj nameščeni.</item>
+        <item quantity="other">Jeziki %s so zdaj nameščeni.</item>
+    </plurals>
+</resources>

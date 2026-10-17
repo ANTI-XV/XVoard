@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f150301"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/style_0x7f1501d5">
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <com.google.android.libraries.inputmethod.widgets.AutoScaleXTextView android:id="@id/id_0x7f0b04d0" android:layout_centerInParent="true" app:attr_0x7f0406ca="0.7" style="@style/style_0x7f150374" />
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b04d4" android:layout_toRightOf="@id/id_0x7f0b04d0" style="@style/style_0x7f150c5e" />
+        </RelativeLayout>
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b04d2" android:visibility="gone" style="@style/style_0x7f1503b3" />
+    </LinearLayout>
+</FrameLayout>

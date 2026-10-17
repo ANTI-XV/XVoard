@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard-layouts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <keyboard-layout android:label="@string/string_0x7f1404b7" android:name="keyboard_layout_romanian" android:keyboardLayout="@raw/raw_0x7f130068" android:keyboardLocale="ro-Latn-RO" android:keyboardLayoutType="qwerty" />
+    <keyboard-layout android:label="@string/string_0x7f1404b8" android:name="keyboard_layout_romanian_qwertz" android:keyboardLayout="@raw/raw_0x7f130069" android:keyboardLocale="ro-Latn-RO" android:keyboardLayoutType="qwertz" />
+    <keyboard-layout android:label="@string/string_0x7f1404a8" android:name="keyboard_layout_moldovan" android:keyboardLayout="@raw/raw_0x7f130068" android:keyboardLocale="ro-Latn-MD" android:keyboardLayoutType="qwerty" />
+    <keyboard-layout android:label="@string/string_0x7f1404a9" android:name="keyboard_layout_moldovan_qwertz" android:keyboardLayout="@raw/raw_0x7f130069" android:keyboardLocale="ro-Latn-MD" android:keyboardLayoutType="qwertz" />
+    <keyboard-layout android:label="@string/string_0x7f140497" android:name="keyboard_layout_english_india" android:keyboardLayout="@raw/raw_0x7f13005e" android:keyboardLocale="en-Latn-IN" android:keyboardLayoutType="qwerty" />
+    <keyboard-layout android:label="@string/string_0x7f14049e" android:name="keyboard_layout_hindi_inscript" android:keyboardLayout="@raw/raw_0x7f130060" android:keyboardLocale="hi-Deva-IN" android:keyboardLayoutType="extended" />
+    <keyboard-layout android:label="@string/string_0x7f1404a7" android:name="keyboard_layout_marathi" android:keyboardLayout="@raw/raw_0x7f130064" android:keyboardLocale="mr-Deva-IN" android:keyboardLayoutType="extended" />
+    <keyboard-layout android:label="@string/string_0x7f1404ac" android:name="keyboard_layout_nepali_traditional" android:keyboardLayout="@raw/raw_0x7f130065" android:keyboardLocale="ne-Deva" android:keyboardLayoutType="extended" />
+    <keyboard-layout android:label="@string/string_0x7f140489" android:name="keyboard_layout_bengali_inscript" android:keyboardLayout="@raw/raw_0x7f13005d" android:keyboardLocale="bn-Beng" android:keyboardLayoutType="extended" />
+    <keyboard-layout android:label="@string/string_0x7f14043c" android:name="keyboard_layout_assamese_inscript" android:keyboardLayout="@raw/raw_0x7f13005c" android:keyboardLocale="as-Beng-IN" android:keyboardLayoutType="extended" />
+    <keyboard-layout android:label="@string/string_0x7f1404db" android:name="keyboard_layout_tamil" android:keyboardLayout="@raw/raw_0x7f13006c" android:keyboardLocale="ta-Taml" android:keyboardLayoutType="extended" />
+    <keyboard-layout android:label="@string/string_0x7f1404dc" android:name="keyboard_layout_telugu" android:keyboardLayout="@raw/raw_0x7f13006d" android:keyboardLocale="te-Telu-IN" android:keyboardLayoutType="extended" />
+    <keyboard-layout android:label="@string/string_0x7f14049b" android:name="keyboard_layout_gujarati" android:keyboardLayout="@raw/raw_0x7f13005f" android:keyboardLocale="gu-Guja-IN" android:keyboardLayoutType="extended" />
+    <keyboard-layout android:label="@string/string_0x7f1404e4" android:name="keyboard_layout_urdu" android:keyboardLayout="@raw/raw_0x7f130070" android:keyboardLocale="ur-Arab" android:keyboardLayoutType="extended" />
+    <keyboard-layout android:label="@string/string_0x7f1404a3" android:name="keyboard_layout_kannada" android:keyboardLayout="@raw/raw_0x7f130062" android:keyboardLocale="kn-Knda-IN" android:keyboardLayoutType="extended" />
+    <keyboard-layout android:label="@string/string_0x7f1404ad" android:name="keyboard_layout_odia" android:keyboardLayout="@raw/raw_0x7f130066" android:keyboardLocale="or-Orya-IN" android:keyboardLayoutType="extended" />
+    <keyboard-layout android:label="@string/string_0x7f1404a6" android:name="keyboard_layout_malayalam" android:keyboardLayout="@raw/raw_0x7f130063" android:keyboardLocale="ml-Mlym-IN" android:keyboardLayoutType="extended" />
+</keyboard-layouts>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b207a" style="@style/style_0x7f1501e2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b207b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="?attr_0x7f040060" android:layout_marginEnd="?attr_0x7f040060" style="@style/style_0x7f1501e0" />
+</FrameLayout>

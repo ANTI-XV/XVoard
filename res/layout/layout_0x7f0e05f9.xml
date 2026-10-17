@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/style_0x7f1501d0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_back_to_prime" android:layout_weight="864.0" style="@style/style_0x7f150598" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_non_prime_symbol_1" android:layout_weight="852.0" style="@style/style_0x7f15059d" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_non_prime_category_1" android:layout_weight="852.0" style="@style/style_0x7f150593" />
+    <com.google.android.libraries.inputmethod.widgets.SplittableSoftKeyView android:id="@id/key_pos_space" android:layout_weight="2160.0" style="@style/style_0x7f1505ab" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_non_prime_category_2" android:layout_weight="828.0" style="@style/style_0x7f150593" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_non_prime_symbol_2" android:layout_weight="828.0" style="@style/style_0x7f15059d" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="816.0" style="@style/style_0x7f1505a0" />
+</LinearLayout>

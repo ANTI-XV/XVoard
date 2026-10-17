@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey content_description="@string/string_0x7f140552" disable_lift_to_tap="true" id="@id/id_0x7f0b07f7" layout="@layout/layout_0x7f0e0736">
+            <action action_on_down="true" data="prime" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f140454" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140552" disable_lift_to_tap="true" id="@id/id_0x7f0b07f4" layout="@layout/layout_0x7f0e0736">
+            <action data="prime" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f140454" />
+        </softkey>
+        <softkey_template id="@id/id_0x7f0b1cf8">
+            <label location="@id/id_0x7f0b04d0" value="$param_label$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1cf8">
+            <softkey id="@id/id_0x7f0b0df8" param_label="@string/string_0x7f14043f" />
+            <softkey id="@id/id_0x7f0b0dfa" param_label="@string/string_0x7f140440" />
+            <softkey id="@id/id_0x7f0b0dfc" param_label="@string/string_0x7f140441" />
+            <softkey id="@id/id_0x7f0b0dfe" param_label="@string/string_0x7f140442" />
+            <softkey id="@id/id_0x7f0b0e00" param_label="@string/string_0x7f140443" />
+            <softkey id="@id/id_0x7f0b0e02" param_label="@string/string_0x7f140444" />
+            <softkey id="@id/id_0x7f0b0e03" param_label="@string/string_0x7f140445" />
+            <softkey id="@id/id_0x7f0b0e46" param_label="@string/string_0x7f140446" />
+            <softkey id="@id/id_0x7f0b0e47" param_label="@string/string_0x7f140447" />
+            <softkey id="@id/id_0x7f0b0e48" param_label="@string/string_0x7f140448" />
+            <softkey id="@id/id_0x7f0b0e49" param_label="@string/string_0x7f140449" />
+            <if language="ccp-BD">
+                <softkey id="@id/id_0x7f0b0e4a" param_label="@string/string_0x7f14044a" />
+            </if>
+            <softkey id="@id/id_0x7f0b0e4d" param_label="@string/string_0x7f14044b" />
+            <softkey id="@id/id_0x7f0b0e4e" param_label="@string/string_0x7f14044c" />
+            <if device="tv">
+                <if language="zh-CN">
+                    <softkey id="@id/id_0x7f0b0e4f" param_label="@string/string_0x7f1404d0" />
+                </if>
+                <if language="zh-TW">
+                    <softkey id="@id/id_0x7f0b0e4f" param_label="@string/string_0x7f1404d6" />
+                </if>
+            </if>
+            <else>
+                <softkey id="@id/id_0x7f0b0e4f" param_label="@string/string_0x7f14044d" />
+            </else>
+            <softkey id="@id/id_0x7f0b0e50" param_label="@string/string_0x7f14044e" />
+            <softkey id="@id/id_0x7f0b0e52" param_label="@string/string_0x7f14044f" />
+            <softkey id="@id/id_0x7f0b0e53" param_label="@string/string_0x7f140450" />
+            <softkey id="@id/id_0x7f0b0e58" param_label="@string/string_0x7f140451" />
+            <softkey id="@id/id_0x7f0b0e59" param_label="@string/string_0x7f140452" />
+            <softkey id="@id/id_0x7f0b0e5c" param_label="@string/string_0x7f140453" />
+            <softkey id="@id/id_0x7f0b0e5d" param_label="@string/string_0x7f140455" />
+            <softkey id="@id/id_0x7f0b0e5f" param_label="@string/string_0x7f140456" />
+            <softkey id="@id/id_0x7f0b0e60" param_label="@string/string_0x7f140458" />
+            <softkey id="@id/id_0x7f0b0e61" param_label="@string/string_0x7f140457" />
+            <softkey id="@id/id_0x7f0b0e62" param_label="@string/string_0x7f140459" />
+            <softkey id="@id/id_0x7f0b0e63" param_label="@string/string_0x7f14045a" />
+            <softkey id="@id/id_0x7f0b0e65" param_label="@string/string_0x7f14045b" />
+            <softkey id="@id/id_0x7f0b0e67" param_label="@string/string_0x7f14045c" />
+            <softkey id="@id/id_0x7f0b0e68" param_label="@string/string_0x7f14045d" />
+            <softkey id="@id/id_0x7f0b0e6c" param_label="@string/string_0x7f14045e" />
+            <softkey id="@id/id_0x7f0b0e6f" param_label="@string/string_0x7f140460" />
+            <softkey id="@id/id_0x7f0b0e70" param_label="@string/string_0x7f140461" />
+            <softkey id="@id/id_0x7f0b0e73" param_label="@string/string_0x7f140462" />
+            <softkey id="@id/id_0x7f0b0e75" param_label="@string/string_0x7f140463" />
+            <softkey id="@id/id_0x7f0b0e78" param_label="@string/string_0x7f140464" />
+            <softkey id="@id/id_0x7f0b0e79" param_label="@string/string_0x7f140465" />
+            <softkey id="@id/id_0x7f0b0e7a" param_label="@string/string_0x7f140466" />
+            <softkey id="@id/id_0x7f0b0e7b" param_label="@string/string_0x7f140467" />
+            <softkey id="@id/id_0x7f0b0e7d" param_label="@string/string_0x7f140468" />
+            <softkey id="@id/id_0x7f0b0e7f" param_label="@string/string_0x7f140469" />
+            <softkey id="@id/id_0x7f0b0e80" param_label="@string/string_0x7f14046a" />
+            <softkey id="@id/id_0x7f0b0e81" param_label="@string/string_0x7f14046b" />
+            <softkey id="@id/id_0x7f0b0e85" param_label="@string/string_0x7f14046c" />
+            <softkey id="@id/id_0x7f0b0e87" param_label="@string/string_0x7f14046d" />
+            <softkey id="@id/id_0x7f0b0e89" param_label="@string/string_0x7f14046e" />
+            <softkey id="@id/id_0x7f0b0e8b" param_label="@string/string_0x7f14046f" />
+            <softkey id="@id/id_0x7f0b0e8d" param_label="@string/string_0x7f140470" />
+            <softkey id="@id/id_0x7f0b0e8f" param_label="@string/string_0x7f140471" />
+            <softkey id="@id/id_0x7f0b0e91" param_label="@string/string_0x7f140472" />
+            <softkey id="@id/id_0x7f0b0e92" param_label="@string/string_0x7f140473" />
+            <softkey id="@id/id_0x7f0b0ec2" param_label="@string/string_0x7f140474" />
+            <softkey id="@id/id_0x7f0b0ec3" param_label="@string/string_0x7f140475" />
+            <softkey id="@id/id_0x7f0b0ec5" param_label="@string/string_0x7f140476" />
+            <softkey id="@id/id_0x7f0b0ec6" param_label="@string/string_0x7f140477" />
+            <softkey id="@id/id_0x7f0b100b" param_label="@string/string_0x7f140478" />
+            <softkey id="@id/id_0x7f0b100c" param_label="@string/string_0x7f140479" />
+            <softkey id="@id/id_0x7f0b100e" param_label="@string/string_0x7f14047a" />
+            <softkey id="@id/id_0x7f0b100f" param_label="@string/string_0x7f14047b" />
+            <softkey id="@id/id_0x7f0b1010" param_label="@string/string_0x7f14047c" />
+            <softkey id="@id/id_0x7f0b1011" param_label="@string/string_0x7f14047d" />
+            <softkey id="@id/id_0x7f0b1012" param_label="@string/string_0x7f14047e" />
+            <softkey id="@id/id_0x7f0b1013" param_label="@string/string_0x7f14047f" />
+            <softkey id="@id/id_0x7f0b1014" param_label="@string/string_0x7f140480" />
+            <softkey id="@id/id_0x7f0b1015" param_label="@string/string_0x7f140481" />
+            <softkey id="@id/id_0x7f0b101b" param_label="@string/string_0x7f140482" />
+            <softkey id="@id/id_0x7f0b101c" param_label="@string/string_0x7f140483" />
+            <softkey id="@id/id_0x7f0b101f" param_label="@string/string_0x7f140484" />
+            <softkey id="@id/id_0x7f0b1020" param_label="@string/string_0x7f140485" />
+            <softkey id="@id/id_0x7f0b1021" param_label="@string/string_0x7f140486" />
+            <softkey id="@id/id_0x7f0b1022" param_label="@string/string_0x7f140487" />
+            <softkey id="@id/id_0x7f0b1023" param_label="@string/string_0x7f140488" />
+        </softkey_list>
+    </softkeys>
+</framework>

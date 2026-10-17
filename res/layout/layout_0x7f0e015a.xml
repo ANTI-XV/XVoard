@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:id="@id/id_0x7f0b0106" android:keyboardNavigationCluster="true" app:attr_0x7f0402e6="false" style="@style/style_0x7f1501ba"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_0x7f0e015c" />
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

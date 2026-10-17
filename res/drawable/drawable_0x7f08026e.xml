@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/drawable_0x7f080410" android:left="25.0dp" android:right="150.0dp" />
+    <item android:drawable="@drawable/drawable_0x7f080410" android:left="42.0dp" android:right="133.0dp" />
+    <item android:drawable="@drawable/drawable_0x7f08040f" android:left="59.0dp" android:right="106.0dp" />
+    <item android:drawable="@drawable/drawable_0x7f08040f" android:left="86.0dp" android:right="79.0dp" />
+    <item android:drawable="@drawable/drawable_0x7f08040f" android:left="113.0dp" android:right="52.0dp" />
+    <item android:drawable="@drawable/drawable_0x7f08040f" android:left="140.0dp" android:right="25.0dp" />
+</layer-list>

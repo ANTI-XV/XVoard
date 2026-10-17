@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b05d5" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatEditText android:layout_gravity="fill_horizontal|center" android:id="@id/id_0x7f0b05d4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:hint="@string/string_0x7f14067e" android:maxLength="@integer/integer_0x7f0c00dc" android:inputType="textNoSuggestions" android:imeOptions="actionNext|flagNoFullscreen" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp">
+            <requestFocus />
+        </android.support.v7.widget.AppCompatEditText>
+        <android.support.v7.widget.AppCompatTextView android:layout_gravity="start|center" android:id="@id/id_0x7f0b05d3" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/string_0x7f14067d" android:layout_marginStart="10.0dp" style="?android:textAppearanceSmall" />
+        <android.support.v7.widget.AppCompatEditText android:layout_gravity="fill_horizontal|center" android:id="@id/id_0x7f0b05d2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/string_0x7f14067c" android:maxLength="@integer/integer_0x7f0c00dc" android:inputType="textNoSuggestions" android:imeOptions="actionDone|flagNoFullscreen" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f150006">
+    <include layout="@layout/layout_0x7f0e0024" />
+</FrameLayout>

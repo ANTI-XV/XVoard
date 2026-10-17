@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d tastă atribuită</item>
+        <item quantity="few">%d taste atribuite</item>
+        <item quantity="other">%d de taste atribuite</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s s-a instalat.</item>
+        <item quantity="few">%s s-au instalat.</item>
+        <item quantity="other">%s s-au instalat.</item>
+    </plurals>
+</resources>

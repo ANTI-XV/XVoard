@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard candidate_selection_keys="1,2,3,4,5,6,7,8,9" candidate_text_size_ratio="1.0" class=".latin.keyboard.LatinJapanesePrimeKeyboard">
+        <if>
+            <include href="@xml/xml_0x7f170043" />
+            <attrs class=".latin.keyboard.LatinJapanesePrimeKeyboardV2" />
+        </if>
+        <if ja_enable_smart_writing_physical_keyboard="true">
+            <view layout="@layout/layout_0x7f0e01e7" scalable="false" type="floating_candidates" />
+        </if>
+        <else>
+            <view layout="@layout/layout_0x7f0e01e6" scalable="false" type="floating_candidates" />
+        </else>
+    </keyboard>
+</framework>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/dimen_0x7f0708d3">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/id_0x7f0b02ac" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150c76" />
+        <android.support.v7.widget.AppCompatTextView app:attr_0x7f0405f7="true" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040616="@id/id_0x7f0b02ac" app:attr_0x7f04061b="id_0x7f0b05c6" app:attr_0x7f04062c="0.0dp" style="@style/style_0x7f150c77" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/layout_0x7f0e0843" />
+    </FrameLayout>
+</merge>

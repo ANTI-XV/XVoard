@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView app:attr_0x7f0402e6="false" style="@style/style_0x7f1502a3"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner style="@style/style_0x7f1502ab">
+        <include layout="@layout/layout_0x7f0e01b0" />
+        <include layout="@layout/layout_0x7f0e01ba" />
+        <include layout="@layout/layout_0x7f0e01b3" />
+        <LinearLayout app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/key_pos_header_end_extra_key" app:attr_0x7f040616="@id/key_pos_header_start_extra_key" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1502ac">
+            <com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout style="@style/style_0x7f150653">
+                <include layout="@layout/layout_0x7f0e01af" />
+                <include layout="@layout/layout_0x7f0e01b1" />
+                <include layout="@layout/layout_0x7f0e06dd" />
+                <include layout="@layout/layout_0x7f0e0815" />
+            </com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout>
+        </LinearLayout>
+        <include layout="@layout/layout_0x7f0e01b4" />
+        <include layout="@layout/layout_0x7f0e01b6" />
+        <include layout="@attr/attr_0x7f040007" />
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

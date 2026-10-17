@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b0126" style="@style/style_0x7f15021d"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView style="@style/style_0x7f15021b" />
+</FrameLayout>

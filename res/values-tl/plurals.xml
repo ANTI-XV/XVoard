@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d (na) key ang nakatalaga</item>
+        <item quantity="other">%d (na) key ang nakatalaga</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Naka-install na ngayon ang %s.</item>
+        <item quantity="other">Naka-install na ngayon ang %s.</item>
+    </plurals>
+</resources>

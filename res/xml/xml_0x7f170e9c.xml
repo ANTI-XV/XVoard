@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d37" layout="@layout/layout_0x7f0e073d">
+            <action action_on_down="true" data="$press_data$" intention="DECODE" keycode="$key_code$" play_media_effect="false" type="PRESS" />
+            <action keycode="$key_code$" type="UP" />
+            <icon location="@id/id_0x7f0b02ac" value="$param_icon$" />
+        </softkey_template>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d37">
+            <softkey desc="dot" id="@id/id_0x7f0b17a9" key_code="MORSE_DOT" param_icon="@drawable/drawable_0x7f080410" press_data="." />
+            <softkey desc="dash" id="@id/id_0x7f0b17a8" key_code="MORSE_DASH" param_icon="@drawable/drawable_0x7f08040f" press_data="-" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b0e83" layout="@layout/layout_0x7f0e0756" />
+        <softkey id="@id/id_0x7f0b0e84" layout="@layout/layout_0x7f0e07a3" />
+        <softkey content_description="@string/string_0x7f140a88" id="@id/id_0x7f0b17ac" layout="@layout/layout_0x7f0e0748" multi_touch="false">
+            <action keycode="LOCK_SHIFT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04012e" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140a88" id="@id/id_0x7f0b17ad" layout="@layout/layout_0x7f0e0749" multi_touch="false">
+            <action keycode="UNLOCK_SHIFT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04012d" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140aca" id="@id/id_0x7f0b17a7" layout="@layout/layout_0x7f0e0785">
+            <action data=" " intention="DECODE" keycode="KEYCODE_SPACE" type="PRESS" />
+            <label location="@id/id_0x7f0b04d8" value=" " />
+            <label location="@id/id_0x7f0b04d9" value=" " />
+        </softkey>
+        <softkey content_description="@string/string_0x7f1405a2" id="@id/id_0x7f0b17aa" layout="@layout/layout_0x7f0e072f" multi_touch="false">
+            <action keycode="DISPLAY_MORSE_HINT_CARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080536" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f1405a3" id="@id/id_0x7f0b17ab" layout="@layout/layout_0x7f0e072f" multi_touch="false">
+            <action keycode="HIDE_MORSE_HINT_CARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080537" />
+        </softkey>
+    </softkeys>
+</framework>

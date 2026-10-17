@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f17077a" />
+    <keyboard>
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e0583" type="body" />
+        </if>
+        <else>
+            <view layout="@layout/layout_0x7f0e0582" type="body" />
+        </else>
+        <view type="body">
+            <softkeys href="@xml/xml_0x7f170edf" />
+            <softkeys href="@xml/xml_0x7f170ee0" />
+            <include href="@xml/xml_0x7f170beb" />
+        </view>
+    </keyboard>
+</framework>

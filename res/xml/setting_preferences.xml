@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_0x7f140a23" android:key="@string/string_0x7f140896"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f1409dd" android:key="@string/string_0x7f1409dc">
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14097e" android:key="@string/string_0x7f14072d" android:summary="@string/string_0x7f14097f" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a3e" android:key="@string/string_0x7f1408a1" android:summary="@string/string_0x7f140a3d" android:disableDependentsState="true" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a41" android:key="@string/string_0x7f1408a4" android:summary="@string/string_0x7f140a3f" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f140939" android:key="@string/string_0x7f140938">
+        <com.google.android.libraries.inputmethod.preferencewidgets.list.ListBooleanPreference android:persistent="true" android:entries="@array/array_0x7f03002c" android:title="@string/string_0x7f140a69" android:key="@string/string_0x7f1408c0" android:summary="%s" android:dialogTitle="@string/string_0x7f140a69" android:entryValues="@array/array_0x7f03003b" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140943" android:key="@string/string_0x7f14070d" android:summary="@string/string_0x7f140942" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f1409f1" android:key="@string/string_0x7f1409ef">
+        <com.google.android.libraries.inputmethod.preferencewidgets.list.ListPreference android:entries="@array/array_0x7f030029" android:title="@string/string_0x7f140a0f" android:key="@string/string_0x7f14086e" android:summary="%s" android:dialogTitle="@string/string_0x7f140a0f" android:entryValues="@array/array_0x7f030038" />
+        <com.google.android.libraries.inputmethod.preferencewidgets.list.ListPreference android:entries="@array/array_0x7f030029" android:title="@string/string_0x7f140a0f" android:key="@string/string_0x7f140752" android:summary="%s" android:dialogTitle="@string/string_0x7f140a0f" android:entryValues="@array/array_0x7f030038" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a59" android:key="@string/string_0x7f1408b4" android:summary="@string/string_0x7f140a58" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f1409d6" android:key="@string/string_0x7f1409d5">
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a53" android:key="@string/string_0x7f14073d" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.VolumePreference android:persistent="true" android:title="@string/string_0x7f140a54" android:key="@string/string_0x7f1408aa" android:dependency="@string/string_0x7f14073d" />
+        <com.google.android.libraries.inputmethod.settings.widget.gear.GearPreference android:persistent="false" android:title="@string/string_0x7f1409b7" android:key="@string/string_0x7f1408b8" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a6c" android:key="@string/string_0x7f140741" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.VibrationDurationPreference android:persistent="true" android:title="@string/string_0x7f140a6d" android:key="@string/string_0x7f1408c3" android:dependency="@string/string_0x7f140741" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a22" android:key="@string/string_0x7f14072f" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409f7" android:key="@string/string_0x7f140738" android:summary="@string/string_0x7f1409f6">
+            <extra android:name="hide_if_flag_is_false" android:value="@string/string_0x7f140252" />
+        </SwitchPreferenceCompat>
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409f9" android:key="@string/string_0x7f140739" android:summary="@string/string_0x7f1409f8" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.LongPressDelayPreference android:persistent="true" android:max="@integer/integer_0x7f0c00f7" android:title="@string/string_0x7f1409d0" android:key="@string/string_0x7f14078e" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.LongPressDelayPreference android:persistent="true" android:max="@integer/integer_0x7f0c00f8" android:title="@string/string_0x7f1409d1" android:key="@string/string_0x7f14078f" custom:attr_0x7f0406c8="@integer/integer_0x7f0c00f9" custom:attr_0x7f040911="@integer/integer_0x7f0c00fa" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.SeekBarListPreference android:persistent="true" android:entries="@array/array_0x7f030027" android:title="@string/string_0x7f1409db" android:key="@string/string_0x7f140809" android:summary="@string/string_0x7f1409d8" android:entryValues="@array/array_0x7f030036" seek_bar_text_left="@string/string_0x7f1409d9" seek_bar_text_right="@string/string_0x7f1409da" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a43" android:key="@string/string_0x7f1408a5" android:summary="@string/string_0x7f140a42" />
+</PreferenceScreen>

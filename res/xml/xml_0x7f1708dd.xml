@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinDialKeyboard">
+        <if show_suggestions="true">
+            <view default_show="false" direction="locale" layout="@layout/layout_0x7f0e05b3" scalable="false" type="header" />
+        </if>
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e060e" type="body">
+                <softkeys href="@xml/xml_0x7f170fd4" />
+                <softkeys href="@xml/xml_0x7f170cc1" />
+                <include href="@xml/xml_0x7f170ba9" />
+            </view>
+        </if>
+        <else_if device="tablet" keyboard_mode="normal|split">
+            <view layout="@layout/layout_0x7f0e060a" type="body">
+                <softkeys href="@xml/xml_0x7f170fd4" />
+                <softkeys href="@xml/xml_0x7f170cc1" />
+                <include href="@xml/xml_0x7f170ba9" />
+            </view>
+        </else_if>
+        <else>
+            <view layout="@layout/layout_0x7f0e0607" type="body">
+                <softkeys href="@xml/xml_0x7f170fd2" />
+                <softkeys href="@xml/xml_0x7f170cc1" />
+                <include href="@xml/xml_0x7f170ba8" />
+            </view>
+        </else>
+    </keyboard>
+</framework>

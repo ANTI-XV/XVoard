@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.inputview.KeyboardSideFrame android:layout_gravity="left|bottom" android:id="@id/id_0x7f0b04c5" style="@style/style_0x7f150364"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center|top" android:id="@id/id_0x7f0b01d2" android:src="@drawable/drawable_0x7f080572" android:layout_alignParentTop="true" android:contentDescription="@string/string_0x7f140284" style="@style/style_0x7f150363" />
+        <ImageView android:layout_gravity="center" android:id="@id/id_0x7f0b1f9f" android:src="@drawable/drawable_0x7f08051e" android:layout_centerVertical="true" android:contentDescription="@string/string_0x7f140545" style="@style/style_0x7f150363" />
+        <ImageView android:layout_gravity="center|bottom" android:id="@id/id_0x7f0b018f" android:src="@drawable/drawable_0x7f080517" android:layout_alignParentBottom="true" android:contentDescription="@string/string_0x7f1401b8" style="@style/style_0x7f150363" />
+    </RelativeLayout>
+</com.google.android.libraries.inputmethod.inputview.KeyboardSideFrame>

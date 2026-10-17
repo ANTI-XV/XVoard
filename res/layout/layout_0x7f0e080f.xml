@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.NonLinearScaleImageView android:id="@id/id_0x7f0b02ac" android:tag=".icon.for-function-key.for-header-icon.voice-inactive-mic-circle.item-ripple.on-surface.non-linear-scale" android:background="@drawable/drawable_0x7f0801fa" android:visibility="gone" android:duplicateParentState="true" android:scaleType="centerInside" style="@style/style_0x7f15021f" />
+</FrameLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime always_show_suggestions="true" announce_auto_selected_candidate="true" class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme" display_app_completions="true" indicator_label="注" inline_composing="false" keyevent_interpreter="com.google.android.apps.inputmethod.libs.chinese.PositionBasedKeyEventInterpreter" language="zh-XD" language_specific_settings="@xml/xml_0x7f171002" language_tag="zh-Hant-TW-t-i0-bopomofo" secondary_ime_def="@xml/xml_0x7f170566" string_id="ime_zh_tw_zhuyin" use_ascii_password_keyboard="true">
+        <if enable_chinese_inline_composing_shape_based="true">
+            <if pref_enable_chinese_inline_composing_tw="true">
+                <attrs inline_composing="true" />
+            </if>
+        </if>
+        <keyboard_group layout_theme="@style/style_0x7f150347" pk_language_tag="en" pk_layout_type="qwerty" supports_split_mode="true" variant="zhuyin" variant_label="@string/string_0x7f141345" variant_name_mandatory="true">
+            <layout_specific_settings resource_id="@xml/xml_0x7f171003" />
+            <keyboard def="@xml/xml_0x7f1707b3" type="prime">
+                <merge def="@xml/xml_0x7f1705e0" />
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0d" />
+            <include href="@xml/xml_0x7f170c8a" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/id_0x7f0b020a" value="true" />
+            <item id="@id/id_0x7f0b021b" value="false" />
+            <item id="@id/id_0x7f0b021e" value="@string/string_0x7f1404d6" />
+            <item id="@id/id_0x7f0b0219" value="。" />
+            <item id="@id/id_0x7f0b0201" value="@string/string_0x7f140713" />
+            <item id="@id/id_0x7f0b0218" value="hmm" />
+            <if enable_transliteration_tablet_floating_ui_v2="true">
+                <item id="@id/id_0x7f0b01f7" res="@xml/xml_0x7f170a01" />
+            </if>
+            <else>
+                <item id="@id/id_0x7f0b01f7" res="@xml/xml_0x7f170a00" />
+                <item id="@id/id_0x7f0b021f" value="false" />
+            </else>
+        </extra_values>
+        <include href="@xml/xml_0x7f170c93" />
+    </ime>
+</framework>

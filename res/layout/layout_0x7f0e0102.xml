@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/id_0x7f0b02b8" android:tag=".popup.concept-candidate-arrow" android:background="@drawable/drawable_0x7f080487" android:layout_width="18.0dp" android:layout_height="18.0dp" android:layout_marginBottom="5.0dp" android:elevation="3.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061a="@id/id_0x7f0b02c4" />
+    <androidx.cardview.widget.CardView android:id="@id/id_0x7f0b02c4" android:tag=".popup.concept-candidate" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_marginTop="5.0dp" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp" app:attr_0x7f04037c="?attr_0x7f04001d" app:attr_0x7f04037d="8.0dp" app:attr_0x7f04037e="3.0dp" app:attr_0x7f0405fe="@id/id_0x7f0b02b8" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6">
+        <ViewSwitcher android:id="@id/id_0x7f0b02c3" android:layout_width="match_parent" android:layout_height="match_parent" android:inAnimation="@android:anim/slide_in_left" android:outAnimation="@android:anim/slide_out_right" android:animateFirstView="false">
+            <include layout="@layout/layout_0x7f0e0103" />
+            <include layout="@layout/layout_0x7f0e0104" />
+        </ViewSwitcher>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

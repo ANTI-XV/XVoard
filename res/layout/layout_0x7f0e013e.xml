@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f1501c4">
+    <LinearLayout style="@style/style_0x7f1501cd">
+        <include layout="@layout/layout_0x7f0e013d" />
+        <include layout="@layout/layout_0x7f0e013b" />
+        <include layout="@layout/layout_0x7f0e0137" />
+    </LinearLayout>
+</FrameLayout>

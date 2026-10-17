@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b062d" android:tag=".keyboard-header-area.for-expression-nav" android:background="@drawable/drawable_0x7f08057e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end|bottom" android:tag=".keyboard-header-area.for-expression-nav" android:background="@drawable/drawable_0x7f08057f" android:layout_width="50.0dp" android:layout_height="50.0dp" android:importantForAccessibility="no" />
+    <ImageView android:layout_gravity="end|bottom" android:tag=".label" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginBottom="5.0dp" android:src="@drawable/drawable_0x7f080333" android:tint="@android:color/black" android:importantForAccessibility="no" android:layout_marginEnd="5.0dp" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/drawable_0x7f080288" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/dimen_0x7f070751"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/id_0x7f0b0627" android:background="@drawable/drawable_0x7f080283" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView android:textSize="16.0dp" android:layout_gravity="center" android:id="@id/id_0x7f0b062f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_0x7f070752" android:text="@string/string_0x7f1408e5" android:fontFamily="?attr_0x7f040103" android:textAlignment="center" />
+    </FrameLayout>
+</FrameLayout>

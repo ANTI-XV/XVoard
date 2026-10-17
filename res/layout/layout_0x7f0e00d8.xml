@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.launcher.firstrun.UserMetricsStepPage pageId="@id/id_0x7f0b05c0" style="@style/style_0x7f15027d"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e00d3" />
+    <LinearLayout style="@style/style_0x7f150280">
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0241" style="@style/style_0x7f150287" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b023e" android:text="@string/string_0x7f1402b1" style="@style/style_0x7f150281" />
+        <com.google.android.libraries.inputmethod.widgets.PreferenceCheckBox android:id="@id/id_0x7f0b023d" android:text="@string/string_0x7f1410f6" pref_key="@string/string_0x7f140740" style="@style/style_0x7f15027f" />
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.launcher.firstrun.UserMetricsStepPage>

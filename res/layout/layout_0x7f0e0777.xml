@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.AutoCenteredLabelView android:id="@id/id_0x7f0b04dd" android:layout_width="match_parent" style="@style/style_0x7f15038e" />
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/id_0x7f0b04d1" android:layout_width="match_parent" android:layout_below="@id/id_0x7f0b04dd" app:attr_0x7f0402df="false" style="@style/style_0x7f15038e" />
+</RelativeLayout>

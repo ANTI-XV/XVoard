@@ -1,0 +1,31 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes3.dex */
+public enum mmh {
+    UNKNOWN_CATEGORY(0),
+    FLOATING_AUTO_CORRECTION_SUGGESTION(1),
+    FLOATING_REVERT_AUTO_CORRECTION_SUGGESTION(2),
+    DECODER_SUGGESTION(3),
+    SPELL_CHECKER(4),
+    CLIPBOARD(5),
+    AUTO_FILL(6),
+    VOICE_COMMANDS(7),
+    AUTO_FILL_ACTION_SUGGESTION_ONLY(8),
+    AUGMENTED_AUTO_FILL(9),
+    SYSTEM_CLIPBOARD(10),
+    INLINE_SUGGESTION_TOOLTIP_V2(11),
+    JARVIS(12),
+    LANGUAGE_PROMO(13),
+    AUGMENTED_AUTO_FILL_SMART_REPLY_TC(14),
+    AUGMENTED_AUTO_FILL_SMART_REPLY_AICORE(15),
+    OCR(16),
+    PK_DIACRITIC_LETTERS(17),
+    UNDO(18);
+
+    public final int t;
+
+    mmh(int i) {
+        this.t = i;
+    }
+}

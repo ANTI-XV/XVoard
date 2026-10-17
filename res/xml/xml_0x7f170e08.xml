@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_list splitter=" ">
+            <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d1a" layout="@layout/layout_0x7f0e0792" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+                <action data="$press_data$" intention="DECODE" keycode="$keycode_normal$" popup_label="$label$" type="PRESS" />
+                <label location="@id/id_0x7f0b04d0" value="$label$" />
+            </softkey_template>
+            <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d1b" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+                <action data="$press_data$" intention="DECODE" keycode="$keycode_normal$" popup_label="$label$" type="PRESS" />
+                <label location="@id/id_0x7f0b04d1" value="$label$" />
+            </softkey_template>
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d1a">
+            <softkey id="@id/id_0x7f0b15e3" keycode_normal="Q" label="q" press_data="q" />
+            <softkey id="@id/id_0x7f0b163e" keycode_normal="W" label="w" press_data="w" />
+            <softkey id="@id/id_0x7f0b1586" keycode_normal="E" label="e" press_data="e" />
+            <softkey id="@id/id_0x7f0b15e5" keycode_normal="R" label="r" press_data="r" />
+            <softkey id="@id/id_0x7f0b1611" keycode_normal="T" label="t" press_data="t" />
+            <softkey id="@id/id_0x7f0b1642" keycode_normal="Y" label="y" press_data="y" />
+            <softkey id="@id/id_0x7f0b162e" keycode_normal="U" label="u" press_data="u" />
+            <softkey id="@id/id_0x7f0b15a9" keycode_normal="I" label="i" press_data="i" />
+            <softkey id="@id/id_0x7f0b15cd" keycode_normal="O" label="o" press_data="o" />
+            <softkey id="@id/id_0x7f0b15de" keycode_normal="P" label="p" press_data="p" />
+            <softkey id="@id/id_0x7f0b155b" keycode_normal="A" label="a" press_data="a" />
+            <softkey id="@id/id_0x7f0b15eb" keycode_normal="S" label="s" press_data="s" />
+            <softkey id="@id/id_0x7f0b157a" keycode_normal="D" label="d" press_data="d" />
+            <softkey id="@id/id_0x7f0b1596" keycode_normal="F" label="f" press_data="f" />
+            <softkey id="@id/id_0x7f0b1599" keycode_normal="G" label="g" press_data="g" />
+            <softkey id="@id/id_0x7f0b15a4" keycode_normal="H" label="h" press_data="h" />
+            <softkey id="@id/id_0x7f0b15b6" keycode_normal="J" label="j" press_data="j" />
+            <softkey id="@id/id_0x7f0b15b9" keycode_normal="K" label="k" press_data="k" />
+            <softkey id="@id/id_0x7f0b15bc" keycode_normal="L" label="l" press_data="l" />
+            <softkey desc="@string/string_0x7f1400a1" id="@id/id_0x7f0b12b6" keycode_normal="MINUS" label="ー" press_data="-" />
+            <softkey id="@id/id_0x7f0b1646" keycode_normal="Z" label="z" press_data="z" />
+            <softkey id="@id/id_0x7f0b1640" keycode_normal="X" label="x" press_data="x" />
+            <softkey id="@id/id_0x7f0b156e" keycode_normal="C" label="c" press_data="c" />
+            <softkey id="@id/id_0x7f0b163c" keycode_normal="V" label="v" press_data="v" />
+            <softkey id="@id/id_0x7f0b156a" keycode_normal="B" label="b" press_data="b" />
+            <softkey id="@id/id_0x7f0b15c5" keycode_normal="N" label="n" press_data="n" />
+            <softkey id="@id/id_0x7f0b15c3" keycode_normal="M" label="m" press_data="m" />
+            <softkey id="@id/id_0x7f0b150f" keycode_normal="Q" label="Q" press_data="Q" />
+            <softkey id="@id/id_0x7f0b1530" keycode_normal="W" label="W" press_data="W" />
+            <softkey id="@id/id_0x7f0b14c8" keycode_normal="E" label="E" press_data="E" />
+            <softkey id="@id/id_0x7f0b1510" keycode_normal="R" label="R" press_data="R" />
+            <softkey id="@id/id_0x7f0b1519" keycode_normal="T" label="T" press_data="T" />
+            <softkey id="@id/id_0x7f0b1533" keycode_normal="Y" label="Y" press_data="Y" />
+            <softkey id="@id/id_0x7f0b1522" keycode_normal="U" label="U" press_data="U" />
+            <softkey id="@id/id_0x7f0b14e4" keycode_normal="I" label="I" press_data="I" />
+            <softkey id="@id/id_0x7f0b14fd" keycode_normal="O" label="O" press_data="O" />
+            <softkey id="@id/id_0x7f0b150d" keycode_normal="P" label="P" press_data="P" />
+            <softkey id="@id/id_0x7f0b14ab" keycode_normal="A" label="A" press_data="A" />
+            <softkey id="@id/id_0x7f0b1512" keycode_normal="S" label="S" press_data="S" />
+            <softkey id="@id/id_0x7f0b14c3" keycode_normal="D" label="D" press_data="D" />
+            <softkey id="@id/id_0x7f0b14d5" keycode_normal="F" label="F" press_data="F" />
+            <softkey id="@id/id_0x7f0b14d7" keycode_normal="G" label="G" press_data="G" />
+            <softkey id="@id/id_0x7f0b14df" keycode_normal="H" label="H" press_data="H" />
+            <softkey id="@id/id_0x7f0b14f1" keycode_normal="J" label="J" press_data="J" />
+            <softkey id="@id/id_0x7f0b14f3" keycode_normal="K" label="K" press_data="K" />
+            <softkey id="@id/id_0x7f0b14f4" keycode_normal="L" label="L" press_data="L" />
+            <softkey id="@id/id_0x7f0b1536" keycode_normal="Z" label="Z" press_data="Z" />
+            <softkey id="@id/id_0x7f0b1532" keycode_normal="X" label="X" press_data="X" />
+            <softkey id="@id/id_0x7f0b14bc" keycode_normal="C" label="C" press_data="C" />
+            <softkey id="@id/id_0x7f0b152e" keycode_normal="V" label="V" press_data="V" />
+            <softkey id="@id/id_0x7f0b14ba" keycode_normal="B" label="B" press_data="B" />
+            <softkey id="@id/id_0x7f0b14f7" keycode_normal="N" label="N" press_data="N" />
+            <softkey id="@id/id_0x7f0b14f6" keycode_normal="M" label="M" press_data="M" />
+            <softkey desc="@string/string_0x7f14009f" id="@id/id_0x7f0b1291" keycode_normal="COMMA" label="、" press_data="," />
+            <softkey desc="@string/string_0x7f1400a0" id="@id/id_0x7f0b12a4" keycode_normal="PERIOD" label="。" press_data="." />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d1b">
+            <softkey desc="@string/string_0x7f14009f" id="@id/id_0x7f0b128f" keycode_normal="COMMA" label="、" press_data="," />
+            <softkey desc="@string/string_0x7f1400a0" id="@id/id_0x7f0b1290" keycode_normal="PERIOD" label="。" press_data="." />
+        </softkey_list>
+    </softkeys>
+    <include href="@xml/xml_0x7f170e07" />
+    <include href="@xml/xml_0x7f170fcc" />
+    <include href="@xml/xml_0x7f170cbe" />
+</framework>

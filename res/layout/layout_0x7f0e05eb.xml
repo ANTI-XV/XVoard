@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/style_0x7f150301"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/style_0x7f1501d5">
+        <ImageView android:id="@id/id_0x7f0b02ac" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b04d4" android:layout_toRightOf="@id/id_0x7f0b02ac" style="@style/style_0x7f150c5e" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="end|center" android:id="@id/id_0x7f0b00cd" android:tag=".icon.for-function-key" android:visibility="invisible" android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/drawable_0x7f080571" android:scaleType="fitCenter" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/dimen_0x7f0702f0" />
+</LinearLayout>

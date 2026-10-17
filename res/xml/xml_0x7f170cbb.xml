@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1017">
+            <softkey id="@id/id_0x7f0b0e05" long_press_data=": ! ؟ ؛ - &quot; '" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e06" long_press_data=", . ? ! ॥ # ) ( / ' @ : ; - &quot; +" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e07" long_press_data=", . 𑅂 @ 𑅀 ) ( &quot; ' ; : - / +" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e08" long_press_data=", . ꣏ # ) ( / ' @ : ; - &quot; +" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e09" long_press_data=", . ? ! ॥ # / ( ) ' @ : ; - &quot; + ꠨ &amp; ꠩ ꠪ ꠫" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1016">
+            <softkey id="@id/id_0x7f0b0e0b" long_press_data=", . ? ! : ; &quot; ᤹ ᤻ ᤺ ᥀ # ) ( / ' @ - + * %" long_press_label=", . ? ! : ; &quot; ◌᤹ ◌᤻ ◌᤺ ᥀ # ) ( / ' @ - + * %" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1016">
+            <softkey id="@id/id_0x7f0b0e0d" long_press_data="ֵ ֶ ִ ָ ּ ֿ ְ ֱ ֹ ֳ ֻ ֲ" long_press_label="◌ֵ ◌ֶ ◌ִ ◌ָ ◌ּ ◌ֿ ◌ְ ◌ֱ ◌ֹ ◌ֳ ◌ֻ ◌ֲ" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e0c" long_press_data="״ ־ ׃ ׀" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1018">
+            <softkey id="@id/id_0x7f0b0e10" long_press_data="꧊ ꧌ ꧇ ꧍ - / @ ꧋ ( ' ) &quot; , ." long_press_label="꧊ ꧌ ꧇ ꧍ - / @ ꧋ ( ' ) &quot; , ." />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e11" long_press_data=", . ꤮ # ) ( / ' @ : ; - &quot; +" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e12" long_press_data=", ' # ) ( / ; @ : - &quot; + % &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1016">
+            <softkey id="@id/id_0x7f0b0e13" long_press_data="⹁ U+1E95F ؟ U+1E95E ! ' # ( ) / ⁏ @ : - &quot; + % &amp;" long_press_label="⹁ U+1E95F ؟ U+1E95E ! ' # ) ( / ⁏ @ : - &quot; + % &amp;" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1016">
+            <softkey hint_label="ً◌" id="@id/id_0x7f0b0e14" long_press_data="؟,!,ً,ّ,ٌ,ٍ,ْ,ٔ,ٕ,َ,ـ,ُ,ِ,ٓ,ٰ,ٖ" long_press_label="؟,!,ً◌,ّ◌,ٌ◌,ٍ◌,ْ◌,ٔ◌,ٕ◌,َ◌,ــ,ُ◌,ِ◌,ٓ◌,ٰ◌,ٖ◌" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1016">
+            <softkey hint_label="؟" id="@id/id_0x7f0b0e15" long_press_data="، ؟ ! # ) ( / ؛ ' @ : - &quot; + ٪ &amp;" long_press_label="، ؟ ! # ( ) / ؛ ' @ : - &quot; + ٪ &amp;" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b101a">
+            <softkey hint_label="᭝" id="@id/id_0x7f0b0e16" long_press_data="᭝,᭞,᭟,᭟᭜᭟,᭚,!,?,;" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e17" long_press_data="꛵ ꛷ ꛲ ꛶ ) ( / ' @ ꛴ # , . ? ! - &quot; +" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e18" long_press_data=", ? ! # ) ( / ; ' @ : - &quot; + ᯲ &amp; ᯼ % ᯽ ᯾ ᯿" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e19" long_press_data=", ? ! . ᐀ # ) ( / ; ' @ : - &quot; + % &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e1a" long_press_data=", ? ! · # ) ( / : ' ; @ - &quot; + &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e1b" long_press_data="꩝ ꩟ ꩜ , ? ! . ( ) # / ; : @" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e1c" long_press_data="… ？ ！ 、 ： ； _ % $ ^ &amp; :P :D :( :) ^_^" long_press_intention="COMMIT" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e1d" long_press_data=", ? ! # ) ( ' &quot; : ჻ · • ʼ ⸴ ; ⁞ ⁝ ⁖ ⸫ ⸪ ⁘ ⸬ ⁙ ⸭ ⁓ ∼ ∽ ∻ ≁ ※ ⁜ †" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e1e" long_press_data=", ? ! ; # ) ( / ⳾ ⸳ : · ⁖ ⁘ ⁙ † ⸗ ' ~ &quot; — - + &amp; ⳻ ⳼ ⳿ ⸴ ⳺ ⳹ @ %" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b0e1f" />
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e20" long_press_data="፥ ፦ ፤ ፡ , ; # ( / ) ' @ : - &quot; + % &amp;" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e21" long_press_data="፤ ፥ ፦ ፧ ፨ ፠ , ' # ) ( / ; @ : - &quot; + % &amp;" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e22" long_press_data=", ' # ) ( _ / ; @ : - &quot; + · % &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e23" long_press_data=", ! । ? ઽ ૐ લ ' # ) / ( ; @ : - &quot; + % &amp; *" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e24" long_press_data=", ` # ) ( / ; @ : - &quot; + % &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1016">
+            <softkey id="@id/id_0x7f0b0e25" long_press_data=", ' # ( ) / ; @ : - &quot; + % &amp;" long_press_label=", ' # ) ( / ; @ : - &quot; + % &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1016">
+            <softkey id="@id/id_0x7f0b0e0a" long_press_data="ʰ ̰ ̥ ͡ ͜ ̪ ʲ ˁ ̃ ˞ ̊ ̬ ̤ ͆ ˠ ̚" long_press_label="◌ʰ ◌̰ ◌̥ ◌͡◌ ◌͜◌ ◌̪ ◌ʲ ◌ˁ ◌̃ ◌˞ ◌̊ ◌̬ ◌̤ ◌͆ ◌ˠ ◌̚" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1016">
+            <softkey id="@id/id_0x7f0b0e26" long_press_data="/ { ˌ } ⟩ ⟨ ⸩ ⸨ ̆ | ˈ ‖ ː ˑ ) (" long_press_label="/ { ˌ } ⟩ ⟨ ⸩ ⸨ ◌̆ | ˈ ‖ ː ˑ ) (" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1016">
+            <softkey hint_label="ِ◌" id="@id/id_0x7f0b0e28" long_press_data="؟,!,ِ,ّ,ُ,ٔ,ٓ,َ,ً,ٰ,ْ,ـ,ٞ,ٛ" long_press_label="؟,!,ِ◌,ّ◌,ُ◌,ٔ◌,ٓ◌,َ◌,ً◌,ٰ◌,ْ◌,ــ,ٞ◌,ٛ◌" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1016">
+            <softkey hint_label="ُ◌" id="@id/id_0x7f0b0e29" long_press_data="؟,!,ُ,ٗ,ِ,ٕ,ٔ,ٛ,ٚ,ٰ,ٖ,َ,ٓ,ْ,ً,ـ" long_press_label="؟,!,ُ◌,ٗ◌,ِ◌,ٕ◌,ٔ◌,ٛ◌,ٚ◌,ٰ◌,ٖ◌,َ◌,ٓ◌,ْ◌,ً◌,ــ" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1016">
+            <softkey hint_label="ُ◌" id="@id/id_0x7f0b0e2a" long_press_data="؟,!,َ,ُ,ِ,ْ,ٚ,ٓ,ٕ,ٔ,ٰ,ٖ,ً,ـ" long_press_label="؟,!,َ◌,ُ◌,ِ◌,ْ◌,ٚ◌,ٓ◌,ٕ◌,ٔ◌,ٰ◌,ٖ◌,ً◌,ــ" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1016">
+            <softkey hint_label="ُ◌" id="@id/id_0x7f0b0e2b" long_press_data="؟,!,ٙ,ٛ,َ,ُ,ِ,ْ,ً,ٌ,ٍ,ٔ,ّ,ٰ,ٓ,ـ" long_press_label="؟,!,ٙ◌,ٛ◌,َ◌,ُ◌,ِ◌,ْ◌,ً◌,ٌ◌,ٍ◌,ٔ◌,ّ◌,ٰ◌,ٓ◌,ــ" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1016">
+            <softkey hint_label="ً◌" id="@id/id_0x7f0b0e2c" long_press_data="؟,!,ً,ّ,ٌ,ٍ,ْ,ٔ,ٕ,َ,ـ,ُ,ِ,ٓ,ٰ,ٖ,ٚ,ٛ" long_press_label="؟,!,ً◌,ّ◌,ٌ◌,ٍ◌,ْ◌,ٔ◌,ٕ◌,َ◌,ــ,ُ◌,ِ◌,ٓ◌,ٰ◌,ٖ◌,ٚ◌,ٛ◌" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e2d" long_press_data="၊ , . ? ! ႟ # / ( ) ' @ &quot; : ; -" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1016">
+            <softkey hint_label="؟" id="@id/id_0x7f0b0e2e" long_press_data="؟,߹,߸,ߑ,ߺ,ߴ,߯,߫,߲,߳,߭,߱,߮,ߵ,߰,߬" long_press_label="؟,߹,߸,ߑ,ߺ,ߴ,߯,߫,߲,߳,߭,߱,߮,ߵ,߰,߬" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1016">
+            <softkey hint_label="َ◌" id="@id/id_0x7f0b0e2f" long_press_data="؟,!,َ,ُ,ْ,ِ,ّ,ً,ٍ,ٌ,ٰ,ٔ,ٕ,ٙ,ـ,ٓ" long_press_label="؟,!,َ◌,ُ◌,ْ◌,ِ◌,ّ◌,ً◌,ٍ◌,ٌ◌,ٰ◌,ٔ◌,ٕ◌,ٙ◌,ــ,ٓ◌" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e31" long_press_data="!,?,;,:,',&quot;,@,+,ᱹ,ᱻ,ᱸ,ᱺ,᱾,᱿,ᱽ,ᱼ" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e30" long_press_data=", ' ) # ( / ; @ : - &quot; + % &amp; * ꥟" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1016">
+            <softkey hint_label="َ◌" id="@id/id_0x7f0b0e32" long_press_data="؟,!,،,َ,ُ,ٗ,ْ,ِ,ّ,ً,ٍ,ٌ,ٔ,ٕ,ٛ,ٚ,ٰ,ٓ,ۡ,٘,ـ" long_press_label="؟,!,،,َ◌,ُ◌,ٗ◌,ْ◌,ِ◌,ّ◌,ً◌,ٍ◌,ٌ◌,ٔ◌,ٕ◌,ٛ◌,ٚ◌,ٰ◌,ٓ◌,ۡ◌,٘◌,ـ" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e33" long_press_data=", ? ! # ) ( / ; ' ¿ ¡ - &quot; @ &amp; :" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e34" long_press_data=", ' # ) ( / ; @ : - &quot; + % ᳀ ᳁ ᳂ ᳃ ᳄ ᳅ ᳆ ᳇" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1016">
+            <softkey id="@id/id_0x7f0b0e35" long_press_data="؟,!,܀,܁,܂,܃,܄,܅,܆,܇,܈,܉,܊,܋,܌,܍,݃,݄,݉,݊,ـ" long_press_label="؟,!,܀,܁,܂,܃,܄,܅,܆,܇,܈,܉,܊,܋,܌,܍,݃◌,݄◌,݉◌,݊◌,ـ" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e36" long_press_data=", ' # ) ( / ; @ : - &quot; + % &amp; ꫞ ꫟" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e37" long_press_data="༄,༈,༔,ཿ,༴,༻,༺,༼,༽,༐,༑,༅,༆,ྃ,྆,༸,ཾ,༚,༜,࿓,࿔" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1016">
+            <softkey hint_label="ِ◌" id="@id/id_0x7f0b0e38" long_press_data="؟,!,ِ,ّ,ُ,ٗ,ٔ,ٓ,َ,ً,ٰ,ٖ,ْ,ـ,٘,ٕ,ٌ,ٍ" long_press_label="؟,!,ِ◌,ّ◌,ُ◌,ٗ◌,ٔ◌,ٓ◌,َ◌,ً◌,ٰ◌,ٖ◌,ْ◌,ــ,٘◌,ٕ◌,ٌ◌,ٍ◌" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e39" long_press_data=", ! ꘍ ? ꘎ ꘏ ) # ( / ' @ : ; - &quot; + &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e3a" long_press_data=", ? ! । # ) ( / : ' ॥ @ - &quot; + &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e3b" long_press_data=", ? ! ʻ # ) ( / : ' * @ - &quot; + &amp;" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b101a">
+            <softkey id="@id/id_0x7f0b0e45" long_press_data="᰼ ᰽ ᰾ ᰿" />
+        </softkey_list>
+    </softkeys>
+</framework>

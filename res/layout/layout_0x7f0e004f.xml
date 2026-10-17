@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/style_0x7f1501e2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_0x7f0b0113" android:tint="@color/color_0x7f0608dc" android:contentDescription="@string/string_0x7f1403c7" android:importantForAccessibility="no" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b0116" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1501de" />
+    <com.google.android.libraries.inputmethod.widgets.TransformationTextView android:id="@id/id_0x7f0b0116" android:layout_marginStart="?attr_0x7f04005c" android:layout_marginEnd="?attr_0x7f040060" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040616="@id/id_0x7f0b0113" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1501e0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

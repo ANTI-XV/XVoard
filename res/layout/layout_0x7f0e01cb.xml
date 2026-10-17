@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f1502e5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/style_0x7f1501c9">
+        <include android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="840.0" layout="@layout/layout_0x7f0e01d0" />
+        <include android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2520.0" layout="@layout/layout_0x7f0e01d5" />
+        <com.google.android.libraries.inputmethod.widgets.SplittableView android:layout_weight="480.0" style="@style/style_0x7f15063b" />
+        <include android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2520.0" layout="@layout/layout_0x7f0e01d3" />
+        <include android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="840.0" layout="@layout/layout_0x7f0e01d4" />
+    </LinearLayout>
+</FrameLayout>

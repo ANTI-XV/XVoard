@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey content_description="@string/string_0x7f14034f" id="@id/id_0x7f0b06a7" layout="@layout/layout_0x7f0e077a" multi_touch="false">
+            <action data="SUB_CATEGORY_2" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="1/2" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140353" id="@id/id_0x7f0b06a8" layout="@layout/layout_0x7f0e077a" multi_touch="false">
+            <action data="SUB_CATEGORY_1" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="2/2" />
+        </softkey>
+    </softkeys>
+</framework>

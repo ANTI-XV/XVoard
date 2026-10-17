@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/id_0x7f0b1d28" layout="@layout/layout_0x7f0e076d" popup_timing="ON_GESTURE" span="$span$">
+            <action data="$param_data$" intention="COMMIT" keycode="SHORT_TEXT" popup_label="$param_data$" type="PRESS" />
+            <action data="$param_longpress_data$" intention="COMMIT" keycode="SHORT_TEXT" popup_label="$param_longpress_data$" popup_layout="@layout/layout_0x7f0e0694" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$param_data$" />
+        </softkey_template>
+        <softkey_template id="@id/id_0x7f0b1d29" layout="@layout/layout_0x7f0e076e" popup_timing="ON_GESTURE" span="$span$">
+            <action data="$param_data$" intention="COMMIT" keycode="SHORT_TEXT" popup_label="$param_data$" type="PRESS" />
+            <action data="$param_longpress_data$" intention="COMMIT" keycode="SHORT_TEXT" popup_label="$param_longpress_data$" popup_layout="@layout/layout_0x7f0e0694" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$param_data$" />
+        </softkey_template>
+    </softkeys>
+</framework>

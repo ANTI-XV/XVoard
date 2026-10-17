@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="fraction_0x7f0a0000">0.4</fraction>
+    <fraction name="fraction_0x7f0a0001">0.6</fraction>
+    <fraction name="fraction_0x7f0a0002">0.1</fraction>
+    <fraction name="fraction_0x7f0a0003">0.12</fraction>
+    <fraction name="fraction_0x7f0a0004">0.12</fraction>
+    <fraction name="fraction_0x7f0a0005">21.500004%</fraction>
+    <fraction name="fraction_0x7f0a0006">0.0%</fraction>
+</resources>

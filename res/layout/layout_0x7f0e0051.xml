@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton android:textSize="@dimen/dimen_0x7f0700d0" android:id="@id/id_0x7f0b0119" android:tag=".tooltip.outlined_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/dimen_0x7f0700cd" android:text="@string/string_0x7f14039e" android:fontFamily="?attr_0x7f040105" style="?attr_0x7f04067d" />
+    <com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b011a" android:text="@string/string_0x7f1400da" style="@style/style_0x7f1501fc" />
+</LinearLayout>

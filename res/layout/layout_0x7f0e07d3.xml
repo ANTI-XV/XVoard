@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.EditTextOnKeyboard android:id="@id/id_0x7f0b1f8f" android:paddingLeft="28.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/dimen_0x7f07006d" android:minHeight="56.0dp" android:inputType="text" android:privateImeOptions="accessoryInputMode=stylus,disableAutoPaste" android:imeOptions="actionNone"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

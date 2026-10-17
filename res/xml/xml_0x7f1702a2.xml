@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" keyevent_interpreter="com.google.android.libraries.inputmethod.keyevent.interpreters.HindiKeyEventInterpreter" language="hi" string_id="ime_hindi_compact">
+        <keyboard_group pk_language_tag="hi-Deva-IN" pk_layout_type="extended" supports_split_mode="true" variant="hindi_compact" variant_label="@string/string_0x7f1411ce">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <keyboard def="@xml/xml_0x7f1707d2" type="prime">
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f17087d" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/id_0x7f0b01fe" value="। " />
+        </extra_values>
+    </ime>
+</framework>

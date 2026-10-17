@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.launcher.firstrun.EnableStepPage pageId="@id/id_0x7f0b05bd" style="@style/style_0x7f15027d"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e00d3" />
+    <LinearLayout style="@style/style_0x7f150280">
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0241" style="@style/style_0x7f150287" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b023e" android:text="@string/string_0x7f1402ab" style="@style/style_0x7f150281" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/id_0x7f0b023d" android:visibility="gone" android:text="@string/string_0x7f1402ac" style="@style/style_0x7f15027e" />
+            <LinearLayout android:id="@id/id_0x7f0b023f" android:visibility="gone" style="@style/style_0x7f150284">
+                <ImageView style="@style/style_0x7f150285" />
+                <android.support.v7.widget.AppCompatTextView style="@style/style_0x7f150286" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.launcher.firstrun.EnableStepPage>

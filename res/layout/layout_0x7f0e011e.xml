@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b02ee" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="inherit"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/id_0x7f0b02f7" android:background="@drawable/drawable_0x7f0801c3" android:layout_marginTop="0.0dp" android:layoutDirection="inherit" style="@style/style_0x7f150482">
+        <ImageView android:tag=".icon.clipboard-keys" android:src="@drawable/drawable_0x7f080525" android:contentDescription="@string/string_0x7f1403c7" style="@style/style_0x7f150480" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:text="@string/string_0x7f1403c6" style="@style/style_0x7f150481" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/id_0x7f0b02f8" android:background="@drawable/drawable_0x7f0801c4" android:layoutDirection="inherit" style="@style/style_0x7f150482">
+        <ImageView android:tag=".icon.clipboard-keys" android:src="@drawable/drawable_0x7f08053a" android:contentDescription="@string/string_0x7f1403c9" style="@style/style_0x7f150480" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:text="@string/string_0x7f1403c8" style="@style/style_0x7f150481" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/id_0x7f0b02fc" android:background="@drawable/drawable_0x7f0801c4" android:visibility="gone" android:layoutDirection="inherit" style="@style/style_0x7f150482">
+        <ImageView android:tag=".icon.clipboard-keys-pinned" android:src="@drawable/drawable_0x7f08053b" android:contentDescription="@string/string_0x7f1403cb" style="@style/style_0x7f150480" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:text="@string/string_0x7f1403ca" style="@style/style_0x7f150481" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/id_0x7f0b02f1" android:background="@drawable/drawable_0x7f0801c4" android:visibility="gone" android:layoutDirection="inherit" style="@style/style_0x7f150482">
+        <ImageView android:tag=".icon.clipboard-keys" android:src="@drawable/drawable_0x7f08030c" android:contentDescription="@string/string_0x7f1403c5" style="@style/style_0x7f150480" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:text="@string/string_0x7f1403c5" style="@style/style_0x7f150481" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/id_0x7f0b02f0" android:background="@drawable/drawable_0x7f0801c2" android:layoutDirection="inherit" style="@style/style_0x7f150482">
+        <ImageView android:tag=".icon.clipboard-keys" android:src="@drawable/drawable_0x7f080527" android:contentDescription="@string/string_0x7f1403c4" style="@style/style_0x7f150480" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:text="@string/string_0x7f1403a1" style="@style/style_0x7f150481" />
+    </LinearLayout>
+</LinearLayout>

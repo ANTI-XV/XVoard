@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="76.0dp" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/id_0x7f0b0683" android:tag=".content-suggestion-primary-color" android:background="?android:selectableItemBackground" android:padding="8.0dp" android:duplicateParentState="true" android:layout_width="44.0dp" android:layout_height="44.0dp" android:src="@drawable/drawable_0x7f080565" android:tint="@drawable/drawable_0x7f0802ea" android:contentDescription="@string/string_0x7f140653" />
+</FrameLayout>

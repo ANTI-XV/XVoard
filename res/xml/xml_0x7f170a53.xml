@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if split_keyboard_handedness_ja="right">
+        <include href="@xml/xml_0x7f170a54" />
+        <include href="@xml/xml_0x7f170a58" />
+    </if>
+    <else_if split_keyboard_handedness_ja="left">
+        <include href="@xml/xml_0x7f170a55" />
+        <include href="@xml/xml_0x7f170a57" />
+    </else_if>
+    <else>
+        <include href="@xml/xml_0x7f170a54" />
+        <include href="@xml/xml_0x7f170a55" />
+    </else>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1251" view_id="@id/key_pos_0_0" />
+        <mapping key_id="@id/id_0x7f0b1252" view_id="@id/key_pos_1_0" />
+        <mapping key_id="@id/id_0x7f0b1235" view_id="@id/key_pos_2_0" />
+        <mapping key_id="@id/id_0x7f0b1238" view_id="@id/key_pos_3_0" />
+        <mapping key_id="@id/id_0x7f0b1234" view_id="@id/key_pos_2_1" />
+        <mapping key_id="@id/id_0x7f0b1b81" view_id="@id/key_pos_3_1" />
+        <if split_keyboard_handedness_ja="both">
+            <mapping key_id="@id/id_0x7f0b1b81" view_id="@id/key_pos_ja_12keys_10" />
+        </if>
+        <if japanese_use_tri_state_mode="true">
+            <mapping key_id="@id/id_0x7f0b12d1" view_id="@id/key_pos_switch_hiragana_alphabet" />
+        </if>
+        <else>
+            <mapping key_id="@id/id_0x7f0b1b7f" view_id="@id/key_pos_switch_hiragana_alphabet" />
+        </else>
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping key_id="@id/id_0x7f0b12cb" view_id="@id/key_pos_ja_12keys_sub_10" />
+    </key_mapping>
+    <key_mapping state="COMPOSING">
+        <if split_keyboard_handedness_ja="left">
+            <mapping key_id="@id/id_0x7f0b122a" view_id="@id/key_pos_ja_12keys_sub_10" />
+        </if>
+        <else_if split_keyboard_handedness_ja="both">
+            <mapping key_id="@id/id_0x7f0b122a" view_id="@id/key_pos_ja_12keys_10" />
+            <mapping key_id="@id/id_0x7f0b122a" view_id="@id/key_pos_ja_12keys_sub_10" />
+        </else_if>
+    </key_mapping>
+</framework>

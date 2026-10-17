@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b1fed" android:layout_width="@dimen/dimen_0x7f070861" android:layout_height="@dimen/dimen_0x7f070860"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.card.MaterialCardView android:duplicateParentState="true" style="@style/style_0x7f150855">
+        <com.google.android.material.card.MaterialCardView style="@style/style_0x7f150856">
+            <LinearLayout android:orientation="horizontal" android:id="@id/id_0x7f0b1fe8" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" />
+            <include layout="@layout/layout_0x7f0e07ec" />
+            <include layout="@layout/layout_0x7f0e07ed" />
+        </com.google.android.material.card.MaterialCardView>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:textSize="@dimen/dimen_0x7f07085f" android:textColor="?attr_0x7f040407" android:gravity="center|bottom" android:layout_gravity="center_horizontal" android:id="@id/id_0x7f0b1fe7" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:fontFamily="?attr_0x7f040103" />
+</LinearLayout>

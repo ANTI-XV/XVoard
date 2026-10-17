@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_0x7f0b031d" android:layout_width="match_parent" android:layout_height="@dimen/dimen_0x7f07034d"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/id_0x7f0b0291" android:layout_width="wrap_content" android:layout_height="match_parent" app:attr_0x7f040605="@dimen/dimen_0x7f070352" />
+    <FrameLayout android:id="@id/key_pos_jarvis_close_panel" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040616="@id/id_0x7f0b0291" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150c62">
+        <android.support.v7.widget.AppCompatImageView android:src="@drawable/drawable_0x7f08032b" android:contentDescription="@string/string_0x7f1403e2" style="@style/style_0x7f15021e" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/id_0x7f0b030c" android:layout_width="0.0dp" android:layout_height="match_parent" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/key_pos_jarvis_icons" app:attr_0x7f040616="@id/key_pos_jarvis_close_panel" app:attr_0x7f04061b="id_0x7f0b05c6">
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:layout_gravity="start" android:id="@id/id_0x7f0b0314" android:focusable="true" android:text="@string/string_0x7f1404a2" style="@style/style_0x7f15037e" />
+        <android.support.v7.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/id_0x7f0b0318" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/key_pos_jarvis_icons" android:layout_width="wrap_content" android:layout_height="match_parent" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b0290" app:attr_0x7f04061b="id_0x7f0b05c6">
+        <FrameLayout android:id="@id/key_pos_jarvis_undo" android:visibility="gone" style="@style/style_0x7f150c62">
+            <android.support.v7.widget.AppCompatImageView android:src="@drawable/drawable_0x7f080570" android:contentDescription="@string/string_0x7f1403f3" style="@style/style_0x7f15021e" />
+        </FrameLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/id_0x7f0b0290" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f040606="@dimen/dimen_0x7f070352" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <override_keyboard_xml_conditions>
+        <bool name="@string/string_0x7f140788" value="false" />
+    </override_keyboard_xml_conditions>
+</framework>

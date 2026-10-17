@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView style="@style/style_0x7f150c73" />
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView style="@style/style_0x7f150c75" />
+</merge>

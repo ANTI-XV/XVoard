@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_0x7f150c9c">
+        <item name="android:background">@drawable/drawable_0x7f0801da</item>
+        <item name="android:padding">24.0dp</item>
+        <item name="android:layout_width">88.0dp</item>
+        <item name="android:layout_height">88.0dp</item>
+        <item name="android:layout_marginBottom">70.0dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="style_0x7f150c9d">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/color_0x7f060970</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16.0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8.0dp</item>
+        <item name="android:scrollHorizontally">false</item>
+    </style>
+</resources>

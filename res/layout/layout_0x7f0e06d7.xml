@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag=".keyboard-base-area" android:background="@drawable/drawable_0x7f080253" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.ShrinkableFrameView android:tag=".keyboard-background" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder android:id="@id/keyboard_header_view_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <com.google.android.libraries.inputmethod.keyboard.impl.KeyboardViewHolder android:id="@id/id_0x7f0b0497" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

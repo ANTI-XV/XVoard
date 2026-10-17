@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.emoji.picker.EmojiPickerHeaderIconContainer android:id="@id/id_0x7f0b01ab" android:layout_width="0.0dp" android:layout_height="0.0dp" style="?attr_0x7f0400d0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:id="@id/id_0x7f0b01aa" style="?attr_0x7f0400cf" />
+    <View android:layout_gravity="center|bottom" android:id="@id/id_0x7f0b01ae" android:background="@drawable/drawable_0x7f0805b8" android:layout_width="@dimen/dimen_0x7f07014c" android:layout_height="@dimen/dimen_0x7f07014b" style="?attr_0x7f0400d1" />
+</com.google.android.libraries.inputmethod.emoji.picker.EmojiPickerHeaderIconContainer>

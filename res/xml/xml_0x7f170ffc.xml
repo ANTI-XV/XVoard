@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f140a1f">
+        <ListPreference android:entries="@array/array_0x7f03002a" android:title="@string/string_0x7f140a1e" android:key="@string/string_0x7f14087e" android:summary="%s" android:dialogTitle="@string/string_0x7f140a1e" android:entryValues="@array/array_0x7f030039" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140950" android:key="@string/string_0x7f1406ee" android:summary="@string/string_0x7f14094e" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14094d" android:key="@string/string_0x7f1406ed" android:summary="@string/string_0x7f14094c" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409ac" android:key="@string/string_0x7f140724" android:summary="@string/string_0x7f1409ab" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409aa" android:key="@string/string_0x7f14071f" android:summary="@string/string_0x7f1409a9" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14093f" android:key="@string/string_0x7f140709" android:summary="@string/string_0x7f14093e" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409a6" android:key="@string/string_0x7f140753" />
+        <Preference android:title="@string/string_0x7f140999" android:dependency="@string/string_0x7f140753" android:fragment="com.google.android.libraries.inputmethod.preferencewidgets.CommonPreferenceFragment">
+            <extra android:name="PREFERENCE_FRAGMENT" android:value="setting_fuzzy_pinyin" />
+        </Preference>
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

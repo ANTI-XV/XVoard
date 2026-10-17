@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <softkey_list splitter=" " template_id="@id/id_0x7f0b1d3e">
+                <softkey id="@id/id_0x7f0b0ac6" long_press_data="!" press_data="," />
+                <softkey id="@id/id_0x7f0b0ddb" long_press_data="," press_data="!" />
+                <softkey id="@id/id_0x7f0b1026" press_data="." />
+                <softkey id="@id/id_0x7f0b1a53" long_press_data="." press_data="?" />
+            </softkey_list>
+        </if>
+        <else>
+            <softkey_list splitter="," template_id="@id/id_0x7f0b1d43">
+                <softkey id="@id/id_0x7f0b1a53" press_data="?" />
+            </softkey_list>
+        </else>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d08">
+            <softkey id="@id/id_0x7f0b1b70" long_press_data="‚,‘,’,›,‹" long_press_label="‚,‘,’,‹,›" press_data="'" press_label="'" />
+            <softkey id="@id/id_0x7f0b11dc" long_press_data="‘,’,‚,›,‹" long_press_label="‘,’,‚,‹,›" press_data="'" press_label="'" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d09">
+            <softkey id="@id/id_0x7f0b0717" long_press_data="‚,‘,’,‹,›" press_data="'" />
+            <softkey id="@id/id_0x7f0b0d4c" long_press_data="’,‚,‘,‹,›" press_data="'" />
+            <softkey id="@id/id_0x7f0b0bb0" long_press_data="’,‚,‘,›,‹" press_data="'" />
+            <softkey id="@id/id_0x7f0b0b0e" long_press_data="‘,‚,’,›,‹" press_data="'" />
+            <softkey id="@id/id_0x7f0b1a91" long_press_data="‘,‚,’,‹,›" press_data="'" />
+            <softkey id="@id/id_0x7f0b1a95" long_press_data="‚,‘,’,‹,›,ʹ,´,ʼ,ˈ" press_data="'" />
+        </softkey_list>
+    </softkeys>
+</framework>

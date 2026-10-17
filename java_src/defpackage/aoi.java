@@ -1,0 +1,12 @@
+package defpackage;
+
+import android.view.View;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+public final class aoi extends amb {
+    @Override // defpackage.amb
+    public final boolean e(View view, float f, long j, azi aziVar) {
+        return this.h;
+    }
+}

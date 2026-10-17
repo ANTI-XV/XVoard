@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d nøgle er tildelt</item>
+        <item quantity="other">%d nøgler er tildelt</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s er nu installeret.</item>
+        <item quantity="other">%s er nu installeret.</item>
+    </plurals>
+</resources>

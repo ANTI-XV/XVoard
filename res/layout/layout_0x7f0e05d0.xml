@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.checkable.CheckableLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_0x7f0b05d8" android:background="@drawable/drawable_0x7f0802e7" android:paddingLeft="?attr_0x7f04049a" android:paddingRight="?attr_0x7f04049a" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:duplicateParentState="true" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/drawable_0x7f080381" android:tint="@color/color_0x7f060179" android:importantForAccessibility="no" android:layout_marginStart="?android:listPreferredItemPaddingStart" android:layout_marginEnd="?android:listPreferredItemPaddingEnd" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/dimen_0x7f0703a6" android:textColor="@color/color_0x7f060179" android:id="@id/id_0x7f0b05d6" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/dimen_0x7f0703a7" android:textColor="@color/color_0x7f060179" android:id="@id/id_0x7f0b05d7" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.checkable.CheckableLinearLayout>

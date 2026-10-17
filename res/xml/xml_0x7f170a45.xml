@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b11ae" view_id="@id/key_pos_10key_1" />
+        <mapping key_id="@id/id_0x7f0b11a7" view_id="@id/key_pos_10key_2" />
+        <mapping key_id="@id/id_0x7f0b11ac" view_id="@id/key_pos_10key_3" />
+        <mapping key_id="@id/id_0x7f0b11b1" view_id="@id/key_pos_10key_4" />
+        <mapping key_id="@id/id_0x7f0b11b3" view_id="@id/key_pos_10key_5" />
+        <mapping key_id="@id/id_0x7f0b11bf" view_id="@id/key_pos_10key_6" />
+        <mapping key_id="@id/id_0x7f0b11b6" view_id="@id/key_pos_10key_7" />
+        <mapping key_id="@id/id_0x7f0b11b8" view_id="@id/key_pos_10key_8" />
+        <mapping key_id="@id/id_0x7f0b11a9" view_id="@id/key_pos_10key_9" />
+        <mapping key_id="@id/id_0x7f0b11af" view_id="@id/key_pos_10key_0" />
+        <mapping key_id="@id/id_0x7f0b1b2a" view_id="@id/key_pos_space" />
+    </key_mapping>
+    <keygroup_mapping group_view_id="@id/id_0x7f0b1212">
+        <key key_id="@id/id_0x7f0b0dda" />
+        <key key_id="@id/id_0x7f0b1a52" />
+        <key key_id="@id/id_0x7f0b1adb" />
+    </keygroup_mapping>
+</framework>

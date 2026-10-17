@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/input_area" style="@style/style_0x7f1501c1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e057d" />
+    <include layout="@layout/layout_0x7f0e056a" />
+</LinearLayout>

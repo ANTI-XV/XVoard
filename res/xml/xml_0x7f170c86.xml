@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.search.ocr.OcrEntryPointKeyboard">
+        <view direction="locale" layout="@layout/layout_0x7f0e066a" scalable="false" type="header" />
+    </keyboard>
+</framework>

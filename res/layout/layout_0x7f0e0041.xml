@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="36.0dp" style="@style/style_0x7f150667"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView android:id="@id/id_0x7f0b00d6" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginHorizontal="9.0dp" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b00d9" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style_0x7f15066b" />
+</LinearLayout>

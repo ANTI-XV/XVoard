@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.launcher.firstrun.PageIndicatorView android:id="@id/id_0x7f0b05c1" page_indicator_image="@layout/layout_0x7f0e00d5" style="@style/style_0x7f15027c"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:id="@id/id_0x7f0b010a" style="@style/style_0x7f1501f6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner android:id="@id/id_0x7f0b010d" android:baselineAligned="false" style="@style/style_0x7f1504c9">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/id_0x7f0b0291" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f040605="0.0dp" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_clipboard_back_to_prime" android:tag=".oval-navigation-highlight" android:layout_height="wrap_content" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040616="@id/id_0x7f0b0291" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150568" />
+        <FrameLayout android:id="@id/id_0x7f0b010c" android:layout_width="0.0dp" android:layout_height="match_parent" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/key_pos_clipboard_icons" app:attr_0x7f040616="@id/key_pos_clipboard_back_to_prime" app:attr_0x7f04061b="id_0x7f0b05c6">
+            <android.support.v7.widget.AppCompatTextView android:layout_gravity="start" android:id="@id/id_0x7f0b010b" android:text="@string/string_0x7f1400c7" style="@style/style_0x7f15037e" />
+        </FrameLayout>
+        <LinearLayout android:id="@id/key_pos_clipboard_icons" android:layout_width="wrap_content" android:layout_height="match_parent" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b0290" app:attr_0x7f04061b="id_0x7f0b05c6">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_clipboard_batch_delete" android:visibility="invisible" android:layout_marginStart="0.0dp" style="@style/style_0x7f1501f7" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_clipboard_batch_pin" style="@style/style_0x7f1501f7" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_clipboard_edit_and_add" style="@style/style_0x7f1501f7" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/id_0x7f0b0290" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f040606="0.0dp" />
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag=".keyboard-header-area" android:background="?attr_0x7f04001d" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/id_0x7f0b206b" android:layout_width="@dimen/dimen_0x7f0708a7" android:layout_height="@dimen/dimen_0x7f0708a7" android:src="@drawable/drawable_0x7f080523" android:scaleType="center" android:tint="@color/color_0x7f0608db" android:contentDescription="@string/string_0x7f141375" android:layout_marginStart="8.0dp" style="?android:borderlessButtonStyle" />
+    <android.support.v7.widget.AppCompatTextView android:gravity="center" android:id="@id/id_0x7f0b206d" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/style_0x7f15095e" />
+    <com.google.android.libraries.inputmethod.widgets.RingAnimationView android:layout_gravity="end|center" android:id="@id/id_0x7f0b206c" android:layout_width="@dimen/dimen_0x7f07089c" android:layout_height="@dimen/dimen_0x7f07089c" android:contentDescription="@string/string_0x7f141376" android:layout_marginStart="4.0dp" android:layout_marginEnd="6.0dp" app:attr_0x7f0406b2="@dimen/dimen_0x7f07089c" app:attr_0x7f0406c3="@dimen/dimen_0x7f07089b">
+        <ImageView android:layout_gravity="center" android:tag=".background-icon.for-mic-protection" android:layout_width="@dimen/dimen_0x7f07089b" android:layout_height="@dimen/dimen_0x7f07089b" android:src="@drawable/drawable_0x7f0801f5" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center" android:tag=".icon.for-function-key.for-header-icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawable_0x7f08054b" android:importantForAccessibility="no" />
+    </com.google.android.libraries.inputmethod.widgets.RingAnimationView>
+</LinearLayout>

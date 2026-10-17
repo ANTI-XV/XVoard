@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_list splitter=" ">
+            <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f1401da" disable_lift_to_tap="true" id="@id/id_0x7f0b1b73" layout="@layout/layout_0x7f0e072f">
+                <action data="smiley" keycode="SWITCH_KEYBOARD" type="PRESS" />
+                <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080474" />
+            </softkey>
+        </softkey_list>
+    </softkeys>
+</framework>

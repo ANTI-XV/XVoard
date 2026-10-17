@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_0x7f0702a2">0.2</dimen>
+    <dimen name="dimen_0x7f0702a3">0.4</dimen>
+    <dimen name="dimen_0x7f0702a4">0.8</dimen>
+    <dimen name="dimen_0x7f0702a5">0.2</dimen>
+    <dimen name="dimen_0x7f0702a8">0.1</dimen>
+    <dimen name="dimen_0x7f0702a9">0.2</dimen>
+    <dimen name="dimen_0x7f0702aa">0.2</dimen>
+    <dimen name="dimen_0x7f0702ab">0.1</dimen>
+    <dimen name="dimen_0x7f070547">0.16</dimen>
+    <dimen name="dimen_0x7f070548">0.17</dimen>
+    <dimen name="dimen_0x7f070549">0.4</dimen>
+    <dimen name="dimen_0x7f07054a">0.1</dimen>
+    <dimen name="dimen_0x7f070642">0.24</dimen>
+    <dimen name="dimen_0x7f070643">0.4</dimen>
+    <dimen name="dimen_0x7f070644">0.4</dimen>
+    <dimen name="dimen_0x7f070645">0.24</dimen>
+    <dimen name="dimen_0x7f070659">0.12</dimen>
+    <dimen name="dimen_0x7f07065a">0.2</dimen>
+    <dimen name="dimen_0x7f07065b">0.2</dimen>
+    <dimen name="dimen_0x7f07065c">0.12</dimen>
+</resources>

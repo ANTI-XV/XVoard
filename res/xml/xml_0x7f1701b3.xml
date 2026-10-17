@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="bo-CN" string_id="ime_tibetan_china_alphabetical">
+        <keyboard_group supports_split_mode="true" variant="tibetan_alphabetical" variant_label="@string/string_0x7f141318">
+            <keyboard def="@xml/xml_0x7f1705c2" type="prime" />
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/id_0x7f0b01fe" value="། " />
+        </extra_values>
+    </ime>
+</framework>

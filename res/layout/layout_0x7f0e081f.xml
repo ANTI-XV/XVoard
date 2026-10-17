@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.RectangleWithRoundedArrowDrawableFrameLayout android:tag=".floating-tooltip-background" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_0x7f0708a4" app:attr_0x7f040340="@dimen/dimen_0x7f0708a0" app:attr_0x7f040342="@dimen/dimen_0x7f0708a2" app:attr_0x7f040343="UP" app:attr_0x7f040344="@dimen/dimen_0x7f0708a1" app:attr_0x7f040346="@dimen/dimen_0x7f0708a3" app:attr_0x7f040347="@android:color/white" app:attr_0x7f04034b="@dimen/dimen_0x7f0708a6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView android:textAppearance="@style/style_0x7f15095f" android:layout_gravity="center" android:id="@id/id_0x7f0b2069" android:tag=".floating-tooltip-foreground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f14136f" android:layout_marginHorizontal="@dimen/dimen_0x7f0708a5" />
+</com.google.android.libraries.inputmethod.widgets.RectangleWithRoundedArrowDrawableFrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_0x7f141397" android:key="@string/string_0x7f14089a"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140982" android:key="@string/string_0x7f140734" android:disableDependentsState="false" />
+    <com.google.android.libraries.inputmethod.stylus.education.StylusEducationPreference />
+    <com.google.android.libraries.inputmethod.preferencewidgets.seekbar.EntryListSeekBarPreference android:persistent="true" android:entries="@array/array_0x7f030024" android:title="@string/string_0x7f1409b5" android:key="@string/string_0x7f14088a" android:dependency="@string/string_0x7f140734" android:entryValues="@array/array_0x7f03003a" />
+    <com.google.android.libraries.inputmethod.preferencewidgets.seekbar.EntryListSeekBarPreference android:persistent="true" android:entries="@array/array_0x7f030023" android:title="@string/string_0x7f1409b2" android:key="@string/string_0x7f140764" android:dependency="@string/string_0x7f140734" android:entryValues="@array/array_0x7f030033" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140937" android:key="@string/string_0x7f140705" android:summary="@string/string_0x7f140a5e" android:dependency="@string/string_0x7f140734" android:disableDependentsState="true" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a3c" android:key="@string/string_0x7f1408a0" android:summary="@string/string_0x7f140a3b" android:dependency="@string/string_0x7f140705">
+        <extra android:name="toolbar_type" android:value="stylus" />
+    </SwitchPreferenceCompat>
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140984" android:key="@string/string_0x7f140735" android:summary="@string/string_0x7f140983" android:dependency="@string/string_0x7f140734" android:disableDependentsState="true" />
+</PreferenceScreen>

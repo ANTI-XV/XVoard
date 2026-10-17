@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/dimen_0x7f070170" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.emoji.view.EmojiView android:textSize="@dimen/dimen_0x7f070843" android:id="@id/id_0x7f0b04d0" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginHorizontal="@dimen/dimen_0x7f07016d" android:paddingHorizontal="@dimen/dimen_0x7f07016f" android:paddingVertical="@dimen/dimen_0x7f07016e" app:attr_0x7f0406c6="@dimen/dimen_0x7f070844" />
+    <ImageView android:layout_gravity="end|bottom" android:id="@id/id_0x7f0b203f" android:tag=".label.emoji-inline-category" android:visibility="gone" android:layout_width="@dimen/dimen_0x7f070173" android:layout_height="@dimen/dimen_0x7f070173" android:layout_margin="@dimen/dimen_0x7f070172" android:contentDescription="@null" />
+</FrameLayout>

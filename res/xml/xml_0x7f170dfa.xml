@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0987" long_press_data="ᐟ,ᐦ" press_data="ᐞ" />
+            <softkey id="@id/id_0x7f0b09a0" press_data="ᑉ" />
+            <softkey id="@id/id_0x7f0b09a9" press_data="ᑦ" />
+            <softkey id="@id/id_0x7f0b098b" long_press_data="᙭" press_data="ᒃ" />
+            <softkey id="@id/id_0x7f0b097f" press_data="ᒡ" />
+            <softkey id="@id/id_0x7f0b0991" press_data="ᒻ" />
+            <softkey id="@id/id_0x7f0b0997" press_data="ᓐ" />
+            <softkey id="@id/id_0x7f0b09a6" press_data="ᔅ" />
+            <softkey id="@id/id_0x7f0b099b" press_data="ᕻ" />
+            <softkey id="@id/id_0x7f0b099c" press_data="ᕼ" />
+            <softkey id="@id/id_0x7f0b098e" press_data="ᓪ" />
+            <softkey id="@id/id_0x7f0b09bf" press_data="ᔾ" />
+            <softkey id="@id/id_0x7f0b0982" press_data="ᕝ" />
+            <softkey id="@id/id_0x7f0b09a4" long_press_data="ᕃ" press_data="ᕐ" />
+            <softkey id="@id/id_0x7f0b09a3" press_data="ᖅ" />
+            <softkey id="@id/id_0x7f0b0999" press_data="ᖕ" />
+            <softkey id="@id/id_0x7f0b099a" press_data="ᖖ" />
+            <softkey id="@id/id_0x7f0b0990" press_data="ᖦ" />
+            <softkey id="@id/id_0x7f0b09ab" press_data="ᖮ" />
+            <softkey id="@id/id_0x7f0b097e" press_data="ᖯ" />
+            <softkey id="@id/id_0x7f0b0717" long_press_data="‚,‘,’,‹,›" press_data="'" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3d">
+            <softkey id="@id/id_0x7f0b0981" long_press_data="ᐁ‌‌‌" long_press_label="ᐁ" press_data="ᐁ" press_label="ᐁ" />
+            <softkey id="@id/id_0x7f0b097d" long_press_data="ᐂ‌‌‌" long_press_label="ᐂ" press_data="ᐂ" press_label="ᐂ" />
+            <softkey id="@id/id_0x7f0b0989" long_press_data="ᐃ‌‌‌" long_press_label="ᐃ" press_data="ᐃ" press_label="ᐃ" />
+            <softkey id="@id/id_0x7f0b098a" long_press_data="ᐄ‌‌‌" long_press_label="ᐄ" press_data="ᐄ" press_label="ᐄ" />
+            <softkey id="@id/id_0x7f0b099d" long_press_data="ᐅ‌‌‌" long_press_label="ᐅ" press_data="ᐅ" press_label="ᐅ" />
+            <softkey id="@id/id_0x7f0b099f" long_press_data="ᐆ‌‌‌" long_press_label="ᐆ" press_data="ᐆ" press_label="ᐆ" />
+            <softkey id="@id/id_0x7f0b097b" long_press_data="ᐊ‌‌‌" long_press_label="ᐊ" press_data="ᐊ" press_label="ᐊ" />
+            <softkey id="@id/id_0x7f0b097c" long_press_data="ᐋ‌‌‌" long_press_label="ᐋ" press_data="ᐋ" press_label="ᐋ" />
+        </softkey_list>
+    </softkeys>
+</framework>

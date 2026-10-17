@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b0aa5" press_data=":" />
+            <softkey id="@id/id_0x7f0b1ad8" long_press_data=":" press_data=";" />
+        </softkey_list>
+    </softkeys>
+</framework>

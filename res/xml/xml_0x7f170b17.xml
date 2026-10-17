@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if expressions="policy_transparency">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b1b77" view_id="@id/key_pos_switch_to_smiley" />
+        </key_mapping>
+    </if>
+    <else>
+        <key_mapping state="EMOJI_AVAILABLE">
+            <mapping key_id="@id/id_0x7f0b1b73" view_id="@id/key_pos_switch_to_smiley" />
+        </key_mapping>
+        <merge_key_mapping exclude_state="NO_SETTINGS_KEY" state="EMOJI_AVAILABLE">
+            <merge key_id="@id/id_0x7f0b0e3c" view_id="@id/key_pos_switch_to_smiley" />
+        </merge_key_mapping>
+        <merge_key_mapping state="EMOJI_AVAILABLE+SHOW_ONE_HANDED_MODE_SWITCH">
+            <merge key_id="@id/id_0x7f0b0ebe" view_id="@id/key_pos_switch_to_smiley" />
+        </merge_key_mapping>
+    </else>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_switch_to_next_language" />
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping key_id="@id/id_0x7f0b1b80" view_id="@id/key_pos_switch_to_next_language" />
+    </key_mapping>
+</framework>

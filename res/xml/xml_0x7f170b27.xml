@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_zwnj_with_zwj" />
+        <mapping key_id="@id/id_0x7f0b1b22" view_id="@id/key_pos_space" />
+        <mapping key_id="@id/id_0x7f0b0bba" view_id="@id/key_pos_del" />
+        <mapping key_id="@id/id_0x7f0b1b82" view_id="@id/key_pos_switch_to_symbol" />
+        <mapping key_id="@id/id_0x7f0b1b82" view_id="@id/key_pos_switch_to_symbol_right" />
+    </key_mapping>
+</framework>

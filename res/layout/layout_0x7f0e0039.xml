@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_gravity="center_vertical" android:id="@id/id_0x7f0b0088" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6.0dp" app:attr_0x7f04037d="5.0dp" style="@style/style_0x7f150642"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.animatedview.AnimatedImageView android:id="@id/id_0x7f0b0087" android:background="@color/color_0x7f060673" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:contentDescription="@string/string_0x7f140302" app:attr_0x7f0406b7="id_0x7f0b203c" app:attr_0x7f0408ec="?android:selectableItemBackground" app:attr_0x7f040908="true" />
+</androidx.cardview.widget.CardView>

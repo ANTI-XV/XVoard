@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b12d4" view_id="@id/key_pos_0_4" />
+        <mapping key_id="@id/id_0x7f0b12d5" view_id="@id/key_pos_0_5" />
+        <mapping key_id="@id/id_0x7f0b12d6" view_id="@id/key_pos_0_6" />
+        <mapping key_id="@id/id_0x7f0b12d7" view_id="@id/key_pos_1_4" />
+        <mapping key_id="@id/id_0x7f0b12d8" view_id="@id/key_pos_1_5" />
+        <mapping key_id="@id/id_0x7f0b12d9" view_id="@id/key_pos_1_6" />
+        <mapping key_id="@id/id_0x7f0b12da" view_id="@id/key_pos_2_4" />
+        <mapping key_id="@id/id_0x7f0b12db" view_id="@id/key_pos_2_5" />
+        <mapping key_id="@id/id_0x7f0b12dc" view_id="@id/key_pos_2_6" />
+        <mapping key_id="@id/id_0x7f0b12d2" view_id="@id/key_pos_back_to_prime" />
+        <mapping key_id="@id/id_0x7f0b0ac6" view_id="@id/key_pos_non_prime_symbol_1" />
+        <mapping key_id="@id/id_0x7f0b12d3" view_id="@id/key_pos_non_prime_category_2" />
+        <mapping key_id="@id/id_0x7f0b1a2d" view_id="@id/key_pos_non_prime_symbol_2" />
+    </key_mapping>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b12cd" view_id="@id/key_pos_non_prime_category_1" />
+    </key_mapping>
+    <key_mapping state="EMOJI_AVAILABLE">
+        <mapping key_id="@id/id_0x7f0b12cc" view_id="@id/key_pos_non_prime_category_1" />
+    </key_mapping>
+    <if expressions="hidden">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b12ce" view_id="@id/key_pos_non_prime_category_1" />
+        </key_mapping>
+    </if>
+    <merge_key_mapping exclude_state="NO_SETTINGS_KEY">
+        <merge key_id="@id/id_0x7f0b0e3c" view_id="@id/key_pos_back_to_prime" />
+    </merge_key_mapping>
+</framework>

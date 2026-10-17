@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView style="@style/style_0x7f1502a8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/style_0x7f1504d1">
+        <com.google.android.libraries.inputmethod.emoji.widget.PageableEmojiListHolderView android:id="@id/id_0x7f0b065c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen_0x7f070158" android:keyboardNavigationCluster="true" offscreen_page_limit="2" page_layout="@layout/layout_0x7f0e017f" page_margin_ratio="15" />
+        <ImageView android:id="@id/id_0x7f0b00c9" android:tag=".search-candidate-divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0dp" android:src="@drawable/drawable_0x7f080585" android:importantForAccessibility="no" />
+        <include layout="@layout/layout_0x7f0e06ef" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

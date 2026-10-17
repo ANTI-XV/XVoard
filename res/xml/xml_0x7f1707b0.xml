@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <view type="body">
+            <softkeys href="@xml/xml_0x7f170cc4" />
+            <softkeys href="@xml/xml_0x7f170ccc" />
+            <if enable_chinese_9key_foldable_split="true" keyboard_mode="split">
+                <softkeys href="@xml/xml_0x7f170fb7" />
+            </if>
+            <else>
+                <softkeys href="@xml/xml_0x7f170fb6" />
+            </else>
+            <softkeys href="@xml/xml_0x7f170fb8" />
+            <softkeys href="@xml/xml_0x7f170fef" />
+        </view>
+    </keyboard>
+</framework>

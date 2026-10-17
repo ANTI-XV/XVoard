@@ -1,0 +1,31 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes3.dex */
+public enum lwn {
+    UNKNOWN,
+    MATERIAL_DARK,
+    MATERIAL_LIGHT,
+    GOOGLE_BLUE_LIGHT,
+    GOOGLE_BLUE_DARK,
+    DYNAMIC_COLOR,
+    MATERIAL3_LIGHT,
+    MATERIAL3_DARK,
+    COLOR_RED,
+    COLOR_GREEN,
+    COLOR_TEAL,
+    COLOR_BLUE,
+    COLOR_CYAN,
+    COLOR_DEEP_PURPLE,
+    COLOR_PINK,
+    COLOR_LIGHT_PINK,
+    COLOR_SAND,
+    COLOR_BROWN,
+    COLOR_BLUE_GREY,
+    COLOR_BLACK,
+    HOLO_BLUE,
+    HOLO_WHITE,
+    USER_DEFINED,
+    SYSTEM,
+    DOWNLOADED
+}

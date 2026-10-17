@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f140949">
+        <ListPreference android:persistent="true" android:entries="@array/array_0x7f03008f" android:title="@string/string_0x7f14094a" android:key="@string/string_0x7f1406eb" android:summary="%s" android:entryValues="@array/array_0x7f030031" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

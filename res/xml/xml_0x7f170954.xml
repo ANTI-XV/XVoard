@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f17059e" />
+    <keyboard popup="@attr/attr_0x7f0401fc">
+        <if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e02d9" type="body" />
+        </if>
+        <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e02f6" type="body" />
+        </else_if>
+        <else_if keyboard_mode="split">
+            <view layout="@layout/layout_0x7f0e023c" override="motion_event_handler" type="body" />
+        </else_if>
+        <else>
+            <view layout="@layout/layout_0x7f0e023b" override="motion_event_handler" type="body" />
+        </else>
+        <view type="body">
+            <motion_event_handler class=".libs.latin5.handler.LatinMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubDeleteMotionEventHandler" preference_key="@string/string_0x7f140736" reverse_preference="false" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <motion_event_handler class=".libs.latin5.handler.LatinKeyboardLayoutHandler" />
+            <softkeys href="@xml/xml_0x7f170eae" />
+            <softkeys href="@xml/xml_0x7f170fc8" />
+            <include href="@xml/xml_0x7f170bd0" />
+            <include href="@xml/xml_0x7f170aed" />
+            <include href="@xml/xml_0x7f170b95" />
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <include href="@xml/xml_0x7f170c4a" />
+            </if>
+            <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+                <include href="@xml/xml_0x7f170c4a" />
+            </else_if>
+        </view>
+    </keyboard>
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <include href="@xml/xml_0x7f170752" />
+    </if>
+    <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+        <include href="@xml/xml_0x7f170752" />
+    </else_if>
+    <else>
+        <include href="@xml/xml_0x7f170750" />
+    </else>
+</framework>

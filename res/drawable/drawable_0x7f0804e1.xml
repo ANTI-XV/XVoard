@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/dimen_0x7f070695" android:width="@dimen/dimen_0x7f070695" android:viewportWidth="@integer/integer_0x7f0c00d1" android:viewportHeight="@integer/integer_0x7f0c00d1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="@string/string_0x7f1405da" android:pivotX="@integer/integer_0x7f0c00d0" android:pivotY="@integer/integer_0x7f0c00d0">
+        <path android:name="@string/string_0x7f1405dd" android:fillColor="#ffffffff" android:pathData="@string/string_0x7f1405df" />
+    </group>
+</vector>

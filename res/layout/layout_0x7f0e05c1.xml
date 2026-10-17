@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_weight="300.0" style="@style/style_0x7f150764"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/id_0x7f0b0500" android:layout_weight="3.0" style="@style/style_0x7f15075d" />
+    <FrameLayout android:layout_weight="3.0" style="@style/style_0x7f150762">
+        <include layout="@layout/layout_0x7f0e05c2" />
+    </FrameLayout>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/id_0x7f0b0638" android:layout_weight="3.0" style="@style/style_0x7f15075d" />
+</LinearLayout>

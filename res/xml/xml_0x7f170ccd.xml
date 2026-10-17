@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/id_0x7f0b0a95" layout="@layout/layout_0x7f0e0771" multi_touch="false">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action data=";" intention="DECODE" keycode="SEMICOLON" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value=";" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f0401a0" content_description="@string/string_0x7f140927" id="@id/id_0x7f0b0a98" layout="@layout/layout_0x7f0e073d" multi_touch="false">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action data="'" intention="DECODE" keycode="APOSTROPHE" type="PRESS" />
+            <if language="zh-HK|zh-TW|zh-XG">
+                <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803c1" />
+            </if>
+            <else>
+                <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803c0" />
+            </else>
+        </softkey>
+        <softkey id="@id/id_0x7f0b0a94" layout="@layout/layout_0x7f0e0772" multi_touch="false">
+            <action data=";" intention="DECODE" keycode="SEMICOLON" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value=";" />
+        </softkey>
+    </softkeys>
+</framework>

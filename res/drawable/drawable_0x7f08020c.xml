@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:paddingTop="?attr_0x7f04023c" android:paddingBottom="?attr_0x7f04023a" android:paddingStart="?attr_0x7f0401bb" android:paddingEnd="?attr_0x7f0401bb"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/transparent" android:top="?attr_0x7f04023c" android:bottom="?attr_0x7f04023a" android:start="?attr_0x7f0401bb" android:end="?attr_0x7f0401bb" />
+</layer-list>

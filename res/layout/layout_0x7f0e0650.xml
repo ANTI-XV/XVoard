@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0551" android:tag=".label" app:attr_0x7f0405f7="true" app:attr_0x7f040604="@id/id_0x7f0b054f" app:attr_0x7f04060e="id_0x7f0b05bc" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150458" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b054f" android:tag=".label.secondary.for-sticker-pack-author" android:text="-" android:paddingStart="@dimen/dimen_0x7f0707fe" android:paddingEnd="@dimen/dimen_0x7f0707fe" app:attr_0x7f040604="@id/id_0x7f0b0550" app:attr_0x7f040616="@id/id_0x7f0b0551" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150458" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0550" android:tag=".label.secondary.for-sticker-pack-author" app:attr_0x7f0405f7="true" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040616="@id/id_0x7f0b054f" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150458" />
+    <com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b0552" android:tag=".sticker-pack-btn.for-remove" app:attr_0x7f040591="@drawable/drawable_0x7f080527" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04060e="id_0x7f0b1f65" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061a="@id/id_0x7f0b0551" style="@style/style_0x7f150457" />
+</androidx.constraintlayout.widget.ConstraintLayout>

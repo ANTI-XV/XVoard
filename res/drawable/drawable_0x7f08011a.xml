@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080040" android:duration="117" android:startOffset="0" android:propertyName="translateXY" android:pathData="M76.074 170c0-.284 0 4.553 0 0" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080041" android:duration="64" android:startOffset="117" android:propertyName="translateXY" android:pathData="M 76.074,170C 76.074,169.716 76.074,157.038 76.074,152.485" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080042" android:duration="236" android:startOffset="181" android:propertyName="translateXY" android:pathData="M 76.074,152.485C 76.074,139.83300000000003 76.074,126.211 76.074,126.211" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080043" android:duration="150" android:startOffset="417" android:propertyName="translateXY" android:pathData="M 76.074,126.211C 76.074,126.211 76.074,126.211 76.074,126.211" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <objectAnimator android:interpolator="@drawable/drawable_0x7f080044" android:duration="100" android:startOffset="567" android:propertyName="translateXY" android:pathData="M 76.074,126.211C 76.074,126.211 76.074,175 76.074,170" android:propertyXName="translateX" android:propertyYName="translateY" />
+</set>

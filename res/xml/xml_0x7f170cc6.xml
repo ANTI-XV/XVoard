@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cc8" />
+    <include href="@xml/xml_0x7f170cc7" />
+    <softkeys>
+        <softkey content_description="@string/string_0x7f140261" disable_lift_to_tap="true" id="@id/id_0x7f0b0d8f" layout="@layout/layout_0x7f0e074c">
+            <action keycode="ENTER" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011d" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140261" disable_lift_to_tap="true" id="@id/id_0x7f0b0d90" layout="@layout/layout_0x7f0e074c" popup_timing="ON_TOUCH">
+            <action data="\n" intention="COMMIT" keycode="PLAIN_TEXT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011d" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f1401c4" disable_lift_to_tap="true" id="@id/id_0x7f0b1b74" layout="@layout/layout_0x7f0e074e" popup_timing="ON_TOUCH">
+            <action data="@string/string_0x7f14003f" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080474" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140211" disable_lift_to_tap="true" id="@id/id_0x7f0b1b79" layout="@layout/layout_0x7f0e074f" popup_timing="ON_TOUCH">
+            <action data="@string/string_0x7f140040" keycode="SWITCH_KEYBOARD" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08040a" />
+        </softkey>
+        <softkey_list template_id="@id/id_0x7f0b1cf6">
+            <softkey desc="@string/string_0x7f140322" id="@id/id_0x7f0b06c3" layout="@layout/layout_0x7f0e0750" param_data="go" param_icon="@drawable/drawable_0x7f0803c9" />
+            <softkey desc="@string/string_0x7f1403ad" id="@id/id_0x7f0b06c6" layout="@layout/layout_0x7f0e0754" param_data="search" param_icon="@attr/attr_0x7f04012c" />
+            <softkey desc="@string/string_0x7f140924" id="@id/id_0x7f0b06c7" layout="@layout/layout_0x7f0e0755" param_data="send" param_icon="@drawable/drawable_0x7f0803d1" />
+            <softkey desc="@string/string_0x7f1405e8" id="@id/id_0x7f0b06c4" layout="@layout/layout_0x7f0e0751" param_data="next" param_icon="@attr/attr_0x7f040128" />
+            <softkey desc="@string/string_0x7f1405e9" id="@id/id_0x7f0b06c5" layout="@layout/layout_0x7f0e0752" param_data="previous" param_icon="@drawable/drawable_0x7f0803d0" />
+            <softkey desc="@string/string_0x7f1403a2" id="@id/id_0x7f0b06c2" layout="@layout/layout_0x7f0e074d" param_data="done" param_icon="@attr/attr_0x7f04011c" />
+        </softkey_list>
+    </softkeys>
+</framework>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f17059e" />
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <keyboard>
+            <view layout="@layout/layout_0x7f0e0460" type="body">
+                <include href="@xml/xml_0x7f170bf9" />
+                <include href="@xml/xml_0x7f170aec" />
+            </view>
+        </keyboard>
+    </if>
+    <else_if device="tablet" enable_show_foldable_layout_on_small_tablet="false" keyboard_mode="normal">
+        <keyboard>
+            <view layout="@layout/layout_0x7f0e03e4" type="body">
+                <include href="@xml/xml_0x7f170bf9" />
+                <include href="@xml/xml_0x7f170aec" />
+            </view>
+        </keyboard>
+    </else_if>
+    <else>
+        <include href="@xml/xml_0x7f1708e6" />
+    </else>
+    <include href="@xml/xml_0x7f170887" />
+</framework>

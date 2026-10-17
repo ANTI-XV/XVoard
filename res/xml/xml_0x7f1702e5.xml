@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <item id="@id/id_0x7f0b021a" value="QWERTY_KANA" />
+    <item id="@id/id_0x7f0b0209" value="HARDWARE_QWERTY_KANA" />
+    <item id="@id/id_0x7f0b0222" value="true" />
+    <item id="@id/id_0x7f0b020f" res="@array/array_0x7f030094" />
+</framework>

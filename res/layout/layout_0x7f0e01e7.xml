@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.ShadowedSoftKeyboardView android:background="@drawable/drawable_0x7f0801ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_0x7f070330" android:layout_marginBottom="@dimen/dimen_0x7f070330" app:attr_0x7f0403c0="@dimen/dimen_0x7f07032f"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_0x7f0e01e5" />
+</com.google.android.libraries.inputmethod.widgets.ShadowedSoftKeyboardView>

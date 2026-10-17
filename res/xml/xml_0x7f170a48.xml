@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b0d8f" view_id="@id/key_pos_candidates_ime_action" />
+    </key_mapping>
+    <include href="@xml/xml_0x7f170a49" />
+    <key_mapping state="INPUT_TYPE_EMAIL_ADDRESS">
+        <mapping key_id="@id/id_0x7f0b0d8f" view_id="@id/key_pos_candidates_ime_action" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_GO">
+        <mapping key_id="@id/id_0x7f0b06c3" view_id="@id/key_pos_candidates_ime_action" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_SEARCH">
+        <mapping key_id="@id/id_0x7f0b06c6" view_id="@id/key_pos_candidates_ime_action" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_SEND">
+        <mapping key_id="@id/id_0x7f0b06c7" view_id="@id/key_pos_candidates_ime_action" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_NEXT">
+        <mapping key_id="@id/id_0x7f0b06c4" view_id="@id/key_pos_candidates_ime_action" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_PREVIOUS">
+        <mapping key_id="@id/id_0x7f0b06c5" view_id="@id/key_pos_candidates_ime_action" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_DONE">
+        <mapping key_id="@id/id_0x7f0b06c2" view_id="@id/key_pos_candidates_ime_action" />
+    </key_mapping>
+    <if language="zh|ja">
+        <key_mapping state="COMPOSING">
+            <mapping key_id="@id/id_0x7f0b0d8f" view_id="@id/key_pos_candidates_ime_action" />
+        </key_mapping>
+    </if>
+</framework>

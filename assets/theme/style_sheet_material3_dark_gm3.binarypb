@@ -1,0 +1,28 @@
+
+:
+!.icon.for-access-point-icon.entry"default_label_color
+=
+.access-point-menu-icon.entry"default_bordered_key_color
+I
+ .translate.queryholder:activated"#color_gm3_surface_container_highest8
+#default_action_key_background_colorcolor_gm3_primary‰
++default_action_key_background_color_hovered,default_action_key_background_color_contrast*
+×£=*%#default_action_key_background_colorM
++default_action_key_background_color_pressedcolor_gm3_on_primary_containerD
+,default_action_key_background_color_contrastcolor_gm3_on_primary<
+default_bordered_key_dark_colorcolor_gm3_surface_varianth
+'default_bordered_key_dark_color_presseddefault_label_color*Âõ=*!default_bordered_key_dark_color:
+#default_pill_shaped_key_label_colordefault_label_colorB
++default_pill_shaped_key_label_color_presseddefault_label_color@
+default_pill_shaped_key_colordefault_bordered_key_dark_colorF
+%default_pill_shaped_key_color_variantcolor_gm3_secondary_containerP
+%default_pill_shaped_key_color_hovered'default_bordered_key_dark_color_hoveredP
+%default_pill_shaped_key_color_pressed'default_bordered_key_dark_color_pressedE
+"default_borderless_space_bar_colordefault_bordered_key_dark_colorU
+*default_borderless_space_bar_color_hovered'default_bordered_key_dark_color_hoveredU
+*default_borderless_space_bar_color_pressed'default_bordered_key_dark_color_pressedH
+!default_function_key_color_active#default_action_key_background_colorX
+)default_function_key_color_active_hovered+default_action_key_background_color_hoveredX
+)default_function_key_color_active_pressed+default_action_key_background_color_pressedZ
+*default_function_key_color_active_contrast,default_action_key_background_color_contrastj
+2default_function_key_color_active_pressed_contrast4default_action_key_background_color_pressed_contrast

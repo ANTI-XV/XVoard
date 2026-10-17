@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/key_pos_password_header_numbers" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="?attr_0x7f0401f5" android:layoutDirection="ltr" android:layout_marginHorizontal="?attr_0x7f040171" android:paddingHorizontal="?attr_0x7f04010a" app:attr_0x7f04066e="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_password_header_number_1" android:layout_weight="?attr_0x7f0401f4" style="@style/style_0x7f150565" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_password_header_number_2" android:layout_weight="?attr_0x7f0401f4" style="@style/style_0x7f150565" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_password_header_number_3" android:layout_weight="?attr_0x7f0401f4" style="@style/style_0x7f150565" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_password_header_number_4" android:layout_weight="?attr_0x7f0401f4" style="@style/style_0x7f150565" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_password_header_number_5" android:layout_weight="?attr_0x7f0401f4" style="@style/style_0x7f150565" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_password_header_number_6" android:layout_weight="?attr_0x7f0401f4" style="@style/style_0x7f150565" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_password_header_number_7" android:layout_weight="?attr_0x7f0401f4" style="@style/style_0x7f150565" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_password_header_number_8" android:layout_weight="?attr_0x7f0401f4" style="@style/style_0x7f150565" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_password_header_number_9" android:layout_weight="?attr_0x7f0401f4" style="@style/style_0x7f150565" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_password_header_number_0" android:layout_weight="?attr_0x7f0401f4" style="@style/style_0x7f150565" />
+</LinearLayout>

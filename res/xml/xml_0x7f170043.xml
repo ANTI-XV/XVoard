@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <any_of>
+        <cond ja_candidate_ux_v2="true" />
+        <all_of>
+            <cond abort_ja_candidate_ux_v2_new_user_enforcement="false" />
+            <cond app_first_start_timestamp=">1719964800000" />
+        </all_of>
+    </any_of>
+</framework>

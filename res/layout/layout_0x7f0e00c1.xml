@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView android:textSize="12.0dp" android:textColor="@color/color_0x7f060185" android:id="@id/id_0x7f0b01e4" android:background="@drawable/drawable_0x7f0801e7" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:fontFamily="?attr_0x7f040106" android:paddingStart="20.0dp" android:paddingEnd="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

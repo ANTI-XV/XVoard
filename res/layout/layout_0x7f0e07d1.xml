@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="40.0dp" android:paddingTop="44.0dp" android:paddingRight="40.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="?attr_0x7f04042e" style="@style/style_0x7f150b3f">
+        <android.support.v7.widget.AppCompatTextView android:textSize="24.0sp" android:textColor="?attr_0x7f040403" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="@string/string_0x7f140b18" android:fontFamily="?attr_0x7f0400fb" android:lineHeight="32.0sp" />
+        <HorizontalScrollView android:gravity="center" android:scrollbars="none" android:fadingEdgeLength="48.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:requiresFadingEdge="horizontal">
+            <LinearLayout android:orientation="horizontal" android:id="@id/id_0x7f0b1f8e" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b1f92" android:layout_marginLeft="0.0dp" android:text="@string/string_0x7f140b19" style="@style/style_0x7f150651" />
+                <com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b1f88" android:text="@string/string_0x7f1403a1" style="@style/style_0x7f150651" />
+                <com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b1f8d" android:text="@string/string_0x7f140b15" style="@style/style_0x7f150651" />
+                <com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b1f8a" android:text="@string/string_0x7f140b09" style="@style/style_0x7f150651" />
+                <com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b1f8b" android:text="@string/string_0x7f140b0c" style="@style/style_0x7f150651" />
+                <com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b1f8c" android:layout_marginRight="0.0dp" android:text="@string/string_0x7f140b0f" style="@style/style_0x7f150651" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <android.support.v7.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="?attr_0x7f040407" android:gravity="center" android:id="@id/id_0x7f0b1f89" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:minLines="2" android:fontFamily="?attr_0x7f0400fb" android:lineHeight="20.0sp" />
+        <com.google.android.libraries.inputmethod.stylus.education.StylusConstraintLayout android:id="@id/id_0x7f0b1f87" android:paddingLeft="24.0dp" android:paddingTop="44.0dp" android:paddingRight="24.0dp" android:paddingBottom="44.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="44.0dp">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/id_0x7f0b1f90" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr_0x7f040360="@color/color_0x7f060b62" app:attr_0x7f040362="2.0dp" app:attr_0x7f0407ac="@style/style_0x7f150516" />
+        </com.google.android.libraries.inputmethod.stylus.education.StylusConstraintLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton android:textColor="?attr_0x7f040403" android:layout_gravity="start" android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f140b14" app:attr_0x7f04081b="?attr_0x7f040412" style="@style/style_0x7f150a70" />
+            <View android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.google.android.material.button.MaterialButton android:layout_gravity="end" android:id="@android:id/closeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f14039e" android:layout_marginEnd="8.0dp" style="@style/style_0x7f150a70" />
+            <com.google.android.material.button.MaterialButton android:layout_gravity="end" android:id="@android:id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f1403a3" style="@style/style_0x7f150941" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

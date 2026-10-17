@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:textSize="?attr_0x7f0402a1" android:layout_gravity="center" android:id="@id/id_0x7f0b206a" android:paddingEnd="0.0dp" style="@style/style_0x7f15037d" />
+</FrameLayout>

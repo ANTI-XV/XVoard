@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" class="com.google.android.apps.inputmethod.libs.mozc.ime.SimpleJapaneseIme" inline_composing="true" language="@string/string_0x7f1403d6" prime_keyboard_type="HARD_QWERTY" status_icon="@drawable/drawable_0x7f0803b6" string_id="@string/string_0x7f140afb" unacceptable_meta_keys="">
+        <if physical_keyboard="qwerty|12key">
+            <attrs language_specific_settings="@xml/setting_japanese_language_specific_with_pk" />
+        </if>
+        <if japanese_pk_kana_input="true">
+            <attrs keyevent_interpreter="com.google.android.apps.inputmethod.libs.mozc.ime.JapaneseKanaKeyEventInterpreter" />
+        </if>
+        <keyboard_group pk_language_tag="ja-Latn-JP" pk_layout_type="extended">
+            <keyboard def="@xml/xml_0x7f1707eb" type="prime" />
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/id_0x7f0b021a" value="HARDWARE_QWERTY_KANA" />
+            <item id="@id/id_0x7f0b0209" value="HARDWARE_QWERTY_KANA" />
+            <item id="@id/id_0x7f0b0211" value="true" />
+        </extra_values>
+    </ime>
+</framework>

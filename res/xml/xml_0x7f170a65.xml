@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b12d4" view_id="@id/key_pos_digit_1" />
+        <mapping key_id="@id/id_0x7f0b12d5" view_id="@id/key_pos_digit_2" />
+        <mapping key_id="@id/id_0x7f0b12d6" view_id="@id/key_pos_digit_3" />
+        <mapping key_id="@id/id_0x7f0b12d7" view_id="@id/key_pos_digit_4" />
+        <mapping key_id="@id/id_0x7f0b12d8" view_id="@id/key_pos_digit_5" />
+        <mapping key_id="@id/id_0x7f0b12d9" view_id="@id/key_pos_digit_6" />
+        <mapping key_id="@id/id_0x7f0b12da" view_id="@id/key_pos_digit_7" />
+        <mapping key_id="@id/id_0x7f0b12db" view_id="@id/key_pos_digit_8" />
+        <mapping key_id="@id/id_0x7f0b12dc" view_id="@id/key_pos_digit_9" />
+        <mapping key_id="@id/id_0x7f0b0ac6" view_id="@id/key_pos_non_prime_symbol_1" />
+        <mapping key_id="@id/id_0x7f0b12d3" view_id="@id/key_pos_space" />
+        <mapping key_id="@id/id_0x7f0b1a2d" view_id="@id/key_pos_non_prime_symbol_2" />
+    </key_mapping>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b12cd" view_id="@id/key_pos_non_prime_category_1" />
+        <mapping key_id="@id/id_0x7f0b12c9" view_id="@id/key_pos_non_prime_category_2" />
+    </key_mapping>
+    <key_mapping state="EMOJI_AVAILABLE">
+        <mapping key_id="@id/id_0x7f0b12cc" view_id="@id/key_pos_non_prime_category_1" />
+        <mapping key_id="@id/id_0x7f0b12c8" view_id="@id/key_pos_non_prime_category_2" />
+    </key_mapping>
+    <if expressions="policy_transparency">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b1b7c" view_id="@id/key_pos_non_prime_category_2" />
+        </key_mapping>
+    </if>
+    <else_if expressions="hidden">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b12ce" view_id="@id/key_pos_non_prime_category_1" />
+            <mapping key_id="@id/id_0x7f0b0d52" view_id="@id/key_pos_non_prime_category_2" />
+        </key_mapping>
+    </else_if>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1b28" view_id="@id/key_pos_right_side_3rd_key" />
+        <mapping key_id="@id/id_0x7f0b12d2" view_id="@id/key_pos_back_to_prime" />
+        <mapping key_id="@id/id_0x7f0b12d2" view_id="@id/key_pos_back_to_prime2" />
+    </key_mapping>
+    <merge_key_mapping exclude_state="NO_SETTINGS_KEY">
+        <merge key_id="@id/id_0x7f0b0e3c" view_id="@id/key_pos_back_to_prime" />
+    </merge_key_mapping>
+</framework>

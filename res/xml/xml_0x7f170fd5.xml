@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/id_0x7f0b0ac6" layout="@layout/layout_0x7f0e076c" multi_touch="false">
+            <action data="," keycode="COMMA" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="," />
+        </softkey>
+        <softkey id="@id/id_0x7f0b1adb" layout="@layout/layout_0x7f0e076c" multi_touch="false">
+            <action data="." keycode="PERIOD" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="." />
+        </softkey>
+        <softkey content_description="@string/string_0x7f14059c" id="@id/id_0x7f0b1785" layout="@layout/layout_0x7f0e076c" multi_touch="false">
+            <action data="-" keycode="MINUS" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="−" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b1b1d" layout="@layout/layout_0x7f0e076c" multi_touch="false" popup_timing="ON_TOUCH">
+            <action data="/" intention="COMMIT" keycode="SLASH" type="PRESS" />
+            <action action_on_down="true" data=":" intention="COMMIT" keycode="PLAIN_TEXT" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="/ :" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b1b1c" layout="@layout/layout_0x7f0e076c" multi_touch="false">
+            <action data="/" intention="COMMIT" keycode="SLASH" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="/" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0aa5" layout="@layout/layout_0x7f0e076c" multi_touch="false">
+            <action data=":" intention="COMMIT" keycode="PLAIN_TEXT" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value=":" />
+        </softkey>
+        <softkey_list splitter=",">
+            <softkey id="@id/id_0x7f0b1adc" layout="@layout/layout_0x7f0e076c" multi_touch="false" popup_timing="ON_TOUCH">
+                <action data="." intention="COMMIT" keycode="PERIOD" type="PRESS" />
+                <action data="PM,AM" intention="C,C" keycode="PLAIN_TEXT" popup_label="PM,AM" popup_layout="@attr/attr_0x7f040208" type="LONG_PRESS" />
+                <label location="@id/id_0x7f0b04d0" value="." />
+            </softkey>
+        </softkey_list>
+    </softkeys>
+</framework>

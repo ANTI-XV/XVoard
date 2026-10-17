@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinPrimeKeyboard" popup="@attr/attr_0x7f040201" recent_key_layout="@layout/layout_0x7f0e076e" recent_key_popup_layout="@layout/layout_0x7f0e0694">
+        <view default_show="true" direction="locale" layout="@layout/layout_0x7f0e05a9" scalable="false" type="header">
+            <softkeys href="@xml/xml_0x7f170cd6" />
+            <include href="@xml/xml_0x7f170b47" />
+        </view>
+        <if split_keyboard_handedness_zh="right">
+            <view layout="@layout/layout_0x7f0e0154" type="body" />
+        </if>
+        <else>
+            <view layout="@layout/layout_0x7f0e0152" type="body" />
+        </else>
+        <view type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubDeleteMotionEventHandler" preference_key="@string/string_0x7f140736" reverse_preference="false" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler class=".motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <softkeys href="@xml/xml_0x7f170fd9" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170fe2" />
+            <include href="@xml/xml_0x7f170a8c" />
+            <if enable_chinese_9key_foldable_split="true" keyboard_mode="split">
+                <softkeys href="@xml/xml_0x7f170fbc" />
+            </if>
+            <else>
+                <softkeys href="@xml/xml_0x7f170fbb" />
+            </else>
+            <softkeys href="@xml/xml_0x7f170fec" />
+            <softkeys href="@xml/xml_0x7f170ccc" />
+            <softkeys href="@xml/xml_0x7f170cc5" />
+            <softkeys href="@xml/xml_0x7f170fef" />
+            <softkeys href="@xml/xml_0x7f170cc4" />
+            <softkeys href="@xml/xml_0x7f170cb3" />
+            <include href="@xml/xml_0x7f170b2d" />
+            <include href="@xml/xml_0x7f170aa7" />
+            <include href="@xml/xml_0x7f170aa6" />
+            <include href="@xml/xml_0x7f170a6b" />
+            <include href="@xml/xml_0x7f170c35" />
+            <include href="@xml/xml_0x7f170b16" />
+        </view>
+    </keyboard>
+</framework>

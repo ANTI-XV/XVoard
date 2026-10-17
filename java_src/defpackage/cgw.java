@@ -1,0 +1,29 @@
+package defpackage;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+final class cgw extends FutureTask {
+    final /* synthetic */ cgx a;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public cgw(cgx cgxVar, Callable callable) {
+        super(callable);
+        this.a = cgxVar;
+    }
+
+    @Override // java.util.concurrent.FutureTask
+    protected final void done() {
+        if (isCancelled()) {
+            return;
+        }
+        try {
+            this.a.c((cgv) get());
+        } catch (InterruptedException | ExecutionException e) {
+            this.a.c(new cgv(e));
+        }
+    }
+}

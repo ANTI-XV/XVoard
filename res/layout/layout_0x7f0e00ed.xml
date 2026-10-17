@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/style_0x7f150298"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/id_0x7f0b0265" android:background="@drawable/drawable_0x7f0801dd" style="@style/style_0x7f15054f">
+        <ImageView android:layout_gravity="center|top" android:id="@id/id_0x7f0b0267" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/drawable_0x7f080461" android:adjustViewBounds="true" />
+        <android.support.v7.widget.AppCompatTextView android:layout_gravity="start" android:id="@id/id_0x7f0b0266" android:text="@string/string_0x7f1402e8" style="@style/style_0x7f1504b2" />
+        <ImageView android:id="@id/id_0x7f0b026e" android:layout_marginTop="16.0dp" style="@style/style_0x7f150553" />
+        <android.support.v7.widget.RecyclerView android:id="@id/id_0x7f0b0268" style="@style/style_0x7f150550" />
+        <ImageView android:id="@id/id_0x7f0b026d" style="@style/style_0x7f150553" />
+        <com.google.android.libraries.inputmethod.widgets.LinkableTextView android:layout_gravity="start" android:id="@id/id_0x7f0b026b" android:layout_marginTop="14.0dp" android:text="@string/string_0x7f1402e6" style="@style/style_0x7f1504b2" />
+        <LinearLayout android:gravity="bottom" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:layout_marginBottom="22.0dp">
+            <Button android:id="@id/id_0x7f0b0269" android:layout_width="wrap_content" android:layout_height="50.0dp" android:text="@string/string_0x7f14039e" android:layout_marginEnd="20.0dp" style="?attr_0x7f04067d" />
+            <Button android:id="@id/id_0x7f0b026a" android:layout_width="wrap_content" android:layout_height="50.0dp" android:text="@string/string_0x7f1402e5" android:layout_marginEnd="15.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

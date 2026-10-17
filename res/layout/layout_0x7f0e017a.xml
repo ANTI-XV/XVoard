@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView android:id="@id/id_0x7f0b0261" app:attr_0x7f0402e6="false" style="@style/style_0x7f1501bf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_0x7f0e0086" style="@style/style_0x7f15026f" />
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

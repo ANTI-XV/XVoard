@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.LinkableTextView android:id="@id/id_0x7f0b1f57" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/string_0x7f140ae6" />
+    <RadioGroup android:orientation="vertical" android:id="@id/id_0x7f0b0681" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/id_0x7f0b013b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f140164" />
+        <RadioButton android:id="@id/id_0x7f0b2038" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f1410f3" />
+    </RadioGroup>
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b013c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/id_0x7f0b00c0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/string_0x7f140077" />
+        <EditText android:gravity="left|top" android:id="@id/id_0x7f0b00bf" android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollHorizontally="false" android:singleLine="false" android:inputType="textMultiLine" android:focusedByDefault="false" />
+        <TextView android:id="@id/id_0x7f0b00be" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/string_0x7f140076" />
+        <EditText android:gravity="left|top" android:id="@id/id_0x7f0b00bd" android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollHorizontally="false" android:singleLine="false" android:inputType="textMultiLine" android:focusedByDefault="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b2039" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/id_0x7f0b01ce" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/string_0x7f140078" />
+        <EditText android:gravity="left|top" android:id="@id/id_0x7f0b01cd" android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollHorizontally="false" android:singleLine="false" android:inputType="number" android:focusedByDefault="false" />
+    </LinearLayout>
+</LinearLayout>

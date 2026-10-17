@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d26">
+            <softkey id="@id/id_0x7f0b0780" long_press_data="ء" long_press_label="ء" press_data="ئ" press_label="ئ" />
+            <softkey hint_label="ض" id="@id/id_0x7f0b0769" long_press_data="ض" long_press_label="ض" press_data="ش" press_label="ش" />
+            <softkey hint_label="ص" id="@id/id_0x7f0b0767" long_press_data="ص" long_press_label="ص" press_data="س" press_label="س" />
+            <softkey hint_label="آ" id="@id/id_0x7f0b0733" long_press_data="آ,أ" long_press_label="آ,أ" press_data="ا" press_label="ا" />
+            <softkey hint_label="ث" id="@id/id_0x7f0b076d" long_press_data="ث" long_press_label="ث" press_data="ت" press_label="ت" />
+            <softkey hint_label="ظ" id="@id/id_0x7f0b074e" long_press_data="ظ" long_press_label="ظ" press_data="ژ" press_label="ژ" />
+            <softkey hint_label="ط" id="@id/id_0x7f0b074a" long_press_data="ط,ھ,ة,ۀ" long_press_label="ط,ھ,ة,ۀ" press_data="ه" press_label="ھ" />
+            <softkey hint_label="ۊ" id="@id/id_0x7f0b075c" long_press_data="ۊ" long_press_label="ۊ" press_data="ۆ" press_label="ۆ" />
+            <softkey hint_label="ڕ" id="@id/id_0x7f0b075f" long_press_data="ڕ" long_press_label="ڕ" press_data="ر" press_label="ر" />
+            <softkey hint_label="ذ" id="@id/id_0x7f0b073a" long_press_data="ذ" long_press_label="ذ" press_data="د" press_label="د" />
+            <softkey hint_label="ؤ" id="@id/id_0x7f0b0779" long_press_data="ؤ" long_press_label="ؤ" press_data="و" press_label="و" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d27">
+            <softkey id="@id/id_0x7f0b0778" press_data="ڤ" />
+            <softkey id="@id/id_0x7f0b0781" press_data="ێ" />
+            <softkey id="@id/id_0x7f0b075e" press_data="ق" />
+            <softkey id="@id/id_0x7f0b0742" press_data="ف" />
+            <softkey id="@id/id_0x7f0b0744" press_data="غ" />
+            <softkey id="@id/id_0x7f0b0731" press_data="ع" />
+            <softkey id="@id/id_0x7f0b0730" press_data="ە" />
+            <softkey id="@id/id_0x7f0b0753" press_data="خ" />
+            <softkey id="@id/id_0x7f0b0745" press_data="ح" />
+            <softkey id="@id/id_0x7f0b074d" press_data="ج" />
+            <softkey id="@id/id_0x7f0b073f" press_data="ی" />
+            <softkey id="@id/id_0x7f0b0738" press_data="ب" />
+            <softkey id="@id/id_0x7f0b0755" press_data="ل" />
+            <softkey id="@id/id_0x7f0b0759" press_data="ن" />
+            <softkey id="@id/id_0x7f0b0757" press_data="م" />
+            <softkey id="@id/id_0x7f0b0752" press_data="ک" />
+            <softkey id="@id/id_0x7f0b0743" press_data="گ" />
+            <softkey id="@id/id_0x7f0b0784" press_data="ز" />
+            <softkey id="@id/id_0x7f0b075d" press_data="پ" />
+            <softkey id="@id/id_0x7f0b0756" press_data="ڵ" />
+            <softkey id="@id/id_0x7f0b076c" press_data="چ" />
+        </softkey_list>
+    </softkeys>
+</framework>

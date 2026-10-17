@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_template id="@id/id_0x7f0b1cff" layout="@layout/layout_0x7f0e0721" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+            <action data="$press_data$" intention="DECODE" keycode="$keycode_normal$" popup_label="$label$" type="PRESS" />
+            <action data="$press_data$" intention="COMMIT" keycode="PLAIN_TEXT" merge_insertion_index="$merge_index=0$" popup_label="$press_data$" popup_layout="@attr/attr_0x7f040208" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$label$" />
+            <label location="@id/id_0x7f0b04d6" value="$press_data$" />
+        </softkey_template>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1cff">
+            <softkey id="@id/id_0x7f0b15e3" keycode_normal="Q" label="手" press_data="q" />
+            <softkey id="@id/id_0x7f0b163e" keycode_normal="W" label="田" press_data="w" />
+            <softkey id="@id/id_0x7f0b1586" keycode_normal="E" label="水" press_data="e" />
+            <softkey id="@id/id_0x7f0b15e5" keycode_normal="R" label="口" press_data="r" />
+            <softkey id="@id/id_0x7f0b1611" keycode_normal="T" label="廿" press_data="t" />
+            <softkey id="@id/id_0x7f0b1642" keycode_normal="Y" label="卜" press_data="y" />
+            <softkey id="@id/id_0x7f0b162e" keycode_normal="U" label="山" press_data="u" />
+            <softkey id="@id/id_0x7f0b15a9" keycode_normal="I" label="戈" press_data="i" />
+            <softkey id="@id/id_0x7f0b15cd" keycode_normal="O" label="人" press_data="o" />
+            <softkey id="@id/id_0x7f0b15de" keycode_normal="P" label="心" press_data="p" />
+            <softkey id="@id/id_0x7f0b155b" keycode_normal="A" label="日" press_data="a" />
+            <softkey id="@id/id_0x7f0b15eb" keycode_normal="S" label="尸" press_data="s" />
+            <softkey id="@id/id_0x7f0b157a" keycode_normal="D" label="木" press_data="d" />
+            <softkey id="@id/id_0x7f0b1596" keycode_normal="F" label="火" press_data="f" />
+            <softkey id="@id/id_0x7f0b1599" keycode_normal="G" label="土" press_data="g" />
+            <softkey id="@id/id_0x7f0b15a4" keycode_normal="H" label="竹" press_data="h" />
+            <softkey id="@id/id_0x7f0b15b6" keycode_normal="J" label="十" press_data="j" />
+            <softkey id="@id/id_0x7f0b15b9" keycode_normal="K" label="大" press_data="k" />
+            <softkey id="@id/id_0x7f0b15bc" keycode_normal="L" label="中" press_data="l" />
+            <softkey id="@id/id_0x7f0b1646" keycode_normal="Z" label="重" press_data="z" />
+            <softkey id="@id/id_0x7f0b1640" keycode_normal="X" label="難" press_data="x" />
+            <softkey id="@id/id_0x7f0b156e" keycode_normal="C" label="金" press_data="c" />
+            <softkey id="@id/id_0x7f0b163c" keycode_normal="V" label="女" press_data="v" />
+            <softkey id="@id/id_0x7f0b156a" keycode_normal="B" label="月" press_data="b" />
+            <softkey id="@id/id_0x7f0b15c5" keycode_normal="N" label="弓" press_data="n" />
+            <softkey id="@id/id_0x7f0b15c3" keycode_normal="M" label="一" press_data="m" />
+        </softkey_list>
+        <softkey_list template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b150f" long_press_data="q" long_press_intention="C" press_data="Q" />
+            <softkey id="@id/id_0x7f0b1530" long_press_data="w" long_press_intention="C" press_data="W" />
+            <softkey id="@id/id_0x7f0b14c8" long_press_data="e" long_press_intention="C" press_data="E" />
+            <softkey id="@id/id_0x7f0b1510" long_press_data="r" long_press_intention="C" press_data="R" />
+            <softkey id="@id/id_0x7f0b1519" long_press_data="t" long_press_intention="C" press_data="T" />
+            <softkey id="@id/id_0x7f0b1533" long_press_data="y" long_press_intention="C" press_data="Y" />
+            <softkey id="@id/id_0x7f0b1522" long_press_data="u" long_press_intention="C" press_data="U" />
+            <softkey id="@id/id_0x7f0b14e4" long_press_data="i" long_press_intention="C" press_data="I" />
+            <softkey id="@id/id_0x7f0b14fd" long_press_data="o" long_press_intention="C" press_data="O" />
+            <softkey id="@id/id_0x7f0b150d" long_press_data="p" long_press_intention="C" press_data="P" />
+            <softkey id="@id/id_0x7f0b14ab" long_press_data="a" long_press_intention="C" press_data="A" />
+            <softkey id="@id/id_0x7f0b1512" long_press_data="s" long_press_intention="C" press_data="S" />
+            <softkey id="@id/id_0x7f0b14c3" long_press_data="d" long_press_intention="C" press_data="D" />
+            <softkey id="@id/id_0x7f0b14d5" long_press_data="f" long_press_intention="C" press_data="F" />
+            <softkey id="@id/id_0x7f0b14d7" long_press_data="g" long_press_intention="C" press_data="G" />
+            <softkey id="@id/id_0x7f0b14df" long_press_data="h" long_press_intention="C" press_data="H" />
+            <softkey id="@id/id_0x7f0b14f1" long_press_data="j" long_press_intention="C" press_data="J" />
+            <softkey id="@id/id_0x7f0b14f3" long_press_data="k" long_press_intention="C" press_data="K" />
+            <softkey id="@id/id_0x7f0b14f4" long_press_data="l" long_press_intention="C" press_data="L" />
+            <softkey id="@id/id_0x7f0b1536" long_press_data="z" long_press_intention="C" press_data="Z" />
+            <softkey id="@id/id_0x7f0b1532" long_press_data="x" long_press_intention="C" press_data="X" />
+            <softkey id="@id/id_0x7f0b14bc" long_press_data="c" long_press_intention="C" press_data="C" />
+            <softkey id="@id/id_0x7f0b152e" long_press_data="v" long_press_intention="C" press_data="V" />
+            <softkey id="@id/id_0x7f0b14ba" long_press_data="b" long_press_intention="C" press_data="B" />
+            <softkey id="@id/id_0x7f0b14f7" long_press_data="n" long_press_intention="C" press_data="N" />
+            <softkey id="@id/id_0x7f0b14f6" long_press_data="m" long_press_intention="C" press_data="M" />
+        </softkey_list>
+    </softkeys>
+    <if device="tablet" device_size="large" keyboard_mode="normal">
+        <include href="@xml/xml_0x7f170fba" />
+    </if>
+</framework>

@@ -1,0 +1,15 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+public class dcc {
+    public dct t;
+    public dby u;
+
+    protected dcc() {
+    }
+
+    public String toString() {
+        return getClass().getSimpleName();
+    }
+}

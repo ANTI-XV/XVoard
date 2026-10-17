@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if enable_secondary_symbols="true">
+        <merge_key_mapping>
+            <merge key_id="@id/id_0x7f0b0f0d" view_id="@id/key_pos_1_0" />
+            <merge key_id="@id/id_0x7f0b0fde" view_id="@id/key_pos_1_1" />
+            <merge key_id="@id/id_0x7f0b0fb9" view_id="@id/key_pos_1_3" />
+            <merge key_id="@id/id_0x7f0b0ec9" view_id="@id/key_pos_1_4" />
+            <merge key_id="@id/id_0x7f0b0f90" view_id="@id/key_pos_1_5" />
+            <merge key_id="@id/id_0x7f0b0feb" view_id="@id/key_pos_1_6" />
+            <merge key_id="@id/id_0x7f0b0ed7" view_id="@id/key_pos_1_7" />
+            <merge key_id="@id/id_0x7f0b0edf" view_id="@id/key_pos_1_8" />
+            <merge key_id="@id/id_0x7f0b1005" view_id="@id/key_pos_1_10" />
+            <merge key_id="@id/id_0x7f0b1008" view_id="@id/key_pos_1_11" />
+            <merge key_id="@id/id_0x7f0b0f83" view_id="@id/key_pos_2_0" />
+            <merge key_id="@id/id_0x7f0b0f0f" view_id="@id/key_pos_2_10" />
+        </merge_key_mapping>
+        <if language="fa|prs-AF">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ecb" view_id="@id/key_pos_1_9" />
+            </merge_key_mapping>
+        </if>
+        <else>
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ff8" view_id="@id/key_pos_1_9" />
+            </merge_key_mapping>
+        </else>
+        <if language="aii|ar-AE|ar-IQ|ar-MR|ar-TD|cld-IQ|gdq-YE|luz-IR|mde-TD">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ecb" view_id="@id/key_pos_2_1" />
+            </merge_key_mapping>
+        </if>
+        <else_if language="az-IR|doi-Arab|dv-MV|fa|prs-AF|khw|ks-Arab|ku-IQ|ku-IR|pa-PK|ps|sd-Arab|trw|ug|ur-PK">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0fef" view_id="@id/key_pos_2_1" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="dcc-IN|ur-IN" variant="qwerty">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0fef" view_id="@id/key_pos_2_1" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="ar-EG|ar-MA">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0fef" view_id="@id/key_pos_2_1" />
+            </merge_key_mapping>
+        </else_if>
+        <else>
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ee4" view_id="@id/key_pos_2_1" />
+            </merge_key_mapping>
+        </else>
+        <if language="az-IR|doi-Arab|fa|prs-AF|ks-Arab|ku-IQ|ku-IR|pa-PK|ps|sd-Arab|ur-PK">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0edc" view_id="@id/key_pos_2_2" />
+            </merge_key_mapping>
+        </if>
+        <else_if language="ar-EG|ar-MA">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0edc" view_id="@id/key_pos_2_2" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="dcc-IN|ur-IN" variant="qwerty">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0edc" view_id="@id/key_pos_2_2" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="dv-MV|khw|trw|ug">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0fe9" view_id="@id/key_pos_2_2" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="luz-IR">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ed8" view_id="@id/key_pos_2_2" />
+            </merge_key_mapping>
+        </else_if>
+        <else>
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0fed" view_id="@id/key_pos_2_2" />
+            </merge_key_mapping>
+        </else>
+        <if language="dv-MV|khw|trw">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ee4" view_id="@id/key_pos_2_3" />
+            </merge_key_mapping>
+        </if>
+        <else_if language="ar-EG|ar-MA">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ee4" view_id="@id/key_pos_2_3" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="dcc-IN" variant="qwerty">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ee4" view_id="@id/key_pos_2_3" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="az-IR|doi-Arab|ks-Arab|ku-IQ|ku-IR|pa-PK|ps|sd-Arab|ug|ur-PK">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ecb" view_id="@id/key_pos_2_3" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="ur-IN" variant="qwerty">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ecb" view_id="@id/key_pos_2_3" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="fa|prs-AF">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ff8" view_id="@id/key_pos_2_3" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="luz-IR">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ee0" view_id="@id/key_pos_2_3" />
+            </merge_key_mapping>
+        </else_if>
+        <else>
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0eca" view_id="@id/key_pos_2_3" />
+            </merge_key_mapping>
+        </else>
+        <if language="dv-MV|khw|trw|ur-PK">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0fed" view_id="@id/key_pos_2_4" />
+                <merge key_id="@id/id_0x7f0b0eca" view_id="@id/key_pos_2_5" />
+            </merge_key_mapping>
+        </if>
+        <else_if language="ar-EG|ar-MA">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0fed" view_id="@id/key_pos_2_4" />
+                <merge key_id="@id/id_0x7f0b0eca" view_id="@id/key_pos_2_5" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="dcc-IN|ur-IN" variant="qwerty">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0fed" view_id="@id/key_pos_2_4" />
+                <merge key_id="@id/id_0x7f0b0eca" view_id="@id/key_pos_2_5" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="az-IR|doi-Arab|fa|prs-AF|ks-Arab|ku-IQ|ku-IR|pa-PK|ps|sd-Arab|ug">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ed8" view_id="@id/key_pos_2_4" />
+                <merge key_id="@id/id_0x7f0b0ee0" view_id="@id/key_pos_2_5" />
+            </merge_key_mapping>
+        </else_if>
+        <else>
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0f0c" view_id="@id/key_pos_2_4" />
+                <merge key_id="@id/id_0x7f0b0ee2" view_id="@id/key_pos_2_5" />
+            </merge_key_mapping>
+        </else>
+        <if language="az-IR|doi-Arab|dv-MV|fa|prs-AF|khw|ks-Arab|ku-IQ|ku-IR|pa-PK|ps|sd-Arab|trw|ug|ur-PK">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0f0c" view_id="@id/key_pos_2_6" />
+                <merge key_id="@id/id_0x7f0b0ee2" view_id="@id/key_pos_2_7" />
+                <merge key_id="@id/id_0x7f0b0f6e" view_id="@id/key_pos_2_8" />
+            </merge_key_mapping>
+        </if>
+        <else_if language="ar-EG|ar-MA">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0f0c" view_id="@id/key_pos_2_6" />
+                <merge key_id="@id/id_0x7f0b0ee2" view_id="@id/key_pos_2_7" />
+                <merge key_id="@id/id_0x7f0b0f6e" view_id="@id/key_pos_2_8" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="dcc-IN|ur-IN" variant="qwerty">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0f0c" view_id="@id/key_pos_2_6" />
+                <merge key_id="@id/id_0x7f0b0ee2" view_id="@id/key_pos_2_7" />
+                <merge key_id="@id/id_0x7f0b0f6e" view_id="@id/key_pos_2_8" />
+            </merge_key_mapping>
+        </else_if>
+        <else>
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0f6e" view_id="@id/key_pos_2_6" />
+                <merge key_id="@id/id_0x7f0b0edd" view_id="@id/key_pos_2_7" />
+                <merge key_id="@id/id_0x7f0b0fef" view_id="@id/key_pos_2_8" />
+            </merge_key_mapping>
+        </else>
+        <if language="aii|ar-AE|ar-IQ|ar-MR|ar-TD|bal-PK|bcc-PK|bft-PK|bgn-PK|bgp-Arab|bgq-PK|brh-Arab|cld-IQ|gdq-YE|gjk-PK|gju-PK|gwc-PK|hnd-PK|hno-PK|kvx-PK|mde-TD|mki-PK|mve-PK|mvy-PK|phr-PK|plk-PK|scl-PK|skr">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0fe9" view_id="@id/key_pos_2_9" />
+            </merge_key_mapping>
+        </if>
+        <else_if language="dcc-IN" variant="dakhini">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0fe9" view_id="@id/key_pos_2_9" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="az-IR|doi-Arab|dv-MV|fa|prs-AF|khw|ks-Arab|ku-IQ|ku-IR|pa-PK|ps|sd-Arab|trw|ug|ur-PK">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0edd" view_id="@id/key_pos_2_9" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="ar-EG|ar-MA">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0edd" view_id="@id/key_pos_2_9" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if language="dcc-IN|ur-IN" variant="qwerty">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0edd" view_id="@id/key_pos_2_9" />
+            </merge_key_mapping>
+        </else_if>
+        <else>
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0edc" view_id="@id/key_pos_2_9" />
+            </merge_key_mapping>
+        </else>
+        <if language="fa">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0f6c" view_id="@id/key_pos_input_symbol_1" />
+            </merge_key_mapping>
+        </if>
+        <if language="doi-Arab|prs-AF|ks-Arab|pa-PK|ps|sd-Arab|ug">
+            <merge_key_mapping>
+                <if device="tablet" device_size="large" keyboard_mode="normal">
+                    <merge key_id="@id/id_0x7f0b0f6c" view_id="@id/key_pos_2_10" />
+                </if>
+                <else>
+                    <merge key_id="@id/id_0x7f0b0f6c" view_id="@id/key_pos_input_symbol_1" />
+                </else>
+            </merge_key_mapping>
+        </if>
+        <else_if language="ar-EG|ar-MA">
+            <merge_key_mapping>
+                <if device="tablet" device_size="large" keyboard_mode="normal">
+                    <merge key_id="@id/id_0x7f0b0f6c" view_id="@id/key_pos_2_10" />
+                </if>
+                <else>
+                    <merge key_id="@id/id_0x7f0b0f6c" view_id="@id/key_pos_input_symbol_1" />
+                </else>
+            </merge_key_mapping>
+        </else_if>
+        <if language="fa">
+            <merge_key_mapping>
+                <merge key_id="@id/id_0x7f0b0ee4" view_id="@id/key_pos_input_symbol_2" />
+            </merge_key_mapping>
+        </if>
+        <if language="prs-AF|ug">
+            <merge_key_mapping>
+                <if device="tablet" device_size="large" keyboard_mode="normal">
+                    <merge key_id="@id/id_0x7f0b0ee4" view_id="@id/key_pos_2_11" />
+                </if>
+                <else>
+                    <merge key_id="@id/id_0x7f0b0ee4" view_id="@id/key_pos_input_symbol_2" />
+                </else>
+            </merge_key_mapping>
+        </if>
+        <if language="ps">
+            <merge_key_mapping>
+                <if device="tablet" device_size="large" keyboard_mode="normal">
+                    <merge key_id="@id/id_0x7f0b0f0b" view_id="@id/key_pos_2_11" />
+                </if>
+                <else>
+                    <merge key_id="@id/id_0x7f0b0f0b" view_id="@id/key_pos_input_symbol_2" />
+                </else>
+            </merge_key_mapping>
+        </if>
+    </if>
+    <include href="@xml/xml_0x7f170afe" />
+</framework>

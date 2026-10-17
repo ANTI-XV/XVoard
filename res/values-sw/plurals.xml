@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">Kitufe %d kimepewa majukumu</item>
+        <item quantity="other">Vitufe %d vimepewa majukumu</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Sasa %s imesakinishwa.</item>
+        <item quantity="other">Sasa %s zimesakinishwa.</item>
+    </plurals>
+</resources>

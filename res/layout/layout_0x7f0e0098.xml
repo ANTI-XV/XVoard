@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/id_0x7f0b01b0" android:background="@drawable/drawable_0x7f080582" android:layout_width="@dimen/dimen_0x7f070154" android:layout_height="@dimen/dimen_0x7f07014f" android:src="@drawable/drawable_0x7f080347" android:contentDescription="@string/string_0x7f1401c3" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

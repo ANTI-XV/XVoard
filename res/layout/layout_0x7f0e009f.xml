@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_0x7f0e009e" />
+    <com.google.android.apps.inputmethod.libs.search.widget.VerticalScrollAnimatedImageSidebarHolderView android:id="@id/id_0x7f0b01b9" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/dimen_0x7f0702cd" android:paddingEnd="@dimen/dimen_0x7f0702cd" app:attr_0x7f0405bd="true" app:attr_0x7f0407fc="3" image_view_layout="@layout/layout_0x7f0e080a" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/id_0x7f0b01b8" android:tag=".progress-bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+</FrameLayout>

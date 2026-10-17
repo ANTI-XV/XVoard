@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_0x7f0b207a" style="@style/style_0x7f1501e2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b207b" android:layout_marginStart="?attr_0x7f040060" android:layout_marginEnd="?attr_0x7f040060" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1501e0" />
+    <com.google.android.apps.search.assistant.surfaces.voice.ui.speakables.Wiggle android:id="@id/id_0x7f0b207e" android:layout_width="0.0dp" android:layout_height="7.0dp" android:layout_marginHorizontal="?attr_0x7f04005e" app:attr_0x7f0402ed="2.0dp" app:attr_0x7f0402f4="1000" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f040741="3.0dp" app:attr_0x7f0407e7="1.0" app:attr_0x7f040929="1.5dp" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b207f" android:tag=".wiggle.voice" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="0.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

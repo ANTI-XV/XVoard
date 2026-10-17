@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?android:selectableItemBackground" android:layout_width="@dimen/dimen_0x7f070364" android:layout_height="match_parent" android:layout_marginStart="@dimen/dimen_0x7f0707df"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:id="@id/id_0x7f0b01d6" android:tag=".icon.for-category-key.with-underline" android:layout_width="@dimen/dimen_0x7f070135" android:layout_height="@dimen/dimen_0x7f070132" />
+    <View style="@style/style_0x7f150269" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_0x7f140960" android:key="@string/string_0x7f140890"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.personaldictionary.preference.PersonalDictionaryPreference android:title="@string/string_0x7f140a12" android:key="@string/string_0x7f140a10" />
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f140a6b" android:key="@string/string_0x7f140a6a" />
+</PreferenceScreen>

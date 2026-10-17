@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/id_0x7f0b01b7" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawable_0x7f080506" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+    <com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b1f71" android:layout_marginTop="20.0dp" style="@style/style_0x7f15063f" />
+</LinearLayout>

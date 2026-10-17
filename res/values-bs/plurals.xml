@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d ključ je dodijeljen</item>
+        <item quantity="few">%d ključa su dodijeljena</item>
+        <item quantity="other">%d ključeva je dodijeljeno</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s su sada instalirani.</item>
+        <item quantity="few">%s su sada instalirani.</item>
+        <item quantity="other">%s su sada instalirani.</item>
+    </plurals>
+</resources>

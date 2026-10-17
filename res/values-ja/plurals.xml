@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d 個のキーが割り当てられています</item>
+        <item quantity="other">%d 個のキーが割り当てられています</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%sがインストールされました。</item>
+        <item quantity="other">%sがインストールされました。</item>
+    </plurals>
+</resources>

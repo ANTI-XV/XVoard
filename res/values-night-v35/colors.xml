@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_0x7f060b09">@color/color_0x7f060b33</color>
+    <color name="color_0x7f060b11">@android:color/system_on_primary_dark</color>
+    <color name="color_0x7f060b12">@android:color/system_on_primary_container_dark</color>
+    <color name="color_0x7f060b19">@android:color/system_on_surface_dark</color>
+    <color name="color_0x7f060b20">@android:color/system_outline_dark</color>
+    <color name="color_0x7f060b22">@android:color/system_primary_dark</color>
+    <color name="color_0x7f060b23">@android:color/system_primary_container_dark</color>
+    <color name="color_0x7f060b2f">@android:color/system_surface_container_highest_dark</color>
+    <color name="color_0x7f060b33">@android:color/system_surface_light</color>
+    <color name="color_0x7f060b34">@android:color/system_surface_variant_dark</color>
+    <color name="color_0x7f060b3e">@color/color_0x7f060b23</color>
+    <color name="color_0x7f060b3f">@color/color_0x7f060b23</color>
+    <color name="color_0x7f060b49">@color/color_0x7f060b22</color>
+    <color name="color_0x7f060b4e">@color/color_0x7f060b20</color>
+    <color name="color_0x7f060b4f">@color/color_0x7f060b20</color>
+    <color name="color_0x7f060b50">@color/color_0x7f060b11</color>
+    <color name="color_0x7f060b51">@color/color_0x7f060b2f</color>
+    <color name="color_0x7f060b52">@color/color_0x7f060b22</color>
+</resources>

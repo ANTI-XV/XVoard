@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping>
+        <merge key_id="@id/id_0x7f0b1bc6" view_id="@id/key_pos_shift" />
+        <merge key_id="@id/id_0x7f0b1bc6" view_id="@id/key_pos_right_side_3rd_key" />
+    </merge_key_mapping>
+    <if language="mul-x-ipa">
+        <merge_key_mapping>
+            <merge key_id="@id/id_0x7f0b0e6e" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e6e" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="bo-CN" variant="tibetan_alphabetical">
+        <merge_key_mapping>
+            <merge key_id="@id/id_0x7f0b101e" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b101e" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="dz">
+        <merge_key_mapping>
+            <merge key_id="@id/id_0x7f0b101e" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b101e" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <merge_key_mapping state="SUB_CATEGORY_1">
+        <merge key_id="@id/id_0x7f0b17a4" view_id="@id/key_pos_shift" />
+        <merge key_id="@id/id_0x7f0b17a4" view_id="@id/key_pos_right_side_3rd_key" />
+    </merge_key_mapping>
+    <if language="ff-Adlm">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0df9" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0df9" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="ar-EG|ar-OM|ar-SA|ar-YE|ar-x-levant|mfa-TH|ms-Arab-BN|ms-Arab-MY|su-Arab|syc-IQ">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0dfb" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0dfb" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="aii|ar-AE|ar-BH|ar-DZ|ar-IQ|ar-LY|ar-MA|ar-MR|ar-SD|ar-TD|ar-TN|bal-PK|bcc-PK|bft-PK|bgn-PK|bgp-XC|bgq-PK|brh-Arab|cld-IQ|dcc-IN|dv-MV|gdq-YE|gjk-PK|gju-PK|gwc-PK|hnd-PK|hno-PK|kvx-PK|mde-TD|mki-PK|mve-PK|mvy-PK|phr-PK|plk-PK|scl-PK|skr|trw|ug|ur-PK">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0dfd" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0dfd" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="khw" variant="qwerty">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0dfd" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0dfd" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="ban-Bali|sas-Bali">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0dff" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0dff" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="bax-CM">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e01" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e01" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="as-Latn-IN|trp-Latn-IN" />
+    <else_if language="as-IN|bn-BD|bn-IN|bpy-IN|brx-Beng|ctg-BD|grt-Beng|mni-Beng|rkt-Beng|trp-IN|sat-Beng|syl-Beng|syl-Sylo|unr-Beng">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e04" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e04" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </else_if>
+    <if language="ccp-BD">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e4b" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e4b" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="cja-KH">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e4c" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e4c" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="cjm-VN">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e4c" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e4c" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="am|bcq-Ethi|gez|hdy-ET|ktb-Ethi|sgw-ET|stv-ET|ti">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e5e" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e5e" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="gu-Latn-IN" />
+    <else_if language="bhb-Gujr|gu-IN|kfr-IN|vas-Gujr">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e64" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e64" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </else_if>
+    <if language="pa-Guru">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e66" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e66" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="hi-Latn-IN|mr-Latn-IN|gno-Telu-IN|hlb-Orya-IN|sa-Latn-IN|vas-Gujr-IN" />
+    <else_if language="ahr-IN|anp-IN|bfy-IN|bfz-IN|bgq-IN|bhb-Deva|bho-IN|bjj-IN|brx-Deva|dhd-IN|doi-Deva|dty-NP|gbm-IN|gdx-IN|gju-Deva|gno-IN|gvr-NP|hi-IN|hlb-IN|hoj-IN|kfq-IN|kfy-IN|knn-IN|kok-Deva|kru-IN|ks-Deva|kxv-Deva-IN|lif-Deva|lmn-Deva|mag-IN|mag-NP|mai-IN|mjl-IN|mr-IN|mtr-IN|mup-IN|ne-IN|ne-NP|new-NP|noe-IN|rkt-IN|rwr-IN|sa-IN|sat-Deva|sck-IN|sd-Deva|sgj-IN|sjp-IN|swv-IN|taj-NP|vah|vas-IN|wbr-IN|wry-IN|xnr-IN|xsr-NP">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e6b" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e6b" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </else_if>
+    <if language="awa-IN" variant="awadhi_dynamic">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e6b" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e6b" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="bns-IN" variant="bundeli_dynamic">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e6b" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e6b" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="hne-IN" variant="chhattisgarhi_dynamic">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e6b" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e6b" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="mul-x-ipa">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e6d" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e6d" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="jv-Java">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e71" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e71" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="kn-Latn-IN" />
+    <else_if language="kn-IN|kok-Knda|lmn-Knda|tcy-IN">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e74" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e74" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </else_if>
+    <if language="kyu-MM">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e76" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e76" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="lep-IN">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e7c" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e7c" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="lif-Limb">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e7e" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e7e" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="mni-Mtei">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e82" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e82" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="blk-MM|kjp-MM|ksw-MM|mnw-MM|rki-MM">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e86" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e86" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="my">
+        <if variant="burmese_zawgyi">
+            <merge_key_mapping state="SUB_CATEGORY_1">
+                <merge key_id="@id/id_0x7f0b17a4" view_id="@id/key_pos_shift" />
+                <merge key_id="@id/id_0x7f0b17a4" view_id="@id/key_pos_right_side_3rd_key" />
+            </merge_key_mapping>
+        </if>
+        <else>
+            <merge_key_mapping state="SUB_CATEGORY_1">
+                <merge key_id="@id/id_0x7f0b0e86" view_id="@id/key_pos_shift" />
+                <merge key_id="@id/id_0x7f0b0e86" view_id="@id/key_pos_right_side_3rd_key" />
+            </merge_key_mapping>
+        </else>
+    </if>
+    <if language="shn-MM">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e88" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e88" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="khb-CN">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e8a" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e8a" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="bm-Nkoo|dyu-Nkoo">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e8c" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e8c" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="or-Latn-IN" />
+    <else_if language="hlb-Orya|kxu-IN|kxv-Orya-IN|or-IN|unr-Orya">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e8e" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e8e" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </else_if>
+    <if language="sat-Olck">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0e90" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0e90" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="az-IR|bqi-IR|doi-Arab|fa|fay-IR|glk-IR|hac-IR|haz-AF|kmz-Arab|ks-Arab|ku-IQ|ku-IR|lki-IR|lrc-IR|lrl-IR|luz-IR|mzn-IR|pa-PK|prs-AF|ps|psh-AF|psi-AF|qxq-IR|sd-Arab|sdh-IR|tks-IR|tly-IR|ur-IN|wne-PK">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0ebd" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0ebd" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="ur-PK" variant="qwerty">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0ebd" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0ebd" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="saz-IN">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0ec4" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0ec4" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="su-Sund">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b0ec7" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b0ec7" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+    <if language="adx-CN|bo-CN|dz|khg-CN|lep-Tibt">
+        <merge_key_mapping state="SUB_CATEGORY_1">
+            <merge key_id="@id/id_0x7f0b101d" view_id="@id/key_pos_shift" />
+            <merge key_id="@id/id_0x7f0b101d" view_id="@id/key_pos_right_side_3rd_key" />
+        </merge_key_mapping>
+    </if>
+</framework>

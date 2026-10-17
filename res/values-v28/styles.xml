@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_0x7f150067" parent="@style/style_0x7f15013b" />
+    <style name="style_0x7f15006e" parent="@style/style_0x7f15013c" />
+    <style name="style_0x7f1500f8" parent="@style/style_0x7f150915">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:checkedTextViewStyle">@style/style_0x7f1509eb</item>
+        <item name="android:dialogCornerRadius">@dimen/dimen_0x7f07028f</item>
+        <item name="attr_0x7f0402dd">@style/style_0x7f150410</item>
+        <item name="attr_0x7f040365">@style/style_0x7f1509e4</item>
+        <item name="attr_0x7f040366">@style/style_0x7f1509e4</item>
+        <item name="attr_0x7f040367">@style/style_0x7f1509e5</item>
+        <item name="attr_0x7f040368">@style/style_0x7f1509e4</item>
+        <item name="attr_0x7f040677">@style/style_0x7f150411</item>
+        <item name="attr_0x7f04067c">@style/style_0x7f150414</item>
+    </style>
+    <style name="style_0x7f1500fe" parent="@style/style_0x7f15085e">
+        <item name="android:backgroundDimAmount">@dimen/dimen_0x7f070496</item>
+        <item name="android:checkedTextViewStyle">@style/style_0x7f150bfc</item>
+        <item name="android:dialogCornerRadius">@null</item>
+        <item name="attr_0x7f0402dd">@style/style_0x7f150425</item>
+        <item name="attr_0x7f040365">@style/style_0x7f150bf4</item>
+        <item name="attr_0x7f040366">@style/style_0x7f150bf4</item>
+        <item name="attr_0x7f040367">@style/style_0x7f150bf5</item>
+        <item name="attr_0x7f040368">@style/style_0x7f150bf4</item>
+        <item name="attr_0x7f040677">@style/style_0x7f150426</item>
+        <item name="attr_0x7f040678">@integer/integer_0x7f0c00d6</item>
+    </style>
+    <style name="style_0x7f15013b" parent="@style/style_0x7f150133">
+        <item name="attr_0x7f040495">?android:dialogCornerRadius</item>
+    </style>
+    <style name="style_0x7f15013c" parent="@style/style_0x7f150134">
+        <item name="attr_0x7f040495">?android:dialogCornerRadius</item>
+    </style>
+    <style name="style_0x7f1501eb">
+        <item name="android:textSize">@dimen/dimen_0x7f0700b0</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:tag">.label</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">@integer/integer_0x7f0c0014</item>
+        <item name="android:fontFamily">?attr_0x7f040103</item>
+        <item name="android:lineHeight">@dimen/dimen_0x7f0700c8</item>
+    </style>
+    <style name="style_0x7f1501f0">
+        <item name="android:textSize">@dimen/dimen_0x7f0700b6</item>
+        <item name="android:textColor">@color/color_0x7f06061f</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dimen_0x7f0700b4</item>
+        <item name="android:fontFamily">?attr_0x7f040105</item>
+        <item name="android:paddingStart">@dimen/dimen_0x7f0700b5</item>
+        <item name="android:paddingEnd">@dimen/dimen_0x7f0700b5</item>
+        <item name="android:letterSpacing">0.033</item>
+        <item name="android:lineHeight">@dimen/dimen_0x7f0700b3</item>
+    </style>
+    <style name="style_0x7f1501fc">
+        <item name="android:textSize">@dimen/dimen_0x7f0700d0</item>
+        <item name="android:layout_gravity">end|center</item>
+        <item name="android:tag">.tooltip.positive_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/dimen_0x7f0700cd</item>
+        <item name="android:text">@string/string_0x7f1400cf</item>
+        <item name="android:fontFamily">?attr_0x7f040105</item>
+        <item name="android:layout_marginStart">?attr_0x7f040073</item>
+        <item name="android:layout_marginEnd">?attr_0x7f040073</item>
+        <item name="android:lineHeight">@dimen/dimen_0x7f0700ce</item>
+    </style>
+    <style name="style_0x7f1501fe">
+        <item name="android:tag">.label.description</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">?attr_0x7f040103</item>
+        <item name="android:paddingEnd">@dimen/dimen_0x7f0700be</item>
+        <item name="android:lineHeight">@dimen/dimen_0x7f0700c8</item>
+    </style>
+    <style name="style_0x7f150201">
+        <item name="android:textSize">@dimen/dimen_0x7f0700c3</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:tag">.label</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">?attr_0x7f040105</item>
+        <item name="android:paddingEnd">@dimen/dimen_0x7f0700be</item>
+        <item name="android:lineHeight">@dimen/dimen_0x7f0700c8</item>
+    </style>
+    <style name="style_0x7f150221">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">?attr_0x7f040105</item>
+        <item name="android:lineHeight">24.0sp</item>
+    </style>
+    <style name="style_0x7f150222">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">?attr_0x7f0400fb</item>
+        <item name="android:lineHeight">32.0sp</item>
+    </style>
+    <style name="style_0x7f150386" parent="@style/style_0x7f150369">
+        <item name="android:textSize">?attr_0x7f040152</item>
+        <item name="android:gravity">center</item>
+        <item name="android:tag">.label.for-ja-fiftykeys</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fallbackLineSpacing">false</item>
+        <item name="attr_0x7f0408a1">ja-JP</item>
+    </style>
+    <style name="style_0x7f150387" parent="@style/style_0x7f150369">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:tag">.label.for-ja-twelvekeys</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fallbackLineSpacing">false</item>
+        <item name="attr_0x7f0408a1">ja-JP</item>
+    </style>
+    <style name="style_0x7f150488">
+        <item name="android:textSize">@dimen/dimen_0x7f0700b0</item>
+        <item name="android:textColor">@color/color_0x7f060620</item>
+        <item name="android:tag">.keyboard-clipboard-popup</item>
+        <item name="android:paddingTop">@dimen/dimen_0x7f070318</item>
+        <item name="android:paddingBottom">@dimen/dimen_0x7f070318</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">?attr_0x7f040103</item>
+        <item name="android:paddingStart">@dimen/dimen_0x7f070317</item>
+        <item name="android:paddingEnd">@dimen/dimen_0x7f070317</item>
+        <item name="android:lineHeight">@dimen/dimen_0x7f0700c8</item>
+    </style>
+    <style name="style_0x7f1506b7" parent="@style/style_0x7f15066e">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408af</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">24.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408af</item>
+        <item name="attr_0x7f04063c">24.0sp</item>
+    </style>
+    <style name="style_0x7f1506b8" parent="@style/style_0x7f15066d">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408af</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408af</item>
+        <item name="attr_0x7f04063c">20.0sp</item>
+    </style>
+    <style name="style_0x7f1506b9" parent="@style/style_0x7f150670">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408af</item>
+        <item name="android:letterSpacing">0.00833333</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408af</item>
+        <item name="attr_0x7f04063c">16.0sp</item>
+    </style>
+    <style name="style_0x7f1506ba" parent="@style/style_0x7f150673">
+        <item name="android:textSize">57.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408ae</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">64.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408ae</item>
+        <item name="attr_0x7f04063c">64.0sp</item>
+    </style>
+    <style name="style_0x7f1506bb" parent="@style/style_0x7f150672">
+        <item name="android:textSize">45.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408ae</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">52.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408ae</item>
+        <item name="attr_0x7f04063c">52.0sp</item>
+    </style>
+    <style name="style_0x7f1506bc" parent="@style/style_0x7f150671">
+        <item name="android:textSize">36.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408ae</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">44.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408ae</item>
+        <item name="attr_0x7f04063c">44.0sp</item>
+    </style>
+    <style name="style_0x7f1506bd" parent="@style/style_0x7f150671">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408ae</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">40.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408ae</item>
+        <item name="attr_0x7f04063c">40.0sp</item>
+    </style>
+    <style name="style_0x7f1506be" parent="@style/style_0x7f150675">
+        <item name="android:textSize">28.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408ae</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">36.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408ae</item>
+        <item name="attr_0x7f04063c">36.0sp</item>
+    </style>
+    <style name="style_0x7f1506bf" parent="@style/style_0x7f150686">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408ae</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">32.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408ae</item>
+        <item name="attr_0x7f04063c">32.0sp</item>
+    </style>
+    <style name="style_0x7f1506c0" parent="@style/style_0x7f15066d">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408b1</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408b1</item>
+        <item name="attr_0x7f04063c">20.0sp</item>
+    </style>
+    <style name="style_0x7f1506c1" parent="@style/style_0x7f150670">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408b1</item>
+        <item name="android:letterSpacing">0.00833333</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408b1</item>
+        <item name="attr_0x7f04063c">16.0sp</item>
+    </style>
+    <style name="style_0x7f1506c2" parent="@style/style_0x7f150670">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408b1</item>
+        <item name="android:letterSpacing">0.00909091</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408b1</item>
+        <item name="attr_0x7f04063c">16.0sp</item>
+    </style>
+    <style name="style_0x7f1506c3" parent="@style/style_0x7f150686">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408ae</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">28.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408ae</item>
+        <item name="attr_0x7f04063c">28.0sp</item>
+    </style>
+    <style name="style_0x7f1506c4" parent="@style/style_0x7f150684">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408b1</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">24.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408b1</item>
+        <item name="attr_0x7f04063c">24.0sp</item>
+    </style>
+    <style name="style_0x7f1506c5" parent="@style/style_0x7f150684">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">?attr_0x7f0408b1</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="attr_0x7f04054f">?attr_0x7f0408b1</item>
+        <item name="attr_0x7f04063c">20.0sp</item>
+    </style>
+    <style name="style_0x7f15071d" parent="@style/style_0x7f15066e">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f14056a</item>
+        <item name="android:letterSpacing">0.03125</item>
+        <item name="android:lineHeight">24.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f14056a</item>
+        <item name="attr_0x7f04063c">24.0sp</item>
+    </style>
+    <style name="style_0x7f15071e" parent="@style/style_0x7f15066d">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f14056a</item>
+        <item name="android:letterSpacing">0.01785714</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f14056a</item>
+        <item name="attr_0x7f04063c">20.0sp</item>
+    </style>
+    <style name="style_0x7f15071f" parent="@style/style_0x7f150670">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f14056a</item>
+        <item name="android:letterSpacing">0.03333333</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f14056a</item>
+        <item name="attr_0x7f04063c">16.0sp</item>
+    </style>
+    <style name="style_0x7f150720" parent="@style/style_0x7f150673">
+        <item name="android:textSize">57.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140568</item>
+        <item name="android:letterSpacing">-0.00438596</item>
+        <item name="android:lineHeight">64.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140568</item>
+        <item name="attr_0x7f04063c">64.0sp</item>
+    </style>
+    <style name="style_0x7f150721" parent="@style/style_0x7f150672">
+        <item name="android:textSize">45.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140568</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">52.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140568</item>
+        <item name="attr_0x7f04063c">52.0sp</item>
+    </style>
+    <style name="style_0x7f150722" parent="@style/style_0x7f150671">
+        <item name="android:textSize">36.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140568</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">44.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140568</item>
+        <item name="attr_0x7f04063c">44.0sp</item>
+    </style>
+    <style name="style_0x7f150723" parent="@style/style_0x7f150671">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140568</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">40.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140568</item>
+        <item name="attr_0x7f04063c">40.0sp</item>
+    </style>
+    <style name="style_0x7f150724" parent="@style/style_0x7f150675">
+        <item name="android:textSize">28.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140568</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">36.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140568</item>
+        <item name="attr_0x7f04063c">36.0sp</item>
+    </style>
+    <style name="style_0x7f150725" parent="@style/style_0x7f150686">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140568</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">32.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140568</item>
+        <item name="attr_0x7f04063c">32.0sp</item>
+    </style>
+    <style name="style_0x7f150726" parent="@style/style_0x7f15066d">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140569</item>
+        <item name="android:letterSpacing">0.00714286</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140569</item>
+        <item name="attr_0x7f04063c">20.0sp</item>
+    </style>
+    <style name="style_0x7f150727" parent="@style/style_0x7f150670">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140569</item>
+        <item name="android:letterSpacing">0.04166667</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140569</item>
+        <item name="attr_0x7f04063c">16.0sp</item>
+    </style>
+    <style name="style_0x7f150728" parent="@style/style_0x7f150670">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140569</item>
+        <item name="android:letterSpacing">0.04545455</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140569</item>
+        <item name="attr_0x7f04063c">16.0sp</item>
+    </style>
+    <style name="style_0x7f150729" parent="@style/style_0x7f150686">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140568</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">28.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140568</item>
+        <item name="attr_0x7f04063c">28.0sp</item>
+    </style>
+    <style name="style_0x7f15072a" parent="@style/style_0x7f150684">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140569</item>
+        <item name="android:letterSpacing">0.009375</item>
+        <item name="android:lineHeight">24.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140569</item>
+        <item name="attr_0x7f04063c">24.0sp</item>
+    </style>
+    <style name="style_0x7f15072b" parent="@style/style_0x7f150684">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/string_0x7f140569</item>
+        <item name="android:letterSpacing">0.00714286</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="attr_0x7f04054f">@string/string_0x7f140569</item>
+        <item name="attr_0x7f04063c">20.0sp</item>
+    </style>
+    <style name="style_0x7f15092d">
+        <item name="android:textSize">@dimen/dimen_0x7f070865</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dimen_0x7f070868</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_0x7f070868</item>
+        <item name="android:fontFamily">?attr_0x7f040103</item>
+        <item name="android:layout_marginStart">@dimen/dimen_0x7f070867</item>
+        <item name="android:lineHeight">@dimen/dimen_0x7f070864</item>
+    </style>
+    <style name="style_0x7f150943">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dimen_0x7f070882</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_0x7f070882</item>
+        <item name="android:fontFamily">?attr_0x7f040105</item>
+        <item name="android:lineHeight">24.0sp</item>
+    </style>
+    <style name="style_0x7f150945">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dimen_0x7f070881</item>
+        <item name="android:fontFamily">?attr_0x7f0400fb</item>
+        <item name="android:lineHeight">32.0sp</item>
+    </style>
+    <style name="style_0x7f150952">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">?attr_0x7f040105</item>
+        <item name="android:lineHeight">24.0sp</item>
+    </style>
+    <style name="style_0x7f150953">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_0x7f070899</item>
+        <item name="android:layout_marginTop">@dimen/dimen_0x7f07089a</item>
+        <item name="android:layout_marginRight">@dimen/dimen_0x7f070899</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_0x7f07089a</item>
+        <item name="android:fontFamily">?attr_0x7f0400fb</item>
+        <item name="android:lineHeight">32.0sp</item>
+    </style>
+    <style name="style_0x7f150aca" parent="@android:style/Widget">
+        <item name="android:textAppearance">@style/style_0x7f15070d</item>
+        <item name="android:minHeight">@dimen/dimen_0x7f070211</item>
+        <item name="android:paddingStart">@dimen/dimen_0x7f070213</item>
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="attr_0x7f04031a">?attr_0x7f04042c</item>
+        <item name="attr_0x7f04048b">true</item>
+        <item name="attr_0x7f04048d">true</item>
+        <item name="attr_0x7f0404c3">@dimen/dimen_0x7f070210</item>
+        <item name="attr_0x7f0404e9">true</item>
+        <item name="attr_0x7f040582">false</item>
+        <item name="attr_0x7f0406a2">@style/style_0x7f1508a9</item>
+        <item name="attr_0x7f0406a8">@dimen/dimen_0x7f070211</item>
+        <item name="attr_0x7f0407ac">?attr_0x7f0407b6</item>
+        <item name="attr_0x7f0407b7">@style/style_0x7f150534</item>
+    </style>
+    <style name="style_0x7f150b30" parent="@style/style_0x7f150be0">
+        <item name="android:background">?attr_0x7f04042c</item>
+        <item name="android:stateListAnimator">@animator/animator_0x7f02002c</item>
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="attr_0x7f040636">true</item>
+        <item name="attr_0x7f040637">?attr_0x7f04042e</item>
+    </style>
+    <style name="style_0x7f150b3b" parent="@style/style_0x7f15018e">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+    </style>
+    <style name="style_0x7f150bb6" parent="@android:style/Widget">
+        <item name="android:textAppearance">@style/style_0x7f15073b</item>
+        <item name="android:minHeight">@dimen/dimen_0x7f070508</item>
+        <item name="android:paddingStart">@dimen/dimen_0x7f07050c</item>
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="attr_0x7f04031a">?attr_0x7f04042f</item>
+        <item name="attr_0x7f04048b">true</item>
+        <item name="attr_0x7f04048d">true</item>
+        <item name="attr_0x7f0404c3">@dimen/dimen_0x7f070507</item>
+        <item name="attr_0x7f0404e9">true</item>
+        <item name="attr_0x7f040582">false</item>
+        <item name="attr_0x7f0406a2">@style/style_0x7f1508f6</item>
+        <item name="attr_0x7f0406a8">@dimen/dimen_0x7f070508</item>
+        <item name="attr_0x7f0407ac">?attr_0x7f0407b6</item>
+        <item name="attr_0x7f0407b7">@style/style_0x7f15053d</item>
+    </style>
+    <style name="style_0x7f150bd5" parent="@style/style_0x7f1509ac">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="attr_0x7f040452">0.0dp</item>
+        <item name="attr_0x7f040825">?attr_0x7f04088e</item>
+        <item name="attr_0x7f0408db">?attr_0x7f04088d</item>
+    </style>
+</resources>

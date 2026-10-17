@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dimen_0x7f07089f" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:id="@id/id_0x7f0b205f" android:layout_width="@dimen/dimen_0x7f07089e" android:layout_height="@dimen/dimen_0x7f07089e">
+        <FrameLayout android:id="@id/id_0x7f0b2060" android:contentDescription="@string/string_0x7f1400e7" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" style="@style/style_0x7f15021d">
+            <android.support.v7.widget.AppCompatImageView android:src="@drawable/drawable_0x7f080523" style="@style/style_0x7f15021b" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/id_0x7f0b2064" android:tag=".voice-default-icon-color.item-ripple.on-surface" android:background="@drawable/drawable_0x7f0801f8" android:visibility="invisible" android:layout_width="@dimen/dimen_0x7f07089e" android:layout_height="@dimen/dimen_0x7f07089e" android:src="@drawable/drawable_0x7f080532" android:scaleType="centerInside" android:contentDescription="@string/string_0x7f14137b" />
+</LinearLayout>

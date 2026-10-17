@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <view override="motion_event_handler" type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" preference_key="@string/string_0x7f14073e" reverse_preference="true" />
+            <motion_event_handler class=".motioneventhandler.SpatialModelMotionEventHandler" preference_key="@string/string_0x7f14073e" reverse_preference="false" />
+            <motion_event_handler class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler class="com.google.android.libraries.inputmethod.motioneventhandler.ScrubMoveMotionEventHandler" preference_key="@string/string_0x7f140737" reverse_preference="false" />
+            <if language="zh-CN">
+                <motion_event_handler class="com.google.android.apps.inputmethod.libs.pinyin.PinyinGestureHandler" preference_key="@string/string_0x7f140721" reverse_preference="false" />
+                <motion_event_handler class="com.google.android.apps.inputmethod.libs.pinyin.PinyinKeyboardLayoutHandler" preference_key="@string/string_0x7f140721" reverse_preference="false" />
+            </if>
+            <if language="zh-TW">
+                <motion_event_handler class="com.google.android.apps.inputmethod.libs.zhuyin.ZhuyinGestureHandler" preference_key="@string/string_0x7f140721" reverse_preference="false" />
+                <motion_event_handler class="com.google.android.apps.inputmethod.libs.zhuyin.PinyinKeyboardLayoutHandler" preference_key="@string/string_0x7f140721" reverse_preference="false" />
+            </if>
+            <include href="@xml/xml_0x7f170bf8" />
+            <include href="@xml/xml_0x7f170aed" />
+        </view>
+        <if keyboard_mode="split">
+            <if split_with_duplicate_keys="true">
+                <view layout="@layout/layout_0x7f0e03bd" type="body" />
+            </if>
+            <else>
+                <view layout="@layout/layout_0x7f0e03be" type="body" />
+            </else>
+        </if>
+        <else_if device="tablet" device_size="large" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e03e7" type="body" />
+        </else_if>
+        <else>
+            <view layout="@layout/layout_0x7f0e03bc" type="body" />
+        </else>
+    </keyboard>
+</framework>

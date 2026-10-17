@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView android:layout_width="match_parent" android:layout_height="?attr_0x7f040160" app:attr_0x7f0402e6="false" style="@style/style_0x7f1501bf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/style_0x7f150270">
+        <include layout="@layout/layout_0x7f0e0184" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/style_0x7f15026f">
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:paddingTop="@dimen/dimen_0x7f07016a" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/id_0x7f0b00e0" android:layout_width="0.0dp" android:layout_height="0.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b028c" app:attr_0x7f04060e="id_0x7f0b1f66" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150664">
+                    <include layout="@layout/layout_0x7f0e0652" />
+                    <include android:paddingStart="2.0dp" android:paddingEnd="2.0dp" layout="@layout/layout_0x7f0e0043" />
+                    <android.support.v7.widget.RecyclerView android:id="@id/id_0x7f0b00db" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="9.0" android:nestedScrollingEnabled="false" />
+                </LinearLayout>
+                <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/id_0x7f0b028c" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f040607="@dimen/dimen_0x7f070825" />
+                <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:id="@id/id_0x7f0b0131" android:layout_width="?attr_0x7f0400ad" android:layout_height="0.0dp" android:paddingHorizontal="16.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b01b5" app:attr_0x7f040616="@id/id_0x7f0b028c" app:attr_0x7f04061b="id_0x7f0b05c6">
+                    <android.support.v7.widget.AppCompatTextView android:textSize="12.0dp" android:gravity="start|center" android:tag=".content-suggestion-primary-color" android:paddingLeft="7.0dp" android:paddingTop="4.0dp" android:paddingRight="7.0dp" android:layout_width="wrap_content" android:layout_height="24.0dp" android:text="@string/string_0x7f1401e6" android:fontFamily="?attr_0x7f040105" android:letterSpacing="0.1" style="?attr_0x7f0400cd" />
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                        <RelativeLayout android:orientation="vertical" android:id="@id/id_0x7f0b061c" android:layout_width="match_parent" android:layout_height="match_parent">
+                            <FrameLayout android:id="@id/id_0x7f0b05b4" android:layout_width="@dimen/dimen_0x7f070089" android:layout_height="@dimen/dimen_0x7f070089" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+                                <ImageView android:layout_gravity="end|top" android:id="@id/id_0x7f0b05b3" android:tag=".content-suggestion-primary-color" android:layout_width="@dimen/dimen_0x7f0700e6" android:layout_height="@dimen/dimen_0x7f0700e6" android:layout_margin="8.0dp" android:scaleType="centerInside" android:importantForAccessibility="no" />
+                            </FrameLayout>
+                            <ImageView android:id="@id/id_0x7f0b061b" android:tag=".content-suggestion-primary-color" android:layout_width="match_parent" android:layout_height="250.0dp" android:scaleType="centerCrop" android:layout_centerInParent="true" android:alpha="0.4" android:importantForAccessibility="no" />
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_0x7f0b061d" android:layout_width="280.0dp" android:layout_height="match_parent" android:layout_centerInParent="true">
+                                <ImageView android:id="@id/id_0x7f0b061e" android:tag=".content-suggestion-primary-color" android:layout_width="35.0dp" android:layout_height="35.0dp" android:layout_marginBottom="16.0dp" android:scaleType="centerInside" android:importantForAccessibility="no" />
+                                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                    <com.google.android.libraries.inputmethod.widgets.WrapWidthTextView android:gravity="center" android:layout_gravity="center" android:id="@id/id_0x7f0b061f" android:maxLines="3" android:breakStrategy="balanced" style="@style/style_0x7f1504b4" />
+                                    <android.support.v7.widget.AppCompatTextView android:gravity="center" android:layout_gravity="center" android:id="@id/id_0x7f0b0620" android:padding="8.0dp" android:visibility="gone" android:text="@string/string_0x7f1408eb" android:maxLines="1" style="@style/style_0x7f1504b5" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </RelativeLayout>
+                        <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView android:id="@id/id_0x7f0b00b0" android:visibility="invisible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    </FrameLayout>
+                </LinearLayout>
+                <FrameLayout android:layout_gravity="center" android:id="@id/id_0x7f0b01b5" android:layout_width="0.0dp" android:layout_height="0.0dp" android:paddingEnd="16.0dp" android:layout_marginEnd="32.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04060e="id_0x7f0b1f66" app:attr_0x7f04060f="1.0" app:attr_0x7f040616="@id/id_0x7f0b0131" app:attr_0x7f04061b="id_0x7f0b05c6">
+                    <com.google.android.libraries.inputmethod.emoji.picker.EmojiPickerBodyRecyclerView android:id="@id/id_0x7f0b01b4" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <com.google.android.libraries.inputmethod.emoji.picker.EmojiPickerBodyRecyclerView android:id="@id/id_0x7f0b01b6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <FrameLayout android:id="@id/id_0x7f0b066b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+                </FrameLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_0x7f0e0185" />
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">Priskirtas %d klavišas</item>
+        <item quantity="few">Priskirti %d klavišai</item>
+        <item quantity="many">Priskirta %d klavišo</item>
+        <item quantity="other">Priskirta %d klavišų</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Dabar %s k. įdiegtos.</item>
+        <item quantity="few">Dabar %s k. įdiegtos.</item>
+        <item quantity="many">Dabar %s k. įdiegtos.</item>
+        <item quantity="other">Dabar %s k. įdiegtos.</item>
+    </plurals>
+</resources>

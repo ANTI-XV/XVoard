@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/id_0x7f0b1d48" layout="@layout/layout_0x7f0e0792">
+            <action data="$text$" intention="COMMIT" keycode="PLAIN_TEXT" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$text$" />
+        </softkey_template>
+        <softkey_list template_id="@id/id_0x7f0b1d48">
+            <softkey id="@id/id_0x7f0b1aea" text="'" />
+            <softkey id="@id/id_0x7f0b1a52" text="@string/string_0x7f1408d8" />
+            <softkey id="@id/id_0x7f0b0dda" text="@string/string_0x7f1408d7" />
+            <softkey id="@id/id_0x7f0b0ac6" text="@string/string_0x7f1408d6" />
+            <softkey id="@id/id_0x7f0b1adb" text="@string/string_0x7f1408da" />
+            <softkey id="@id/id_0x7f0b0aa5" text="@string/string_0x7f1408d5" />
+            <softkey id="@id/id_0x7f0b1ad8" text="@string/string_0x7f1408d9" />
+            <softkey id="@id/id_0x7f0b07f3" text="@" />
+            <softkey id="@id/id_0x7f0b102e" text="？" />
+            <softkey id="@id/id_0x7f0b102b" text="！" />
+            <softkey id="@id/id_0x7f0b121f" text="。" />
+            <softkey id="@id/id_0x7f0b102a" text="，" />
+            <softkey id="@id/id_0x7f0b1029" text="：" />
+            <softkey id="@id/id_0x7f0b1031" text="；" />
+        </softkey_list>
+    </softkeys>
+</framework>

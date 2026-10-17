@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="ks-XC" string_id="ime_kashmiri_arabic">
+        <keyboard_group layout_theme="@style/style_0x7f150347" supports_split_mode="true" variant="kashmiri_arabic" variant_label="@string/string_0x7f1411fb">
+            <keyboard def="@xml/xml_0x7f170814" type="prime" />
+            <include href="@xml/xml_0x7f170a0d" />
+            <include href="@xml/xml_0x7f170c8a" />
+        </keyboard_group>
+    </ime>
+</framework>

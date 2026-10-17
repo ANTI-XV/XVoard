@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b0499" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.keyboardmode.MultiTouchDelegateView android:id="@id/id_0x7f0b049d" style="@style/style_0x7f150326" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="left" android:id="@id/id_0x7f0b049f" android:clipToPadding="false" android:splitMotionEvents="false" style="@style/style_0x7f150328">
+        <ImageView android:id="@id/id_0x7f0b049b" android:importantForAccessibility="no" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040611="id_0x7f0b05c6" style="@style/style_0x7f150332" />
+        <include layout="@layout/layout_0x7f0e07bf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

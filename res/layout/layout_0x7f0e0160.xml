@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/dimen_0x7f07035f" android:paddingBottom="@dimen/dimen_0x7f07035f" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/id_0x7f0b0630" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="@string/string_0x7f1408e7" app:attr_0x7f0405fe="@id/id_0x7f0b0544" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" app:attr_0x7f04061d="id_0x7f0b1f65" style="@style/style_0x7f150322">
+        <ImageView android:src="@drawable/drawable_0x7f080343" android:importantForAccessibility="no" style="@style/style_0x7f15031c" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b1fb6" android:maxWidth="?attr_0x7f040184" android:text="@string/string_0x7f1404b5" style="@style/style_0x7f15031e" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b0544" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/string_0x7f1405a5" app:attr_0x7f0405fe="@id/id_0x7f0b0174" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061a="@id/id_0x7f0b0630" app:attr_0x7f04061d="id_0x7f0b1f65" style="@style/style_0x7f150320">
+        <ImageView android:src="@drawable/drawable_0x7f080340" android:importantForAccessibility="no" style="@style/style_0x7f15031d" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/id_0x7f0b0174" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@string/string_0x7f140273" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061a="@id/id_0x7f0b0544" app:attr_0x7f04061d="id_0x7f0b1f65" style="@style/style_0x7f150322">
+        <ImageView android:src="@drawable/drawable_0x7f08032e" android:importantForAccessibility="no" style="@style/style_0x7f15031c" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b1fb6" android:maxWidth="?attr_0x7f040184" android:text="@string/string_0x7f14048f" style="@style/style_0x7f15031e" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

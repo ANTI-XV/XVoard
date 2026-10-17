@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:theme="@style/style_0x7f150935" android:layout_height="wrap_content" app:attr_0x7f0402e6="false" style="@style/style_0x7f150930"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner android:id="@id/id_0x7f0b04e0" android:layout_height="?attr_0x7f04028b" app:attr_0x7f0402e0="true" app:attr_0x7f04050f="@dimen/dimen_0x7f07087c" style="@style/style_0x7f1504c8">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_translate_back" style="@style/style_0x7f150567" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_0x7f0b04df" android:layout_width="0.0dp" android:layout_height="match_parent" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b0290" app:attr_0x7f040616="@id/key_pos_translate_back" app:attr_0x7f04061b="id_0x7f0b05c6">
+            <FrameLayout android:id="@id/id_0x7f0b2015" android:layout_width="0.0dp" android:layout_height="match_parent" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" app:attr_0x7f040621="id_0x7f0b209c" app:attr_0x7f040623="0.5">
+                <include layout="@layout/layout_0x7f0e07f8" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/id_0x7f0b2017" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginEnd="?attr_0x7f04028f" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b2015" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/id_0x7f0b0290" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f040606="0.0dp" />
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

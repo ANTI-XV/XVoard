@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView app:attr_0x7f0402e6="false" style="@style/style_0x7f1502a2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout style="@style/style_0x7f1502a9">
+        <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner android:id="@id/id_0x7f0b029c" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" app:attr_0x7f040511="?attr_0x7f04010a" app:attr_0x7f04058f="?attr_0x7f04025c" app:attr_0x7f0405e2="?attr_0x7f04025d" app:attr_0x7f04066e="true">
+            <include layout="@layout/layout_0x7f0e01b0" />
+            <include layout="@layout/layout_0x7f0e01ba" />
+            <include layout="@layout/layout_0x7f0e01b3" />
+            <com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/key_pos_header_end_extra_key" app:attr_0x7f040616="@id/key_pos_header_start_extra_key" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1502ac">
+                <include layout="@layout/layout_0x7f0e01af" />
+                <include layout="@layout/layout_0x7f0e01b5" />
+                <include layout="@layout/layout_0x7f0e06dd" />
+                <include layout="@layout/layout_0x7f0e0815" />
+            </com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout>
+            <include layout="@layout/layout_0x7f0e01b4" />
+            <include layout="@layout/layout_0x7f0e01b6" />
+            <include layout="@attr/attr_0x7f040007" />
+        </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+        <FrameLayout app:attr_0x7f04066e="true" style="@style/style_0x7f1502a6">
+            <com.google.android.libraries.inputmethod.widgets.FixedSizeCandidatesHolderView android:id="@id/softkey_holder_fixed_candidates" android:visibility="visible" app:attr_0x7f040376="@layout/layout_0x7f0e071b" app:attr_0x7f040379="@layout/layout_0x7f0e071d" best_candidate_width_percentile="0.2" candidate_background="@android:color/transparent" candidate_popup_layout="@layout/layout_0x7f0e06a3" contextual_candidate_layout="@layout/layout_0x7f0e05d9" last_column_candidate_background="@android:color/transparent" max_candidates_count="@attr/attr_0x7f0402b0" style="@style/style_0x7f1501d4" />
+            <include layout="@layout/layout_0x7f0e01b8" />
+        </FrameLayout>
+    </com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

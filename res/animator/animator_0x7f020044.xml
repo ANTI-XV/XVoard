@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animator android:interpolator="@animator/animator_0x7f020001" android:duration="300" android:valueType="intType"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

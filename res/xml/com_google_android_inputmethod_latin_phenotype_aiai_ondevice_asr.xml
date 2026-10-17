@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.android.inputmethod.latin</configuration-package>
+        <log-sources>
+            <log-source>ANDROID_IME_ANDROID_PRIMES</log-source>
+            <log-source>BRELLA</log-source>
+            <log-source>BRELLA_COUNTERS</log-source>
+            <log-source>EXPRESSION</log-source>
+            <log-source>EXPRESSION_COUNTERS</log-source>
+            <log-source>GOOGLE_KEYBOARD_COUNTERS</log-source>
+            <log-source>LATIN_IME</log-source>
+        </log-sources>
+        <auto-subpackage>true</auto-subpackage>
+        <params>ChFhaWFpX29uZGV2aWNlX2Fzcg==</params>
+    </phenotype-registration>
+</phenotype-registrations>

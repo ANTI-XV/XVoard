@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/id_0x7f0b0626" android:background="?attr_0x7f0407a7" android:src="@drawable/drawable_0x7f08052a" android:contentDescription="@string/string_0x7f140aeb" android:layout_marginStart="16.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150647" />
+    <ImageView android:id="@id/id_0x7f0b1f7b" android:importantForAccessibility="no" android:layout_marginStart="@dimen/dimen_0x7f070801" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f150647" />
+    <android.support.v7.widget.AppCompatTextView android:textColor="?android:textColorSecondary" android:id="@id/id_0x7f0b1f77" android:layout_marginTop="@dimen/dimen_0x7f070803" android:fontFamily="@font/font_0x7f090010" app:attr_0x7f040604="@id/id_0x7f0b0626" app:attr_0x7f040616="@id/id_0x7f0b1f7b" app:attr_0x7f04061a="@id/id_0x7f0b1fc0" style="@style/style_0x7f150648" />
+    <android.support.v7.widget.AppCompatTextView android:textColor="?android:textColorPrimary" android:id="@id/id_0x7f0b1f7c" android:layout_marginBottom="@dimen/dimen_0x7f070803" app:attr_0x7f0405fe="@id/id_0x7f0b1fc0" app:attr_0x7f040604="@id/id_0x7f0b0626" app:attr_0x7f040616="@id/id_0x7f0b1f7b" style="@style/style_0x7f150648" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/id_0x7f0b1fc0" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr_0x7f040607="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

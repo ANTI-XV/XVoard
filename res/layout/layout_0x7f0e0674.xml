@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f1502d3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.ShadowedFrameLayout android:background="@drawable/drawable_0x7f0801fc" android:clipChildren="false" android:layout_margin="@dimen/dimen_0x7f0702f8" app:attr_0x7f0403c0="18.0dp" style="@style/style_0x7f1502d0">
+        <ImageView android:tint="@color/color_0x7f06096e" android:contentDescription="@null" android:tintMode="multiply" android:layout_marginHorizontal="@dimen/dimen_0x7f0702e1" android:layout_marginVertical="@dimen/dimen_0x7f0702e2" style="@style/style_0x7f1502d1" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:textColor="?attr_0x7f040404" android:contentDescription="@null" android:layout_marginHorizontal="@dimen/dimen_0x7f070399" android:layout_marginVertical="@dimen/dimen_0x7f07039a" style="@style/style_0x7f1502d2" />
+    </com.google.android.libraries.inputmethod.widgets.ShadowedFrameLayout>
+</FrameLayout>

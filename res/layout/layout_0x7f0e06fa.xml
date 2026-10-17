@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|bottom" android:orientation="horizontal" android:id="@id/id_0x7f0b0602" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="right|bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="?android:listPreferredItemPaddingEnd">
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05fb" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05fa" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05f8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05f7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b05f9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <SeekBar android:gravity="center" android:id="@id/id_0x7f0b05f6" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

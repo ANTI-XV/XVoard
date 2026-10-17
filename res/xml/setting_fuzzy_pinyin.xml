@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_0x7f140999"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409a5" android:key="@string/string_0x7f14075f" android:defaultValue="@bool/bool_0x7f05007a" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14099b" android:key="@string/string_0x7f140755" android:defaultValue="@bool/bool_0x7f050070" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409a3" android:key="@string/string_0x7f14075d" android:defaultValue="@bool/bool_0x7f050078" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14099a" android:key="@string/string_0x7f140754" android:defaultValue="@bool/bool_0x7f05006f" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14099c" android:key="@string/string_0x7f140756" android:defaultValue="@bool/bool_0x7f050071" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14099f" android:key="@string/string_0x7f140759" android:defaultValue="@bool/bool_0x7f050074" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409a1" android:key="@string/string_0x7f14075b" android:defaultValue="@bool/bool_0x7f050076" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14099d" android:key="@string/string_0x7f140757" android:defaultValue="@bool/bool_0x7f050072" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409a2" android:key="@string/string_0x7f14075c" android:defaultValue="@bool/bool_0x7f050077" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409a0" android:key="@string/string_0x7f14075a" android:defaultValue="@bool/bool_0x7f050075" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14099e" android:key="@string/string_0x7f140758" android:defaultValue="@bool/bool_0x7f050073" />
+    <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409a4" android:key="@string/string_0x7f14075e" android:defaultValue="@bool/bool_0x7f050079" />
+</PreferenceScreen>

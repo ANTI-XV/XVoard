@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.companionwidget.widget.WidgetInnerHolder android:id="@id/id_0x7f0b2088" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="2.0dp" app:attr_0x7f0405f7="true" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b2085" app:attr_0x7f040616="@id/id_0x7f0b2087" app:attr_0x7f04061b="id_0x7f0b05c6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:visibility="invisible" layout="@layout/layout_0x7f0e05cb" style="@style/style_0x7f150c60" />
+    <include android:visibility="gone" app:attr_0x7f04082f="@id/softkey_holder_fixed_candidates" layout="@layout/layout_0x7f0e06dd" style="@style/style_0x7f150c60" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/id_0x7f0b1f98" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="start|center" android:contentDescription="@null" style="@style/style_0x7f150c7e" />
+        <ImageView android:layout_gravity="end|center" android:contentDescription="@null" style="@style/style_0x7f150c7e" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.companionwidget.widget.WidgetInnerHolder>

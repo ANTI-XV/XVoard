@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="false" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="psh-AF" string_id="ime_southwestern_pashayi">
+        <keyboard_group layout_theme="@style/style_0x7f150347" pk_language_tag="psh-Arab-AF" supports_split_mode="true" variant="pashayi" variant_label="@string/string_0x7f1412a1">
+            <keyboard def="@xml/xml_0x7f170990" type="prime" />
+            <include href="@xml/xml_0x7f170a09" />
+            <include href="@xml/xml_0x7f170c8a" />
+        </keyboard_group>
+    </ime>
+</framework>

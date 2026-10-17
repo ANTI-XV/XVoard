@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d2f" layout="@layout/layout_0x7f0e0794" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+            <action data="$long_press_data$" intention="$long_press_intention=COMMIT$" keycode="PLAIN_TEXT" popup_label="$long_press_data$" popup_layout="@attr/attr_0x7f040208" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d6" value="$hint_label$" />
+        </softkey_template>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d2f">
+            <softkey hint_label="߁" id="@id/id_0x7f0b0f3a" long_press_data="߁,1" />
+            <softkey hint_label="߂" id="@id/id_0x7f0b0f5a" long_press_data="߂,2" />
+            <softkey hint_label="߃" id="@id/id_0x7f0b0f52" long_press_data="߃,3" />
+            <softkey hint_label="߄" id="@id/id_0x7f0b0f2a" long_press_data="߄,4" />
+            <softkey hint_label="߅" id="@id/id_0x7f0b0f22" long_press_data="߅,5" />
+            <softkey hint_label="߆" id="@id/id_0x7f0b0f4a" long_press_data="߆,6" />
+            <softkey hint_label="߇" id="@id/id_0x7f0b0f42" long_press_data="߇,7" />
+            <softkey hint_label="߈" id="@id/id_0x7f0b0f1a" long_press_data="߈,8" />
+            <softkey hint_label="߉" id="@id/id_0x7f0b0f32" long_press_data="߉,9" />
+            <softkey hint_label="߀" id="@id/id_0x7f0b0f62" long_press_data="߀,0" />
+        </softkey_list>
+    </softkeys>
+</framework>

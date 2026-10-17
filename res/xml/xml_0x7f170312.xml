@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="kk" string_id="ime_kazakh_pc">
+        <keyboard_group layout_theme="@style/style_0x7f15034b" pk_language_tag="ru" supports_split_mode="true" variant="kazakh_pc" variant_label="@string/string_0x7f1411ff">
+            <keyboard def="@xml/xml_0x7f170801" type="prime" />
+            <include href="@xml/xml_0x7f170a0c" />
+            <include href="@xml/xml_0x7f170c8a" />
+        </keyboard_group>
+    </ime>
+</framework>

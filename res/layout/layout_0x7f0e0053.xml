@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/drawable_0x7f08055e" android:contentDescription="@string/string_0x7f1400d8" style="@style/style_0x7f1501fd" />
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:text="@string/string_0x7f1400db" android:contentDescription="@string/string_0x7f1400db" style="@style/style_0x7f150201" />
+</LinearLayout>

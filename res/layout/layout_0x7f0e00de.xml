@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f15028d"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/id_0x7f0b00cc" android:contentDescription="@null" style="@style/style_0x7f15028e" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="8.0dp">
+            <ImageView android:id="@id/id_0x7f0b0113" android:tint="?attr_0x7f040407" android:contentDescription="@string/string_0x7f1403c7" android:importantForAccessibility="no" style="@style/style_0x7f1501df" />
+            <com.google.android.libraries.inputmethod.widgets.TransformationTextView android:id="@id/id_0x7f0b0116" style="@style/style_0x7f1501e1" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

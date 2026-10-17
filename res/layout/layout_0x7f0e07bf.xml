@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="right" android:id="@id/id_0x7f0b049c" android:splitMotionEvents="false" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040615="id_0x7f0b05c6" style="@style/style_0x7f150328"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.keyboardmode.MultiTouchDelegateView android:id="@id/id_0x7f0b049e" style="@style/style_0x7f150324" />
+    <include layout="@layout/layout_0x7f0e016f" />
+    <include layout="@layout/layout_0x7f0e016c" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:splitMotionEvents="false">
+        <include layout="@layout/layout_0x7f0e012f" />
+        <include layout="@layout/layout_0x7f0e012e" />
+        <include layout="@layout/layout_0x7f0e012d" />
+    </LinearLayout>
+</FrameLayout>

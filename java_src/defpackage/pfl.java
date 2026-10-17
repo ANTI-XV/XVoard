@@ -1,0 +1,9 @@
+package defpackage;
+
+import java.util.Iterator;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes3.dex */
+public interface pfl {
+    void a(pee peeVar, Iterator it, Object obj);
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView android:textSize="20.0pt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/string_0x7f1402a7" />
+        <android.support.v7.widget.AppCompatTextView android:textSize="10.0pt" android:id="@id/id_0x7f0b022d" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatTextView android:textSize="20.0pt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/string_0x7f1402a8" />
+        <android.support.v7.widget.AppCompatTextView android:textSize="10.0pt" android:id="@id/id_0x7f0b022f" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@id/id_0x7f0b0230" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_0x7f1402a6" />
+        <android.support.v7.widget.AppCompatTextView android:textSize="8.0pt" android:id="@id/id_0x7f0b022e" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

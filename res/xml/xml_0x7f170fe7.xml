@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0909" long_press_data="ഃ ഽ ൹" param_data="ം" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey hint_label="ঁ​ং​ঃ" id="@id/id_0x7f0b090c" long_press_data="ং ঃ ঁ ় ʼ" long_press_label="ং ঃ ঁ ় ʼ" param_data="্" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0776" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d38">
+            <softkey id="@id/id_0x7f0b090e" long_press_data="҇ ̀ ҃ ̑ ҆́ ҆̀ ҆ ҅ ̾ ꙽ ̇ ꙼ ⸯ ꙿ ̈ ꙾" long_press_label="◌҇ ◌̀ ◌҃ ◌̑ ◌҆́ ◌҆̀ ◌҆ ◌҅ ◌̾ ◌꙽ ◌̇ ◌꙼ ⸯ ꙿ ◌̈ ꙾" press_data="́" press_label="◌́" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b0910" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="⹁" intention="COMMIT" keycode="COMMA" popup_label="⹁" type="PRESS" />
+            <label location="@id/id_0x7f0b04d1" value="⹁" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0911" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="،" intention="COMMIT" keycode="COMMA" popup_label="،" type="PRESS" />
+            <label location="@id/id_0x7f0b04d1" value="،" />
+        </softkey>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0912" param_data="᭞" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0913" param_data="꛵" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey desc="@string/string_0x7f1402cb" id="@id/id_0x7f0b0914" param_data="，" param_keycode="PLAIN_TEXT" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b0916" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="፣" intention="COMMIT" keycode="COMMA" popup_label="፣" type="PRESS" />
+            <label location="@id/id_0x7f0b04d1" value="፣" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0918" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="꫰" intention="COMMIT" keycode="COMMA" popup_label="꫰" type="PRESS" />
+            <label location="@id/id_0x7f0b04d1" value="꫰" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0919" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="၊" intention="COMMIT" keycode="COMMA" popup_label="၊" type="PRESS" />
+            <label location="@id/id_0x7f0b04d1" value="၊" />
+        </softkey>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0917" param_data="꓾" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b091a" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="߸" intention="COMMIT" keycode="COMMA" popup_label="߸" type="PRESS" />
+            <label location="@id/id_0x7f0b04d1" value="߸" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b091b" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="᜵" intention="COMMIT" keycode="COMMA" popup_label="᜵" type="PRESS" />
+            <label location="@id/id_0x7f0b04d1" value="᜵" />
+        </softkey>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b091d" param_data="।" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b091e" param_data="𑅁" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b091f" param_data="꣎" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0920" param_data="॥" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0921" long_press_data="፟ ፞ ፝" param_data="፡" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0922" param_data="׳" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b0923" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="ַ" intention="COMMIT" keycode="ALPHABET" popup_label="◌ַ" type="PRESS" />
+            <label location="@id/id_0x7f0b04d1" value="◌ַ" />
+        </softkey>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0924" long_press_data="'" long_press_label="'" param_data="-" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d38">
+            <softkey id="@id/id_0x7f0b0928" press_data="ʰ" press_label="◌ʰ" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0929" param_data="ˈ" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b092a" param_data="." param_keycode="PERIOD" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b092b" long_press_data=", ՞ ՜ . ՚ ՙ ? ! ՝ ՛ ֊ » « ՟ ; :" param_data="։" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b092c" param_data="᭟" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b092d" param_data="꛳" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b092e" param_data="᙮" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b092f" param_data="꩞" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey desc="@string/string_0x7f1402cf" id="@id/id_0x7f0b0930" param_data="。" param_keycode="PLAIN_TEXT" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0931" param_data="።" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0932" long_press_data="઼ ઁ ં ઃ ઽ ૐ લૃ ।" long_press_label="઼ ઁ ં ઃ ઽ ૐ લૃ ।" param_data="." param_keycode="PERIOD" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0933" param_data="꓿" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0934" long_press_data="꫱ ꫰ ꯭ ꯬ ꫲ ꫳ ꫴ ꫵ ꫶" param_data="꯫" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0935" param_data="။" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0936" param_data="᜶" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0937" param_data="۔" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0938" long_press_data=": ·" long_press_label=": ·" param_data=";" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfe">
+            <softkey id="@id/id_0x7f0b093e" long_press_data="༒ ༑ ༐ ༏ ༎ ༈ ࿓ ࿔ ༇ ༆ ༄ ༅ ࿙ ࿚ ༼ ༽ ༺ ༻" param_data="།" param_keycode="PERIOD" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b0925" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="꧈" intention="COMMIT" keycode="COMMA" popup_label="꧈" type="PRESS" />
+            <label location="@id/id_0x7f0b04d1" value="꧈" />
+        </softkey>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0926" param_data="꧉" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0927" param_data="꤯" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0941" param_data="᰻" param_keycode="PERIOD" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b1ca6" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="ஃ" intention="COMMIT" keycode="COMMA" popup_label="ஃ" type="PRESS" />
+            <label location="@id/id_0x7f0b04d1" value="ஃ" />
+        </softkey>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0942" param_data="༔" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfe">
+            <softkey id="@id/id_0x7f0b0944" long_press_data="༷ ༵ ༸ ཿ ཾ ྃ ༹ ྄ ྅ ྂ ྆ ྇ ༀ ༁ ༂ ༃ ༴ ࿒" param_data="་" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+            <softkey id="@id/id_0x7f0b0943" long_press_data="༷ ༵ ༸ ཿ ཾ ྃ ༹ ྄ ྅ ྂ ྆ ྇ ࿑ ࿐ ༊ ༉ ༴ ࿒" param_data="་" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0946" param_data="ꘌ" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0947" param_data="્" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b0948" param_data="ꀕ" param_keycode="ALPHABET" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_template content_description="$desc$" id="@id/id_0x7f0b1cfa" layout="$param_layout$" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="$param_data$" intention="COMMIT" keycode="$param_keycode$" popup_label="$param_data$" type="PRESS" />
+            <action data="$long_press_data$" intention="COMMIT" keycode="$param_keycode$" popup_label="$long_press_data$" popup_layout="@attr/attr_0x7f04020a" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$param_data$" />
+        </softkey_template>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1cfa">
+            <if language="zh-CN">
+                <softkey id="@id/id_0x7f0b090d" long_press_data="@string/string_0x7f140493" param_data=".com" param_keycode="PLAIN_TEXT" param_layout="@layout/layout_0x7f0e0781" />
+            </if>
+            <else_if language="zh-HK">
+                <softkey id="@id/id_0x7f0b090d" long_press_data="@string/string_0x7f140494" param_data=".com" param_keycode="PLAIN_TEXT" param_layout="@layout/layout_0x7f0e0781" />
+            </else_if>
+            <else_if language="zh-TW">
+                <softkey id="@id/id_0x7f0b090d" long_press_data="@string/string_0x7f140495" param_data=".com" param_keycode="PLAIN_TEXT" param_layout="@layout/layout_0x7f0e0781" />
+            </else_if>
+            <else_if language="ko">
+                <softkey id="@id/id_0x7f0b090d" long_press_data="@string/string_0x7f140492" param_data=".com" param_keycode="PLAIN_TEXT" param_layout="@layout/layout_0x7f0e0781" />
+            </else_if>
+            <else_if language="ja">
+                <softkey id="@id/id_0x7f0b090d" long_press_data="@string/string_0x7f140491" param_data=".com" param_keycode="PLAIN_TEXT" param_layout="@layout/layout_0x7f0e0781" />
+            </else_if>
+            <else>
+                <softkey id="@id/id_0x7f0b090d" long_press_data="@string/string_0x7f140490" param_data=".com" param_keycode="PLAIN_TEXT" param_layout="@layout/layout_0x7f0e0781" />
+            </else>
+        </softkey_list>
+        <softkey_list splitter=",">
+            <softkey id="@id/id_0x7f0b0915" layout="@layout/layout_0x7f0e0777" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+                <action data="，" intention="COMMIT" keycode="PLAIN_TEXT" popup_label="，" type="PRESS" />
+                <action data="。" intention="COMMIT" keycode="PLAIN_TEXT" popup_label="｡" type="SLIDE_UP" />
+                <action data="。,.,！,？,、,「,」,『,』,…,：,；,XD,:P,:D,:(,:),^_^" intention="COMMIT" keycode="PLAIN_TEXT" popup_label="。,.,！,？,、,「,」,『,』,…,：,；,XD,:P,:D,:(,:),^_^" popup_layout="@attr/attr_0x7f040207" type="LONG_PRESS" />
+                <label location="@id/id_0x7f0b04d1" value="，" />
+                <label location="@id/id_0x7f0b04dd" value="。" />
+            </softkey>
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b1f45" layout="@layout/layout_0x7f0e073d" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="‌" intention="D" keycode="ALPHABET" popup_icon="@drawable/drawable_0x7f080441" popup_layout="@attr/attr_0x7f04020c" type="PRESS" />
+            <action data="‍" intention="D" keycode="ALPHABET" popup_icon="@drawable/drawable_0x7f080440" popup_layout="@attr/attr_0x7f04020c" type="LONG_PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080441" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b1f46" layout="@layout/layout_0x7f0e073d" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="‌" intention="C" keycode="ALPHABET" popup_icon="@drawable/drawable_0x7f080441" popup_layout="@attr/attr_0x7f04020c" type="PRESS" />
+            <action data="‍" intention="C" keycode="ALPHABET" popup_icon="@drawable/drawable_0x7f080440" popup_layout="@attr/attr_0x7f04020c" type="LONG_PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080441" />
+        </softkey>
+    </softkeys>
+</framework>

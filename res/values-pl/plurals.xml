@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">Przypisano %d klawisz</item>
+        <item quantity="few">Przypisano %d klawisze</item>
+        <item quantity="many">Przypisano %d klawiszy</item>
+        <item quantity="other">Przypisano %d klawisza</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Zainstalowano język %s.</item>
+        <item quantity="few">Zainstalowano języki %s.</item>
+        <item quantity="many">Zainstalowano języki %s.</item>
+        <item quantity="other">Zainstalowano języki %s.</item>
+    </plurals>
+</resources>

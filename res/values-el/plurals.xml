@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">Αντιστοιχίστηκε %d πλήκτρο</item>
+        <item quantity="other">Αντιστοιχίστηκαν %d πλήκτρα</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Τα %s εγκαταστάθηκαν.</item>
+        <item quantity="other">Τα %s εγκαταστάθηκαν.</item>
+    </plurals>
+</resources>

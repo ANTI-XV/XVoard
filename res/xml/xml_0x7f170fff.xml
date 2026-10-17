@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f140a33">
+        <ListPreference android:persistent="true" android:entries="@array/array_0x7f030090" android:title="@string/string_0x7f14094b" android:key="@string/string_0x7f1406ec" android:summary="%s" android:entryValues="@array/array_0x7f030032">
+            <extra android:name="hide_if_flag_is_true" android:value="@string/string_0x7f140ae5" />
+        </ListPreference>
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140950" android:key="@string/string_0x7f1406ef" android:summary="@string/string_0x7f14094e" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f1409a7" android:key="@string/string_0x7f140760" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f140a3a" android:key="@string/string_0x7f14089f" android:summary="@string/string_0x7f140a39" />
+        <SwitchPreferenceCompat android:persistent="true" android:title="@string/string_0x7f14093f" android:key="@string/string_0x7f14070a" android:summary="@string/string_0x7f14093e" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <view type="body">
+            <softkeys href="@xml/xml_0x7f170fc8" />
+            <include href="@xml/xml_0x7f170b95" />
+        </view>
+    </keyboard>
+    <include href="@xml/xml_0x7f17075d" />
+</framework>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if split_keyboard_handedness_ja="right">
+        <include href="@xml/xml_0x7f170a5c" />
+        <include href="@xml/xml_0x7f170a58" />
+    </if>
+    <else_if split_keyboard_handedness_ja="left">
+        <include href="@xml/xml_0x7f170a5d" />
+        <include href="@xml/xml_0x7f170a57" />
+    </else_if>
+    <else>
+        <include href="@xml/xml_0x7f170a5d" />
+        <include href="@xml/xml_0x7f170a5c" />
+    </else>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1237" view_id="@id/key_pos_0_0" />
+        <mapping key_id="@id/id_0x7f0b124f" view_id="@id/key_pos_1_0" />
+        <mapping key_id="@id/id_0x7f0b124e" view_id="@id/key_pos_2_0" />
+        <mapping key_id="@id/id_0x7f0b1250" view_id="@id/key_pos_3_0" />
+        <mapping key_id="@id/id_0x7f0b1236" view_id="@id/key_pos_2_1" />
+        <mapping key_id="@id/id_0x7f0b1b81" view_id="@id/key_pos_3_1" />
+        <if japanese_use_tri_state_mode="true">
+            <mapping key_id="@id/id_0x7f0b12cf" view_id="@id/key_pos_switch_hiragana_alphabet" />
+        </if>
+        <else>
+            <mapping key_id="@id/id_0x7f0b1b72" view_id="@id/key_pos_switch_hiragana_alphabet" />
+        </else>
+    </key_mapping>
+    <key_mapping state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping key_id="@id/id_0x7f0b12cb" view_id="@id/key_pos_ja_12keys_sub_10" />
+    </key_mapping>
+    <if split_keyboard_handedness_ja="left">
+        <key_mapping state="COMPOSING">
+            <mapping key_id="@id/id_0x7f0b1292" view_id="@id/key_pos_ja_12keys_sub_10" />
+        </key_mapping>
+    </if>
+    <if split_keyboard_handedness_ja="both">
+        <key_mapping>
+            <mapping key_id="@id/id_0x7f0b1b81" view_id="@id/key_pos_ja_12keys_10" />
+        </key_mapping>
+        <key_mapping state="COMPOSING">
+            <mapping key_id="@id/id_0x7f0b1292" view_id="@id/key_pos_ja_12keys_10" />
+            <mapping key_id="@id/id_0x7f0b1292" view_id="@id/key_pos_ja_12keys_sub_10" />
+        </key_mapping>
+    </if>
+    <key_mapping state="COMPOSING">
+        <mapping key_id="@id/id_0x7f0b1b29" view_id="@id/key_pos_space" />
+    </key_mapping>
+</framework>

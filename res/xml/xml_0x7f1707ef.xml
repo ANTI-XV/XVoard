@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinJapanesePrimeKeyboard" popup="@attr/attr_0x7f040201">
+        <if>
+            <include href="@xml/xml_0x7f170043" />
+            <attrs class=".latin.keyboard.LatinJapanesePrimeKeyboardV2" />
+            <view direction="locale" layout="@layout/layout_0x7f0e01ee" scalable="false" type="header">
+                <softkeys href="@xml/xml_0x7f170cd6" />
+                <include href="@xml/xml_0x7f170b47" />
+            </view>
+        </if>
+        <else>
+            <view direction="locale" layout="@layout/layout_0x7f0e05a4" scalable="false" type="header" />
+        </else>
+        <if device="tablet" device_size="large" enable_ja_12keys_tablet_v2="true" keyboard_mode="normal">
+            <view layout="@layout/layout_0x7f0e01fd" type="body">
+                <if>
+                    <include href="@xml/xml_0x7f170043" />
+                    <attrs layout="@layout/layout_0x7f0e01fe" />
+                </if>
+                <include href="@xml/xml_0x7f170c82" />
+                <softkeys href="@xml/xml_0x7f170e0a" />
+                <softkeys href="@xml/xml_0x7f170cc1" />
+                <softkeys href="@xml/xml_0x7f170ff1" id="@id/id_0x7f0b1f4b" />
+                <softkeys href="@xml/xml_0x7f170ff2" id="@id/id_0x7f0b1f4c" />
+                <softkeys href="@xml/xml_0x7f170e04" />
+                <softkeys href="@xml/xml_0x7f170cb3" />
+                <include href="@xml/xml_0x7f170b8f" />
+                <include href="@xml/xml_0x7f170a4c" />
+                <include href="@xml/xml_0x7f170a4d" />
+                <include href="@xml/xml_0x7f170ab2" />
+                <include href="@xml/xml_0x7f170a65" />
+                <include href="@xml/xml_0x7f170a47" />
+                <include href="@xml/xml_0x7f170b1b" />
+                <include href="@xml/xml_0x7f170ae9" />
+            </view>
+        </if>
+        <else_if keyboard_mode="split">
+            <if split_with_duplicate_keys="true">
+                <view layout="@layout/layout_0x7f0e01f9" type="body">
+                    <if>
+                        <include href="@xml/xml_0x7f170043" />
+                        <attrs layout="@layout/layout_0x7f0e01fc" />
+                    </if>
+                </view>
+            </if>
+            <else>
+                <view layout="@layout/layout_0x7f0e01fa" type="body">
+                    <if>
+                        <include href="@xml/xml_0x7f170043" />
+                        <attrs layout="@layout/layout_0x7f0e01fb" />
+                    </if>
+                </view>
+            </else>
+            <view type="body">
+                <include href="@xml/xml_0x7f170c82" />
+                <softkeys href="@xml/xml_0x7f170fe8" />
+                <softkeys href="@xml/xml_0x7f170fe9" />
+                <softkeys href="@xml/xml_0x7f170feb" />
+                <softkeys href="@xml/xml_0x7f170cc1" />
+                <softkeys href="@xml/xml_0x7f170e04" />
+                <softkeys href="@xml/xml_0x7f170cb3" />
+                <softkeys href="@xml/xml_0x7f170e0a" />
+                <softkeys href="@xml/xml_0x7f170e0b" />
+                <include href="@xml/xml_0x7f170b8e" />
+                <include href="@xml/xml_0x7f170ab2" />
+                <include href="@xml/xml_0x7f170a64" />
+                <include href="@xml/xml_0x7f170a47" />
+                <include href="@xml/xml_0x7f170b1b" />
+                <include href="@xml/xml_0x7f170ae9" />
+            </view>
+        </else_if>
+        <else>
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <view layout="@layout/layout_0x7f0e01c4" type="body">
+                    <if>
+                        <include href="@xml/xml_0x7f170043" />
+                        <attrs layout="@layout/layout_0x7f0e01c5" />
+                    </if>
+                </view>
+            </if>
+            <else>
+                <view layout="@layout/layout_0x7f0e01bd" type="body">
+                    <if>
+                        <include href="@xml/xml_0x7f170043" />
+                        <attrs layout="@layout/layout_0x7f0e01c8" />
+                    </if>
+                </view>
+            </else>
+            <view type="body">
+                <include href="@xml/xml_0x7f170c82" />
+                <softkeys href="@xml/xml_0x7f170e0a" />
+                <softkeys href="@xml/xml_0x7f170cc1" />
+                <softkeys href="@xml/xml_0x7f170e04" />
+                <softkeys href="@xml/xml_0x7f170cb3" />
+                <include href="@xml/xml_0x7f170ab2" />
+                <include href="@xml/xml_0x7f170a63" />
+                <include href="@xml/xml_0x7f170a47" />
+                <include href="@xml/xml_0x7f170b1b" />
+                <include href="@xml/xml_0x7f170ae9" />
+            </view>
+        </else>
+    </keyboard>
+</framework>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="?attr_0x7f0400dd"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_0x7f0b00b2" android:tag=".bitmoji-logo-text" android:src="@drawable/drawable_0x7f0802ac" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1501b4" />
+    <ImageView android:src="@drawable/drawable_0x7f0802ab" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1501b4" />
+    <android.support.v7.widget.AppCompatTextView android:textSize="14.0dp" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061a="@id/id_0x7f0b00b2" style="@style/style_0x7f1501b5" />
+    <com.google.android.material.button.MaterialButton android:textSize="16.0dp" android:id="@id/id_0x7f0b01c5" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061a="@id/id_0x7f0b02e2" style="@style/style_0x7f1501b3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f150365"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView style="@style/style_0x7f15035f" />
+    <LinearLayout style="@style/style_0x7f15040b">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_del" android:layout_weight="250.0" style="@style/style_0x7f1505cc" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_right_arrow" android:layout_weight="250.0" style="@style/style_0x7f1505cc" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_space" android:layout_weight="250.0" style="@style/style_0x7f1505cc" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="250.0" style="@style/style_0x7f1505d7" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$content_desc$" id="@id/id_0x7f0b1cef" layout="@layout/layout_0x7f0e0771">
+            <action data="$press_data$" intention="DECODE" keycode="PLAIN_TEXT" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$label$" />
+        </softkey_template>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cef">
+            <softkey content_desc="이" id="@id/id_0x7f0b11ae" label="ㅣ" press_data="ㅣ" />
+            <softkey content_desc="아래 아" id="@id/id_0x7f0b11a7" label="ㆍ" press_data="ㆍ" />
+            <softkey content_desc="으" id="@id/id_0x7f0b11ac" label="ㅡ" press_data="ㅡ" />
+            <softkey content_desc="기역" id="@id/id_0x7f0b11b1" label="ㄱㅋ" press_data="ㄱ" />
+            <softkey content_desc="니은" id="@id/id_0x7f0b11b3" label="ㄴㄹ" press_data="ㄴ" />
+            <softkey content_desc="디귿" id="@id/id_0x7f0b11bf" label="ㄷㅌ" press_data="ㄷ" />
+            <softkey content_desc="비읍" id="@id/id_0x7f0b11b6" label="ㅂㅍ" press_data="ㅂ" />
+            <softkey content_desc="시옷" id="@id/id_0x7f0b11b8" label="ㅅㅎ" press_data="ㅅ" />
+            <softkey content_desc="지읒" id="@id/id_0x7f0b11a9" label="ㅈㅊ" press_data="ㅈ" />
+            <softkey content_desc="이응" id="@id/id_0x7f0b11af" label="ㅇㅁ" press_data="ㅇ" />
+        </softkey_list>
+        <softkey_template id="@id/id_0x7f0b1cf4" layout="@layout/layout_0x7f0e0710">
+            <action data="$press_data$" intention="COMMIT" keycode="PLAIN_TEXT" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$press_data$" />
+        </softkey_template>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cf4">
+            <softkey id="@id/id_0x7f0b1adb" press_data="." />
+            <softkey id="@id/id_0x7f0b0dda" press_data="!" />
+            <softkey id="@id/id_0x7f0b1a52" press_data="?" />
+        </softkey_list>
+    </softkeys>
+</framework>

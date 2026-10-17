@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView style="@style/style_0x7f150855"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.card.MaterialCardView style="@style/style_0x7f150856">
+        <ImageView android:id="@id/id_0x7f0b1ff3" android:background="#999999" android:layout_width="@dimen/dimen_0x7f070861" android:layout_height="@dimen/dimen_0x7f07085e" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center" android:id="@id/id_0x7f0b1ff2" android:background="@drawable/drawable_0x7f0801de" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawable_0x7f08047e" android:importantForAccessibility="no" />
+        <include layout="@layout/layout_0x7f0e07ec" />
+        <include layout="@layout/layout_0x7f0e07ed" />
+    </com.google.android.material.card.MaterialCardView>
+</com.google.android.material.card.MaterialCardView>

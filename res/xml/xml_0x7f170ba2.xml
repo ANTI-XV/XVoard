@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1a1f" view_id="@id/key_pos_password_header_number_1" />
+        <mapping key_id="@id/id_0x7f0b1a20" view_id="@id/key_pos_password_header_number_2" />
+        <mapping key_id="@id/id_0x7f0b1a21" view_id="@id/key_pos_password_header_number_3" />
+        <mapping key_id="@id/id_0x7f0b1a22" view_id="@id/key_pos_password_header_number_4" />
+        <mapping key_id="@id/id_0x7f0b1a23" view_id="@id/key_pos_password_header_number_5" />
+        <mapping key_id="@id/id_0x7f0b1a24" view_id="@id/key_pos_password_header_number_6" />
+        <mapping key_id="@id/id_0x7f0b1a25" view_id="@id/key_pos_password_header_number_7" />
+        <mapping key_id="@id/id_0x7f0b1a26" view_id="@id/key_pos_password_header_number_8" />
+        <mapping key_id="@id/id_0x7f0b1a27" view_id="@id/key_pos_password_header_number_9" />
+        <mapping key_id="@id/id_0x7f0b1a1e" view_id="@id/key_pos_password_header_number_0" />
+    </key_mapping>
+    <key_mapping state="MANUAL_SHIFT">
+        <mapping key_id="@id/id_0x7f0b16a0" view_id="@id/key_pos_password_header_number_1" />
+        <mapping key_id="@id/id_0x7f0b169e" view_id="@id/key_pos_password_header_number_2" />
+        <mapping key_id="@id/id_0x7f0b16a4" view_id="@id/key_pos_password_header_number_3" />
+        <mapping key_id="@id/id_0x7f0b169f" view_id="@id/key_pos_password_header_number_4" />
+        <mapping key_id="@id/id_0x7f0b16a3" view_id="@id/key_pos_password_header_number_5" />
+        <mapping key_id="@id/id_0x7f0b16a1" view_id="@id/key_pos_password_header_number_6" />
+        <mapping key_id="@id/id_0x7f0b169d" view_id="@id/key_pos_password_header_number_7" />
+        <mapping key_id="@id/id_0x7f0b16a6" view_id="@id/key_pos_password_header_number_8" />
+        <mapping key_id="@id/id_0x7f0b16a2" view_id="@id/key_pos_password_header_number_9" />
+        <mapping key_id="@id/id_0x7f0b16a5" view_id="@id/key_pos_password_header_number_0" />
+    </key_mapping>
+</framework>

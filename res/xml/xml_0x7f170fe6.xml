@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cb1" />
+    <softkeys>
+        <softkey_list template_id="@id/id_0x7f0b1cfc">
+            <softkey id="@id/id_0x7f0b090f" param_data="," param_keycode="COMMA" param_layout="@layout/layout_0x7f0e0774" />
+            <softkey id="@id/id_0x7f0b0939" param_data="." param_keycode="PERIOD" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b093c" long_press_data=":P,:D,:(,:),^_^" param_data="." param_keycode="PERIOD" param_layout="@layout/layout_0x7f0e0774" />
+            <softkey id="@id/id_0x7f0b093a" long_press_data="@string/string_0x7f1404ba" param_data="." param_keycode="PERIOD" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1cfd">
+            <softkey id="@id/id_0x7f0b093b" long_press_data="\\? ! … : ; _ % $ ^ &amp; :P :D :( :) ^_^" param_data="." param_keycode="PERIOD" param_layout="@layout/layout_0x7f0e0774" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1cfb">
+            <softkey id="@id/id_0x7f0b090d" long_press_data="@string/string_0x7f140490" param_data=".com" param_keycode="PLAIN_TEXT" param_layout="@layout/layout_0x7f0e0781" />
+        </softkey_list>
+        <softkey id="@id/id_0x7f0b091c" layout="@layout/layout_0x7f0e0774" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="," intention="COMMIT" keycode="COMMA" popup_label="," type="PRESS" />
+            <label location="@id/id_0x7f0b04d1" value="," />
+        </softkey>
+        <softkey id="@id/id_0x7f0b093f" layout="@layout/layout_0x7f0e0771" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="/" intention="COMMIT" keycode="SLASH" popup_label="/" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="/" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0940" layout="@layout/layout_0x7f0e0771" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="/" intention="COMMIT" keycode="SLASH" popup_label="/" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="/" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b0945" layout="@layout/layout_0x7f0e0771" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="_" intention="COMMIT" keycode="ALPHABET" popup_label="_" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="_" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b090a" layout="@layout/layout_0x7f0e0771" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="@" intention="COMMIT" keycode="AT" popup_label="@" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b090b" layout="@layout/layout_0x7f0e0779" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="@" intention="COMMIT" keycode="AT" popup_label="@" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b1f45" layout="@layout/layout_0x7f0e073d" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="‌" intention="D" keycode="ALPHABET" popup_icon="@drawable/drawable_0x7f080441" popup_layout="@layout/layout_0x7f0e06bd" type="PRESS" />
+            <action data="‍" intention="D" keycode="ALPHABET" popup_icon="@drawable/drawable_0x7f080440" popup_layout="@layout/layout_0x7f0e06bd" type="LONG_PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080441" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b1f46" layout="@layout/layout_0x7f0e073d" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+            <action data="‌" intention="C" keycode="ALPHABET" popup_icon="@drawable/drawable_0x7f080441" popup_layout="@layout/layout_0x7f0e06bd" type="PRESS" />
+            <action data="‍" intention="C" keycode="ALPHABET" popup_icon="@drawable/drawable_0x7f080440" popup_layout="@layout/layout_0x7f0e06bd" type="LONG_PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f080441" />
+        </softkey>
+    </softkeys>
+</framework>

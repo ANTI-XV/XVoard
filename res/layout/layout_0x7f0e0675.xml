@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/style_0x7f1502d3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.WaterDropDrawableFrameLayout android:backgroundTint="@color/color_0x7f06096d" app:attr_0x7f040347="@color/color_0x7f06096d" app:attr_0x7f040348="@dimen/dimen_0x7f07007f" app:attr_0x7f040349="@dimen/dimen_0x7f0702f5" app:attr_0x7f04034a="@dimen/dimen_0x7f070083" app:attr_0x7f04034c="#e5e5e5" style="@style/style_0x7f1502d0">
+        <ImageView android:tint="?attr_0x7f0403f0" android:contentDescription="@null" android:layout_marginHorizontal="@dimen/dimen_0x7f070081" android:layout_marginVertical="@dimen/dimen_0x7f070082" style="@style/style_0x7f1502d1" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:textColor="?attr_0x7f0403f0" android:contentDescription="@null" android:layout_marginHorizontal="@dimen/dimen_0x7f070081" android:layout_marginVertical="@dimen/dimen_0x7f070082" style="@style/style_0x7f1501d1" />
+    </com.google.android.libraries.inputmethod.widgets.WaterDropDrawableFrameLayout>
+</FrameLayout>

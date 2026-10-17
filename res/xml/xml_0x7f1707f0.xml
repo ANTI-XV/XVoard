@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class="com.google.android.apps.inputmethod.libs.jarvis.JarvisKeyboard">
+        <view direction="locale" layout="@layout/layout_0x7f0e05a6" scalable="false" type="header" />
+        <view direction="locale" id="@id/id_0x7f0b0310" layout="@layout/layout_0x7f0e0201" scalable="false" type="header">
+            <softkeys href="@xml/xml_0x7f170fc4" />
+            <include href="@xml/xml_0x7f170b61" />
+        </view>
+        <view direction="locale" layout="@layout/layout_0x7f0e01ff" type="body">
+            <motion_event_handler class=".motioneventhandler.BasicMotionEventHandler" />
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.animatedview.AnimatedImageView android:layout_gravity="center" android:id="@id/id_0x7f0b0087" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="4.0dp" app:attr_0x7f0406b7="id_0x7f0b203b" app:attr_0x7f0408ec="?android:selectableItemBackground" style="@style/style_0x7f150220" />
+</FrameLayout>

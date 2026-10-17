@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d2f" layout="@layout/layout_0x7f0e0794" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+            <action data="$long_press_data$" intention="$long_press_intention=COMMIT$" keycode="PLAIN_TEXT" popup_label="$long_press_data$" popup_layout="@attr/attr_0x7f040208" type="LONG_PRESS" />
+            <label location="@id/id_0x7f0b04d6" value="$hint_label$" />
+        </softkey_template>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d2f">
+            <softkey hint_label="١" id="@id/id_0x7f0b0f3a" long_press_data="١,1" />
+            <softkey hint_label="٢" id="@id/id_0x7f0b0f5a" long_press_data="٢,2" />
+            <softkey hint_label="٣" id="@id/id_0x7f0b0f52" long_press_data="٣,3" />
+            <softkey hint_label="٤" id="@id/id_0x7f0b0f2a" long_press_data="٤,4" />
+            <softkey hint_label="٥" id="@id/id_0x7f0b0f22" long_press_data="٥,5" />
+            <softkey hint_label="٦" id="@id/id_0x7f0b0f4a" long_press_data="٦,6" />
+            <softkey hint_label="٧" id="@id/id_0x7f0b0f42" long_press_data="٧,7" />
+            <softkey hint_label="٨" id="@id/id_0x7f0b0f1a" long_press_data="٨,8" />
+            <softkey hint_label="٩" id="@id/id_0x7f0b0f32" long_press_data="٩,9" />
+            <softkey hint_label="٠" id="@id/id_0x7f0b0f62" long_press_data="٠,0" />
+        </softkey_list>
+    </softkeys>
+</framework>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">ມອບໝາຍປຸ່ມ %d ແລ້ວ</item>
+        <item quantity="other">ມອບໝາຍປຸ່ມ %d ແລ້ວ</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">ຕອນນີ້ຕິດຕັ້ງ %s ແລ້ວ.</item>
+        <item quantity="other">ຕອນນີ້ຕິດຕັ້ງ %s ແລ້ວ.</item>
+    </plurals>
+</resources>

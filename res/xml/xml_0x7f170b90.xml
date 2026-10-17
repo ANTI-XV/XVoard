@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170a84" />
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1b21" view_id="@id/key_pos_space" />
+        <mapping key_id="@id/id_0x7f0b18cb" view_id="@id/key_pos_non_prime_category_1" />
+        <mapping key_id="@id/id_0x7f0b0d91" view_id="@id/key_pos_non_prime_category_2" />
+    </key_mapping>
+    <include href="@xml/xml_0x7f170b1c" />
+    <include href="@xml/xml_0x7f170b1d" />
+    <include href="@xml/xml_0x7f170b1e" />
+    <include href="@xml/xml_0x7f170a87" />
+    <include href="@xml/xml_0x7f170a86" />
+</framework>

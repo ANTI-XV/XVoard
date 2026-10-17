@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView android:layout_gravity="start" android:id="@id/id_0x7f0b2061" style="@style/style_0x7f15095a" />
+    <android.support.v7.widget.AppCompatTextView android:layout_gravity="start" android:id="@id/id_0x7f0b2062" style="@style/style_0x7f15095b" />
+</LinearLayout>

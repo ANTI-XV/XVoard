@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">Назначено е %d копче</item>
+        <item quantity="other">Назначени се %d копчиња</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Сега се инсталирани %s.</item>
+        <item quantity="other">Сега се инсталирани %s.</item>
+    </plurals>
+</resources>

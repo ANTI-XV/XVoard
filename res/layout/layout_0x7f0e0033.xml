@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_gravity="top" android:id="@id/id_0x7f0b0658" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" app:attr_0x7f04037c="?attr_0x7f04042d" app:attr_0x7f04037d="28.0dp" app:attr_0x7f04037e="0.0dp" app:attr_0x7f04081c="0.0dp">
+        <android.support.v7.widget.Toolbar android:id="@id/id_0x7f0b0656" android:layout_width="match_parent" android:layout_height="52.0dp" android:layout_marginEnd="32.0dp" app:attr_0x7f04070b="@drawable/drawable_0x7f08055f">
+            <android.support.v7.widget.AppCompatEditText android:textSize="20.0sp" android:textColor="?attr_0x7f040407" android:ellipsize="end" android:layout_gravity="center" android:id="@id/id_0x7f0b0655" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/string_0x7f140912" android:singleLine="true" android:inputType="text" />
+        </android.support.v7.widget.Toolbar>
+        <android.support.v7.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/id_0x7f0b00f3" android:background="@drawable/drawable_0x7f0801f8" android:padding="6.0dp" android:visibility="gone" android:layout_width="36.0dp" android:layout_height="36.0dp" android:src="@drawable/drawable_0x7f080523" android:tint="?attr_0x7f040407" android:contentDescription="@string/string_0x7f1400b5" android:layout_marginEnd="6.0dp" />
+    </com.google.android.material.card.MaterialCardView>
+    <FrameLayout android:id="@android:id/list_container" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dimen_0x7f070324" android:paddingBottom="@dimen/dimen_0x7f070324" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/dimen_0x7f07032a" android:typeface="sans" android:textColor="@color/color_0x7f06018f" android:id="@id/id_0x7f0b04d4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingEnd="@dimen/dimen_0x7f070329" />
+    <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/dimen_0x7f07032b" android:typeface="sans" android:textColor="@color/color_0x7f060138" android:id="@id/id_0x7f0b04d0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:attr_0x7f0408a1="ja-JP" />
+    <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/dimen_0x7f070325" android:typeface="sans" android:textColor="@color/color_0x7f06018c" android:id="@id/id_0x7f0b04d2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/dimen_0x7f070323" app:attr_0x7f0408a1="ja-JP" />
+</LinearLayout>

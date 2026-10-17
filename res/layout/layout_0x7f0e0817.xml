@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:keyboardNavigationCluster="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dp" android:layout_marginEnd="42.0dp">
+            <android.support.v7.widget.AppCompatTextView android:layout_gravity="start" android:id="@id/id_0x7f0b2067" style="@style/style_0x7f15095d" />
+            <android.support.v7.widget.AppCompatTextView android:layout_gravity="start" android:id="@id/id_0x7f0b2070" style="@style/style_0x7f15095c" />
+            <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b2063" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatTextView android:layout_gravity="start" android:id="@id/id_0x7f0b205c" android:layout_marginTop="@dimen/dimen_0x7f07089d" style="@style/style_0x7f150959" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:layout_gravity="end|top" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/layout_0x7f0e0816" />
+</FrameLayout>

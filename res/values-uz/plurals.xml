@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d ta tugma tayinlandi</item>
+        <item quantity="other">%d ta tugma tayinlandi</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s oʻrnatildi.</item>
+        <item quantity="other">%s oʻrnatildi.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if enable_secondary_symbols="true">
+        <merge_key_mapping>
+            <merge key_id="@id/id_0x7f0b0f0d" view_id="@id/key_pos_1_0" />
+            <merge key_id="@id/id_0x7f0b0fde" view_id="@id/key_pos_1_1" />
+            <merge key_id="@id/id_0x7f0b0fa7" view_id="@id/key_pos_1_2" />
+            <merge key_id="@id/id_0x7f0b0fb9" view_id="@id/key_pos_1_3" />
+            <merge key_id="@id/id_0x7f0b0ec9" view_id="@id/key_pos_1_4" />
+            <merge key_id="@id/id_0x7f0b0f90" view_id="@id/key_pos_1_5" />
+            <merge key_id="@id/id_0x7f0b0feb" view_id="@id/key_pos_1_6" />
+            <merge key_id="@id/id_0x7f0b0fab" view_id="@id/key_pos_1_7" />
+            <merge key_id="@id/id_0x7f0b0ff4" view_id="@id/key_pos_1_8" />
+            <merge key_id="@id/id_0x7f0b0ff8" view_id="@id/key_pos_1_9" />
+            <merge key_id="@id/id_0x7f0b1005" view_id="@id/key_pos_1_10" />
+            <merge key_id="@id/id_0x7f0b0fef" view_id="@id/key_pos_2_0" />
+            <merge key_id="@id/id_0x7f0b0fe9" view_id="@id/key_pos_2_1" />
+            <merge key_id="@id/id_0x7f0b0ee4" view_id="@id/key_pos_2_2" />
+            <merge key_id="@id/id_0x7f0b0fed" view_id="@id/key_pos_2_3" />
+            <merge key_id="@id/id_0x7f0b0eca" view_id="@id/key_pos_2_4" />
+            <merge key_id="@id/id_0x7f0b0f0c" view_id="@id/key_pos_2_5" />
+            <merge key_id="@id/id_0x7f0b0ff7" view_id="@id/key_pos_2_6" />
+            <merge key_id="@id/id_0x7f0b0f6e" view_id="@id/key_pos_2_7" />
+            <merge key_id="@id/id_0x7f0b0fec" view_id="@id/key_pos_2_8" />
+            <merge key_id="@id/id_0x7f0b0f6c" view_id="@id/key_pos_2_9" />
+            <merge key_id="@id/id_0x7f0b0fac" view_id="@id/key_pos_3_1" />
+            <merge key_id="@id/id_0x7f0b0ff5" view_id="@id/key_pos_3_2" />
+            <merge key_id="@id/id_0x7f0b0fa9" view_id="@id/key_pos_3_3" />
+            <merge key_id="@id/id_0x7f0b0ff2" view_id="@id/key_pos_3_4" />
+            <merge key_id="@id/id_0x7f0b0fb7" view_id="@id/key_pos_3_5" />
+            <merge key_id="@id/id_0x7f0b0fbb" view_id="@id/key_pos_3_6" />
+            <merge key_id="@id/id_0x7f0b1008" view_id="@id/key_pos_3_7" />
+            <merge key_id="@id/id_0x7f0b0f0b" view_id="@id/key_pos_3_8" />
+            <merge key_id="@id/id_0x7f0b0f0f" view_id="@id/key_pos_3_9" />
+            <merge key_id="@id/id_0x7f0b0f83" view_id="@id/key_pos_3_10" />
+        </merge_key_mapping>
+    </if>
+</framework>

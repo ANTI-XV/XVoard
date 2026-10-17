@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.SilkRectangularPopupView android:id="@id/id_0x7f0b05dc" app:attr_0x7f0401ff="@dimen/dimen_0x7f0703b1" app:attr_0x7f040200="?attr_0x7f04022b" app:attr_0x7f04020e="?attr_0x7f04022b" app:attr_0x7f040210="@dimen/dimen_0x7f0703b2" balanced_placement="true" hide_animation="@animator/animator_0x7f020025" image_view="@layout/layout_0x7f0e06a6" max_item_per_row="5" show_animation="@animator/animator_0x7f02004b" style="@style/style_0x7f15055d" text_view="@layout/layout_0x7f0e06b7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/id_0x7f0b05e5" style="@style/style_0x7f15055f">
+        <FrameLayout android:id="@id/id_0x7f0b05e8" style="@style/style_0x7f150555" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/id_0x7f0b05e4" style="@style/style_0x7f15055e" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.popup.SilkRectangularPopupView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/drawable_0x7f08041a" android:id="@id/id_0x7f0b0656" android:title="@string/string_0x7f14090e" app:attr_0x7f0402d4="android.support.v7.widget.SearchView" app:attr_0x7f0407c6="id_0x7f0b007c|id_0x7f0b0121" />
+</menu>

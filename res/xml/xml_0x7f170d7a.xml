@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170cad" />
+    <softkeys>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d3e">
+            <softkey id="@id/id_0x7f0b1ad8" long_press_data=":,·" press_data=";" />
+            <softkey id="@id/id_0x7f0b0aa5" long_press_data=";,·" press_data=":" />
+            <softkey id="@id/id_0x7f0b10cb" long_press_data="ύ,ϋ,ΰ" merge_index="1" press_data="υ" />
+            <softkey id="@id/id_0x7f0b10af" long_press_data="Ύ,Ϋ,ΰ" merge_index="1" press_data="Υ" />
+            <softkey id="@id/id_0x7f0b10b8" long_press_data="έ" merge_index="1" press_data="ε" />
+            <softkey id="@id/id_0x7f0b109e" long_press_data="Έ" merge_index="1" press_data="Ε" />
+            <softkey id="@id/id_0x7f0b10ba" press_data="ς" />
+            <softkey id="@id/id_0x7f0b10bc" long_press_data="ί,ϊ,ΐ" merge_index="1" press_data="ι" />
+            <softkey id="@id/id_0x7f0b10a1" long_press_data="Ί,Ϊ,ΐ" merge_index="1" press_data="Ι" />
+            <softkey id="@id/id_0x7f0b10c2" long_press_data="ό" merge_index="1" press_data="ο" />
+            <softkey id="@id/id_0x7f0b10a7" long_press_data="Ό" merge_index="1" press_data="Ο" />
+            <softkey id="@id/id_0x7f0b10b3" long_press_data="ά" press_data="α" />
+            <softkey id="@id/id_0x7f0b109a" long_press_data="Ά" press_data="Α" />
+            <softkey id="@id/id_0x7f0b10b9" long_press_data="ή" press_data="η" />
+            <softkey id="@id/id_0x7f0b109f" long_press_data="Ή" press_data="Η" />
+            <softkey id="@id/id_0x7f0b10c1" long_press_data="ώ" press_data="ω" />
+            <softkey id="@id/id_0x7f0b10a6" long_press_data="Ώ" press_data="Ω" />
+        </softkey_list>
+        <softkey_list splitter="," template_id="@id/id_0x7f0b1d43">
+            <softkey id="@id/id_0x7f0b10c6" press_data="ρ" />
+            <softkey id="@id/id_0x7f0b10ab" press_data="Ρ" />
+            <softkey id="@id/id_0x7f0b10c8" press_data="τ" />
+            <softkey id="@id/id_0x7f0b10ad" press_data="Τ" />
+            <softkey id="@id/id_0x7f0b10c9" press_data="θ" />
+            <softkey id="@id/id_0x7f0b10ae" press_data="Θ" />
+            <softkey id="@id/id_0x7f0b10c4" press_data="π" />
+            <softkey id="@id/id_0x7f0b10a9" press_data="Π" />
+            <softkey id="@id/id_0x7f0b10c7" press_data="σ" />
+            <softkey id="@id/id_0x7f0b10ac" press_data="Σ" />
+            <softkey id="@id/id_0x7f0b10b7" press_data="δ" />
+            <softkey id="@id/id_0x7f0b109d" press_data="Δ" />
+            <softkey id="@id/id_0x7f0b10c3" press_data="φ" />
+            <softkey id="@id/id_0x7f0b10a8" press_data="Φ" />
+            <softkey id="@id/id_0x7f0b10bb" press_data="γ" />
+            <softkey id="@id/id_0x7f0b10a0" press_data="Γ" />
+            <softkey id="@id/id_0x7f0b10cc" press_data="ξ" />
+            <softkey id="@id/id_0x7f0b10b0" press_data="Ξ" />
+            <softkey id="@id/id_0x7f0b10bd" press_data="κ" />
+            <softkey id="@id/id_0x7f0b10a2" press_data="Κ" />
+            <softkey id="@id/id_0x7f0b10be" press_data="λ" />
+            <softkey id="@id/id_0x7f0b10a3" press_data="Λ" />
+            <softkey id="@id/id_0x7f0b10cd" press_data="ζ" />
+            <softkey id="@id/id_0x7f0b10b1" press_data="Ζ" />
+            <softkey id="@id/id_0x7f0b10b5" press_data="χ" />
+            <softkey id="@id/id_0x7f0b109c" press_data="Χ" />
+            <softkey id="@id/id_0x7f0b10c5" press_data="ψ" />
+            <softkey id="@id/id_0x7f0b10aa" press_data="Ψ" />
+            <softkey id="@id/id_0x7f0b10b4" press_data="β" />
+            <softkey id="@id/id_0x7f0b109b" press_data="Β" />
+            <softkey id="@id/id_0x7f0b10c0" press_data="ν" />
+            <softkey id="@id/id_0x7f0b10a5" press_data="Ν" />
+            <softkey id="@id/id_0x7f0b10bf" press_data="μ" />
+            <softkey id="@id/id_0x7f0b10a4" press_data="Μ" />
+            <softkey id="@id/id_0x7f0b10b2" press_data="΅" />
+        </softkey_list>
+    </softkeys>
+</framework>

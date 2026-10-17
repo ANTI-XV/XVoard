@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/drawable_0x7f08050e" android:id="@id/id_0x7f0b0049" android:title="@string/string_0x7f14039c" app:attr_0x7f0407c6="id_0x7f0b007c" />
+    <item android:id="@id/id_0x7f0b005c" android:title="@string/string_0x7f14067b" />
+    <item android:id="@id/id_0x7f0b0059" android:title="@string/string_0x7f14067a" />
+</menu>

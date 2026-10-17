@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if device="tablet">
+        <ime announce_auto_selected_candidate="true" class="com.google.android.libraries.inputmethod.ime.processor.ProcessorBasedIme" indicator_icon="@drawable/drawable_0x7f08045f" label="@string/string_0x7f140092" language="zh-HK" language_tag="zh-hk-cantonese" prime_keyboard_type="HARD_QWERTY" status_icon="@drawable/drawable_0x7f080380" string_id="zh_hk_pinyin_hard_qwerty_cantonese">
+            <keyboard_group pk_language_tag="en-US" pk_layout_type="qwerty">
+                <keyboard def="@xml/xml_0x7f1705d7" type="prime" />
+                <include href="@xml/xml_0x7f170a0c" />
+            </keyboard_group>
+            <extra_values>
+                <item id="@id/id_0x7f0b0204" value="false" />
+                <item id="@id/id_0x7f0b0219" value="。" />
+                <item id="@id/id_0x7f0b0201" value="@string/string_0x7f140713" />
+                <item id="@id/id_0x7f0b01fd" value="pinyin_standard_cantonese_pinyin" />
+                <item id="@id/id_0x7f0b021f" value="false" />
+            </extra_values>
+            <include href="@xml/xml_0x7f170c90" />
+        </ime>
+    </if>
+    <else>
+        <ime announce_auto_selected_candidate="true" class="com.google.android.libraries.inputmethod.ime.processor.ProcessorBasedIme" inline_composing="false" label="@string/string_0x7f140092" language="zh-HK" language_tag="zh-hk-cantonese" prime_keyboard_type="HARD_QWERTY" status_icon="@drawable/drawable_0x7f080380" string_id="zh_hk_pinyin_hard_qwerty_cantonese">
+            <if enable_chinese_inline_composing_zh_hk="true">
+                <if pref_enable_chinese_inline_composing_hk="true">
+                    <attrs inline_composing="true" />
+                </if>
+            </if>
+            <keyboard_group pk_language_tag="en-US" pk_layout_type="qwerty">
+                <keyboard def="@xml/xml_0x7f1705d9" type="prime" />
+                <include href="@xml/xml_0x7f170a0c" />
+            </keyboard_group>
+            <extra_values>
+                <item id="@id/id_0x7f0b0219" value="。" />
+                <item id="@id/id_0x7f0b0201" value="@string/string_0x7f140713" />
+                <item id="@id/id_0x7f0b01fd" value="pinyin_standard_cantonese_pinyin" />
+            </extra_values>
+            <include href="@xml/xml_0x7f170c90" />
+        </ime>
+    </else>
+</framework>

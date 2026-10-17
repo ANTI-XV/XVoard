@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b04e1" android:tag=".language-indicator" android:background="@drawable/drawable_0x7f08049e" android:layout_width="22.0dp" android:layout_height="15.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:textSize="12.0dp" android:gravity="center" android:id="@id/id_0x7f0b04e4" android:tag=".language-indicator-text" android:paddingTop="1.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" android:fontFamily="?attr_0x7f040105" />
+</FrameLayout>

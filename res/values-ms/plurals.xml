@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d kekunci ditetapkan</item>
+        <item quantity="other">%d kekunci ditetapkan</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s kini dipasang.</item>
+        <item quantity="other">%s kini dipasang.</item>
+    </plurals>
+</resources>

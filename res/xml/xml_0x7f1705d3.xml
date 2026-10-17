@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if enable_chinese_9key_foldable_split="true" keyboard_mode="split">
+        <include href="@xml/xml_0x7f1705d4" />
+    </if>
+    <else>
+        <include href="@xml/xml_0x7f1708be" />
+    </else>
+</framework>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime announce_auto_selected_candidate="true" auto_capital="true" class="com.google.android.apps.inputmethod.libs.latin5.LatinIme" display_app_completions="true" language="uk" string_id="ime_ukrainian">
+        <keyboard_group supports_split_mode="true" variant="ukrainian" variant_label="@string/string_0x7f141326">
+            <if enable_number_row="true">
+                <attrs layout_theme="@style/style_0x7f15034b" />
+            </if>
+            <keyboard def="@xml/xml_0x7f1709e2" type="prime">
+                <if enable_number_row="true">
+                    <merge def="@xml/xml_0x7f170886" />
+                </if>
+            </keyboard>
+            <include href="@xml/xml_0x7f170a0c" />
+        </keyboard_group>
+    </ime>
+</framework>

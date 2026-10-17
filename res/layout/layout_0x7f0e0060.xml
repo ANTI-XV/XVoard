@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:fadeScrollbars="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="?attr_0x7f04049a" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?attr_0x7f04049a" android:paddingEnd="?attr_0x7f04049a">
+            <com.google.android.material.textview.MaterialTextView android:id="@id/id_0x7f0b0141" android:text="@string/string_0x7f14016c" style="@style/style_0x7f150222" />
+            <include layout="@layout/layout_0x7f0e0061" />
+            <com.google.android.material.textview.MaterialTextView android:layout_gravity="start" android:id="@id/id_0x7f0b0140" android:text="@string/string_0x7f14016b" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" style="@style/style_0x7f150221" />
+            <com.google.android.material.textview.MaterialTextView android:textColor="?android:textColorTertiary" android:layout_gravity="start" android:id="@id/id_0x7f0b013d" android:layout_marginTop="8.0dp" android:text="@string/string_0x7f140167" android:fontFamily="?attr_0x7f040103" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" style="@style/style_0x7f150221" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="start" android:id="@id/id_0x7f0b0142" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp" android:text="@string/string_0x7f140168" android:fontFamily="?attr_0x7f040103" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView style="@style/style_0x7f150942" />
+    <include layout="@layout/layout_0x7f0e005f" />
+</LinearLayout>

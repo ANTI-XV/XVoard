@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/style_0x7f150459"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/style_0x7f150353">
+        <ImageView android:src="@mipmap/ic_app" style="@style/style_0x7f15034e" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/id_0x7f0b0554" android:text="@string/string_0x7f1405e7" android:contentDescription="@string/string_0x7f1405e7" style="@style/style_0x7f150355" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/id_0x7f0b0553" style="@style/style_0x7f15045a">
+        <LinearLayout android:id="@id/id_0x7f0b0556" style="@style/style_0x7f15045d">
+            <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0555" style="@style/style_0x7f15045c" />
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b053f" style="@style/style_0x7f15045b" />
+    </LinearLayout>
+    <RelativeLayout style="@style/style_0x7f150350">
+        <com.google.android.libraries.inputmethod.widgets.OverlayButton android:id="@id/id_0x7f0b05a1" android:text="@string/string_0x7f14049a" android:contentDescription="@string/string_0x7f14049a" android:layout_alignParentEnd="true" style="@style/style_0x7f150354" />
+        <com.google.android.libraries.inputmethod.widgets.OverlayButton android:id="@id/id_0x7f0b00c7" android:text="@string/string_0x7f1404b3" android:layout_toStartOf="@id/id_0x7f0b05a1" style="@style/style_0x7f150351" />
+    </RelativeLayout>
+</LinearLayout>

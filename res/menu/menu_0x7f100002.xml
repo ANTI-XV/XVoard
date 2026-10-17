@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/drawable_0x7f08030c" android:id="@id/action_edit_language" android:title="@string/string_0x7f140963" app:attr_0x7f0407c6="id_0x7f0b007c" />
+    <item android:icon="@drawable/drawable_0x7f080527" android:id="@id/action_remove_language" android:title="@string/string_0x7f1409e4" app:attr_0x7f0407c6="id_0x7f0b007c" />
+</menu>

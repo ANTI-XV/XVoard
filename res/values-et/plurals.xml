@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d klahv on määratud</item>
+        <item quantity="other">%d klahvi on määratud</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s on nüüd installitud.</item>
+        <item quantity="other">%s on nüüd installitud.</item>
+    </plurals>
+</resources>

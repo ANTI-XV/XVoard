@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dp">
+        <android.support.v7.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="?attr_0x7f040412" android:id="@id/id_0x7f0b1feb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="?attr_0x7f040105" android:paddingEnd="48.0dp" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" />
+        <com.google.android.material.button.MaterialButton android:id="@id/id_0x7f0b1fea" android:scrollbars="none" android:layout_width="48.0dp" android:layout_height="48.0dp" android:insetLeft="12.0dp" android:insetRight="12.0dp" android:insetTop="12.0dp" android:insetBottom="12.0dp" android:backgroundTint="?attr_0x7f040430" app:attr_0x7f040591="@drawable/drawable_0x7f080531" app:attr_0x7f040593="id_0x7f0b1fbc" app:attr_0x7f040598="?attr_0x7f040403" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="?attr_0x7f04069b" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <android.support.v7.widget.RecyclerView android:orientation="vertical" android:id="@id/id_0x7f0b1ff1" android:clipToPadding="false" android:layout_width="0.0dp" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dimen_0x7f07085a" />
+</LinearLayout>

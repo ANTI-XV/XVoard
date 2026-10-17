@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f1403a1" id="@id/id_0x7f0b09c1" layout="@layout/layout_0x7f0e072f" multi_touch="false">
+            <action keycode="DEL" repeatable="true" type="PRESS" />
+            <action keycode="DELETE_FINISH" type="UP" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011a" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f1403a1" disable_lift_to_tap="true" id="@id/id_0x7f0b09c2" layout="@layout/layout_0x7f0e072f" multi_touch="false" popup_timing="ON_GESTURE" slide_sensitivity="LESS">
+            <action keycode="DEL" repeatable="true" type="PRESS" />
+            <action keycode="DELETE_FINISH" type="UP" />
+            <action keycode="CLEAR_ALL" popup_label="@string/string_0x7f14048a" popup_layout="@layout/layout_0x7f0e06bc" type="SLIDE_LEFT" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011a" />
+        </softkey>
+    </softkeys>
+</framework>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <view type="body">
+            <softkeys href="@xml/xml_0x7f170cca" />
+            <include href="@xml/xml_0x7f170b2b" />
+            <include href="@xml/xml_0x7f170b31" />
+            <if device="tablet" device_size="large" keyboard_mode="normal">
+                <softkeys href="@xml/xml_0x7f170ff3" />
+                <include href="@xml/xml_0x7f170b33" />
+                <include href="@xml/xml_0x7f170bee" />
+            </if>
+            <else>
+                <key_mapping>
+                    <if language="zh">
+                        <mapping key_id="@id/id_0x7f0b102b" view_id="@id/key_pos_input_symbol_1" />
+                        <mapping key_id="@id/id_0x7f0b102e" view_id="@id/key_pos_input_symbol_2" />
+                    </if>
+                    <else>
+                        <mapping key_id="@id/id_0x7f0b0ddb" view_id="@id/key_pos_input_symbol_1" />
+                        <mapping key_id="@id/id_0x7f0b1a53" view_id="@id/key_pos_input_symbol_2" />
+                    </else>
+                </key_mapping>
+            </else>
+        </view>
+    </keyboard>
+</framework>

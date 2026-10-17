@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="?attr_0x7f04049a" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:src="@drawable/drawable_0x7f080566" style="@style/style_0x7f15093f" />
+            <com.google.android.material.textview.MaterialTextView android:id="@id/id_0x7f0b0279" android:text="@string/string_0x7f1402f9" style="@style/style_0x7f150945" />
+            <com.google.android.material.textview.MaterialTextView android:id="@id/id_0x7f0b0273" android:text="@string/string_0x7f1402f5" style="@style/style_0x7f150943" />
+            <android.support.v7.widget.RecyclerView android:id="@id/id_0x7f0b0274" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ImageView android:layout_gravity="bottom" style="@style/style_0x7f150942" />
+</FrameLayout>

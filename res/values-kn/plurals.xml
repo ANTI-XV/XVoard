@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d ಕೀಗಳನ್ನು ನಿಯೋಜಿಸಲಾಗಿದೆ</item>
+        <item quantity="other">%d ಕೀಗಳನ್ನು ನಿಯೋಜಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s ಗಳನ್ನು ಇದೀಗ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ.</item>
+        <item quantity="other">%s ಗಳನ್ನು ಇದೀಗ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ.</item>
+    </plurals>
+</resources>

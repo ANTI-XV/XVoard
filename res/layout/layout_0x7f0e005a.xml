@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.animatedview.AnimatedImageView android:id="@id/id_0x7f0b0087" android:layout_width="@dimen/dimen_0x7f0700e3" android:layout_height="@dimen/dimen_0x7f0700e3" android:layout_marginHorizontal="4.0dp" app:attr_0x7f0406b7="id_0x7f0b203d" app:attr_0x7f0408ec="?android:selectableItemBackground" style="@style/style_0x7f150220"
+      xmlns:app="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

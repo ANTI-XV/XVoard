@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0320" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dp" android:layout_marginRight="24.0dp" android:layout_marginBottom="8.0dp" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0321" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dp" android:layout_marginRight="24.0dp" android:text="@string/string_0x7f140416" />
+        <Button android:id="@id/id_0x7f0b0323" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/string_0x7f140417" />
+        <ListView android:id="@id/id_0x7f0b0322" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="true" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

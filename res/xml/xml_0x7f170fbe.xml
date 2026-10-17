@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_list splitter=" ">
+            <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d5d" layout="@layout/layout_0x7f0e07b1" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+                <action data="$press_data$" intention="DECODE" keycode="$keycode_normal=PLAIN_TEXT$" popup_label="$press_label$" type="PRESS" />
+                <action data="$long_press_data$" intention="$long_press_intention=C$" keycode="PLAIN_TEXT" popup_label="$long_press_data$" popup_layout="@attr/attr_0x7f040208" type="LONG_PRESS" />
+                <label location="@id/id_0x7f0b04d0" value="$press_label$" />
+                <label location="@id/id_0x7f0b04d6" value="$press_data$" />
+            </softkey_template>
+            <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d5e" layout="@layout/layout_0x7f0e07b1" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+                <action data="$press_data$" intention="DECODE" keycode="$keycode_normal=PLAIN_TEXT$" popup_label="$press_label$" type="PRESS" />
+                <action data="$long_press_data$" intention="$long_press_intention=C$" keycode="PLAIN_TEXT" popup_label="$long_press_data$" popup_layout="@attr/attr_0x7f040208" type="LONG_PRESS" />
+                <label location="@id/id_0x7f0b04d0" value="$press_label$" />
+                <label location="@id/id_0x7f0b04d6" value="$label_header$" />
+            </softkey_template>
+            <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d5f" layout="@layout/layout_0x7f0e0771" multi_touch="false" popup_timing="@string/string_0x7f1408dd">
+                <action data="$press_data$" intention="DECODE" keycode="$keycode_normal=PLAIN_TEXT$" popup_label="$press_label$" type="PRESS" />
+                <action data="$long_press_data$" intention="$long_press_intention=C$" keycode="PLAIN_TEXT" popup_label="$long_press_data$" popup_layout="@attr/attr_0x7f040208" type="LONG_PRESS" />
+                <label location="@id/id_0x7f0b04d0" value="$press_label$" />
+            </softkey_template>
+        </softkey_list>
+    </softkeys>
+</framework>

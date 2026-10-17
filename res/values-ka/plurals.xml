@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d კლავიშს მინიჭებული აქვს ფუნქცია</item>
+        <item quantity="other">%d კლავიშს მინიჭებული აქვს ფუნქცია</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">%s უკვე დაინსტალირდა.</item>
+        <item quantity="other">%s უკვე დაინსტალირდა.</item>
+    </plurals>
+</resources>

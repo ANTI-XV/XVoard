@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170d8d" />
+    <softkeys>
+        <softkey content_description="@string/string_0x7f14020a" id="@id/id_0x7f0b1b3b">
+            <action data="RECENTS" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140201" id="@id/id_0x7f0b1b3a">
+            <action data="CLASSIC" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d7f" />
+        <softkey content_description="@string/string_0x7f14020c" id="@id/id_0x7f0b1b3a">
+            <action data="SMILING" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d89" />
+        <softkey content_description="@string/string_0x7f140207" id="@id/id_0x7f0b1b3a">
+            <action data="LOVE" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d85" />
+        <softkey content_description="@string/string_0x7f140205" id="@id/id_0x7f0b1b3a">
+            <action data="HUGGING" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d83" />
+        <softkey content_description="@string/string_0x7f140204" id="@id/id_0x7f0b1b3a">
+            <action data="FLEXING" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d82" />
+        <softkey content_description="@string/string_0x7f140200" id="@id/id_0x7f0b1b3a">
+            <action data="ANIMALS" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d7e" />
+        <softkey content_description="@string/string_0x7f14020d" id="@id/id_0x7f0b1b3a">
+            <action data="SURPRISE" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d8a" />
+        <softkey content_description="@string/string_0x7f140203" id="@id/id_0x7f0b1b3a">
+            <action data="DANCING" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d81" />
+        <softkey content_description="@string/string_0x7f14020b" id="@id/id_0x7f0b1b3a">
+            <action data="SHRUGGIE" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d88" />
+        <softkey content_description="@string/string_0x7f14020e" id="@id/id_0x7f0b1b3a">
+            <action data="TABLE FLIP" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d8b" />
+        <softkey content_description="@string/string_0x7f140206" id="@id/id_0x7f0b1b3a">
+            <action data="LOOK OF DISAPPROVAL" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d84" />
+        <softkey content_description="@string/string_0x7f140208" id="@id/id_0x7f0b1b3a">
+            <action data="NERVOUS" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d86" />
+        <softkey content_description="@string/string_0x7f140202" id="@id/id_0x7f0b1b3a">
+            <action data="CRYING" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d80" />
+        <softkey content_description="@string/string_0x7f140209" id="@id/id_0x7f0b1b3a">
+            <action data="POINTERS" keycode="UNKNOWN" type="PRESS" />
+        </softkey>
+        <include href="@xml/xml_0x7f170d87" />
+    </softkeys>
+</framework>

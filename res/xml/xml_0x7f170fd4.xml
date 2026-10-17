@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/xml_0x7f170fd2" />
+    <softkeys>
+        <softkey id="@id/id_0x7f0b1a42" layout="@layout/layout_0x7f0e0782" multi_touch="false" slide_sensitivity="NORMAL">
+            <action data="," keycode="COMMA" popup_label="," type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f1404af" />
+        </softkey>
+        <softkey id="@id/id_0x7f0b1a47" layout="@layout/layout_0x7f0e0782" multi_touch="false" slide_sensitivity="NORMAL">
+            <action data=";" keycode="SEMICOLON" popup_label=";" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f1404e6" />
+        </softkey>
+    </softkeys>
+</framework>

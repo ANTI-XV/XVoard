@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_0x7f0b0499" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.keyboardmode.MultiTouchDelegateView android:id="@id/id_0x7f0b049d" style="@style/style_0x7f150327" />
+    <include layout="@attr/attr_0x7f040199" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/style_0x7f1502d9"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_0x7f0b02d5" android:importantForAccessibility="no" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b02d8" app:attr_0x7f040617="id_0x7f0b05c6" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1502d4" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b02d8" android:tag=".inline-suggestion-tooltip-chip-text" android:text="@string/string_0x7f1403bc" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b02d7" app:attr_0x7f040616="@id/id_0x7f0b02d5" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1502d8" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b02d7" android:tag=".inline-suggestion-tooltip-chip-text.highlight" android:text="@string/string_0x7f1403bb" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040604="@id/id_0x7f0b02d6" app:attr_0x7f040616="@id/id_0x7f0b02d8" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1502d7" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b02d6" android:tag=".inline-suggestion-tooltip-chip-text" android:text="@string/string_0x7f1403ba" app:attr_0x7f0405fd="id_0x7f0b05c6" app:attr_0x7f040603="id_0x7f0b05c6" app:attr_0x7f040616="@id/id_0x7f0b02d7" app:attr_0x7f04061b="id_0x7f0b05c6" style="@style/style_0x7f1502d6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

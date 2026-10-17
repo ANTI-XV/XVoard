@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d okhiye abanikeziwe</item>
+        <item quantity="other">%d okhiye abanikeziwe</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Ama-%s manje afakiwe.</item>
+        <item quantity="other">Ama-%s manje afakiwe.</item>
+    </plurals>
+</resources>

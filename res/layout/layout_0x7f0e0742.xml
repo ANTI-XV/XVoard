@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_0x7f0b02ac" android:paddingBottom="?attr_0x7f040118" style="@style/style_0x7f1502b5" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="?attr_0x7f040117" android:layout_below="@id/id_0x7f0b02ac">
+        <ImageView android:id="@id/id_0x7f0b02ae" style="@style/style_0x7f1502b5" />
+    </FrameLayout>
+</RelativeLayout>

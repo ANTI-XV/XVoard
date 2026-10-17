@@ -1,0 +1,34 @@
+package defpackage;
+
+import java.util.AbstractCollection;
+import java.util.Iterator;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes3.dex */
+final class oub extends AbstractCollection {
+    final /* synthetic */ ouc a;
+
+    public oub(ouc oucVar) {
+        this.a = oucVar;
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection
+    public final void clear() {
+        this.a.n();
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection
+    public final boolean contains(Object obj) {
+        return this.a.v(obj);
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.lang.Iterable
+    public final Iterator iterator() {
+        return this.a.j();
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection
+    public final int size() {
+        return this.a.e();
+    }
+}

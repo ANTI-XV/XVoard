@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping exclude_state="INPUT_TYPE_EMAIL_ADDRESS,INPUT_TYPE_URI,SHOW_EMOJI_SWITCH_KEY" state="EMOJI_AVAILABLE">
+        <merge key_id="@id/id_0x7f0b0e41" view_id="@id/key_pos_bottom_symbol_1" />
+    </merge_key_mapping>
+    <merge_key_mapping exclude_state="INPUT_TYPE_EMAIL_ADDRESS,INPUT_TYPE_URI,EMOJI_AVAILABLE" state="EMOTICON_AVAILABLE">
+        <merge key_id="@id/id_0x7f0b0e44" view_id="@id/key_pos_bottom_symbol_1" />
+    </merge_key_mapping>
+    <merge_key_mapping exclude_state="INPUT_TYPE_EMAIL_ADDRESS,EMOJI_AVAILABLE" state="EMOTICON_AVAILABLE+INPUT_TYPE_URI">
+        <merge key_id="@id/id_0x7f0b0e43" view_id="@id/key_pos_bottom_symbol_1" />
+    </merge_key_mapping>
+    <merge_key_mapping exclude_state="SHOW_EMOJI_SWITCH_KEY" state="EMOJI_AVAILABLE+INPUT_TYPE_URI">
+        <merge key_id="@id/id_0x7f0b0e40" view_id="@id/key_pos_bottom_symbol_1" />
+    </merge_key_mapping>
+</framework>

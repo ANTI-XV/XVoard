@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey alpha="@attr/attr_0x7f040112" content_description="@string/string_0x7f14065e" id="@id/id_0x7f0b0dee" layout="@layout/layout_0x7f0e05e6">
+            <action keycode="PAGE_UP" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803be" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040112" content_description="" id="@id/id_0x7f0b0def" layout="@layout/layout_0x7f0e05e6">
+            <action keycode="PAGE_UP" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803bc" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040112" content_description="@string/string_0x7f14065d" id="@id/id_0x7f0b0dec" layout="@layout/layout_0x7f0e05e6">
+            <action keycode="PAGE_DOWN" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803ba" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040112" content_description="" id="@id/id_0x7f0b0ded" layout="@layout/layout_0x7f0e05e6">
+            <action keycode="PAGE_DOWN" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803b8" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040112" content_description="@string/string_0x7f1403a1" id="@id/id_0x7f0b0dea" layout="@layout/layout_0x7f0e05e6" multi_touch="false">
+            <if rtl_layout="true">
+                <attrs layout="@layout/layout_0x7f0e05e7" />
+            </if>
+            <action keycode="DEL" repeatable="true" type="PRESS" />
+            <action keycode="DELETE_FINISH" type="UP" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011a" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040112" content_description="@string/string_0x7f1403a1" id="@id/id_0x7f0b0deb" layout="@layout/layout_0x7f0e05e6" multi_touch="false" popup_timing="ON_GESTURE" slide_sensitivity="LESS">
+            <action keycode="DEL" repeatable="true" type="PRESS" />
+            <action keycode="CLEAR_ALL" popup_label="@string/string_0x7f14048a" popup_layout="@layout/layout_0x7f0e06bc" type="SLIDE_LEFT" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011a" />
+        </softkey>
+    </softkeys>
+</framework>

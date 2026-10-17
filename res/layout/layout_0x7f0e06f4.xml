@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/style_0x7f1504da"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView android:gravity="center_horizontal" android:id="@id/id_0x7f0b0679" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0677" android:paddingTop="5.0dp" android:paddingRight="5.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <SeekBar android:id="@id/id_0x7f0b0676" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0678" android:paddingLeft="5.0dp" android:paddingTop="5.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

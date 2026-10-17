@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_0x7f0b02ac" android:paddingEnd="4.0dp" style="@style/style_0x7f1502c1" />
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/id_0x7f0b04d0" style="@style/style_0x7f150464" />
+</LinearLayout>

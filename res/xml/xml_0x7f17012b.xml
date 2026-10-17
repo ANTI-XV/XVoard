@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader android:title="@string/string_0x7f1409b6">
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.SeekBarListPreference android:persistent="true" android:entries="@array/array_0x7f030024" android:title="@string/string_0x7f1409b5" android:key="@string/string_0x7f140763" android:entryValues="@array/array_0x7f030034" seek_bar_text_left="@string/string_0x7f1409b3" seek_bar_text_right="@string/string_0x7f1409b4" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.SeekBarListPreference android:persistent="true" android:entries="@array/array_0x7f030023" android:title="@string/string_0x7f1409b2" android:key="@string/string_0x7f140764" android:entryValues="@array/array_0x7f030033" seek_bar_text_left="@string/string_0x7f1409b0" seek_bar_text_right="@string/string_0x7f1409b1" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

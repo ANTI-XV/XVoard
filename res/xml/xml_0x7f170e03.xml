@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_list>
+            <softkey_template content_description="$desc$" id="@id/id_0x7f0b1d16" layout="$key_layout=@layout/softkey_ja_50keys_hiragana$" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="NORMAL">
+                <action data="$press_data$" icon_background_level="@integer/integer_0x7f0c008b" intention="DECODE" keycode="$press_keycode=PLAIN_TEXT$" popup_icon="$press_icon$" popup_label="$press_label$" type="PRESS" />
+                <action data="$long_press_data$" intention="DECODE" keycode="PLAIN_TEXT" popup_label="$long_press_data$" popup_layout="@attr/attr_0x7f040207" type="LONG_PRESS" />
+                <icon location="@id/id_0x7f0b02ac" value="$key_icon$" />
+                <label location="@id/id_0x7f0b04d0" value="$press_label$" />
+            </softkey_template>
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d16">
+            <softkey id="@id/id_0x7f0b1258" long_press_data="ぁ" press_data="あ" press_label="あ" />
+            <softkey id="@id/id_0x7f0b125f" long_press_data="ぃ" press_data="い" press_label="い" />
+            <softkey id="@id/id_0x7f0b1280" long_press_data="ぅ ゔ" press_data="う" press_label="う" />
+            <softkey id="@id/id_0x7f0b1259" long_press_data="ぇ" press_data="え" press_label="え" />
+            <softkey id="@id/id_0x7f0b1270" long_press_data="ぉ" press_data="お" press_label="お" />
+            <softkey id="@id/id_0x7f0b1260" long_press_data="が" press_data="か" press_label="か" />
+            <softkey id="@id/id_0x7f0b1262" long_press_data="ぎ" press_data="き" press_label="き" />
+            <softkey id="@id/id_0x7f0b1264" long_press_data="ぐ" press_data="く" press_label="く" />
+            <softkey id="@id/id_0x7f0b1261" long_press_data="げ" press_data="け" press_label="け" />
+            <softkey id="@id/id_0x7f0b1263" long_press_data="ご" press_data="こ" press_label="こ" />
+            <softkey id="@id/id_0x7f0b1276" long_press_data="ざ" press_data="さ" press_label="さ" />
+            <softkey id="@id/id_0x7f0b1278" long_press_data="じ" press_data="し" press_label="し" />
+            <softkey id="@id/id_0x7f0b127a" long_press_data="ず" press_data="す" press_label="す" />
+            <softkey id="@id/id_0x7f0b1277" long_press_data="ぜ" press_data="せ" press_label="せ" />
+            <softkey id="@id/id_0x7f0b1279" long_press_data="ぞ" press_data="そ" press_label="そ" />
+            <softkey id="@id/id_0x7f0b127b" long_press_data="だ" press_data="た" press_label="た" />
+            <softkey id="@id/id_0x7f0b127d" long_press_data="ぢ" press_data="ち" press_label="ち" />
+            <softkey id="@id/id_0x7f0b127f" long_press_data="っ づ" press_data="つ" press_label="つ" />
+            <softkey id="@id/id_0x7f0b127c" long_press_data="で" press_data="て" press_label="て" />
+            <softkey id="@id/id_0x7f0b127e" long_press_data="ど" press_data="と" press_label="と" />
+            <softkey id="@id/id_0x7f0b126b" press_data="な" press_label="な" />
+            <softkey id="@id/id_0x7f0b126d" press_data="に" press_label="に" />
+            <softkey id="@id/id_0x7f0b126f" press_data="ぬ" press_label="ぬ" />
+            <softkey id="@id/id_0x7f0b126c" press_data="ね" press_label="ね" />
+            <softkey id="@id/id_0x7f0b126e" press_data="の" press_label="の" />
+            <softkey id="@id/id_0x7f0b125a" long_press_data="ば ぱ" press_data="は" press_label="は" />
+            <softkey id="@id/id_0x7f0b125c" long_press_data="び ぴ" press_data="ひ" press_label="ひ" />
+            <softkey id="@id/id_0x7f0b125e" long_press_data="ぶ ぷ" press_data="ふ" press_label="ふ" />
+            <softkey id="@id/id_0x7f0b125b" long_press_data="べ ぺ" press_data="へ" press_label="へ" />
+            <softkey id="@id/id_0x7f0b125d" long_press_data="ぼ ぽ" press_data="ほ" press_label="ほ" />
+            <softkey id="@id/id_0x7f0b1265" press_data="ま" press_label="ま" />
+            <softkey id="@id/id_0x7f0b1267" press_data="み" press_label="み" />
+            <softkey id="@id/id_0x7f0b1269" press_data="む" press_label="む" />
+            <softkey id="@id/id_0x7f0b1266" press_data="め" press_label="め" />
+            <softkey id="@id/id_0x7f0b1268" press_data="も" press_label="も" />
+            <softkey id="@id/id_0x7f0b1283" long_press_data="ゃ" press_data="や" press_label="や" />
+            <softkey id="@id/id_0x7f0b1285" long_press_data="ゅ" press_data="ゆ" press_label="ゆ" />
+            <softkey id="@id/id_0x7f0b1284" long_press_data="ょ" press_data="よ" press_label="よ" />
+            <softkey id="@id/id_0x7f0b1271" press_data="ら" press_label="ら" />
+            <softkey id="@id/id_0x7f0b1273" press_data="り" press_label="り" />
+            <softkey id="@id/id_0x7f0b1275" press_data="る" press_label="る" />
+            <softkey id="@id/id_0x7f0b1272" press_data="れ" press_label="れ" />
+            <softkey id="@id/id_0x7f0b1274" press_data="ろ" press_label="ろ" />
+            <softkey id="@id/id_0x7f0b1281" long_press_data="ゎ" press_data="わ" press_label="わ" />
+            <softkey id="@id/id_0x7f0b1282" press_data="を" press_label="を" />
+            <softkey id="@id/id_0x7f0b126a" press_data="ん" press_label="ん" />
+            <softkey id="@id/id_0x7f0b1288" press_data="ー" press_label="ー" />
+            <softkey desc="@string/string_0x7f14009a" id="@id/id_0x7f0b1256" key_icon="@drawable/drawable_0x7f0803fb" key_layout="@layout/layout_0x7f0e0767" press_data="*" press_icon="@drawable/drawable_0x7f0803fb" press_keycode="MOZC_NO_START_COMPOSING" press_layout="@layout/layout_0x7f0e0683" />
+            <softkey id="@id/id_0x7f0b1289" press_data="?" press_label="?" />
+            <softkey id="@id/id_0x7f0b1257" press_data="!" press_label="!" />
+        </softkey_list>
+        <softkey_list template_id="@id/id_0x7f0b1d16">
+            <softkey id="@id/id_0x7f0b1291" press_data="、" press_keycode="COMMA" press_label="、" />
+            <softkey id="@id/id_0x7f0b12a4" press_data="。" press_keycode="PERIOD" press_label="。" />
+        </softkey_list>
+        <softkey_list splitter=" " template_id="@id/id_0x7f0b1d16">
+            <softkey id="@id/id_0x7f0b1287" long_press_data="「 」" press_data="「」" press_label="「」" />
+        </softkey_list>
+        <softkey_list>
+            <softkey content_description="@string/string_0x7f1400a4" id="@id/id_0x7f0b128a" layout="@layout/layout_0x7f0e0769" popup_timing="@string/string_0x7f1408dd">
+                <action data="alphabet_qwerty" keycode="SWITCH_KEYBOARD" type="PRESS" />
+                <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f0803e0" />
+            </softkey>
+        </softkey_list>
+    </softkeys>
+</framework>

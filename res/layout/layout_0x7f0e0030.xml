@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id_0x7f0b006a" android:layout_above="@id/id_0x7f0b006c" style="@style/style_0x7f15000d"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/id_0x7f0b0069" style="@style/style_0x7f15000c">
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0070" android:text="@string/string_0x7f140042" android:layout_alignParentTop="true" style="@style/style_0x7f15000f" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="91.0dp" android:layout_alignParentTop="true">
+            <com.google.android.libraries.inputmethod.widgets.EditTextOnKeyboard android:layout_gravity="bottom" android:id="@id/id_0x7f0b006b" android:layout_marginBottom="5.0dp" android:layout_weight="1.0" style="@style/style_0x7f15000e" />
+            <LinearLayout android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:layout_weight="0.0">
+                <com.google.android.material.button.MaterialButton android:textSize="@dimen/dimen_0x7f070068" android:id="@id/id_0x7f0b0067" android:tag=".keyboard-clipboard-dialog-negative-button" android:paddingTop="@dimen/dimen_0x7f070067" android:paddingBottom="@dimen/dimen_0x7f070067" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_0x7f070065" android:text="@string/string_0x7f14039e" android:paddingStart="@dimen/dimen_0x7f070066" android:paddingEnd="@dimen/dimen_0x7f070066" android:layout_marginStart="@dimen/dimen_0x7f070069" style="?attr_0x7f040351" />
+                <com.google.android.material.button.MaterialButton android:textSize="@dimen/dimen_0x7f070068" android:id="@id/id_0x7f0b0068" android:paddingTop="@dimen/dimen_0x7f070067" android:paddingBottom="@dimen/dimen_0x7f070067" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_0x7f070065" android:text="@string/string_0x7f1403ac" android:paddingStart="@dimen/dimen_0x7f070066" android:paddingEnd="@dimen/dimen_0x7f070066" android:layout_marginStart="@dimen/dimen_0x7f07006b" style="?attr_0x7f040351" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

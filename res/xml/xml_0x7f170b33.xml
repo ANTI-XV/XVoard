@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/id_0x7f0b1be8" view_id="@id/key_pos_tab" />
+        <mapping key_id="@id/id_0x7f0b164e" view_id="@id/key_pos_left_arrow" />
+        <mapping key_id="@id/id_0x7f0b1a7f" view_id="@id/key_pos_right_arrow" />
+        <mapping key_id="@id/id_0x7f0b120f" view_id="@id/key_pos_hide_keyboard" />
+    </key_mapping>
+    <key_mapping state="IME_FLAG_NAVIGATE_NEXT,IME_ACTION_NEXT">
+        <mapping key_id="@id/id_0x7f0b1be7" view_id="@id/key_pos_tab" />
+    </key_mapping>
+    <key_mapping state="MANUAL_SHIFT+IME_FLAG_NAVIGATE_PREVIOUS,MANUAL_SHIFT+IME_ACTION_PREVIOUS">
+        <mapping key_id="@id/id_0x7f0b1ae7" view_id="@id/key_pos_tab" />
+    </key_mapping>
+</framework>

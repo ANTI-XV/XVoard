@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.expression.navbar.FixedHeightNavigationRow android:layout_gravity="bottom" android:id="@id/id_0x7f0b01ec" android:tag=".navbar.for-expression-footer" android:background="@color/color_0x7f060619" android:layout_width="match_parent" android:layout_height="0.0dp" android:elevation="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_0x7f0e0187" />
+    <include layout="@layout/layout_0x7f0e0188" />
+</com.google.android.apps.inputmethod.libs.expression.navbar.FixedHeightNavigationRow>

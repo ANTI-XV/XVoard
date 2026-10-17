@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView app:attr_0x7f0402e6="false" app:attr_0x7f04085c="id_0x7f0b019a" style="@style/style_0x7f1501bf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/style_0x7f15026f">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="?attr_0x7f040175">
+            <FrameLayout android:layout_weight="@integer/integer_0x7f0c000c" style="@style/style_0x7f1502da">
+                <com.google.android.libraries.inputmethod.emoji.picker.EmojiPickerBodyRecyclerView android:scrollbarThumbVertical="@drawable/drawable_0x7f080583" android:scrollbarTrackVertical="@null" android:scrollbarStyle="outsideOverlay" android:id="@id/id_0x7f0b01b4" android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="yes" />
+            </FrameLayout>
+        </LinearLayout>
+        <include layout="@layout/layout_0x7f0e0186" />
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

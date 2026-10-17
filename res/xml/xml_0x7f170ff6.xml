@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template content_description="$desc$" disable_lift_to_tap="true" id="@id/id_0x7f0b1d58" layout="@layout/layout_0x7f0e07a9" multi_touch="false">
+            <action keycode="$keycode$" popup_label="$popup_label$" popup_layout="$popup_layout$" repeatable="$repeatable$" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="$icon$" />
+        </softkey_template>
+        <softkey_template content_description="$desc$" disable_lift_to_tap="true" id="@id/id_0x7f0b1d5a" layout="@layout/layout_0x7f0e07ad" multi_touch="false">
+            <action keycode="$keycode$" type="PRESS" />
+            <label location="@id/id_0x7f0b04d0" value="$label$" />
+        </softkey_template>
+        <softkey_template additional_content_description="@string/string_0x7f140e68" content_description="$desc$" id="@id/id_0x7f0b1d59" layout="@layout/layout_0x7f0e07aa" multi_touch="false">
+            <icon location="@id/id_0x7f0b02ac" value="$icon$" />
+        </softkey_template>
+        <softkey_template additional_content_description="$addi_desc$" content_description="$desc$" id="@id/id_0x7f0b1d5b" layout="@layout/layout_0x7f0e07ae" multi_touch="false">
+            <label location="@id/id_0x7f0b04d0" value="$label$" />
+        </softkey_template>
+        <softkey content_description="@string/string_0x7f140e72" disable_lift_to_tap="true" id="@id/id_0x7f0b1ad3" layout="@layout/layout_0x7f0e07ad" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="LESS">
+            <action keycode="TEXT_EDITING_SELECT" type="PRESS" />
+            <action keycode="DPAD_UP" repeatable="true" type="SLIDE_UP" />
+            <action keycode="DPAD_LEFT" repeatable="true" type="SLIDE_LEFT" />
+            <action keycode="DPAD_RIGHT" repeatable="true" type="SLIDE_RIGHT" />
+            <action keycode="DPAD_DOWN" repeatable="true" type="SLIDE_DOWN" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f140e71" />
+        </softkey>
+        <softkey content_description="@string/string_0x7f140e70" disable_lift_to_tap="true" id="@id/id_0x7f0b1ad7" layout="@layout/layout_0x7f0e07b0" multi_touch="false" popup_timing="@string/string_0x7f1408dd" slide_sensitivity="LESS">
+            <action keycode="TEXT_EDITING_SELECT" type="PRESS" />
+            <action keycode="DPAD_UP" repeatable="true" type="SLIDE_UP" />
+            <action keycode="DPAD_LEFT" repeatable="true" type="SLIDE_LEFT" />
+            <action keycode="DPAD_RIGHT" repeatable="true" type="SLIDE_RIGHT" />
+            <action keycode="DPAD_DOWN" repeatable="true" type="SLIDE_DOWN" />
+            <label location="@id/id_0x7f0b04d0" value="@string/string_0x7f140e71" />
+        </softkey>
+        <softkey_list template_id="@id/id_0x7f0b1d5a">
+            <softkey desc="@string/string_0x7f140e6e" id="@id/id_0x7f0b1ad4" keycode="TEXT_EDITING_SELECT_ALL" label="@string/string_0x7f140e6f" />
+            <softkey desc="@string/string_0x7f140e65" id="@id/id_0x7f0b0b11" keycode="TEXT_EDITING_CUT" label="@string/string_0x7f140e66" />
+            <softkey desc="@string/string_0x7f140e62" id="@id/id_0x7f0b0b0b" keycode="TEXT_EDITING_COPY" label="@string/string_0x7f140e63" />
+            <softkey desc="@string/string_0x7f140e6b" id="@id/id_0x7f0b1a28" keycode="TEXT_EDITING_PASTE" label="@string/string_0x7f140e6c" />
+        </softkey_list>
+        <softkey_list template_id="@id/id_0x7f0b1d5b">
+            <softkey addi_desc="@string/string_0x7f140e68" desc="@string/string_0x7f140e6e" id="@id/id_0x7f0b1ad5" label="@string/string_0x7f140e6f" />
+            <softkey addi_desc="@string/string_0x7f140e69" desc="@string/string_0x7f140e62" id="@id/id_0x7f0b0b0c" label="@string/string_0x7f140e63" />
+            <softkey addi_desc="@string/string_0x7f140e68" desc="@string/string_0x7f140e72" id="@id/id_0x7f0b1ad6" label="@string/string_0x7f140e71" />
+            <softkey addi_desc="@string/string_0x7f140e68" desc="@string/string_0x7f140e6b" id="@id/id_0x7f0b1a29" label="@string/string_0x7f140e6c" />
+        </softkey_list>
+        <softkey_list template_id="@id/id_0x7f0b1d58">
+            <softkey desc="@string/string_0x7f140541" icon="@drawable/drawable_0x7f080479" id="@id/id_0x7f0b164e" keycode="DPAD_LEFT" repeatable="true" />
+            <softkey desc="@string/string_0x7f1408f0" icon="@drawable/drawable_0x7f08047b" id="@id/id_0x7f0b1a7f" keycode="DPAD_RIGHT" repeatable="true" />
+            <softkey desc="@string/string_0x7f140e73" icon="@drawable/drawable_0x7f08047d" id="@id/id_0x7f0b1eb0" keycode="DPAD_UP" repeatable="true" />
+            <softkey desc="@string/string_0x7f140e67" icon="@drawable/drawable_0x7f080478" id="@id/id_0x7f0b0d49" keycode="DPAD_DOWN" repeatable="true" />
+            <softkey desc="@string/string_0x7f140e6a" icon="@drawable/drawable_0x7f08047a" id="@id/id_0x7f0b1659" keycode="TEXT_EDITING_CURSOR_LEFT_MOST" />
+            <softkey desc="@string/string_0x7f140e6d" icon="@drawable/drawable_0x7f08047c" id="@id/id_0x7f0b1a8a" keycode="TEXT_EDITING_CURSOR_RIGHT_MOST" />
+        </softkey_list>
+        <softkey alpha="@integer/integer_0x7f0c0143" content_description="@string/string_0x7f1403a1" disable_lift_to_tap="true" id="@id/id_0x7f0b0bbc" layout="@layout/layout_0x7f0e07a9" multi_touch="false">
+            <if rtl_layout="true">
+                <attrs layout="@layout/layout_0x7f0e07ac" />
+            </if>
+            <action keycode="KEYCODE_DEL" repeatable="true" type="PRESS" />
+            <action keycode="DELETE_FINISH" type="UP" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011a" />
+        </softkey>
+        <softkey_list template_id="@id/id_0x7f0b1d59">
+            <softkey desc="@string/string_0x7f140541" icon="@drawable/drawable_0x7f080479" id="@id/id_0x7f0b164f" />
+            <softkey desc="@string/string_0x7f1408f0" icon="@drawable/drawable_0x7f08047b" id="@id/id_0x7f0b1a80" />
+            <softkey desc="@string/string_0x7f140e73" icon="@drawable/drawable_0x7f08047d" id="@id/id_0x7f0b1eb1" />
+            <softkey desc="@string/string_0x7f140e67" icon="@drawable/drawable_0x7f080478" id="@id/id_0x7f0b0d4a" />
+            <softkey desc="@string/string_0x7f140e6a" icon="@drawable/drawable_0x7f08047a" id="@id/id_0x7f0b165a" />
+            <softkey desc="@string/string_0x7f140e6d" icon="@drawable/drawable_0x7f08047c" id="@id/id_0x7f0b1a8b" />
+        </softkey_list>
+        <softkey additional_content_description="@string/string_0x7f140e68" alpha="@integer/integer_0x7f0c0143" content_description="@string/string_0x7f1403a1" id="@id/id_0x7f0b0bbd" layout="@layout/layout_0x7f0e07aa" multi_touch="false">
+            <if rtl_layout="true">
+                <attrs layout="@layout/layout_0x7f0e07ab" />
+            </if>
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04011a" />
+        </softkey>
+    </softkeys>
+</framework>

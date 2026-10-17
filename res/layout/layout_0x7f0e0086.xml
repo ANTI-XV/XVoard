@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:attr_0x7f0405f3="com.google.android.libraries.inputmethod.contentsuggestion.browse.resource.ResizeSiblingViewsOfEmojiPanelBehavior">
+            <com.google.android.libraries.inputmethod.contentsuggestion.browse.resource.CategoryViewPager android:id="@id/id_0x7f0b01a6" android:layout_width="match_parent" android:layout_height="match_parent" android:keyboardNavigationCluster="true" />
+        </FrameLayout>
+        <include android:id="@id/id_0x7f0b01a8" layout="@layout/layout_0x7f0e0087" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/id_0x7f0b019b" android:tag=".emojikitchen-browse-footer" android:background="@color/color_0x7f060619" android:layout_width="match_parent" android:layout_height="34.0dp" />
+</LinearLayout>

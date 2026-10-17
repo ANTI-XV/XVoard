@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b04dc" style="@style/style_0x7f1503b7" />
+    <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b04d1" style="@style/style_0x7f15038f" />
+</merge>

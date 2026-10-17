@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template alpha="@attr/attr_0x7f040113" content_description="$desc$" disable_lift_to_tap="true" id="@id/id_0x7f0b1cf7" layout="@layout/layout_0x7f0e072e" multi_touch="false">
+            <action data="$param_data$" keycode="$keycode$" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="$param_icon$" />
+        </softkey_template>
+    </softkeys>
+</framework>

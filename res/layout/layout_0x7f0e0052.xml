@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/id_0x7f0b0117" android:layout_marginTop="2.0dp" android:layout_marginBottom="4.0dp" style="@style/style_0x7f150203">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <include layout="@layout/layout_0x7f0e0053" />
+            <com.google.android.libraries.inputmethod.widgets.LinkableTextView android:id="@id/id_0x7f0b0118" android:tag=".keyboard-clipboard-linkable-text" android:text="@string/string_0x7f1400d9" style="@style/style_0x7f1501ff" />
+        </LinearLayout>
+        <include layout="@layout/layout_0x7f0e0051" />
+    </LinearLayout>
+</ScrollView>

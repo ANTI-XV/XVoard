@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView app:attr_0x7f0402e6="false" style="@style/style_0x7f1501bf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/id_0x7f0b027a" style="@style/style_0x7f15026f">
+        <com.google.android.apps.inputmethod.libs.search.widget.CategoryViewPager android:id="@id/expression_view_pager" android:layout_width="match_parent" android:layout_height="match_parent" app:attr_0x7f0405f3="@string/string_0x7f1408e9" />
+        <include layout="@layout/layout_0x7f0e0186" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

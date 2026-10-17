@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_0x7f120000">
+        <item quantity="one">%d додељени тастер</item>
+        <item quantity="few">%d додељена тастера</item>
+        <item quantity="other">%d додељених тастера</item>
+    </plurals>
+    <plurals name="plurals_0x7f120002">
+        <item quantity="one">Језици %s су инсталирани.</item>
+        <item quantity="few">Језици %s су инсталирани.</item>
+        <item quantity="other">Језици %s су инсталирани.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard class=".latin.keyboard.LatinDigitsKeyboard" initial_states="LOCK_KEYBOARD">
+        <view direction="locale" layout="@layout/layout_0x7f0e058b" scalable="false" type="header">
+            <softkeys href="@xml/xml_0x7f170cd8" />
+            <include href="@xml/xml_0x7f170b48" />
+        </view>
+        <view type="body">
+            <softkeys href="@xml/xml_0x7f170d68" />
+            <softkeys href="@xml/xml_0x7f170cc1" />
+            <softkeys href="@xml/xml_0x7f170cc6" />
+            <softkeys href="@xml/xml_0x7f170fe6" />
+            <softkeys href="@xml/xml_0x7f170fdb" />
+            <softkeys href="@xml/xml_0x7f170ec8" />
+            <softkeys href="@xml/xml_0x7f170cb2" />
+        </view>
+        <if keyboard_mode="split">
+            <if split_with_duplicate_keys="true">
+                <view layout="@layout/layout_0x7f0e05fd" type="body" />
+            </if>
+            <else>
+                <view layout="@layout/layout_0x7f0e05fe" type="body" />
+            </else>
+            <view type="body">
+                <softkeys href="@xml/xml_0x7f170fe9" />
+                <softkeys href="@xml/xml_0x7f170feb" />
+                <include href="@xml/xml_0x7f170b8e" />
+                <include href="@xml/xml_0x7f170b91" />
+                <include href="@xml/xml_0x7f170a2a" />
+            </view>
+        </if>
+        <else>
+            <view layout="@layout/layout_0x7f0e05fc" type="body">
+                <softkeys href="@xml/xml_0x7f170fea" />
+                <softkeys href="@xml/xml_0x7f170feb" />
+                <include href="@xml/xml_0x7f170a4c" />
+                <include href="@xml/xml_0x7f170a4d" />
+                <include href="@xml/xml_0x7f170b8c" />
+                <include href="@xml/xml_0x7f170b90" />
+                <include href="@xml/xml_0x7f170a2a" />
+            </view>
+        </else>
+    </keyboard>
+</framework>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:id="@id/id_0x7f0b0014" android:tag=".keyboard-body-area" android:background="?attr_0x7f040042" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="?attr_0x7f040181" android:paddingEnd="?attr_0x7f040180"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/id_0x7f0b0015" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="?attr_0x7f040171">
+        <android.support.v7.widget.AppCompatTextView android:id="@id/id_0x7f0b0147" style="@style/style_0x7f150223" />
+        <com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointsPanelScrollableWrapper android:scrollbarStyle="insideInset" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="?attr_0x7f04000a" android:fadeScrollbars="false">
+            <com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointsPanel android:id="@id/id_0x7f0b001c" style="@style/style_0x7f150001" />
+        </com.google.android.libraries.inputmethod.accesspoint.widget.AccessPointsPanelScrollableWrapper>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a88" id="@id/id_0x7f0b1adf" layout="@layout/layout_0x7f0e0748" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action action_on_down="true" keycode="SHIFT_LEFT" type="PRESS" />
+            <action action_on_down="true" keycode="LOCK_SHIFT" type="LONG_PRESS" />
+            <action action_on_down="true" keycode="LOCK_SHIFT" type="DOUBLE_TAP" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04012e" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a88" id="@id/id_0x7f0b1ae3" layout="@layout/layout_0x7f0e0748" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action action_on_down="true" keycode="SHIFT_LEFT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04012e" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a87" id="@id/id_0x7f0b1ae0" layout="@layout/layout_0x7f0e072f" multi_touch="true">
+            <action action_on_down="true" keycode="LOCK_SHIFT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08043e" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a89" id="@id/id_0x7f0b1ae2" layout="@layout/layout_0x7f0e072f" multi_touch="true">
+            <action action_on_down="true" keycode="UNLOCK_SHIFT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08043f" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a87" id="@id/id_0x7f0b1bc6" layout="@layout/layout_0x7f0e072f" multi_touch="true">
+            <action action_on_down="true" data="SUB_CATEGORY_1" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08043e" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a89" id="@id/id_0x7f0b17a4" layout="@layout/layout_0x7f0e072f" multi_touch="true">
+            <action action_on_down="true" data="NORMAL" keycode="SWITCH_SUB_CATEGORY" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@drawable/drawable_0x7f08043f" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a88" id="@id/id_0x7f0b1ae4" layout="@layout/layout_0x7f0e0749" long_press_delay="1200" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action keycode="SHIFT_LEFT" type="PRESS" />
+            <action action_on_down="true" keycode="LOCK_SHIFT" type="LONG_PRESS" />
+            <action action_on_down="true" keycode="LOCK_SHIFT" type="DOUBLE_TAP" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04012f" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a88" id="@id/id_0x7f0b1ae5" layout="@layout/layout_0x7f0e0749" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action keycode="SHIFT_LEFT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04012f" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a88" id="@id/id_0x7f0b1ae6" layout="@layout/layout_0x7f0e0749" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action keycode="SHIFT_LEFT" type="PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04012f" />
+        </softkey>
+        <softkey alpha="@attr/attr_0x7f040113" content_description="@string/string_0x7f140a88" id="@id/id_0x7f0b1ae1" layout="@layout/layout_0x7f0e0749" long_press_delay="1200" multi_touch="true">
+            <action keycode="SHIFT_DOWN" type="DOWN" />
+            <action keycode="SHIFT_UP" type="UP" />
+            <action keycode="UNLOCK_SHIFT" type="PRESS" />
+            <action action_on_down="true" keycode="UNLOCK_SHIFT" type="LONG_PRESS" />
+            <icon location="@id/id_0x7f0b02ac" value="@attr/attr_0x7f04012d" />
+        </softkey>
+    </softkeys>
+</framework>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:layout_gravity="center_horizontal" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="@dimen/dimen_0x7f070722"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/id_0x7f0b060a" android:background="@drawable/drawable_0x7f080500" android:layout_width="wrap_content" android:layout_height="match_parent" />
+</HorizontalScrollView>
